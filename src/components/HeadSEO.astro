@@ -1,6 +1,7 @@
 ---
 import { SITE } from '@/config';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { socialTitle } from '../seoTitle.js';
 export interface Props {
   content: any;
   pageURL: URL | string;
@@ -14,9 +15,9 @@ const { title: contentTitle, socialImage, description: contentDescription, image
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const title = t('site.title');
-const pageTitle = contentTitle ? (lang === 'en' ? `${title} ${contentTitle}` : `${title}${contentTitle}`) : title;
 // Check if this is an article page
 const isArticle = contentTitle && content.date;
+const pageTitle = socialTitle({ isArticle, lang, siteTitle: title, contentTitle });
 const imageSrc = isArticle ? (socialImage || siteImage) : siteImage;
 const description = contentDescription || t('site.description');
 const preloadImage = image ? `${image}?x-oss-process=image/resize,w_1200/format,webp` : false;

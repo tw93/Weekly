@@ -4,7 +4,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from './Header/Header.astro';
 import { SITE } from '@/config';
 import { FAQ } from '@/data/faq';
-import { useTranslations } from '../i18n/utils';
 import { Content as AboutZh } from '@/data/about.zh.md';
 import { Content as AboutEn } from '@/data/about.en.md';
 
@@ -13,7 +12,6 @@ export interface Props {
 }
 
 const { lang } = Astro.props;
-const t = useTranslations(lang);
 const isEn = lang === 'en';
 
 const heading = isEn ? 'About Weekly' : '关于潮流周刊';
@@ -38,10 +36,11 @@ const faqSchema = {
 ---
 
 <BaseLayout
-  title={isEn ? `${t('site.title')} About` : `${SITE.title}关于`}
+  title={heading}
   description={description}
   pageURL={pageURL}
   markdownUrl={isEn ? '/en/about.md' : '/about.md'}
+  content={{ title: heading }}
 >
   <script slot='head' type='application/ld+json' set:html={JSON.stringify(faqSchema)} />
 
