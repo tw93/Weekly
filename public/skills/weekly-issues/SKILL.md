@@ -28,27 +28,27 @@ Returns every issue, newest first. This sample is generated from the current arc
 
 ```json
 {
-  "count": 284,
-  "englishCount": 284,
-  "latestIssue": 284,
+  "count": 285,
+  "englishCount": 285,
+  "latestIssue": 285,
   "issues": [
     {
-      "issue": 284,
-      "title": "第 284 期 - 小资餐厅",
-      "name": "小资餐厅",
+      "issue": 285,
+      "title": "第 285 期 - 陵水的云",
+      "name": "陵水的云",
       "language": "zh-Hans",
-      "date": "2026/09/28",
-      "description": "封面图拍摄于这周末去的天目里 B1OCK 楼上一家吃漂亮饭的餐厅，前几年挺喜欢去吃的，今年去吃感觉更网红了，味道还不错，不过我感觉没有之前那么好吃了，菜也换了不少，稍微遗憾，这个是他家门口摆的酒瓶，我给拍了一张，有点感觉。",
-      "coverImage": "https://cdn.fliggy.com/pic/28507.jpg",
-      "url": "https://weekly.tw93.fun/posts/284",
-      "markdownUrl": "https://weekly.tw93.fun/posts/284.md",
-      "jsonUrl": "https://weekly.tw93.fun/api/posts/284.json",
+      "date": "2026/11/12",
+      "description": "封面图拍摄于国庆去陵水玩了几天，三亚旁边的一个小城市，有海人少，小吃不错，商业化气息不重，不过那几天还挺热的。",
+      "coverImage": "https://cdn.fliggy.com/pic/28549.jpg",
+      "url": "https://weekly.tw93.fun/posts/285",
+      "markdownUrl": "https://weekly.tw93.fun/posts/285.md",
+      "jsonUrl": "https://weekly.tw93.fun/api/posts/285.json",
       "translation": {
         "language": "en",
-        "title": "284. A Stylish Restaurant",
-        "url": "https://weekly.tw93.fun/en/posts/284",
-        "markdownUrl": "https://weekly.tw93.fun/en/posts/284.md",
-        "jsonUrl": "https://weekly.tw93.fun/api/en/posts/284.json"
+        "title": "285. Clouds of Lingshui",
+        "url": "https://weekly.tw93.fun/en/posts/285",
+        "markdownUrl": "https://weekly.tw93.fun/en/posts/285.md",
+        "jsonUrl": "https://weekly.tw93.fun/api/en/posts/285.json"
       }
     }
   ]
@@ -62,15 +62,15 @@ For a compact human-readable index of the whole archive, fetch `https://weekly.t
 Append `.md` to any issue URL to get the Markdown source:
 
 ```
-GET https://weekly.tw93.fun/posts/284.md      # Chinese
-GET https://weekly.tw93.fun/en/posts/284.md   # English
+GET https://weekly.tw93.fun/posts/285.md      # Chinese
+GET https://weekly.tw93.fun/en/posts/285.md   # English
 ```
 
 Or take metadata and body together as JSON:
 
 ```
-GET https://weekly.tw93.fun/api/posts/284.json
-GET https://weekly.tw93.fun/api/en/posts/284.json
+GET https://weekly.tw93.fun/api/posts/285.json
+GET https://weekly.tw93.fun/api/en/posts/285.json
 ```
 
 The JSON response carries `contentMarkdown` (the full Markdown body), `translation`, `newerIssue` and `olderIssue`.
