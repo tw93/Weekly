@@ -37,7 +37,7 @@ Returns every issue, newest first. This sample is generated from the current arc
       "title": "第 285 期 - 陵水的云",
       "name": "陵水的云",
       "language": "zh-Hans",
-      "date": "2026/11/12",
+      "date": "2026/10/12",
       "description": "封面图拍摄于国庆去陵水玩了几天，三亚旁边的一个小城市，有海人少，小吃不错，商业化气息不重，不过那几天还挺热的。",
       "coverImage": "https://cdn.fliggy.com/pic/28549.jpg",
       "url": "https://weekly.tw93.fun/posts/285",
