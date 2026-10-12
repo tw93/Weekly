@@ -45,6 +45,23 @@ body {
   margin-top: 8px;
 }
 
+/* Long-form entry (class added by rehype-image.js): lift the bold lead into a
+   heading and give trailing images paragraph spacing; single-paragraph entries
+   keep the compact layout. */
+.heti p.entry-lead > strong:first-child {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.heti p.entry-lead > strong:first-child + br {
+  display: none;
+}
+
+.heti p + p:not(:has(> strong:first-child)) > br + img {
+  margin-top: 20px;
+}
+
 pre,
 iframe {
   max-width: 900px;

@@ -68,8 +68,43 @@ const getHeroImage = (tree) => {
   return heroUrl;
 };
 
+const isBlank = (n) => n.type === "text" && !n.value.trim();
+const firstChild = (n) => (n.children || []).find((c) => !isBlank(c));
+const startsWithStrong = (n) => {
+  const c = firstChild(n);
+  return c?.type === "element" && c.tagName === "strong";
+};
+const hasImage = (n) =>
+  (n.children || []).some(
+    (c) =>
+      (c.type === "element" && c.tagName === "img") ||
+      (c.type === "raw" && /<img\s/.test(c.value)),
+  );
+
+// Mark a bold-led paragraph as a long-form lead when the next block is a plain
+// text paragraph, so CSS can style it as a heading without touching short entries.
+const markLongFormLeads = (tree) => {
+  const blocks = tree.children.filter((n) => !isBlank(n));
+  blocks.forEach((node, i) => {
+    const next = blocks[i + 1];
+    if (
+      node.type === "element" &&
+      node.tagName === "p" &&
+      startsWithStrong(node) &&
+      next?.type === "element" &&
+      next.tagName === "p" &&
+      !startsWithStrong(next) &&
+      !hasImage(next)
+    ) {
+      node.properties = node.properties || {};
+      node.properties.className = [...(node.properties.className || []), "entry-lead"];
+    }
+  });
+};
+
 export default function rehypeCustomizeImageSrc() {
   return (tree, file) => {
+    markLongFormLeads(tree);
     // In dev mode, we want to pick up changes to the JSON file
     // In production/build, it's fine to read once
     const imageMetadata = getImageMetadata();
