@@ -1,5 +1,5 @@
 ---
-date: 2026/11/12
+date: 2026/10/12
 ---
 
 <img src="https://cdn.fliggy.com/pic/28549.jpg" width="800" />
@@ -23,7 +23,7 @@ It feels a bit cleaner than the others, and the advantage is that you can check 
 **Strata: run a 125-billion-parameter AI model on your own gaming PC**
 <https://github.com/Niko1221/Strata>
 Reportedly it can run the 125B Qwen 3.8 Flash Next with only 12 GB of VRAM, at over 80 tok/s. Maybe this will push the price of the top Mac Studio down a bit.
-<img src="https://cdn.tw93.fun/uPic/pagoda-preview10.webp" width="800" />
+<img src="https://cdn.tw93.fun/uPic/rvMHx609.png" width="800" />
 
 ## Just Looking Around
 
