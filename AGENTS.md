@@ -70,3 +70,9 @@ GROK_API_KEY=your_key node scripts/translate_posts.js
 - Use `gh` for issue and PR inspection.
 - Do not post public comments unless the maintainer explicitly asks.
 - Draft public replies in the same language as the thread.
+- Each published issue gets a GitHub Discussion titled with its number (issue 286 is discussion #322). After publishing an issue, react to that discussion as `tw93` with the six positive reactions, THUMBS_UP, LAUGH, HOORAY, HEART, ROCKET and EYES; never THUMBS_DOWN or CONFUSED. Add them with the GraphQL `addReaction` mutation and read `viewerHasReacted` back.
+
+## Telegram Channel
+
+- Each issue is also announced in the Telegram channel 「Newlearnerの自留地」 (@NewlearnerChannel) through AyuGram: a photo post with the cover, the `#潮流周刊 #Newsletter` tags, the title linked to `https://weekly.tw93.fun/posts/{n}`, the cover summary, the section item list and the `频道：@NewlearnerChannel` footer; copy the format from the previous issue's post.
+- The agent only fills in the cover and caption in the send dialog, then stops. The maintainer clicks Send or right-clicks it to schedule; the agent never clicks Send, Schedule or any menu item there, because a misclick posts to the whole channel at once.
