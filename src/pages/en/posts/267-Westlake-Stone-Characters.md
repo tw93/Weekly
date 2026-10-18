@@ -56,7 +56,7 @@ If this is your first time hearing about Kaku, welcome to give it a try. Still n
 
 **M5 Pro in black finally arrived. Stunning. Very excited**
 16-inch M5 Pro / 48GB / 1TB black with standard glass. I think this config is a great fit for anyone considering a new machine.
-<video width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/blog/pic/mac36.MP4" type="video/mp4"></video>
+<video width="800px" preload="metadata" controls><source src="https://cdn.fliggy.com/pic/OmwIwvcUMu7rfc8359.mp4" type="video/mp4"></video>
 
 **Picked up an iPhone SE3 to play with**
 How can such a small phone feel this refined? Just lovely to hold.
