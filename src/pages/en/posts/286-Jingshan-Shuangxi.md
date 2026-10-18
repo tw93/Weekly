@@ -66,6 +66,7 @@ Streams, green trees, rice fields, blue sky, distant mountains and biting mosqui
 
 **Random thought: buy your Mac one tier above what you planned**
 My best-value purchase this year was the M5 Pro 16-inch with 48GB and 1TB that I bought in March. Compared with today's price I'm nearly 8k yuan ahead, which was well worth it. But I've found that even 1TB isn't enough anymore, and I should have gone for 2TB. Before AI, 512GB was plenty for me, and now I can't even imagine that. A tip for anyone thinking of upgrading: buy one tier above what you planned, and if you need it, buy early, because buying early really does mean enjoying it early.
+<video width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/blog/pic/mac36.MP4" type="video/mp4"></video>
 
 **I finally couldn't hold back and signed up for another $250 Claude account**
 I finally couldn't hold back and signed up for another $250 Claude account, and now it's finally enough. I want to chat about how I make full use of two Claude Max accounts plus one ChatGPT Pro account and still use them all up.
