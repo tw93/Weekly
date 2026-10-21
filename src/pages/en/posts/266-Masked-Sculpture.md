@@ -12,7 +12,7 @@ date: 2026/04/27
 ## Introducing the Tw93 Open Source Family
 
 <https://github.com/tw93>
-<img src="https://gw.alipayobjects.com/zos/k/sa/family.png" width="800" />
+<img src="https://cdn.tw93.fun/images/open-source-family-20261021.png" width="800" />
 
 After finishing Kami, I suddenly realized that Kaku, Waza, and Kami feel a lot like a small family. Then I kept thinking, and actually Pake, MiaoYan, and Mole have always been quietly part of this family too. Some of them were even out doing real work before AI showed up. Today let me introduce you to this warm and happy little family.
 
