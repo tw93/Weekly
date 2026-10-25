@@ -77,6 +77,8 @@ If you've stayed in one place for a long time, you can go to a city a bit farthe
 
 That's roughly what I mean, and I'm not sure I've put it clearly. It's really about resetting the things that have been going on for a long time as much as you can, so that when you come back to them, they feel especially new.
 
+---
+
 **Some advice for people with a lot of followers**
 If you want to build your own indie products in the future, I wouldn't really recommend taking sponsored posts. For one, it may be something your future users won't like. For another, it can make you feel that being a content creator brings in money faster, and then you may not be able to keep going with indie development.
 
@@ -85,6 +87,8 @@ If you want to become a better content creator, which is actually very hard work
 You'll surely keep posting good content as usual with some sponsored posts mixed in, but if even once a sponsored post turns out very different from what users actually experience, your followers will feel you lied to them. After that, a lot of people will suspect that even your non-sponsored good content might be sponsored. First impressions stick very easily, and they'll simply stop reading.
 
 After all, we ourselves are users of all kinds of products, followers, and people being followed.
+
+---
 
 **A few sentences got rid of the system ads, useless notifications and junk icons on my small Android tablet**
 
