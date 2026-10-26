@@ -19,11 +19,6 @@ body {
   border-radius: var(--radius);
 }
 
-/* Remove border-radius during PhotoSwipe zoom animation */
-.heti img.pswp-animating {
-  border-radius: 0 !important;
-}
-
 .logo img,
 .logo svg {
   background-color: transparent !important;
@@ -1208,17 +1203,10 @@ img[loading="lazy"] {
   display: none !important;
 }
 
-/* PhotoSwipe: smooth border-radius transition using clip-path (unaffected by scale) */
-.pswp__img,
-.pswp__content > img,
-.pswp__zoom-wrap img,
-.pswp__img--placeholder {
+/* PhotoSwipe: ClientScripts divides the radius by the zoom scale each frame,
+   so corners stay at --radius on screen through the whole zoom. */
+.pswp__zoom-wrap img {
   object-fit: contain;
-  border-radius: 0;
-  clip-path: inset(0 round 0);
-  transition: clip-path 0.25s ease-out;
-}
-
-.pswp--anim-complete .pswp__img {
-  clip-path: inset(0 round var(--radius));
+  border-radius: var(--pswp-img-radius, var(--radius));
+  background-color: var(--pswp-img-bg, transparent);
 }

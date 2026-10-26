@@ -121,25 +121,41 @@
       hideAnimationDuration: 300,
     });
 
-    // Smooth border-radius transition: remove during animation, restore after
-    let currentThumb: HTMLElement | null = null;
+    // PhotoSwipe scales the zoom wrap with a transform, so a fixed radius on the
+    // image would scale with it. Divide the radius by the live scale every frame
+    // while the lightbox is open so the corners stay at --radius on screen from
+    // the thumbnail through the zoom and back.
+    const radius = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--radius')) || 8;
+    let radiusFrame = 0;
+    const applySlideStyles = () => {
+      lightbox.pswp?.mainScroll.itemHolders.forEach(({ slide }) => {
+        const wrap = slide?.container;
+        if (!wrap) return;
+        const transform = getComputedStyle(wrap).transform;
+        const scale = transform && transform !== 'none' ? new DOMMatrixReadOnly(transform).a : 1;
+        wrap.style.setProperty('--pswp-img-radius', `${radius / (scale || 1)}px`);
+        const background = slide.data.svgBackground;
+        if (background && wrap.dataset.svgBackground !== background) {
+          wrap.dataset.svgBackground = background;
+          wrap.style.setProperty('--pswp-img-bg', background);
+        }
+      });
+    };
+    const syncSlideStyles = () => {
+      applySlideStyles();
+      radiusFrame = requestAnimationFrame(syncSlideStyles);
+    };
 
-    lightbox.on('openingAnimationStart', () => {
-      currentThumb = lightbox.pswp?.currSlide?.data?.element as HTMLElement;
-      currentThumb?.classList.add('pswp-animating');
+    lightbox.on('beforeOpen', () => {
+      cancelAnimationFrame(radiusFrame);
+      syncSlideStyles();
     });
 
-    lightbox.on('openingAnimationEnd', () => {
-      document.querySelector('.pswp')?.classList.add('pswp--anim-complete');
-    });
+    // The closed-state transform is set right before the opening animation starts.
+    lightbox.on('openingAnimationStart', applySlideStyles);
 
-    lightbox.on('closingAnimationStart', () => {
-      document.querySelector('.pswp')?.classList.remove('pswp--anim-complete');
-    });
-
-    lightbox.on('closingAnimationEnd', () => {
-      currentThumb?.classList.remove('pswp-animating');
-      currentThumb = null;
+    lightbox.on('destroy', () => {
+      cancelAnimationFrame(radiusFrame);
     });
 
     // Parse data from image tags
@@ -177,17 +193,28 @@
       // Only include images with proper data attributes or valid src
       const src = element.getAttribute('data-pswp-src') || element.src;
 
-      // Skip SVGs (vector, no raster size); GIFs are allowed so animated images can zoom.
-      // GIFs keep their original src (rehype leaves them un-rewritten, so the animation is
-      // preserved) and fall back to naturalWidth/naturalHeight below for lightbox sizing.
-      if (src && src.toLowerCase().includes('.svg')) {
-        return null;
+      itemData.src = src;
+      itemData.msrc = element.src;
+
+      // SVGs scale without loss but often report a tiny intrinsic size, which made
+      // the lightbox open them smaller than the page did. Size them at twice the
+      // viewport so they open fitted to the screen and can still zoom in 2x.
+      // Camo proxies hex-encode the URL, so ".svg" also shows up as 2e737667.
+      if (/\.svg|2e737667/i.test(src)) {
+        const rect = element.getBoundingClientRect();
+        const ratio = rect.width && rect.height ? rect.width / rect.height : element.naturalWidth / element.naturalHeight || 1;
+        const width = Math.round(Math.max(window.innerWidth, window.innerHeight) * 2);
+        itemData.w = width;
+        itemData.h = Math.round(width / ratio);
+        // Transparent SVGs keep the backdrop they had on the page.
+        itemData.svgBackground = getComputedStyle(element).backgroundColor;
+        return itemData;
       }
 
-      itemData.src = src;
+      // GIFs keep their original src (rehype leaves them un-rewritten, so the animation is
+      // preserved) and fall back to naturalWidth/naturalHeight for lightbox sizing.
       itemData.w = Number(element.getAttribute('data-pswp-width')) || element.naturalWidth || 1000;
       itemData.h = Number(element.getAttribute('data-pswp-height')) || element.naturalHeight || 1000;
-      itemData.msrc = element.src;
 
       return itemData;
     });
