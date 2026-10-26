@@ -3,7 +3,7 @@
 // Everything here is derived from the Markdown posts, so the agent surfaces
 // never drift from the published site.
 import { SITE } from "./config";
-import { parseIssueItems } from "./issueItems.js";
+import { alignTranslation, parseIssueItems } from "./issueItems.js";
 
 export type Lang = "zh" | "en";
 
@@ -126,9 +126,8 @@ const parsedItems = async (lang: Lang, num: number) => {
 
 /**
  * Every recommended item across the archive, newest issue first, for
- * /api/items.jsonl and /items/{year}.md. Some English translations dropped
- * the `<url>` line of an item, so when both languages split into the same
- * number of items the English item borrows the Chinese link at that position.
+ * /api/items.jsonl and /items/{year}.md. If an English item still has no link,
+ * it borrows the link of the Chinese item that alignTranslation pairs it with.
  */
 export const getIssueItems = async (lang: Lang): Promise<IssueItem[]> => {
   const records: IssueItem[] = [];
@@ -138,7 +137,7 @@ export const getIssueItems = async (lang: Lang): Promise<IssueItem[]> => {
       lang === "en" && items.some((item) => !item.url)
         ? await parsedItems("zh", issue.num)
         : null;
-    const aligned = original?.length === items.length ? original : null;
+    const pairs = original ? alignTranslation(original, items) : null;
 
     items.forEach((item, index) => {
       records.push({
@@ -147,7 +146,9 @@ export const getIssueItems = async (lang: Lang): Promise<IssueItem[]> => {
         language: lang === "en" ? "en" : "zh-Hans",
         section: item.section,
         title: item.title,
-        url: item.url ?? aligned?.[index]?.url ?? null,
+        url:
+          item.url ??
+          (pairs && pairs[index] >= 0 ? original![pairs[index]].url : null),
         note: item.note,
         issueUrl: issue.url,
         markdownUrl: issue.mdUrl,

@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { parseIssueItems } from "../src/issueItems.js";
+import { alignTranslation, parseIssueItems } from "../src/issueItems.js";
 
 test("splits a bold-title issue into items with link and note", () => {
   const items = parseIssueItems(`---
@@ -111,4 +111,60 @@ test("keeps an inline link in the note as text and ignores the intro", () => {
     items[0].note,
     "从掘金上看到这个Vue 3.0 Ref-sugar 提案，来龙去脉就清晰了。",
   );
+});
+
+test("reads a translated link line as the item link", () => {
+  const [item] = parseIssueItems(`## Just Looking Around
+
+**Google I/O 2021 Technical Recaps**  
+[Watch on YouTube](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJhsF3up2ueu2pRealr9raD)  
+The production quality is exceptional as always.
+`);
+  assert.equal(
+    item.url,
+    "https://www.youtube.com/playlist?list=PLOU2XLYxmsIJhsF3up2ueu2pRealr9raD",
+  );
+  assert.equal(item.note, "The production quality is exceptional as always.");
+
+  const [bolded] = parseIssueItems(`## 灵感和设计
+
+**互动营销类产品有哪些动效超好用？**  
+**https://www.uisdc.com/marketing-dynamic-effect**  
+挺好看的，结合业务用途的方式来弄动效设计。
+`);
+  assert.equal(bolded.url, "https://www.uisdc.com/marketing-dynamic-effect");
+  assert.equal(bolded.note, "挺好看的，结合业务用途的方式来弄动效设计。");
+});
+
+test("pairs translated items by shared links, not by position", () => {
+  const item = (url) => ({ url });
+  // Issue 257: the translation moved LobsterAI from slot 4 to slot 2 and
+  // dropped the links of /plugin (none in the original) and FineTune.
+  const original = [
+    item("https://github.com/tw93/Kaku"),
+    item("https://opentrace.app"),
+    item(null),
+    item("https://lobsterai.youdao.com"),
+    item("https://github.com/ronitsingh10/FineTune"),
+    item("https://github.com/karol-broda/snitch"),
+  ];
+  const translated = [
+    item("https://github.com/tw93/Kaku"),
+    item("https://lobsterai.youdao.com"),
+    item("https://opentrace.app"),
+    item(null),
+    item(null),
+    item("https://github.com/karol-broda/snitch"),
+  ];
+  const pairs = alignTranslation(original, translated);
+  assert.equal(pairs[3], 2, "/plugin pairs with /plugin");
+  assert.equal(pairs[4], 4, "FineTune pairs with FineTune");
+  assert.equal(original[pairs[4]].url, "https://github.com/ronitsingh10/FineTune");
+
+  // A gap of a different size stays unpaired rather than guessed.
+  const short = alignTranslation(
+    [item("https://a.dev"), item(null), item("https://b.dev"), item("https://c.dev")],
+    [item("https://a.dev"), item(null), item("https://c.dev")],
+  );
+  assert.equal(short[1], -1);
 });
