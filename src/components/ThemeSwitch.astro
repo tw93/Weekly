@@ -109,34 +109,44 @@
 </style>
 
 <script is:inline>
+  const GISCUS_ORIGIN = 'https://giscus.app';
+  const giscusThemeUrl = (theme) => `${window.location.origin}/styles/giscus-${theme}.css`;
+
+  // Giscus drops messages sent before its app has mounted, so theme changes
+  // wait for its first message (it always reports its height on load).
+  let giscusReady = false;
+  let pendingGiscusTheme = null;
+
+  const postGiscusTheme = (url) => {
+    const iframe = document.querySelector('iframe.giscus-frame');
+    iframe?.contentWindow?.postMessage({ giscus: { setConfig: { theme: url } } }, GISCUS_ORIGIN);
+  };
+
+  window.addEventListener('message', (event) => {
+    if (event.origin !== GISCUS_ORIGIN || !event.data?.giscus || giscusReady) return;
+    giscusReady = true;
+    const iframe = document.querySelector('iframe.giscus-frame');
+    const bornTheme = iframe && new URL(iframe.src).searchParams.get('theme');
+    if (pendingGiscusTheme && pendingGiscusTheme !== bornTheme) postGiscusTheme(pendingGiscusTheme);
+    pendingGiscusTheme = null;
+  });
+
+  const changeGiscusTheme = (url) => {
+    // Not executed yet: client.js reads data-theme when it runs.
+    document.getElementById('giscus-script')?.setAttribute('data-theme', url);
+    if (giscusReady) {
+      postGiscusTheme(url);
+    } else {
+      pendingGiscusTheme = url;
+    }
+  };
+
   window.addEventListener('DOMContentLoaded', () => {
     const themeToggle = document.getElementById('theme-toggle');
     const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
-    const giscusScript = document.getElementById('giscus-script');
-    const GISCUS_DARK_THEME = `${window.location.origin}/styles/giscus-dark.css`;
-    const GISCUS_LIGHT_THEME = `${window.location.origin}/styles/giscus-light.css`;
-
-    const updateIframeTheme = (newTheme) => {
-      const iframe = document.querySelector('iframe.giscus-frame');
-      if (iframe) {
-        iframe.contentWindow.postMessage({ giscus: { setConfig: { theme: newTheme } } }, '*');
-        return true;
-      }
-      return false;
-    };
-
-    const changeGiscusTheme = (newTheme) => {
-      if (giscusScript) {
-        giscusScript.setAttribute('data-theme', newTheme);
-        if (!updateIframeTheme(newTheme)) {
-          setTimeout(() => updateIframeTheme(newTheme), 200);
-        }
-      }
-    };
-
     const setTheme = (theme) => {
       document.body.classList.toggle('dark', theme === 'dark');
-      changeGiscusTheme(theme === 'dark' ? GISCUS_DARK_THEME : GISCUS_LIGHT_THEME);
+      changeGiscusTheme(giscusThemeUrl(theme));
       document.body.setAttribute('data-theme', theme);
       localStorage.setItem('theme', theme);
     };
@@ -151,34 +161,5 @@
 
     themeToggle.addEventListener('click', toggleTheme);
     prefersDarkScheme.addEventListener('change', (e) => setTheme(e.matches ? 'dark' : 'light'));
-
-    // Monitor Giscus iframe loading and reapply theme
-    const observer = new MutationObserver((mutations) => {
-      mutations.forEach((mutation) => {
-        mutation.addedNodes.forEach((node) => {
-          if (node.tagName === 'IFRAME' && node.classList.contains('giscus-frame')) {
-            const currentTheme = document.body.getAttribute('data-theme');
-            const giscusTheme = currentTheme === 'dark' ? GISCUS_DARK_THEME : GISCUS_LIGHT_THEME;
-            setTimeout(() => updateIframeTheme(giscusTheme), 100);
-            setTimeout(() => updateIframeTheme(giscusTheme), 500);
-          }
-        });
-      });
-    });
-
-    // Observe the giscus container
-    const giscusContainer = document.querySelector('.giscus');
-    if (giscusContainer) {
-      observer.observe(giscusContainer, { childList: true, subtree: true });
-    }
-
-    // Reapply theme on visibility change (helps with mobile viewport changes)
-    document.addEventListener('visibilitychange', () => {
-      if (!document.hidden) {
-        const currentTheme = document.body.getAttribute('data-theme');
-        const giscusTheme = currentTheme === 'dark' ? GISCUS_DARK_THEME : GISCUS_LIGHT_THEME;
-        setTimeout(() => updateIframeTheme(giscusTheme), 100);
-      }
-    });
   });
 </script>

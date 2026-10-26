@@ -82,7 +82,20 @@ const zhPath = cleanPath;
 const enPath = `/en${cleanPath.startsWith('/') ? cleanPath : '/' + cleanPath}`;
 const translationLabel = lang === 'en' ? '切换到中文' : 'Switch to English';
 
-const giscusTheme = `${Astro.url.origin}/styles/giscus-light.css`;
+const giscusAttrs = {
+  'data-repo': GISCUS_CONFIG.repo,
+  'data-repo-id': GISCUS_CONFIG.repoId,
+  'data-category': GISCUS_CONFIG.category,
+  'data-category-id': GISCUS_CONFIG.categoryId,
+  'data-mapping': 'specific',
+  'data-term': giscusTerm,
+  'data-strict': GISCUS_CONFIG.strict,
+  'data-reactions-enabled': GISCUS_CONFIG.reactionsEnabled,
+  'data-emit-metadata': GISCUS_CONFIG.emitMetadata,
+  'data-input-position': GISCUS_CONFIG.inputPosition,
+  'data-lang': lang === 'en' ? 'en' : 'zh-CN',
+  'data-loading': 'lazy',
+};
 ---
 
 <BaseLayout
@@ -356,26 +369,29 @@ const giscusTheme = `${Astro.url.origin}/styles/giscus-light.css`;
       </div>
       {
         GISCUS_CONFIG.repo === SITE.repo && (
-          <script
-            is:inline
-            id='giscus-script'
-            src='https://giscus.app/client.js'
-            data-repo={GISCUS_CONFIG.repo}
-            data-repo-id={GISCUS_CONFIG.repoId}
-            data-category={GISCUS_CONFIG.category}
-            data-category-id={GISCUS_CONFIG.categoryId}
-            data-mapping='specific'
-            data-term={giscusTerm}
-            data-strict={GISCUS_CONFIG.strict}
-            data-reactions-enabled={GISCUS_CONFIG.reactionsEnabled}
-            data-emit-metadata={GISCUS_CONFIG.emitMetadata}
-            data-input-position={GISCUS_CONFIG.inputPosition}
-            data-theme={giscusTheme}
-            data-lang={lang === 'en' ? 'en' : 'zh-CN'}
-            data-loading='lazy'
-            crossorigin='anonymous'
-            async
-          />
+          <>
+            <div class='giscus' />
+            <script is:inline define:vars={{ giscusAttrs }}>
+              // Create the Giscus script with the theme already resolved, so the
+              // iframe is born in the right theme instead of being corrected by
+              // postMessage calls that can arrive before it is ready.
+              (() => {
+                let theme = null;
+                try {
+                  theme = localStorage.getItem('theme');
+                } catch {}
+                if (!theme) theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                const script = document.createElement('script');
+                script.id = 'giscus-script';
+                script.src = 'https://giscus.app/client.js';
+                script.async = true;
+                script.crossOrigin = 'anonymous';
+                Object.entries(giscusAttrs).forEach(([key, value]) => script.setAttribute(key, String(value)));
+                script.setAttribute('data-theme', `${location.origin}/styles/giscus-${theme}.css`);
+                document.body.appendChild(script);
+              })();
+            </script>
+          </>
         )
       }
     </div>
