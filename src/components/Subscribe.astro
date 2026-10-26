@@ -1,0 +1,143 @@
+---
+// Email signup under each issue. It posts to /api/subscribe, which only mails
+// a confirmation link; the address joins the list once that link is
+// confirmed. Hidden until the build sets PUBLIC_NEWSLETTER=1, so the form does
+// not appear before Resend is configured.
+interface Props {
+  lang: 'zh' | 'en';
+}
+
+const { lang } = Astro.props;
+const enabled = import.meta.env.PUBLIC_NEWSLETTER === '1';
+const copy =
+  lang === 'en'
+    ? {
+        label: 'Email address',
+        button: 'Subscribe',
+        sent: 'Check your inbox and click the link to confirm.',
+        invalid: "That email address doesn't look right.",
+        failed: "Couldn't send it right now, try again later.",
+      }
+    : {
+        label: '邮箱地址',
+        button: '订阅周刊',
+        sent: '确认信已发到邮箱，点里面的链接就订阅好了。',
+        invalid: '邮箱地址的格式不对。',
+        failed: '暂时没能发出，过一会儿再试试。',
+      };
+---
+
+{
+  enabled && (
+    <form class='newsletter' data-lang={lang} data-sent={copy.sent} data-invalid={copy.invalid} data-failed={copy.failed}>
+      <div class='newsletter-row'>
+        <input type='email' name='email' required autocomplete='email' maxlength='254' placeholder={copy.label} aria-label={copy.label} />
+        <button type='submit'>{copy.button}</button>
+      </div>
+      <input class='newsletter-trap' type='text' name='website' tabindex='-1' autocomplete='off' aria-hidden='true' />
+      <p class='newsletter-status' role='status' aria-live='polite'></p>
+    </form>
+  )
+}
+
+<script>
+  document.querySelectorAll<HTMLFormElement>('form.newsletter').forEach((form) => {
+    const status = form.querySelector<HTMLElement>('.newsletter-status')!;
+    const button = form.querySelector<HTMLButtonElement>('button')!;
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const data = new FormData(form);
+      button.disabled = true;
+      let message = form.dataset.failed;
+      try {
+        const response = await fetch('/api/subscribe', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            email: data.get('email'),
+            website: data.get('website'),
+            lang: form.dataset.lang,
+            topics: ['weekly'],
+          }),
+        });
+        if (response.ok) {
+          message = form.dataset.sent;
+          form.reset();
+        } else if (response.status === 400) {
+          message = form.dataset.invalid;
+        }
+      } catch {}
+      status.textContent = message ?? '';
+      button.disabled = false;
+    });
+  });
+</script>
+
+<style>
+  .newsletter {
+    width: 100%;
+    max-width: 360px;
+    margin: var(--space-4) auto 0;
+  }
+
+  .newsletter-row {
+    display: flex;
+    gap: var(--space-2);
+  }
+
+  .newsletter input[type='email'] {
+    flex: 1;
+    min-width: 0;
+    height: 40px;
+    padding: 0 var(--space-3);
+    border: 1px solid var(--theme-divider);
+    border-radius: var(--radius);
+    background: transparent;
+    color: var(--theme-text);
+    font-size: var(--font-size-small);
+  }
+
+  .newsletter input[type='email']:focus {
+    outline: none;
+    border-color: var(--theme-text);
+  }
+
+  .newsletter button {
+    height: 40px;
+    padding: 0 var(--space-4);
+    border: 0;
+    border-radius: var(--radius);
+    background: var(--grid-line-color);
+    color: var(--theme-text);
+    font-size: var(--font-size-small);
+    font-weight: 500;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: opacity 0.12s ease-out;
+  }
+
+  .newsletter button:hover {
+    opacity: 0.8;
+  }
+
+  .newsletter button:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+
+  .newsletter-trap {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+  }
+
+  .newsletter-status {
+    margin: var(--space-2) 0 0;
+    min-height: 1.5em;
+    text-align: center;
+    font-size: var(--font-size-small);
+    color: var(--theme-text);
+  }
+</style>

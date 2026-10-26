@@ -24,7 +24,7 @@
 - [/api/index.json](https://weekly.tw93.fun/api/index.json)：只读 JSON API 的服务说明；[/api/posts.json](https://weekly.tw93.fun/api/posts.json) 是全部期刊索引；[/openapi.json](https://weekly.tw93.fun/openapi.json) 是 OpenAPI 3.1 描述。
 - [/feeds/posts.jsonl](https://weekly.tw93.fun/feeds/posts.jsonl)：每行一个 schema.org BlogPosting，适合批量导入。
 
-站点没有账号体系、没有写接口、也没有付费内容，因此不存在 API key、OAuth 流程或沙箱环境。抓取时优先用上面的索引和 feed，不必逐页爬 HTML。
+站点没有账号体系，也没有付费内容，唯一接收提交的是给读者用的邮件订阅接口 /api/subscribe，它只会给填写的邮箱发一封确认信，因此不存在 API key、OAuth 流程或沙箱环境。抓取时优先用上面的索引和 feed，不必逐页爬 HTML。
 
 ## 引用与授权
 

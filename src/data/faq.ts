@@ -20,7 +20,7 @@ export const FAQ: Record<"zh" | "en", { q: string; a: string }[]> = {
     },
     {
       q: "有 API 吗？需要密钥吗？",
-      a: "有只读 JSON API 与 Markdown 端点：/api/posts.json 是全部期刊索引，/api/posts/{期号}.json 含单期全文，任意期刊地址后加 .md 即为 Markdown 原文。全部是公开静态文件，不需要密钥，也没有写接口。",
+      a: "有只读 JSON API 与 Markdown 端点：/api/posts.json 是全部期刊索引，/api/posts/{期号}.json 含单期全文，任意期刊地址后加 .md 即为 Markdown 原文。全部是公开静态文件，不需要密钥，唯一接收提交的是给读者用的邮件订阅接口 /api/subscribe。",
     },
     {
       q: "想推荐一个工具或项目，怎么提交？",
@@ -46,7 +46,7 @@ export const FAQ: Record<"zh" | "en", { q: string; a: string }[]> = {
     },
     {
       q: "Is there an API, and does it need a key?",
-      a: "Yes, read-only: /api/posts.json is the full issue index, /api/posts/{number}.json returns one issue with its Markdown body, and appending .md to any issue URL returns the Markdown source. Everything is a public static file, so there is no key and no write endpoint.",
+      a: "Yes, read-only: /api/posts.json is the full issue index, /api/posts/{number}.json returns one issue with its Markdown body, and appending .md to any issue URL returns the Markdown source. Everything is a public static file, so there is no key; the only endpoint that accepts a submission is the reader email signup at /api/subscribe.",
     },
     {
       q: "How do I suggest a tool or project?",

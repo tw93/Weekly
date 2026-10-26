@@ -23,6 +23,7 @@ Deploy surface: pushing `main` is production. Vercel builds and publishes `weekl
   - `vercel.json` - content types for `.md`/`.jsonl`/`api-catalog`, RFC 8288 `Link` headers, `/api` rewrite, `?mode=agent` redirect.
 - `.github/workflows/verify.yml` - read-only `pnpm test` on pull requests and manual dispatch; it never commits.
 - `.github/workflows/build.yml` - the main-only, daily and on-push content writer: translate missing posts, regenerate indexes and the public Skill from the built API, verify them, make one scoped commit, and ping IndexNow. It does not deploy the site; Vercel does.
+- `api/` - the only server code: Vercel Functions for the email newsletter (`api/subscribe.js`, `api/confirm.js`, shared `api/_newsletter.js`; an underscore file is not deployed as a function). `scripts/newsletter.js` turns a published issue or blog post into an email, and `.github/workflows/newsletter.yml` sends it, manual dispatch only. See «Newsletter».
 
 ## Commands
 
@@ -48,7 +49,7 @@ GROK_API_KEY=your_key node scripts/translate_posts.js
 - An issue description is the first `<small>` sentence, in that file's language. The about page's document title is its heading (`关于潮流周刊`, `About Weekly`). Do not lengthen titles or descriptions to satisfy a webmaster character count. `tests/seo-copy.test.js` checks both.
 - Preserve the author's voice: do not make colloquial phrasing formal, do not add emoji unless the original has them.
 - Inline media width is author-supplied and load-bearing: `rehype-image.js` re-emits the width written in the source for CDN-hosted images (stripping a `px` suffix) and passes SVG, GIF and non-CDN tags through untouched; it never rewrites `<video>` width at all, so CSS capping at the column is the only other constraint. New media follows the house pair: landscape fills the column as `<img ... width="800">` and `<video width="800px">`, portrait and phone screenshots halve to `400` and `400px`. The `px` suffix belongs on video only; images carry a bare number. Published issues carry a long tail of other widths, 500 and 600 most often; do not normalise them. Changing a width in a published issue means changing the Chinese and English twins in the same commit.
-- Claims in the agent surfaces (`llms.txt`, `/llms.md`, `/about`, JSON-LD, SKILL.md, agent-skills index) must stay checkable against the repo: issue counts come from the post set, the first issue is 2020/11/24, and the site has no write API, no auth and no sandbox. Do not advertise an endpoint, credential flow or MCP surface that does not exist.
+- Claims in the agent surfaces (`llms.txt`, `/llms.md`, `/about`, JSON-LD, SKILL.md, agent-skills index) must stay checkable against the repo: issue counts come from the post set, the first issue is 2020/11/24, and the site has no auth and no sandbox; its one write endpoint is the reader email signup at `/api/subscribe`. Do not advertise an endpoint, credential flow or MCP surface that does not exist.
 
 ## Working Rules
 
@@ -75,6 +76,16 @@ GROK_API_KEY=your_key node scripts/translate_posts.js
 ## Telegram Channel
 
 - Each issue is also announced in the Telegram channel 「Newlearnerの自留地」 (@NewlearnerChannel) through AyuGram. The agent only fills in the cover and caption in the send dialog, then stops; the maintainer clicks Send or right-clicks it to schedule. The agent never clicks Send, Schedule or any menu item there, because a misclick posts to the whole channel at once.
+
+## Newsletter
+
+Readers of the Weekly and of tw93.fun subscribe by email through Resend, sent from `Tw93 <hi@tw93.fun>`. Safety rules, each covered by `tests/newsletter.test.js`:
+
+- Double opt-in, stateless: `/api/subscribe` only mails an HMAC-signed confirmation link (valid two to three days), and only the POST behind the button on `/api/confirm` writes the contact; a GET never writes, because mail scanners open every link. The same request on the same day reuses one Resend idempotency key, so repeated submissions mail one confirmation.
+- `/api/subscribe` accepts only `Origin` `https://weekly.tw93.fun` and `https://tw93.fun` (the blog form posts here cross-origin), drops honeypot submissions, and answers 503 when any setting is missing rather than half-working.
+- Resend keys live only in Vercel and GitHub secrets: Vercel needs `RESEND_API_KEY`, `NEWSLETTER_SECRET` (32+ characters), `RESEND_SEGMENT_ZH`, `RESEND_SEGMENT_EN`, `RESEND_TOPIC_WEEKLY`, `RESEND_TOPIC_BLOG`; the workflow needs the same minus the secret, plus `NEWSLETTER_TEST_TO`. Segments split by language, topics by site, and both topics are created with default Opt-out so a contact receives only what it confirmed.
+- The form renders only when the Vercel build sets `PUBLIC_NEWSLETTER=1`. Turn it on only after a real signup, confirm and test send went through, and in the same change replace the FAQ line that says there is no mailing list.
+- Sending is never automatic: run the workflow with `mode: test`, read the email, then `mode: send`. `send` refuses a post whose Broadcast name (`weekly-zh-287`) already exists.
 
 ## Publishing Workflow
 

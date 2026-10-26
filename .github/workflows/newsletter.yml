@@ -1,0 +1,69 @@
+name: Send newsletter
+
+# Manual only: nothing here runs on push or on a schedule. Run it with mode
+# test first, read the email, then run it again with mode send. send refuses
+# a post that already has a Broadcast, so a second run mails no one.
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: "weekly or blog"
+        type: choice
+        options: [weekly, blog]
+        default: weekly
+      id:
+        description: "Issue number (287) or blog post path (2026-10-26/mole-product)"
+        required: true
+      lang:
+        description: "zh or en"
+        type: choice
+        options: [zh, en]
+        default: zh
+      mode:
+        description: "test mails NEWSLETTER_TEST_TO only; send mails every subscriber"
+        type: choice
+        options: [test, send]
+        default: test
+
+permissions:
+  contents: read
+
+concurrency:
+  group: newsletter
+  cancel-in-progress: false
+
+jobs:
+  send:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: "10"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Node.js dependencies
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Send
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_SEGMENT_ZH: ${{ secrets.RESEND_SEGMENT_ZH }}
+          RESEND_SEGMENT_EN: ${{ secrets.RESEND_SEGMENT_EN }}
+          RESEND_TOPIC_WEEKLY: ${{ secrets.RESEND_TOPIC_WEEKLY }}
+          RESEND_TOPIC_BLOG: ${{ secrets.RESEND_TOPIC_BLOG }}
+          NEWSLETTER_TEST_TO: ${{ secrets.NEWSLETTER_TEST_TO }}
+          SOURCE: ${{ inputs.source }}
+          POST_ID: ${{ inputs.id }}
+          LANGUAGE: ${{ inputs.lang }}
+          MODE: ${{ inputs.mode }}
+        run: node scripts/newsletter.js --source "$SOURCE" --id "$POST_ID" --lang "$LANGUAGE" --mode "$MODE"

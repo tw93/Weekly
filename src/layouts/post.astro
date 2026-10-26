@@ -8,6 +8,7 @@ import ReaderModeToggle from '../components/ReaderModeToggle.astro';
 import ParagraphShare from '../components/ParagraphShare.astro';
 import { SITE, GISCUS_CONFIG } from '@/config';
 import { SUPPORT_CALLOUT } from '@/supportCallout';
+import Subscribe from '@/components/Subscribe.astro';
 import { parseTitle, sortPosts, getIndex, toNumericUrl, extractTitlePart, getSlugParts } from '@/util';
 import { getLangFromUrl, useTranslations, useLocalizedPath } from '../i18n/utils';
 
@@ -347,6 +348,7 @@ const giscusAttrs = {
             rel='noreferrer'>{SUPPORT_CALLOUT[lang]}</a
           >
         </div>
+        <Subscribe lang={lang === 'en' ? 'en' : 'zh'} />
         <hr class='post-divider' />
         <div class='flex justify-between md:flex-row flex-col mt-2 post-footer'>
           <div class='text-gray-800 dark:text-gray-200 flex-1'>

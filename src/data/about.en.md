@@ -24,7 +24,7 @@ The site exposes a few stable entry points for programmatic reading. All of them
 - [/api/index.json](https://weekly.tw93.fun/api/index.json) describes the read-only JSON API, [/api/posts.json](https://weekly.tw93.fun/api/posts.json) is the full issue index, and [/openapi.json](https://weekly.tw93.fun/openapi.json) is the OpenAPI 3.1 description.
 - [/feeds/posts.jsonl](https://weekly.tw93.fun/feeds/posts.jsonl) carries one schema.org BlogPosting per line for bulk ingest.
 
-There are no accounts, no write endpoints and no paid content here, so there is no API key, no OAuth flow and no sandbox environment. Prefer the indexes and feeds above over crawling the HTML pages one by one.
+There are no accounts and no paid content here, and the only endpoint that accepts a submission is the reader email signup at /api/subscribe, which only mails a confirmation link to the address given, so there is no API key, no OAuth flow and no sandbox environment. Prefer the indexes and feeds above over crawling the HTML pages one by one.
 
 ## Quoting and licensing
 
