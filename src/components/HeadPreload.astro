@@ -1,4 +1,6 @@
 ---
+import { cardImage } from '@/util';
+
 export interface Props {
   allPosts: any[];
 }
@@ -12,7 +14,16 @@ const { allPosts } = Astro.props;
   allPosts.slice(0, 3).map((post) => {
     const image = post.frontmatter.image;
     if (!image) return null;
-    const href = `${image}?x-oss-process=image/resize,w_640/format,webp`;
-    return <link rel='preload' href={href} as='image' fetchpriority='high' />;
+    const cover = cardImage(image);
+    return (
+      <link
+        rel='preload'
+        href={cover.src}
+        imagesrcset={cover.srcset}
+        imagesizes={cover.sizes}
+        as='image'
+        fetchpriority='high'
+      />
+    );
   })
 }

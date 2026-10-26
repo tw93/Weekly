@@ -51,3 +51,29 @@ export const parseTitle = (
   }
   return title;
 };
+
+// Resize a cover image through the CDN it lives on. Cloudflare R2
+// (cdn.tw93.fun) ignores Aliyun's ?x-oss-process= and would serve the
+// multi-megabyte original, so it gets its own /cdn-cgi/image/ transform.
+const R2_PREFIX = "https://cdn.tw93.fun/";
+const OSS_HOST =
+  /^https:\/\/(?:cdn\.fliggy\.com|cdn\.alipayobjects\.com|gw\.alipayobjects\.com|gw\.alicdn\.com|img\.alicdn\.com)\//;
+
+export const resizeImage = (url: string, width: number) => {
+  if (url.startsWith(R2_PREFIX) && !url.includes("/cdn-cgi/image/")) {
+    return `${R2_PREFIX}cdn-cgi/image/width=${width},quality=80,format=auto,fit=scale-down/${url.slice(R2_PREFIX.length)}`;
+  }
+  if (OSS_HOST.test(url) && !url.includes("x-oss-process")) {
+    return `${url}${url.includes("?") ? "&" : "?"}x-oss-process=image/resize,w_${width}/format,webp`;
+  }
+  return url;
+};
+
+// Card covers: 640 covers desktop grids at 2x, 1080 keeps single-column
+// phones sharp at 3x. Sizes follow the feed grid in index.css.
+export const cardImage = (url: string) => ({
+  src: resizeImage(url, 640),
+  srcset: `${resizeImage(url, 640)} 640w, ${resizeImage(url, 1080)} 1080w`,
+  sizes:
+    "(min-width: 1300px) 320px, (min-width: 1000px) 364px, (min-width: 640px) 390px, min(calc(100vw - 32px), 544px)",
+});

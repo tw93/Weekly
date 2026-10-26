@@ -1,5 +1,5 @@
 ---
-import { parseTitle, toNumericUrl } from '@/util';
+import { cardImage, parseTitle, toNumericUrl } from '@/util';
 
 export interface Props {
   post: {
@@ -26,6 +26,7 @@ const issueTitle = post.frontmatter?.issueTitle;
 const link = post.frontmatter?.numericUrl ?? toNumericUrl(post.url);
 const title = parseTitle(link, legacySlug, issueTitle, lang);
 const { image, description, date } = post.frontmatter;
+const cover = cardImage(image);
 ---
 
 <a
@@ -33,10 +34,11 @@ const { image, description, date } = post.frontmatter;
   data-astro-prefetch
   data-image={image}
   class='pb-3 flex flex-col justify-center rounded-lg shadow-md overflow-hidden w-full card-content preload-link'
-  style='transition: all 200ms ease; will-change: transform;'
 >
   <img
-    src={`${image}?x-oss-process=image/resize,w_640/format,webp`}
+    src={cover.src}
+    srcset={cover.srcset}
+    sizes={cover.sizes}
     width='640'
     height='384'
     alt={title}
@@ -44,7 +46,6 @@ const { image, description, date } = post.frontmatter;
     decoding='async'
     fetchpriority={isLCP ? 'high' : 'auto'}
     class='block w-full aspect-[5/3] object-cover rounded-t-lg'
-    style='transition: transform 200ms ease;'
   />
   <div class='w-full flex justify-between items-center leading-tight pt-3 px-3'>
     <div

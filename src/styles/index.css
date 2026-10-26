@@ -489,3 +489,19 @@ h2.heading {
     padding-right: 0;
   }
 }
+
+/* Feed cards: transitions name their properties instead of `all`, and no
+   standing will-change, so ~290 cards do not each hold a compositor layer.
+   content-visibility skips layout and paint for cards outside the viewport;
+   `auto` remembers each card's real height once it has rendered. */
+.card-content {
+  transition:
+    transform 200ms ease,
+    box-shadow 200ms ease;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 300px;
+}
+
+.card-content img {
+  transition: transform 200ms ease;
+}
