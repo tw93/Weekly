@@ -144,22 +144,26 @@
   window.addEventListener('DOMContentLoaded', () => {
     const themeToggle = document.getElementById('theme-toggle');
     const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    const root = document.documentElement;
     const setTheme = (theme) => {
-      document.body.classList.toggle('dark', theme === 'dark');
+      root.classList.toggle('dark', theme === 'dark');
+      root.dataset.theme = theme;
       changeGiscusTheme(giscusThemeUrl(theme));
-      document.body.setAttribute('data-theme', theme);
-      localStorage.setItem('theme', theme);
+      try {
+        localStorage.setItem('theme', theme);
+      } catch {}
     };
 
     const toggleTheme = () => {
-      const currentTheme = document.body.getAttribute('data-theme');
-      setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+      setTheme(root.dataset.theme === 'dark' ? 'light' : 'dark');
     };
 
-    const savedTheme = localStorage.getItem('theme');
-    setTheme(savedTheme || (prefersDarkScheme.matches ? 'dark' : 'light'));
-
     themeToggle.addEventListener('click', toggleTheme);
+    // HeadCommon re-reads the theme when a prerendered page is shown; the
+    // comment iframe was created during prerender and may need to follow.
+    document.addEventListener('prerenderingchange', () => changeGiscusTheme(giscusThemeUrl(root.dataset.theme)), {
+      once: true,
+    });
     prefersDarkScheme.addEventListener('change', (e) => setTheme(e.matches ? 'dark' : 'light'));
   });
 </script>

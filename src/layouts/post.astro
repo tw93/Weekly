@@ -376,11 +376,7 @@ const giscusAttrs = {
               // iframe is born in the right theme instead of being corrected by
               // postMessage calls that can arrive before it is ready.
               (() => {
-                let theme = null;
-                try {
-                  theme = localStorage.getItem('theme');
-                } catch {}
-                if (!theme) theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                const theme = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
                 const script = document.createElement('script');
                 script.id = 'giscus-script';
                 script.src = 'https://giscus.app/client.js';

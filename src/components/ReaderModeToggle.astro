@@ -156,7 +156,7 @@
 <script is:inline>
   window.addEventListener('DOMContentLoaded', () => {
     const readerToggle = document.getElementById('reader-toggle');
-    const body = document.body;
+    const root = document.documentElement;
     const HINT_DISPLAY_DURATION = 2000;
     let readerHintTimeout;
 
@@ -176,30 +176,29 @@
     };
 
     const setReaderMode = (enabled) => {
-      body.setAttribute('data-reader-mode', enabled ? 'true' : 'false');
-      localStorage.setItem('readerMode', enabled ? 'true' : 'false');
+      root.dataset.readerMode = String(enabled);
+      try {
+        localStorage.setItem('readerMode', String(enabled));
+      } catch {}
       applyToggleAffordance(enabled);
     };
 
     const toggleReaderMode = () => {
-      const currentMode = body.getAttribute('data-reader-mode') === 'true';
-      setReaderMode(!currentMode);
+      setReaderMode(root.dataset.readerMode !== 'true');
       showReaderHint();
     };
 
-    // Read preference from localStorage
-    const savedMode = localStorage.getItem('readerMode');
-    const urlParams = new URLSearchParams(window.location.search);
-    const readerParam = urlParams.get('reader');
-
-    // URL parameters have the highest priority
-    if (readerParam === 'true') {
+    // HeadCommon already applied the saved mode before paint; ?reader=true is
+    // also remembered, as before.
+    if (new URLSearchParams(window.location.search).get('reader') === 'true') {
       setReaderMode(true);
-    } else if (savedMode !== null) {
-      setReaderMode(savedMode === 'true');
     } else {
-      setReaderMode(false);
+      applyToggleAffordance(root.dataset.readerMode === 'true');
     }
+
+    document.addEventListener('prerenderingchange', () => applyToggleAffordance(root.dataset.readerMode === 'true'), {
+      once: true,
+    });
 
     // Briefly show the control regardless of the current mode
     showReaderHint();

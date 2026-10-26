@@ -25,15 +25,14 @@ body {
   border-radius: 0 !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  .heti img,
-  .heti video {
-    background-color: #262626;
-  }
-  .logo img,
-  .logo svg {
-    background-color: transparent !important;
-  }
+[data-theme="dark"] .heti img,
+[data-theme="dark"] .heti video {
+  background-color: #262626;
+}
+
+[data-theme="dark"] .logo img,
+[data-theme="dark"] .logo svg {
+  background-color: transparent !important;
 }
 
 .heti p > img {
@@ -187,10 +186,8 @@ blockquote blockquote {
   background-color: rgba(0, 0, 0, 0.03);
 }
 
-@media (prefers-color-scheme: dark) {
-  .heti pre {
-    background-color: rgba(255, 255, 255, 0.03);
-  }
+[data-theme="dark"] .heti pre {
+  background-color: rgba(255, 255, 255, 0.03);
 }
 
 .dark .heti pre,
@@ -335,18 +332,6 @@ blockquote blockquote {
   border-radius: var(--radius);
 }
 
-@media (prefers-color-scheme: dark) {
-  .heti table {
-    border-color: #404040 !important;
-  }
-
-  .heti p > code,
-  .heti li > code {
-    background-color: #343941;
-    color: #e8e8eb;
-  }
-}
-
 [data-theme="dark"] .heti table {
   border-color: #404040 !important;
 }
@@ -371,13 +356,6 @@ blockquote blockquote {
   border-width: 1px;
   border-style: solid;
   border-color: #e5e7eb;
-}
-
-@media (prefers-color-scheme: dark) {
-  .heti th,
-  .heti td {
-    border-color: #404040 !important;
-  }
 }
 
 [data-theme="dark"] .heti th,
@@ -529,11 +507,9 @@ blockquote blockquote {
   background-color: #dbedff;
 }
 
-@media (prefers-color-scheme: dark) {
-  .heti sup:target,
-  .heti sup a:target {
-    background-color: #3a6188;
-  }
+[data-theme="dark"] .heti sup:target,
+[data-theme="dark"] .heti sup a:target {
+  background-color: #3a6188;
 }
 
 .heti summary {
@@ -554,10 +530,8 @@ blockquote blockquote {
   border-block-end-color: rgba(0, 0, 0, 0.54);
 }
 
-@media (prefers-color-scheme: dark) {
-  .heti u[title] {
-    border-block-end-color: rgba(255, 255, 255, 0.54);
-  }
+[data-theme="dark"] .heti u[title] {
+  border-block-end-color: rgba(255, 255, 255, 0.54);
 }
 
 .heti address,
@@ -907,10 +881,8 @@ blockquote blockquote {
   line-height: 24px;
 }
 
-@media (prefers-color-scheme: dark) {
-  .heti .heti-fn {
-    border-block-start-color: #404040;
-  }
+[data-theme="dark"] .heti .heti-fn {
+  border-block-start-color: #404040;
 }
 
 .heti .heti-fn ol {
@@ -922,10 +894,8 @@ blockquote blockquote {
   background-color: #dbedff;
 }
 
-@media (prefers-color-scheme: dark) {
-  .heti .heti-fn li:target {
-    background-color: #3a6188;
-  }
+[data-theme="dark"] .heti .heti-fn li:target {
+  background-color: #3a6188;
 }
 
 .heti .heti-hang {

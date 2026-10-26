@@ -9,6 +9,35 @@ const { icon } = SITE;
 <meta charset='utf-8' />
 <meta name='viewport' content='width=device-width' />
 
+<!-- Resolve theme and reader mode before first paint so neither flashes. Re-run
+when a prerendered page is shown or a page returns from bfcache, since the
+reader may have changed either setting on another page in the meantime. -->
+<script is:inline>
+  (() => {
+    const root = document.documentElement;
+    const read = (key) => {
+      try {
+        return localStorage.getItem(key);
+      } catch {
+        return null;
+      }
+    };
+    const apply = () => {
+      let theme = read('theme');
+      if (theme !== 'dark' && theme !== 'light') theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      root.dataset.theme = theme;
+      root.classList.toggle('dark', theme === 'dark');
+      if (/^\/(en\/)?posts\//.test(location.pathname)) {
+        const forced = new URLSearchParams(location.search).get('reader') === 'true';
+        root.dataset.readerMode = String(forced || read('readerMode') === 'true');
+      }
+    };
+    apply();
+    document.addEventListener('prerenderingchange', apply, { once: true });
+    addEventListener('pageshow', (event) => event.persisted && apply());
+  })();
+</script>
+
 <!-- Preconnect to the origins on the critical path: card/post images and font files -->
 <link rel='preconnect' href='https://cdn.tw93.fun' />
 <link rel='preconnect' href='https://gw.alipayobjects.com' />
