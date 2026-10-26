@@ -163,9 +163,10 @@ test("the email keeps the issue body and drops site chrome", () => {
 
   const html = toEmailHtml(content, "https://weekly.tw93.fun/posts/287", "zh");
   assert.match(html, /href="https:\/\/weekly\.tw93\.fun\/posts\/1"/);
-  assert.match(html, /<img src="https:\/\/cdn\.fliggy\.com\/pic\/a\.png" width="560" style=/);
+  assert.match(html, /<img src="https:\/\/cdn\.fliggy\.com\/pic\/a\.png" width="760" style=/);
   assert.ok(!html.includes("data-pswp") && !html.includes("aspect-ratio") && !html.includes("class="));
   assert.ok(!html.includes(".svg") && html.includes("diagram"), "SVG becomes a link");
   assert.ok(!html.includes("<video") && html.includes("这里有段视频"));
-  assert.match(html, /<span style="color:#d73a49/);
+  assert.ok(!html.includes("#d73a49") && !html.includes("background:#fff"), "dark-theme code colours are dropped");
+  assert.match(html, /<pre style="[^"]*color:#363433/);
 });

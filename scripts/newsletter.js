@@ -26,7 +26,7 @@ const STYLE = {
   a: `color:${INK};text-decoration:underline`,
   img: "display:block;max-width:100%;height:auto;border-radius:8px;margin:12px 0",
   blockquote: `margin:0 0 16px;padding:0 0 0 12px;border-left:3px solid ${LINE};color:${MUTED}`,
-  pre: "margin:0 0 16px;padding:12px;border-radius:8px;background:#f4f2ee;overflow-x:auto;font-size:13px;line-height:1.5",
+  pre: `margin:0 0 16px;padding:12px;border-radius:8px;background:#f4f2ee;color:${INK};white-space:pre-wrap;word-break:break-word;font-size:14px;line-height:1.6`,
   code: "font-family:SFMono-Regular,Menlo,Consolas,monospace;font-size:0.9em",
   hr: `border:0;border-top:1px solid ${LINE};margin:28px 0`,
   ul: "margin:0 0 16px;padding-left:22px",
@@ -96,7 +96,11 @@ export function extractContent(html, source) {
 /** Rewrites page HTML into the attribute-light, inline-styled form mail clients render. */
 export function toEmailHtml(content, pageUrl, lang) {
   const copy = COPY[lang];
-  const root = parse(`<div>${content}</div>`);
+  // node-html-parser keeps <pre> as raw text by default; parse it so its
+  // spans lose their dark-theme colours like everything else.
+  const root = parse(`<div>${content}</div>`, {
+    blockTextElements: { script: true, noscript: true, style: true },
+  });
   const absolute = (value) => {
     try {
       return new URL(value, pageUrl).href;
@@ -132,18 +136,16 @@ export function toEmailHtml(content, pageUrl, lang) {
         const href = absolute(child.getAttribute("href") ?? "");
         if (href) child.setAttribute("href", href);
       }
-      // Shiki colours code with inline styles; keep them inside <pre>.
-      const keepStyle = tag === "pre" || (child.closest?.("pre") && tag === "span");
-      const style = keepStyle ? child.getAttribute("style") : null;
+      // Shiki's inline colours belong to the site's dark theme and turn
+      // unreadable on the email's light code block, so they are dropped too.
       for (const name of Object.keys(child.attributes)) {
         if (!(KEEP[tag] ?? []).includes(name)) child.removeAttribute(name);
       }
       if (tag === "img") {
         const width = Number(child.getAttribute("width"));
-        if (!width || width >= 560) child.setAttribute("width", "560");
+        if (!width || width >= 760) child.setAttribute("width", "760");
       }
-      const styles = [style, STYLE[tag]].filter(Boolean).join(";");
-      if (styles) child.setAttribute("style", styles);
+      if (STYLE[tag]) child.setAttribute("style", STYLE[tag]);
       walk(child);
     }
   };
@@ -158,7 +160,7 @@ export function wrapEmail({ title, body, pageUrl, lang, source, unsubscribeUrl }
 <html lang="${lang === "zh" ? "zh-CN" : "en"}">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${escapeHtml(title)}</title></head>
 <body style="margin:0;background:#fdfcf9">
-<div style="max-width:600px;margin:0 auto;padding:28px 20px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;font-size:16px;line-height:1.75;color:${INK}">
+<div style="max-width:800px;margin:0;padding:28px 20px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB',sans-serif;font-size:16px;line-height:1.75;color:${INK}">
 <p style="margin:0 0 4px;font-size:13px;color:${MUTED}">${escapeHtml(copy[source])}</p>
 <h1 style="font-size:24px;line-height:1.35;margin:0 0 24px;color:${INK}"><a href="${escapeHtml(pageUrl)}" style="color:${INK};text-decoration:none">${escapeHtml(title)}</a></h1>
 ${body}
