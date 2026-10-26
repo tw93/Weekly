@@ -11,24 +11,6 @@ const allPosts = sortPosts(posts);
 ---
 
 <BaseLayout title={SITE.title} description={SITE.description} pageURL={SITE.homePage} markdownUrl='/index.md'>
-  <style slot='head'>
-    /* Enhanced card hover effects */
-    .card-content:hover {
-      transform: translateY(-4px);
-      box-shadow:
-        0 8px 16px -2px rgb(0 0 0 / 0.12),
-        0 4px 8px -2px rgb(0 0 0 / 0.08);
-    }
-
-    .card-content:hover img {
-      transform: scale(1.02);
-    }
-
-    .card-content:active {
-      transform: translateY(-2px);
-    }
-  </style>
-
   <HeadPreload slot='head' allPosts={allPosts} />
 
   <Header layout='feed' />
