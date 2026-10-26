@@ -94,7 +94,8 @@ const copy =
     border-radius: var(--radius);
     background: transparent;
     color: var(--theme-text);
-    font-size: var(--font-size-small);
+    /* iOS Safari zooms the page into any field under 16px. */
+    font-size: 16px;
   }
 
   .newsletter input[type='email']:focus {

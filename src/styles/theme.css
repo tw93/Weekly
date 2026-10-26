@@ -42,6 +42,15 @@
   --lightense-backdrop-color: rgba(230, 230, 230, 0.85);
 }
 
+/* TsangerJinKai reads a size smaller than a sans at the same px; on phones
+   16px body text looked small, so below 800px it matches the blog's 17px. */
+@media (max-width: 799px) {
+  :root {
+    --font-size-base: 17px;
+    --font-size-small: 15px;
+  }
+}
+
 [data-theme="dark"] {
   color-scheme: dark;
   --theme-accent: #e8a15a;
