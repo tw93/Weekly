@@ -12,7 +12,7 @@ export const FAQ: Record<"zh" | "en", { q: string; a: string }[]> = {
     },
     {
       q: "怎么订阅？",
-      a: "订阅 RSS（/rss.xml 或 /en/rss.xml，含全文），或者在 GitHub 上 Star 与 Watch tw93/weekly 仓库。周刊不需要注册账号，也没有邮件列表。",
+      a: "订阅 RSS（/rss.xml 或 /en/rss.xml，含全文），或者在任意一期末尾填邮箱，点确认信里的按钮后，新一期会发到邮箱，也可以在 GitHub 上 Star 与 Watch tw93/weekly 仓库。周刊不需要注册账号。",
     },
     {
       q: "可以引用周刊里的内容吗？",
@@ -38,7 +38,7 @@ export const FAQ: Record<"zh" | "en", { q: string; a: string }[]> = {
     },
     {
       q: "How do I subscribe?",
-      a: "Subscribe to RSS at /rss.xml or /en/rss.xml (both carry the full text), or star and watch the tw93/weekly repository on GitHub. There is no account to create and no mailing list.",
+      a: "Subscribe to RSS at /rss.xml or /en/rss.xml (both carry the full text), leave your email at the end of any issue and confirm it to get each new issue by email, or star and watch the tw93/weekly repository on GitHub. There is no account to create.",
     },
     {
       q: "Can I quote the content?",
