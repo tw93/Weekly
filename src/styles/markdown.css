@@ -1173,10 +1173,23 @@ img[loading="lazy"] {
   display: none !important;
 }
 
-/* PhotoSwipe: ClientScripts divides the radius by the zoom scale each frame,
-   so corners stay at --radius on screen through the whole zoom. */
+/* PhotoSwipe: ClientScripts keeps --pswp-img-radius at the radius divided by
+   the zoom wrap's scale, animating it alongside the wrap's transform
+   transitions, so corners stay at --radius on screen through the whole zoom.
+   Registered so the animation interpolates instead of jumping. */
+@property --pswp-img-radius {
+  syntax: '<length>';
+  inherits: true;
+  initial-value: 8px;
+}
+
 .pswp__zoom-wrap img {
   object-fit: contain;
-  border-radius: var(--pswp-img-radius, var(--radius));
+  border-radius: var(--pswp-img-radius);
   background-color: var(--pswp-img-bg, transparent);
+}
+
+/* The thumbnail placeholder is a 250px image scaled up by its own transform. */
+.pswp__zoom-wrap img.pswp__img--placeholder {
+  border-radius: calc(var(--pswp-img-radius) / var(--pswp-ph-scale, 1));
 }

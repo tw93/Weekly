@@ -88,18 +88,24 @@
     });
 
     // PhotoSwipe scales the zoom wrap with a transform, so a fixed radius on the
-    // image would scale with it. Divide the radius by the live scale every frame
-    // while the lightbox is open so the corners stay at --radius on screen from
-    // the thumbnail through the zoom and back.
+    // image would scale with it. The wrap carries --pswp-img-radius = radius / scale.
+    // It is set in the same task PhotoSwipe writes a transform, and while a CSS
+    // transition animates that transform it is animated on the transition's own
+    // timeline and easing, so the corners stay at --radius on screen every frame.
+    // Reading the scale once per frame instead lagged a frame behind, and jumped
+    // when PhotoSwipe swapped image resolution at the end of a zoom.
     const radius = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--radius')) || 8;
-    let radiusFrame = 0;
-    const applySlideStyles = () => {
+    const scaleOf = (transform: string) => (transform && transform !== 'none' ? new DOMMatrixReadOnly(transform).a : 1) || 1;
+    const setRadius = (wrap: HTMLElement, scale: number) => wrap.style.setProperty('--pswp-img-radius', `${radius / scale}px`);
+    const syncWrap = (wrap?: HTMLElement) => {
+      if (!wrap || wrap.getAnimations().some((a) => a.id === 'pswp-radius')) return;
+      setRadius(wrap, scaleOf(getComputedStyle(wrap).transform));
+    };
+    const syncSlides = () => {
       lightbox.pswp?.mainScroll.itemHolders.forEach(({ slide }) => {
         const wrap = slide?.container;
         if (!wrap) return;
-        const transform = getComputedStyle(wrap).transform;
-        const scale = transform && transform !== 'none' ? new DOMMatrixReadOnly(transform).a : 1;
-        wrap.style.setProperty('--pswp-img-radius', `${radius / (scale || 1)}px`);
+        syncWrap(wrap);
         const background = slide.data.svgBackground;
         if (background && wrap.dataset.svgBackground !== background) {
           wrap.dataset.svgBackground = background;
@@ -107,21 +113,53 @@
         }
       });
     };
-    const syncSlideStyles = () => {
-      applySlideStyles();
-      radiusFrame = requestAnimationFrame(syncSlideStyles);
+
+    const onTransitionRun = (event: TransitionEvent) => {
+      const wrap = event.target as HTMLElement;
+      if (event.propertyName !== 'transform' || !wrap.classList?.contains('pswp__zoom-wrap')) return;
+      const transition = wrap.getAnimations().find((a) => (a as CSSTransition).transitionProperty === 'transform');
+      const effect = transition?.effect as KeyframeEffect | null;
+      if (!transition || !effect) return;
+      const [from, to] = effect.getKeyframes().map((frame) => scaleOf(String(frame.transform)));
+      const { duration, easing } = effect.getTiming();
+      wrap.getAnimations().forEach((a) => a.id === 'pswp-radius' && a.cancel());
+      // Keyframe offsets live in eased progress, where the transition moves the
+      // scale linearly, so sampling radius / scale there tracks it frame for frame.
+      const steps = 24;
+      const frames = Array.from({ length: steps + 1 }, (_, i) => ({
+        offset: i / steps,
+        '--pswp-img-radius': `${radius / (from + ((to - from) * i) / steps)}px`,
+      }));
+      const animation = wrap.animate(frames, { duration, easing, id: 'pswp-radius' });
+      setRadius(wrap, to);
+      const align = () => {
+        if (transition.startTime !== null) animation.startTime = transition.startTime;
+      };
+      align();
+      transition.ready.then(align, () => {});
+      transition.finished.then(
+        () => animation.cancel(),
+        () => {
+          animation.cancel();
+          syncWrap(wrap);
+        }
+      );
     };
 
-    lightbox.on('beforeOpen', () => {
-      cancelAnimationFrame(radiusFrame);
-      syncSlideStyles();
-    });
+    document.addEventListener('transitionrun', onTransitionRun);
+    lightbox.on('beforeOpen', syncSlides);
 
     // The closed-state transform is set right before the opening animation starts.
-    lightbox.on('openingAnimationStart', applySlideStyles);
+    lightbox.on('openingAnimationStart', syncSlides);
+    // Pans, pinches, wheel zoom and the resolution swap after a zoom transition
+    // all write the transform through applyCurrentZoomPan, which emits this.
+    lightbox.on('zoomPanUpdate', syncSlides);
+    lightbox.on('change', syncSlides);
 
-    lightbox.on('destroy', () => {
-      cancelAnimationFrame(radiusFrame);
+    // PhotoSwipe sizes the placeholder thumbnail as a 250px image scaled up.
+    lightbox.on('contentResize', ({ content, width }) => {
+      const placeholder = content.placeholder?.element;
+      if (placeholder?.tagName === 'IMG') placeholder.style.setProperty('--pswp-ph-scale', String(width / 250 || 1));
     });
 
     // Parse data from image tags
