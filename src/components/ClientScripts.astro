@@ -90,10 +90,11 @@
     // PhotoSwipe scales the zoom wrap with a transform, so a fixed radius on the
     // image would scale with it. The wrap carries --pswp-img-radius = radius / scale.
     // It is set in the same task PhotoSwipe writes a transform, and while a CSS
-    // transition animates that transform it is animated on the transition's own
-    // timeline and easing, so the corners stay at --radius on screen every frame.
-    // Reading the scale once per frame instead lagged a frame behind, and jumped
-    // when PhotoSwipe swapped image resolution at the end of a zoom.
+    // transition animates that transform, one script animation replays the same
+    // transform together with the radius, so the corners stay at --radius on screen
+    // every frame. Animating the radius alone left the transform on the compositor:
+    // whenever the main thread stalled, the image kept growing while the radius
+    // waited, and the corners grew with it until the last frame.
     const radius = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--radius')) || 8;
     const scaleOf = (transform: string) => (transform && transform !== 'none' ? new DOMMatrixReadOnly(transform).a : 1) || 1;
     const setRadius = (wrap: HTMLElement, scale: number) => wrap.style.setProperty('--pswp-img-radius', `${radius / scale}px`);
@@ -120,16 +121,21 @@
       const transition = wrap.getAnimations().find((a) => (a as CSSTransition).transitionProperty === 'transform');
       const effect = transition?.effect as KeyframeEffect | null;
       if (!transition || !effect) return;
-      const [from, to] = effect.getKeyframes().map((frame) => scaleOf(String(frame.transform)));
+      const keyframes = effect.getKeyframes();
+      const [from, to] = keyframes.map((frame) => scaleOf(String(frame.transform)));
       const { duration, easing } = effect.getTiming();
       wrap.getAnimations().forEach((a) => a.id === 'pswp-radius' && a.cancel());
       // Keyframe offsets live in eased progress, where the transition moves the
       // scale linearly, so sampling radius / scale there tracks it frame for frame.
+      // The custom property keeps this effect off the compositor, and as a script
+      // animation it overrides the transition's transform with identical values.
       const steps = 24;
-      const frames = Array.from({ length: steps + 1 }, (_, i) => ({
+      const frames: Keyframe[] = Array.from({ length: steps + 1 }, (_, i) => ({
         offset: i / steps,
         '--pswp-img-radius': `${radius / (from + ((to - from) * i) / steps)}px`,
       }));
+      frames[0].transform = String(keyframes[0].transform);
+      frames[steps].transform = String(keyframes[keyframes.length - 1].transform);
       const animation = wrap.animate(frames, { duration, easing, id: 'pswp-radius' });
       setRadius(wrap, to);
       const align = () => {
