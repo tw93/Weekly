@@ -28,13 +28,22 @@
     loadGA();
   };
 
-  window.addEventListener('scroll', triggerGA, { once: true });
-  window.addEventListener('mousemove', triggerGA, { once: true });
-  window.addEventListener('touchstart', triggerGA, { once: true });
-  setTimeout(() => {
-    // Fallback if no interaction after 5s
-    if (!window.dataLayer.length) loadGA();
-  }, 5000);
+  const armGA = () => {
+    window.addEventListener('scroll', triggerGA, { once: true });
+    window.addEventListener('mousemove', triggerGA, { once: true });
+    window.addEventListener('touchstart', triggerGA, { once: true });
+    setTimeout(() => {
+      // Fallback if no interaction after 5s
+      if (!window.dataLayer.length) loadGA();
+    }, 5000);
+  };
+
+  // A hover-prerendered page the reader never opens must not count as a visit.
+  if (document.prerendering) {
+    document.addEventListener('prerenderingchange', armGA, { once: true });
+  } else {
+    armGA();
+  }
 </script>
 
 <script is:inline>
@@ -53,57 +62,14 @@
 </script>
 
 <script>
-  import PhotoSwipeLightbox from 'photoswipe/lightbox';
+  // Styles stay static: with inlined stylesheets a dynamically imported CSS
+  // file is never emitted and its 404 would reject the whole lightbox import.
   import 'photoswipe/style.css';
 
-  document.addEventListener('DOMContentLoaded', () => {
-    // Open external links in a new tab
-    Array.from(document.links).forEach((link) => {
-      if (link.hostname !== window.location.hostname) {
-        link.target = '_blank';
-        link.rel = 'noopener noreferrer';
-      }
-    });
-
-    // Prevent PhotoSwipe from intercepting clicks on ignored elements
-    document.addEventListener(
-      'click',
-      (e) => {
-        if ((e.target as HTMLElement).closest('.pswp-ignore')) {
-          e.stopPropagation();
-        }
-      },
-      true
-    );
-
-    // Play videos only while in the viewport (autoplay is stripped at build
-    // time into data-autoplay so off-screen videos are never fully downloaded)
-    const deferredVideos = document.querySelectorAll<HTMLVideoElement>('video[data-autoplay]');
-    if (deferredVideos.length > 0) {
-      const videoObserver = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            const video = entry.target as HTMLVideoElement;
-            if (entry.isIntersecting) {
-              video.play().catch(() => {});
-            } else if (!video.paused) {
-              video.pause();
-            }
-          });
-        },
-        { rootMargin: '200px 0px' }
-      );
-      deferredVideos.forEach((video) => videoObserver.observe(video));
-    }
-
-    // Lazy load images after the first two
-    const images = document.querySelectorAll('#write img');
-    images.forEach((img, index) => {
-      if (index > 1) {
-        img.setAttribute('loading', 'lazy');
-        img.setAttribute('decoding', 'async');
-      }
-    });
+  // The PhotoSwipe script loads only on pages with body images, so the home
+  // feed does not download it.
+  const initLightbox = async () => {
+    const { default: PhotoSwipeLightbox } = await import('photoswipe/lightbox');
 
     // Initialize PhotoSwipe
     const lightbox = new PhotoSwipeLightbox({
@@ -220,5 +186,48 @@
     });
 
     lightbox.init();
+  };
+
+  document.addEventListener('DOMContentLoaded', () => {
+    // Open external links in a new tab
+    Array.from(document.links).forEach((link) => {
+      if (link.hostname !== window.location.hostname) {
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+      }
+    });
+
+    // Prevent PhotoSwipe from intercepting clicks on ignored elements
+    document.addEventListener(
+      'click',
+      (e) => {
+        if ((e.target as HTMLElement).closest('.pswp-ignore')) {
+          e.stopPropagation();
+        }
+      },
+      true
+    );
+
+    // Play videos only while in the viewport (autoplay is stripped at build
+    // time into data-autoplay so off-screen videos are never fully downloaded)
+    const deferredVideos = document.querySelectorAll<HTMLVideoElement>('video[data-autoplay]');
+    if (deferredVideos.length > 0) {
+      const videoObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            const video = entry.target as HTMLVideoElement;
+            if (entry.isIntersecting) {
+              video.play().catch(() => {});
+            } else if (!video.paused) {
+              video.pause();
+            }
+          });
+        },
+        { rootMargin: '200px 0px' }
+      );
+      deferredVideos.forEach((video) => videoObserver.observe(video));
+    }
+
+    if (document.querySelector('#write img:not(.pswp-ignore)')) initLightbox();
   });
 </script>

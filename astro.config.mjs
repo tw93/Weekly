@@ -94,7 +94,20 @@ function defaultLayoutPlugin() {
 
 export default defineConfig({
   site: SITE.homePage,
-  prefetch: true,
+  // Inline all CSS: first paint then needs only the HTML response instead of
+  // a second round trip for five render-blocking stylesheets.
+  build: {
+    inlineStylesheets: "always",
+  },
+  // Hover or tap on any internal link prerenders the page (Speculation Rules in
+  // Chromium, plain prefetch elsewhere), so navigation shows a finished page.
+  prefetch: {
+    prefetchAll: true,
+    defaultStrategy: "hover",
+  },
+  experimental: {
+    clientPrerender: true,
+  },
   trailingSlash: "never",
   server: {
     headers: {

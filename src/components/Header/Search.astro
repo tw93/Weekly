@@ -38,7 +38,28 @@ import SearchIcon from './SearchIcon.astro';
 </site-search>
 
 <script>
-  import { animate } from 'motion';
+  // PagefindUI is ~94KB, so it loads when the reader shows intent to search
+  // (hovering or focusing the button, or opening the dialog), not on every page.
+  let pagefindLoading: Promise<void> | null = null;
+  const loadPagefind = () => {
+    if (import.meta.env.DEV) return Promise.resolve();
+    return (pagefindLoading ??= import('@pagefind/default-ui').then(({ PagefindUI }) => {
+      new PagefindUI({
+        element: '#pagefind__search',
+        baseUrl: import.meta.env.BASE_URL,
+        bundlePath: import.meta.env.BASE_URL.replace(/\/$/, '') + '/pagefind/',
+        showImages: false,
+        translations: {
+          placeholder: '搜索潮流内容',
+          zero_results: '没有找到 [SEARCH_TERM]',
+          many_results: '[COUNT] 条搜索命中 [SEARCH_TERM]',
+          clear_search: '清除',
+          load_more: '加载更多结果',
+        },
+      });
+    }));
+  };
+
   class SiteSearch extends HTMLElement {
     constructor() {
       super();
@@ -55,16 +76,19 @@ import SearchIcon from './SearchIcon.astro';
         const openModal = (event) => {
           dialog.showModal();
 
-          animate(
-            'dialog',
+          // The dialog starts at opacity-0; keep the end state once the animation ends.
+          dialog.style.opacity = '1';
+          dialog.animate(
             {
               clipPath: ['polygon(0 0, 100% 0, 100% -200%, -200% -200%)', 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)'],
               opacity: [0, 1],
             },
-            { duration: 0.2 }
+            { duration: 200 }
           );
           document.body.classList.add('overflow-hidden');
           this.querySelector('input')?.focus();
+          // On first open the search input is created once PagefindUI loads.
+          loadPagefind().then(() => dialog.open && this.querySelector('input')?.focus());
           event?.stopPropagation();
           window.addEventListener('click', onWindowClick);
         };
@@ -129,26 +153,9 @@ import SearchIcon from './SearchIcon.astro';
           navigateFromResult(event);
         });
 
-        window.addEventListener('DOMContentLoaded', () => {
-          if (import.meta.env.DEV) return;
-          const onIdle = window.requestIdleCallback || ((cb) => setTimeout(cb, 1));
-          onIdle(async () => {
-            const { PagefindUI } = await import('@pagefind/default-ui');
-            new PagefindUI({
-              element: '#pagefind__search',
-              baseUrl: import.meta.env.BASE_URL,
-              bundlePath: import.meta.env.BASE_URL.replace(/\/$/, '') + '/pagefind/',
-              showImages: false,
-              translations: {
-                placeholder: '搜索潮流内容',
-                zero_results: '没有找到 [SEARCH_TERM]',
-                many_results: '[COUNT] 条搜索命中 [SEARCH_TERM]',
-                clear_search: '清除',
-                load_more: '加载更多结果',
-              },
-            });
-          });
-        });
+        for (const event of ['pointerenter', 'focus', 'touchstart']) {
+          openBtn.addEventListener(event, () => loadPagefind(), { once: true, passive: true });
+        }
       }
     }
   }

@@ -109,6 +109,13 @@ export default function rehypeCustomizeImageSrc() {
     // In production/build, it's fine to read once
     const imageMetadata = getImageMetadata();
     let imageIndex = 0;
+    let seenImages = 0;
+    // SVG, GIF and non-CDN images pass through unrewritten; still defer every
+    // one but the first so they are not all fetched on page load.
+    const deferPassThrough = (tag) =>
+      seenImages > 1 && !/\sloading=/.test(tag)
+        ? tag.replace(/^<img\s+/, '<img loading="lazy" decoding="async" ')
+        : tag;
 
     // Attach hero image to file metadata so layouts can access it for preloading
     const heroImage = getHeroImage(tree);
@@ -122,6 +129,7 @@ export default function rehypeCustomizeImageSrc() {
       // 1. Process <img> tags
       const fullImgRegex = /<img\s+[^>]*src="([^"]+)"[^>]*>/g;
       node.value = node.value.replace(fullImgRegex, (fullMatch, p1) => {
+        seenImages++;
         const urlLower = p1.toLowerCase();
         const isSvgOrGif =
           urlLower.includes(".svg") ||
@@ -130,13 +138,13 @@ export default function rehypeCustomizeImageSrc() {
           p1.includes("2e676966"); // .gif
 
         if (isSvgOrGif) {
-          return fullMatch;
+          return deferPassThrough(fullMatch);
         }
 
         const domainRegex =
           /https:\/\/(?:cdn\.(?:fliggy\.com|alipayobjects\.com)|gw\.(?:alipayobjects\.com|alicdn\.com)|img\.alicdn\.com|raw\.githubusercontent\.com|camo\.githubusercontent\.com|cdn\.tw93\.fun)/;
         if (!p1.match(domainRegex)) {
-          return fullMatch;
+          return deferPassThrough(fullMatch);
         }
 
         imageIndex++;

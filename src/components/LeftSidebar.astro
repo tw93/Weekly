@@ -78,19 +78,29 @@ const sidebarSections = allPosts.reduce((sections, post, index) => {
 
     if (!navGroups) return;
 
-    const savedScrollPosition = localStorage.getItem('sidebarScrollPosition');
-    if (savedScrollPosition !== null) {
-      navGroups.scrollTop = parseInt(savedScrollPosition, 10);
-    } else {
-      const target = document.querySelector('[aria-current="page"]');
-      if (target && target.offsetTop > window.innerHeight - 100) {
-        navGroups.scrollTop = target.offsetTop - 86;
+    const restoreScroll = () => {
+      const savedScrollPosition = localStorage.getItem('sidebarScrollPosition');
+      if (savedScrollPosition !== null) {
+        navGroups.scrollTop = parseInt(savedScrollPosition, 10);
+      } else {
+        const target = document.querySelector('[aria-current="page"]');
+        if (target && target.offsetTop > window.innerHeight - 100) {
+          navGroups.scrollTop = target.offsetTop - 86;
+        }
       }
+
+      navGroups.style.visibility = 'visible';
+
+      localStorage.removeItem('sidebarScrollPosition');
+    };
+
+    // A prerendered page runs this before the click that saves the position,
+    // so wait until it is actually shown.
+    if (document.prerendering) {
+      document.addEventListener('prerenderingchange', restoreScroll, { once: true });
+    } else {
+      restoreScroll();
     }
-
-    navGroups.style.visibility = 'visible';
-
-    localStorage.removeItem('sidebarScrollPosition');
 
     navGroups.addEventListener('click', (event) => {
       const link = event.target.closest('a');
