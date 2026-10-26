@@ -20,11 +20,11 @@ A look at the latest trends based on over 14,000 developer surveys. CSS is evolv
 
 **Experience Measurement and Diagnosis in the Alipay App**  
 <https://mp.weixin.qq.com/s/SC2DI2kWveSE1L3aBrP7og>  
-Alipay has made incredible strides in performance and user experience over the past two years. here’s a look at their internal measurement systems.
+Alipay has made incredible strides in performance and user experience over the past two years. Here’s a look at their internal measurement systems.
 
 **Introducing Codux: A Visual IDE for React**  
 <https://dev.to/codux/introducing-codux-15j5>  
-A new editor designed to improve React development by bridging the gap between visual design and code. it’s an interesting blend of a traditional IDE and a low-code tool.
+A new editor designed to improve React development by bridging the gap between visual design and code. It’s an interesting blend of a traditional IDE and a low-code tool.
 
 ## Trending Open Source
 
@@ -35,7 +35,7 @@ For those who prefer a dedicated desktop experience, I’ve used Pake to bundle 
 
 **OSS Insight: Discover GitHub Trends**  
 <https://ossinsight.io/>  
-This platform analyzes over 5 billion GitHub events to provide real-time insights into open-source trends, developer contributions, and project comparisons. it’s a goldmine for data-driven developers.  
+This platform analyzes over 5 billion GitHub events to provide real-time insights into open-source trends, developer contributions, and project comparisons. It’s a goldmine for data-driven developers.  
 <img src="https://gw.alipayobjects.com/zos/k/3n/pkYAig.png" width="800" />
 
 **tldr: Simplified Command Line Manuals**  
@@ -45,13 +45,14 @@ Forget the dense `man` pages. `tldr` gives you practical, common-sense examples 
 
 **codeapp: A Full-Featured iPad Code Editor**  
 <https://github.com/thebaselab/codeapp>  
-If you’ve dreamed of a serious development environment on the iPad, this open-source project is making it a reality. check out their progress on GitHub.  
+If you’ve dreamed of a serious development environment on the iPad, this open-source project is making it a reality. Check out their progress on GitHub.  
 <img src="https://gw.alipayobjects.com/zos/k/3n/X41bxm.jpg" width="800" />
 
 ## Just Looking Around
 
 **Why Didn’t China Create ChatGPT? (A Zhihu Discussion)**  
-It’s not just China—even massive US tech firms like Google were caught off-guard by OpenAI’s breakthrough. the discussion on the systemic reasons for this is quite insightful.
+<https://www.zhihu.com/question/571387160/answer/2795880809>  
+It’s not just China—even massive US tech firms like Google were caught off-guard by OpenAI’s breakthrough. The discussion on the systemic reasons for this is quite insightful.
 
 **Knowledge Management for Creators**  
 <https://www.zcool.com.cn/article/ZMTQ0NjE2MA==.html>  
@@ -59,9 +60,9 @@ An article from Zcool on how designers can better organize and leverage the mass
 
 **Reading "The Silent Majority" by Wang Xiaobo**  
 <https://book.douban.com/subject/1054685/>  
-I just finished this over the weekend. if you’ve never read his work, I highly recommend it—it’s a deeply touching and intellectual experience.
+I just finished this over the weekend. If you’ve never read his work, I highly recommend it—it’s a deeply touching and intellectual experience.
 
 **Code Effect of the Week: Jello Tab Bar (Animated)**  
 <https://codepen.io/flavio_amaral/pen/xxgYGrR>  
-A wonderfully "sticky" and smooth mobile-style tab bar. it’s built with pure HTML/CSS/JS without any frameworks—perfect for studying graceful animations.  
+A wonderfully "sticky" and smooth mobile-style tab bar. It’s built with pure HTML/CSS/JS without any frameworks—perfect for studying graceful animations.  
 <img src="https://gw.alipayobjects.com/zos/k/km/1212112.gif" width="800" />

@@ -46,5 +46,5 @@ Very cool. This video is perfect for having open on a monitor while you work on 
 
 **Mi Motion-Activated Night Light 2 is very useful**  
 <https://www.mi.com/nightlight>  
-The Mi Motion-Activated Night Light 2 is great for places where you don't want to turn on the main light. it turns on automatically when someone passes by. Three batteries last about a year. At only 35 RMB, it's a high-value item. I have two outside our bathrooms—truly great value.  
+The Mi Motion-Activated Night Light 2 is great for places where you don't want to turn on the main light. It turns on automatically when someone passes by. Three batteries last about a year. At only 35 RMB, it's a high-value item. I have two outside our bathrooms—truly great value.  
 <img src="https://gw.alipayobjects.com/zos/k/wq/IMG_1471.JPG" width="800" />

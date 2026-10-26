@@ -26,7 +26,7 @@ Moving to GraphQL is no small feat. This article explores how Netflix made the t
 
 **Font: Alimama Oriental Kai**  
 <https://www.iconfont.cn/fonts/detail?cnid=IhcTcFymWeyf>  
-A beautiful free font from Alimama. it’s based on the Duobaota Stele of Yan Zhenqing, combining algorithmic generation with manual refinement. Huge thanks to the creators.  
+A beautiful free font from Alimama. It’s based on the Duobaota Stele of Yan Zhenqing, combining algorithmic generation with manual refinement. Huge thanks to the creators.  
 <img src="https://gw.alipayobjects.com/zos/k/jd/ViHApk.png"  width="400" />
 
 **midjourney-proxy: Bridge Midjourney to Your Apps**  
@@ -35,7 +35,7 @@ Integrate Midjourney into your own systems or chat tools via this API proxy for 
 
 **Chat2DB: The Intelligent SQL Client**  
 <https://github.com/chat2db/Chat2DB>  
-An AI-powered SQL client that helps non-technical users write queries and generate reports. it simplifies the process of interacting with databases significantly.  
+An AI-powered SQL client that helps non-technical users write queries and generate reports. It simplifies the process of interacting with databases significantly.  
 <a href="https://cdn.tw93.fun/blog/upic/0wq7t5.mp4" target="_blank"><video width="800px" autoplay preload loop muted><source src="https://cdn.tw93.fun/blog/upic/0wq7t5.mp4" type="video/mp4"></video></a>
 
 **Tech Brand Logo Collection (Figma)**  
@@ -47,11 +47,13 @@ A collection of over 200 high-quality tech brand logos in Figma, ready for you t
 
 **English Learning Tools 2023**  
 <https://sspai.com/post/80086>  
-A curated list from Sspai on the best software for learning English—covering immersion translation, dual subtitles for YouTube, and AI conversation partners.
+A curated list from Sspai on the best software for learning English—covering immersion translation, dual subtitles for YouTube, and AI conversation partners.  
+<img src="https://gw.alipayobjects.com/zos/k/84/Q8exyE.png"  width="800" />
 
 **How the Economic Machine Works (Ray Dalio)**  
 <https://youtube.com/watch?v=rFV7wdEX-Mo>  
 A 30-minute masterclass in understanding complex economic cycles through simple, grounded visual storytelling.
 
 **Why Luxury Brands are Raising Prices?**  
+<https://www.huxiu.com/article/1778287.html>  
 In an uncertain economy, you’d expect luxury brands to be more cautious. This Huxiu long-read explores the "prestige pricing" strategy behind the hikes.

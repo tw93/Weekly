@@ -34,7 +34,7 @@ This free online collage tool is very simple and has a plain beauty. All operati
 
 ## Just Looking Around
 
-**DongCheDi's assistat driving safety test for new energy vehicles is worth watching**  
+**DongCheDi's assistant driving safety test for new energy vehicles is worth watching**  
 <https://www.bilibili.com/video/BV1vz8FzDEyE/>  
 This assisted driving safety test for new energy vehicles by DongCheDi is well worth a look, especially for those wanting to buy a car. After watching, my confidence in investing in Tesla became even stronger. Looking at the comments: those with time can check the official websites of major insurance companies to see their quotes for some controversial models, then compare them with the video content—it's truly interesting.  
 <img src="https://cdn.tw93.fun/blog/upic/opqAtC21.png" width="800" />

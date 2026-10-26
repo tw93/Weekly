@@ -42,7 +42,7 @@ This is exactly what I dreamed of back in high school. It produces high-quality 
 
 **GitHub Copilot: Your AI Pair Programmer**  
 <https://copilot.github.com/>  
-The big announcement from GitHub. while there were similar products before, having this built directly into the ecosystem is a massive shift. I find it takes a bit of RAM, but the experience is worth trying.  
+The big announcement from GitHub. While there were similar products before, having this built directly into the ecosystem is a massive shift. I find it takes a bit of RAM, but the experience is worth trying.  
 <img src="https://cdn.tw93.fun/blog/upic/FlzrDf.gif" width="800" />
 
 **CakeBrew: A GUI for Homebrew**  
@@ -69,7 +69,9 @@ High-quality SSH clients on Mac are usually quite expensive. nuoshell is a robus
 Steve Jobs once famously said Microsoft had "no taste." This new version feels a lot more polished—almost "MacOS-like." The Android app support is a huge game-changer for cross-platform utility.
 
 **Drunk Truths from a Software Engineer**  
+<https://www.ruanyifeng.com/blog/2021/06/drunk-post-of-a-programmer.html>  
 A veteran dev gets a bit tipsy and spills ten years of industry wisdom. Take it with a grain of salt (and maybe some lime), but there are some gems in here.
 
 **Zooming In: Exploring the World Under a Microscope**  
+<https://mp.weixin.qq.com/s?__biz=MzI5Mjk4NDIxOQ==&mid=2247639804&idx=2&sn=2de30cd8fa179239a54b2560ad5a20fc&chksm=ec75e608db026f1eb791f81a8d7f3621da813bd458add8c1b8fa043a8f2bf325927d3288c6e4#rd>  
 An educational (and occasionally slightly gross) look at the textures of everyday items and nature under high magnification.

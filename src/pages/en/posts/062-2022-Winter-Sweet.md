@@ -34,7 +34,7 @@ A transcript on what makes for a good CR, common pitfalls, and how to build a he
 
 **heti: Enhance the Typography of Chinese Web Content**  
 <https://sivan.github.io/heti/>  
-English layout is one thing, but Chinese typography has its own unique aesthetic challenges. this library helps you get it right.  
+English layout is one thing, but Chinese typography has its own unique aesthetic challenges. This library helps you get it right.  
 <img src="https://cdn.tw93.fun/blog/upic/i2Z2IG.gif" width="800" />
 
 **Cutter: A Modern Reverse Engineering Platform**  
@@ -57,10 +57,13 @@ It hasn't been updated in a while, but it remains one of the best ways to bridge
 I rediscovered this piece from 25 years ago. His definition of a great programmer—having a genuine love for code and being a bit of a perfectionist—still rings true.
 
 **Lei Jun: The "Fools" Journey with Yu Yongfu**  
+<http://blog.sina.com.cn/s/blog_4b0e23c90100b1ga.html>  
 Another post from the old blog. The language and communication back then felt so much more grounded and authentic than corporate comms today.
 
 **Why Not Just Remove the Laptop Camera?**  
+<https://www.v2ex.com/t/825072#reply132>  
 A V2EX discussion about notches and bezels. Honestly, if it meant a better screen, I’d be perfectly fine with a laptop that didn't have a built-in camera.
 
 **How the U.S. Built its Tech Dominance**  
+<https://mp.weixin.qq.com/s/ZZcYwOFpjYCnaDz2f8C3Qw>  
 A look at how a bottom-up culture can simultaneously produce mass anti-intellectualism and non-stop global innovation.

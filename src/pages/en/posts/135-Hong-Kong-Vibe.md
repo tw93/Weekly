@@ -12,7 +12,7 @@ date: 2023/07/03
 
 **Microsoft: AI-For-Beginners**  
 <https://github.com/microsoft/AI-For-Beginners>  
-Microsoft is constantly updating this comprehensive curriculum. it avoids the current "ChatGPT hype" and instead focuses on the fundamental principles of AI—history, frameworks, computer vision, and NLP. perfect for a systematic deep dive.
+Microsoft is constantly updating this comprehensive curriculum. It avoids the current "ChatGPT hype" and instead focuses on the fundamental principles of AI—history, frameworks, computer vision, and NLP. Perfect for a systematic deep dive.
 
 **CSS in 2023**  
 <https://juejin.cn/post/7232187022399586362>  
@@ -31,17 +31,17 @@ I love the content on Hacker News, but the minimalist interface can make it hard
 
 **Snapdrop: Cross-Platform File Sharing**  
 <https://snapdrop.net/>  
-Think of this as AirDrop but for every platform. Just open the site on both devices and you can instantly transfer files. perfect for those moments when you don't have a shared cloud drive handy.  
+Think of this as AirDrop but for every platform. Just open the site on both devices and you can instantly transfer files. Perfect for those moments when you don't have a shared cloud drive handy.  
 <img src="https://gw.alipayobjects.com/zos/k/cu/RMk5ux.png" width="800" />
 
 **VS Code Extension: File Nesting Updater**  
 <https://marketplace.visualstudio.com/items?itemName=antfu.file-nesting>  
-Keep your project structure clean and tidy. this extension nests configuration files and related items under their main files, which is incredibly helpful for complex frontend projects.  
+Keep your project structure clean and tidy. This extension nests configuration files and related items under their main files, which is incredibly helpful for complex frontend projects.  
 <img src="https://gw.alipayobjects.com/zos/k/hr/gdcxks.png" width="400" />
 
 **DragGAN: AI Photo Manipulation**  
 <https://github.com/XingangPan/DragGAN>  
-An incredible AI tool that lets you manipulate photographs—changing poses, shapes, expressions, and layouts—just by dragging points on the image. its precision is truly impressive.  
+An incredible AI tool that lets you manipulate photographs—changing poses, shapes, expressions, and layouts—just by dragging points on the image. Its precision is truly impressive.  
 <img src="https://cdn.tw93.fun/blog/test/caaj4wf1/DragGAN.gif" width="400" />
 
 ## Just Looking Around
@@ -52,4 +52,5 @@ Vox is a fantastic news site for those interested in the "why" behind current ev
 <img src="https://gw.alipayobjects.com/zos/k/7u/F1nlfG.png" width="800" />
 
 **Graduation Season: Rent Trends in Major Cities**  
+<https://www.huxiu.com/article/1752355.html>  
 A huxiu article exploring whether rents are rising or falling in hot cities during the 2023 graduation season.

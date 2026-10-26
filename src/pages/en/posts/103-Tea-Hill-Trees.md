@@ -12,11 +12,11 @@ date: 2022/11/07
 
 **StackOverflow 2022 Developer Survey**  
 <https://survey.stackoverflow.co/2022/#most-popular-technologies-new-collab-tools>  
-Nearly 70,000 developers participated in this annual survey. it’s a fascinating window into global work culture, salary trends for different languages, and the tools being used to learn and grow.
+Nearly 70,000 developers participated in this annual survey. It’s a fascinating window into global work culture, salary trends for different languages, and the tools being used to learn and grow.
 
 **Is Turbopack Really 10x Faster than Vite?**  
 <https://github.com/yyx990803/vite-vs-next-turbo-hmr/discussions/8>  
-Evan You had a very busy week responding to the marketing claims around the new Turbopack. definitely worth reading the technical counter-arguments.
+Evan You had a very busy week responding to the marketing claims around the new Turbopack. Definitely worth reading the technical counter-arguments.
 
 **New Features in Recent Chrome Updates**  
 <https://mp.weixin.qq.com/s/6Rr1UfMTa-Y6H7_VAtv0aw>  
@@ -30,17 +30,17 @@ A deep dive into browser security and the technical definition of "Realms" withi
 
 **Pake: Minimalist Twitter Desktop Client**  
 <https://github.com/tw93/Pake>  
-Using Pake and some custom style injection from Thomas Wang, I’ve bundled a minimalist Twitter app. it strips away all the clutter and distraction of the official site, making for a much cleaner reading experience.  
+Using Pake and some custom style injection from Thomas Wang, I’ve bundled a minimalist Twitter app. It strips away all the clutter and distraction of the official site, making for a much cleaner reading experience.  
 <img src="https://cdn.tw93.fun/blog/upic/JKQcHf.png" width="800" />
 
 **Mastodon: The Social Network that Can’t be Sold**  
 <https://github.com/mastodon/mastodon>  
-Mastodon is gaining massive traction as a self-hosted, decentralized alternative to Twitter. it’s a social network where you see what you choose, not what an algorithm thinks you want.  
+Mastodon is gaining massive traction as a self-hosted, decentralized alternative to Twitter. It’s a social network where you see what you choose, not what an algorithm thinks you want.  
 <img src="https://cdn.tw93.fun/blog/upic/JfmHt1.png" width="800" />
 
 **Quick Reference for Developers**  
 <https://wangchujiang.com/reference/index.html>  
-A beautifully designed collection of cheat sheets for almost every programming language and tool. it’s clean, fast, and highly practical.  
+A beautifully designed collection of cheat sheets for almost every programming language and tool. It’s clean, fast, and highly practical.  
 <img src="https://cdn.tw93.fun/blog/upic/myjLGW.png" width="800" />
 
 **The CS Self-Learning Guide**  
@@ -52,15 +52,17 @@ An idealistic and incredibly thorough guide for anyone self-studying computer sc
 
 **In Conversation with Michael Singer**  
 <https://www.youtube.com/watch?v=aIhrybfvw8I>  
-A talk with the author of *The Untethered Soul* and *The Surrender Experiment*. his philosophy on finding inner peace while leading a highly successful professional life is truly inspiring.
+A talk with the author of *The Untethered Soul* and *The Surrender Experiment*. His philosophy on finding inner peace while leading a highly successful professional life is truly inspiring.
 
 **The Aesthetics of the Electric Vehicle "Rear"**  
+<https://www.huxiu.com/article/696023.html>  
 A huxiu article on car design trends, featuring the stunning Mercedes VISION EQXX concept.
 
 **The Mystery of Battery Numbers**  
-Why do we have AA (No. 5), AAA (No. 7), and D (No. 1) batteries, but almost no No. 4, 8, or 9? it’s a fascinating look at historical standardization.
+<https://finance.sina.com.cn/wm/2022-10-24/doc-imqqsmrp3595606.shtml>  
+Why do we have AA (No. 5), AAA (No. 7), and D (No. 1) batteries, but almost no No. 4, 8, or 9? It’s a fascinating look at historical standardization.
 
 **Must Watch: "The Hunt" (Heon-teu)**  
 <https://movie.douban.com/subject/35160926/>  
-A top-tier Korean political thriller starring and directed by Lee Jung-jae. the plot is tight, the suspense is heavy, and it’s one of the best films I’ve seen in a long time.  
+A top-tier Korean political thriller starring and directed by Lee Jung-jae. The plot is tight, the suspense is heavy, and it’s one of the best films I’ve seen in a long time.  
 <img src="https://cdn.tw93.fun/blog/upic/OQpBr6.png" width="800" />

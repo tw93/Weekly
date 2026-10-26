@@ -12,7 +12,7 @@ date: 2025/03/17
 
 **Corey Chiu's blog theme: Perfect for engineers with portfolios**  
 <https://coreychiu.com/>  
-This blog theme is perfect for engineers who have work to show. it does a great job displaying social media, projects, open-source work, recent thoughts, and blog posts with a great sense of aesthetics.  
+This blog theme is perfect for engineers who have work to show. It does a great job displaying social media, projects, open-source work, recent thoughts, and blog posts with a great sense of aesthetics.  
 <img src="https://cdn.tw93.fun/blog/upic/bSrwrp20.png" width="800" />
 
 **NotionNext: Website builder based on Notion notes**  

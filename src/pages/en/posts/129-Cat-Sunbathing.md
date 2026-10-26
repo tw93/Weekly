@@ -16,7 +16,7 @@ A developer used an 180\$ Android phone to host his blog using the Termux termin
 
 **Bun Bundler: 220x Faster than Webpack?**  
 <https://bun.sh/blog/bun-bundler>  
-The official blog post introducing Bun’s new bundler. is it truly as revolutionary as they claim? give it a spin and see for yourself.  
+The official blog post introducing Bun’s new bundler. Is it truly as revolutionary as they claim? Give it a spin and see for yourself.  
 <img src="https://gw.alipayobjects.com/zos/k/ff/raUf9a.jpg" width="800" />
 
 **Remembering "Left Ear Mouse" (Chen Hao)**  
@@ -26,8 +26,10 @@ A transcript of one of Haozi Shu's last live streams, where he shared his dreams
 ## Trending Tools
 
 **ChatGPT Web Browsing Experience**  
-ChatGPT Plus users are finally getting the Web Browsing beta. This solves the major limitation of static training data—your bot can now search the live internet for stock prices, news, and the latest GitHub trends.  
-🧐 Warning: many sites currently block the ChatGPT crawler via `robots.txt`, and it’s still significantly slower than standard chat as it has to search and analyze pages. However, it opens up a huge new set of possibilities for interacting with the web.  
+🎉 Many ChatGPT Plus users have probably just received the Web Browsing beta, which you can turn on in Settings. It is like turning your ChatGPT into a bot that can go online, which sidesteps the old problem of stale data.  
+🔮 I tried it: asking for yesterday's top ten US stock gainers, yesterday's price of a specific stock, the latest news from Twitter, today's top ten GitHub projects and so on, and the data it gave back was basically all correct. Compared with the plugins from a few days ago, this feature gives ChatGPT wings. In the video I also clicked open its detailed steps so you can see the process.  
+🧐 Overall, though, many websites block crawling in their robots.txt, many Chinese sites for example. It tries a few times and, if that fails, apologizes and says it cannot find it. It is also fairly slow for now, since it has to find the link, open it and analyze the data, even slower than plugins, but it is fun to play with and dig into new features.  
+🤖 Thinking one step further, this is really a new way for AI to interact with today's web. Maybe when building pages we will need to consider the case where the User-Agent is ChatGPT-User, so AI can understand our pages better, which is quite novel.  
 <a href="https://gw.alipayobjects.com/os/k/u9aktk/webplugin.mp4" target="_blank"><video width="800px" autoplay preload loop muted><source src="https://gw.alipayobjects.com/os/k/u9aktk/webplugin.mp4" type="video/mp4"></video></a>
 
 **Zeabur: A Refined Deployment Platform**  
@@ -42,7 +44,7 @@ Inspired by Zelda: Breath of the Wild and Minecraft, Veloren is an open-source v
 
 **Animated Drawings for Kids**  
 <https://github.com/facebookresearch/AnimatedDrawings>  
-An open-source algorithm from Meta that turns children’s character drawings into animations. it's easy to deploy and a wonderful creative tool if you have kids.  
+An open-source algorithm from Meta that turns children’s character drawings into animations. It's easy to deploy and a wonderful creative tool if you have kids.  
 <img src="https://gw.alipayobjects.com/zos/k/hn/219223438-2c93f9cb-d4b5-45e9-a433-149ed76affa6.gif" width="800" />
 
 ## Just Looking Around
@@ -58,5 +60,5 @@ Many learners get stuck in a "translation loop." This video from Rachel’s Engl
 
 **Minesweeper World Rankings**  
 <https://minesweepergame.com/world-rankings.php>  
-I stumbled upon the world rankings for Minesweeper. it’s incredible how fast some players are—many of the top spots are held by Chinese players!  
+I stumbled upon the world rankings for Minesweeper. It’s incredible how fast some players are—many of the top spots are held by Chinese players!  
 <img src="https://gw.alipayobjects.com/zos/k/eh/cKlROf.png" width="800" />

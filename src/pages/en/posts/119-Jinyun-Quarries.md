@@ -26,12 +26,12 @@ A great historical overview of how frontend build tools have evolved from simple
 
 **Shots: Elegant Screenshot Mockups**  
 <https://shots.so/>  
-A beautifully designed tool (that's surprisingly free) for creating professional mockups of screenshots. it supports various devices like iPhones and Macs with a very polished interface.  
+A beautifully designed tool (that's surprisingly free) for creating professional mockups of screenshots. It supports various devices like iPhones and Macs with a very polished interface.  
 <img src="https://gw.alipayobjects.com/zos/k/gv/B91FGZ.jpg" width="800" />
 
 **Poe: Aggregate AI Chat Platform**  
 <https://poe.com/>  
-A platform that brings together Sage, ChatGPT, Claude, and more. it has both web and iOS versions for easy multi-model access.  
+A platform that brings together Sage, ChatGPT, Claude, and more. It has both web and iOS versions for easy multi-model access.  
 <img src="https://gw.alipayobjects.com/zos/k/2q/TinySnap-2023-03-05-16.25.08.png" width="800" />
 
 **RSSHub Radar: Discover RSS Feeds Easily**  
@@ -41,7 +41,7 @@ A browser extension that instantly detects if the site you’re visiting has an 
 
 **Pake: Polished ChatGPT Desktop App**  
 <https://github.com/tw93/Pake>  
-I’ve updated my ChatGPT desktop bundle. it’s much cleaner now and works flawlessly with system proxies. using it with a Raycast shortcut is much faster than the web version.  
+I’ve updated my ChatGPT desktop bundle. It’s much cleaner now and works flawlessly with system proxies. Using it with a Raycast shortcut is much faster than the web version.  
 <img src="https://gw.alipayobjects.com/zos/k/e2/TinySnap-2023-03-04-16.01.07.png" width="800" />
 
 ## Just Looking Around
@@ -55,4 +55,5 @@ A story about how young people in small Chinese towns are using AI to outperform
 An alternative way to approach digital life, featuring tips on how to disable or manage personalized recommendations in popular apps to regain control of your attention.
 
 **Modern Marriage Costs in 2023**  
+<https://www.huxiu.com/article/811670.html>  
 A reflection on the traditional and modern views of "bride prices" and why parental open-mindedness is more important than ever.

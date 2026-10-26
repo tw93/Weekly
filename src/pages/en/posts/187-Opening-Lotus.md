@@ -17,7 +17,7 @@ I didn't realize there were so many types of software until I found `Alternative
 
 **Pearcleaner: Open-source Mac app uninstaller**  
 <https://itsalin.com/appInfo/?id=pearcleaner>  
-This open-source uninstaller is exactly what I needed—a free alternative to App Cleaner & Uninstaller. it's fast, clean, and minimalist. Give it a try.  
+This open-source uninstaller is exactly what I needed—a free alternative to App Cleaner & Uninstaller. It's fast, clean, and minimalist. Give it a try.  
 <img src="https://gw.alipayobjects.com/zos/k/fe/fSE9rD.png" width="800" />
 
 **App Store & Google Play Screenshot Templates**  
@@ -29,12 +29,12 @@ These screenshot templates are well-designed and the Figma source files are easy
 
 **Exploring JavaScript (ES2024 Edition)**  
 <https://exploringjs.com/js/book/index.html>  
-This free online edition of "Exploring JavaScript" is perfect for front-end beginners with some English proficiency. it's very up-to-date and comprehensive.  
+This free online edition of "Exploring JavaScript" is perfect for front-end beginners with some English proficiency. It's very up-to-date and comprehensive.  
 <img src="https://gw.alipayobjects.com/zos/k/77/SCR-20240721-tbwi.png" width="800" />
 
 **Interview with Luma AI Chief Scientist: Believing in Multimodal Scaling Law**  
 <https://mp.weixin.qq.com/s/waH6Vudo2uybXQZ8S4dwsQ>  
-Luma AI is impressive—starting from NeRF and recently releasing the Dream Machine video model. this interview is a good read.  
+Luma AI is impressive—starting from NeRF and recently releasing the Dream Machine video model. This interview is a good read.  
 <video width="800px" preload loop autoplay controls><source src="https://gw.alipayobjects.com/os/k/9t/1.mp4" type="video/mp4"></video>
 
 ## Random Notes
@@ -45,8 +45,8 @@ The opening ceremony of the Barcelona 1992 Paralympics was so cool—archer Anto
 
 **Random Talk: Using gaps to work efficiently and prioritizing important tasks**
 
-I've developed a habit that works every time: using small gaps during chores to quickly finish upcoming tasks, and prioritizing things that cause the most anxiety. it saves time and feels great.
+I've developed a habit that works every time: using small gaps during chores to quickly finish upcoming tasks, and prioritizing things that cause the most anxiety. It saves time and feels great.
 
-For example, while cooking, you can clean up the stove or rinse the dishes you'll need soon. After making coffee, immediately dump the grounds and rinse the portafilter instead of letting it sit. immediately washing your cup after drinking makes the final cleanup much faster and prevents tasks from piling up.
+For example, while cooking, you can clean up the stove or rinse the dishes you'll need soon. After making coffee, immediately dump the grounds and rinse the portafilter instead of letting it sit. Immediately washing your cup after drinking makes the final cleanup much faster and prevents tasks from piling up.
 
-Similarly at work: identifies the urgent, important task that would cause anxiety if left until the last day, and just do it NOW. set a deadline, like "finish before leaving today," so you don't have to think about it tomorrow. your happiness level will increase significantly.
+Similarly at work: identifies the urgent, important task that would cause anxiety if left until the last day, and just do it NOW. Set a deadline, like "finish before leaving today," so you don't have to think about it tomorrow. Your happiness level will increase significantly.

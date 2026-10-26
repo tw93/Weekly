@@ -22,7 +22,7 @@ If you're interested in CSS or are used to Tailwind-style formatting, check out 
 
 **Pure CSS Apple AI-style colorful border animation**  
 <https://codepen.io/thebabydino/pen/WNVPdJg>  
-If you want to implement the colorful border animation seen in Apple's AI previews using pure CSS, check out this Codepen implementation. it's quite simple and effective.  
+If you want to implement the colorful border animation seen in Apple's AI previews using pure CSS, check out this Codepen implementation. It's quite simple and effective.  
 <img src="https://gw.alipayobjects.com/zos/k/x2/SCR-20241124-tbvu.png" width="800" />
 
 ## Technical Learning

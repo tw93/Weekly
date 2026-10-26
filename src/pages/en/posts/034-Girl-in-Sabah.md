@@ -86,4 +86,5 @@ A very clear and concise video by Zhong Wenze on the HarmonyOS ecosystem. It’s
 An engaging video explaining the concepts behind trusts and asset management. Good to know for when those tech IPOs finally hit!
 
 **The Best Apps from Non-Tech Companies**  
+<https://wen.woshipm.com/question/detail/ouqsm9.html>  
 The consensus seems to be China Merchants Bank (CMB)—their app is exceptionally well-built. Many big banks could learn a thing or two from their engineering quality.

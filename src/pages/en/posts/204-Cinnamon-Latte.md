@@ -22,7 +22,7 @@ Plane is a very mature open-source alternative to JIRA, Linear, or Monday. It us
 
 **Startups Gallery: A collection of the world's top startups**  
 <https://startups.gallery/>  
-This site collects some of the world's best startups, covering AI, fintech, developer tools, and more. it's great for knowing what companies are building and also serves as inspiration for indie developers.  
+This site collects some of the world's best startups, covering AI, fintech, developer tools, and more. It's great for knowing what companies are building and also serves as inspiration for indie developers.  
 <img src="https://gw.alipayobjects.com/zos/k/xg/SCR-20241208-teix.png" width="800" />
 
 **hacker-scripts: Based on true stories**  
@@ -49,5 +49,5 @@ Ryuichi Sakamoto loved dining at a particular Japanese restaurant. The food was 
 <img src="https://gw.alipayobjects.com/zos/k/d9/SCR-20241208-suhb.png" width="800" />
 
 **Try the Tesla Christmas Easter Egg**  
-Open the Toybox, find "Santa" in the bottom bar, and tap "Santa mode." It turns cars on the road into reindeer and people into Santas. it even rings bells when turning. Very cute.  
+Open the Toybox, find "Santa" in the bottom bar, and tap "Santa mode." It turns cars on the road into reindeer and people into Santas. It even rings bells when turning. Very cute.  
 <img src="https://gw.alipayobjects.com/zos/k/sr/IMG_1707.JPG" width="800" />

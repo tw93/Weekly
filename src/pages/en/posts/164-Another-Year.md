@@ -4,14 +4,14 @@ date: 2024/02/19
 
 <img src="https://gw.alipayobjects.com/zos/k/ae/164.jpg" width="800" />
 
-<small>The cover photo was taken at Liangzhu Jade Bird Village on a sunny day. it’s my first time spent Chinese New Year in Hangzhou. the spring festival felt very long this year. Wishing you a year as comfortable as this picture.</small>
+<small>The cover photo was taken at Liangzhu Jade Bird Village on a sunny day. It’s my first time spent Chinese New Year in Hangzhou. The spring festival felt very long this year. Wishing you a year as comfortable as this picture.</small>
 
 > **Record the down-to-earth trending technologies seen every week, and publish them here after screening. If you find it good, you can follow this weekly to get update notifications.**
 
 ## Technical Learning
 
 **Where did the word "bug" come from?**  
-A very clever explanation: it dates back to 1945, when a moth got trapped in a computer's circuitry, causing it to fail. Grace Hopper taped the dead moth into her logbook, noting, "This is the bug that stopped us today." hence, "bug" became the technical term for flaws or issues in a system.  
+A very clever explanation: it dates back to 1945, when a moth got trapped in a computer's circuitry, causing it to fail. Grace Hopper taped the dead moth into her logbook, noting, "This is the bug that stopped us today." Hence, "bug" became the technical term for flaws or issues in a system.  
 <img src="https://gw.alipayobjects.com/zos/k/kh/pj1IJo.png" width="600" />
 
 **PDF Explained (Chinese Translation)**  
@@ -22,7 +22,7 @@ An unofficial translation of "PDF Explained." Great if you want to understand th
 
 **Maple Theme: Minimalist White Chrome Theme**  
 <https://chromewebstore.google.com/detail/cghofkeabdkcdoanmjhkadklfdlelaao>  
-I made a minimalist white theme for Chrome called **Maple Theme**. it's perfect for those who love clean designs. (Pro-tip: go to `chrome://flags` and set `prominent-active-tab-titles` for bold tab titles.)  
+I made a minimalist white theme for Chrome called **Maple Theme**. It's perfect for those who love clean designs. (Pro-tip: go to `chrome://flags` and set `prominent-active-tab-titles` for bold tab titles.)  
 <img src="https://gw.alipayobjects.com/zos/k/wm/SCR-20240218-skvu.png" width="800" />
 
 **Graphize: JSON Visualization**  
@@ -51,7 +51,9 @@ This Voronoi diagram is fascinating—tracking both companies' values and the pr
 A gripping film about the 1979 military coup in Seoul. Suggested watching order for related context: "The Man Standing Next" -> "12.12: The Day" -> "A Taxi Driver" -> "The Attorney" -> "1987: When the Day Comes."  
 <img src="https://gw.alipayobjects.com/zos/k/tm/9IrGeu.png" width="600" />
 
-## Pro-tip: Recommended Apps for Apple TV
+## Random Thoughts
+
+**Some Handy Apps for Apple TV**
 
 I've been using Apple TV for about 6 months, and these are the apps I find most useful:
 

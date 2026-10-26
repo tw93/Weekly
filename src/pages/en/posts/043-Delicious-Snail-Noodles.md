@@ -20,7 +20,7 @@ A long-running series full of unusual and high-impact CSS and JS patterns—wort
 
 **How He Shrunk the Skia Engine to 1/8th Its Size**  
 <https://www.infoq.cn/article/OMEf0QU4QLlCY3drVep9>  
-Deep technical dive. spoiler: the "easy" way to make a library 8x smaller is to simply rewrite it from scratch.
+Deep technical dive. Spoiler: the "easy" way to make a library 8x smaller is to simply rewrite it from scratch.
 
 **ACL 2021: 7 Research Papers from the Meituan Tech Team**  
 <https://tech.meituan.com/2021/08/05/acl-2021-meituan-07-papers.html>  
@@ -40,12 +40,12 @@ Perfect for building music visualizers that react to rhythm and frequency in rea
 
 **TOML: A Human-Centric Configuration Language**  
 <https://github.com/toml-lang/toml>  
-"Tom's Obvious, Minimal Language" aims to be more readable than JSON or YAML. it’s gaining a lot of traction, and I’m a big fan of its clarity.  
+"Tom's Obvious, Minimal Language" aims to be more readable than JSON or YAML. It’s gaining a lot of traction, and I’m a big fan of its clarity.  
 <img src="https://cdn.tw93.fun/blog/upic/uSr3ER.jpg" width="800" />
 
 **DeepFaceLab: Face Swapping Powered by AI**  
 <https://github.com/iperov/DeepFaceLab>  
-A powerful tool for deepfake style face replacement. use it responsibly!  
+A powerful tool for deepfake style face replacement. Use it responsibly!  
 <img src="https://cdn.tw93.fun/blog/upic/i87XP0.jpg" width="800" />
 
 **IoT For Beginners: A 12-Week Curriculum from Microsoft**  

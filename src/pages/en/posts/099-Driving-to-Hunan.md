@@ -4,7 +4,7 @@ date: 2022/10/11
 
 <img src="https://gw.alipayobjects.com/zos/k/app2/SCR-20221015-wy0.png" width=900/>
 
-<small>I drove my EV from Hangzhou all the way to Hunan and back over the National Day holiday. it was a fantastic 9-hour drive with 3 hours of charging stops. very lucky to have only hit 40 minutes of traffic the whole way!</small>
+<small>I drove my EV from Hangzhou all the way to Hunan and back over the National Day holiday. It was a fantastic 9-hour drive with 3 hours of charging stops. Very lucky to have only hit 40 minutes of traffic the whole way!</small>
 
 > **Record the down-to-earth trending technologies seen every week, and publish them here after screening. If you find it good, you can follow this weekly to get update notifications.**
 
@@ -40,12 +40,12 @@ A fun web experiment that uses a bracket-style tournament to help you find the a
 
 **Dracula UI: The Legend Gets a Component Library**  
 <https://ui.draculatheme.com/>  
-The most iconic dark theme in development now has its own UI library. it’s beautifully designed and perfect for building dark-mode-first developer tools.  
+The most iconic dark theme in development now has its own UI library. It’s beautifully designed and perfect for building dark-mode-first developer tools.  
 <img src="https://gw.alipayobjects.com/zos/k/22/KhQH6L.jpg" width="800"/>
 
 **learn-anything: A Neural Map for any Subject**  
 <https://learn-anything.xyz/>  
-Not sure where to start with a new topic? this site uses mind maps to plot out the perfect learning path for Web Development, Physics, and everything in between.  
+Not sure where to start with a new topic? This site uses mind maps to plot out the perfect learning path for Web Development, Physics, and everything in between.  
 <img src="https://gw.alipayobjects.com/zos/k/qt/Nch7iS.png" width="800"/>
 
 **mackup: Keep your App Settings in Sync**  
@@ -56,11 +56,12 @@ A vital tool for Mac/Linux users. mackup syncs your application settings via Dro
 
 **Behind the Scenes of a Popular Bilibili UP**  
 <https://sspai.com/post/75780>  
-An insightful look at how a designer manages a growing Bilibili channel. perfect for anyone considering becoming a content creator.
+An insightful look at how a designer manages a growing Bilibili channel. Perfect for anyone considering becoming a content creator.
 
 **Must Watch: Bullet Train**  
 <https://movie.douban.com/subject/35118954/>  
-I watched this over the holiday and loved it. it’s stylish, fast-paced, and full of great Japanese aesthetics—highly recommended.
+I watched this over the holiday and loved it. It’s stylish, fast-paced, and full of great Japanese aesthetics—highly recommended.
 
 **The Philosophy of Coffee**  
-A reflection on why we drink ice Americanos. as Pang Bo said, "If you didn't work, you'd never know something could be this bitter. it's only to keep you from falling asleep under the weight of it all."
+<https://www.zhihu.com/question/546343871>  
+A reflection on why we drink ice Americanos. As Pang Bo said, "If you didn't work, you'd never know something could be this bitter. It's only to keep you from falling asleep under the weight of it all."

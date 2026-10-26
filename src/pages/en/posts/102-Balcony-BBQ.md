@@ -4,7 +4,7 @@ date: 2022/10/31
 
 <img src="https://gw.alipayobjects.com/zos/k/s3/102.JPG" width=900/>
 
-<small>The cover photo is from last Saturday night—a BBQ on the balcony with music, plum wine, and a few good friends while watching the city lights. it was a wonderful evening.</small>
+<small>The cover photo is from last Saturday night—a BBQ on the balcony with music, plum wine, and a few good friends while watching the city lights. It was a wonderful evening.</small>
 
 > **Record the down-to-earth trending technologies seen every week, and publish them here after screening. If you find it good, you can follow this weekly to get update notifications.**
 
@@ -16,7 +16,7 @@ Mastering the command line is an often-overlooked skill, but it’s one of the b
 
 **Implementing HEVC Hardware Decoding in Chromium**  
 <https://zhuanlan.zhihu.com/p/541082191>  
-A landmark contribution to the Chromium project by the ByteDance team, enabling 8K HDR HEVC decoding. proud to see this was led by an alumnus from my university!
+A landmark contribution to the Chromium project by the ByteDance team, enabling 8K HDR HEVC decoding. Proud to see this was led by an alumnus from my university!
 
 **Why is Turbopack 700x Faster than Webpack?**  
 <https://mp.weixin.qq.com/s/SRp408d-7T8nsPU4WjlMrQ>  
@@ -36,12 +36,12 @@ A huge library of free 3D models with a playful, high-quality aesthetic—perfec
 
 **Telegraph: Minimalist Anonymous Publishing**  
 <https://telegra.ph/>  
-An extremely simple, login-free tool from the Telegram team for publishing rich web pages. it supports images, embeds, and has a very clean API. perfect for when you need to share a formatted page without the overhead of a blog.  
+An extremely simple, login-free tool from the Telegram team for publishing rich web pages. It supports images, embeds, and has a very clean API. Perfect for when you need to share a formatted page without the overhead of a blog.  
 <img src="https://gw.alipayobjects.com/zos/k/hb/Tx2PEO.png" width="800" />
 
 **Min: A Minimalist Web Browser**  
 <https://github.com/minbrowser/min>  
-A lightweight, open-source browser that focuses on a distraction-free experience. it’s still in early development, but it shows a lot of promise for minimalism fans.  
+A lightweight, open-source browser that focuses on a distraction-free experience. It’s still in early development, but it shows a lot of promise for minimalism fans.  
 <img src="https://gw.alipayobjects.com/zos/k/wq/TCErzC.jpg" width="800" />
 
 **npkill: Clean up your node_modules**  
@@ -51,11 +51,13 @@ If you’re running low on disk space, try `npx npkill`. it scans your system fo
 ## Just Looking Around
 
 **Liu Run 2022 Annual Speech: Delivering Certainty**  
-In a world defined by "uncertainty," the natural human response is to seek out the familiar. but as Liu Run points out, real opportunity is often hidden within that very uncertainty.
+<https://www.huxiu.com/article/699342.html>  
+In a world defined by "uncertainty," the natural human response is to seek out the familiar. But as Liu Run points out, real opportunity is often hidden within that very uncertainty.
 
 **The Cities Powered by Foxconn**  
+<https://www.huxiu.com/article/699744.html>  
 At its peak, the Foxconn factory in Zhengzhou alone produced half of all iPhones worldwide.
 
 **Must Watch: "San Yue Has a New Job"**  
 <https://movie.douban.com/subject/35637224/>  
-A moving new series that follows a young woman working in a funeral home. it uses the stories of the deceased to reflect on life, growth, and family. the performances are exceptionally sincere.
+A moving new series that follows a young woman working in a funeral home. It uses the stories of the deceased to reflect on life, growth, and family. The performances are exceptionally sincere.

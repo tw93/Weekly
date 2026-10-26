@@ -12,22 +12,22 @@ date: 2023/08/14
 
 **Lessons from Modernizing Packages to ESM**  
 <https://blog.isquaredsoftware.com/2023/08/esm-modernization-lessons/>  
-A detailed account of the pain and lessons learned while migrating the Redux packages to ESM. a great read for anyone managing widespread library dependencies.
+A detailed account of the pain and lessons learned while migrating the Redux packages to ESM. A great read for anyone managing widespread library dependencies.
 
 **HTMX: The Game-Changing Alternative to React**  
 <https://www.youtube.com/watch?v=DuGyH5RvfbY>  
-HTMX paired with AI-assisted coding feels like a powerhouse combination. check out this video for an introduction to the framework.
+HTMX paired with AI-assisted coding feels like a powerhouse combination. Check out this video for an introduction to the framework.
 
 ## Trending Tools
 
 **Sweep: Your AI Junior Developer**  
 <https://github.com/sweepai/sweep>  
-Unlike Copilot, which suggests code line-by-line, Sweep reads your GitHub issues, scans your codebase, and submits full pull requests for features or bug fixes. it’s like having a digital intern for your project.  
+Unlike Copilot, which suggests code line-by-line, Sweep reads your GitHub issues, scans your codebase, and submits full pull requests for features or bug fixes. It’s like having a digital intern for your project.  
 <video width="800px" muted preload autoplay loop><source src="https://cdn.tw93.fun/blog/upic/CCPMgc.mp4" type="video/mp4" poster="https://cdn.tw93.fun/blog/upic/VtPBqw.png"></video>
 
 **MicroSculpture: Examining Insects in HD**  
 <http://microsculpture.net/>  
-Explore high-resolution microscopic photography of insects. the level of detail is incredible—though perhaps one to skip if you have a phobia!  
+Explore high-resolution microscopic photography of insects. The level of detail is incredible—though perhaps one to skip if you have a phobia!  
 <img src="https://cdn.tw93.fun/blog/upic/aKKToP.gif"   width="800" />
 
 **ClearURLs: Clean Your Address Bar**  
@@ -44,8 +44,10 @@ Stunning tilt-shift drone and time-lapse photography that makes famous world cit
 
 **A Comprehensive Reading List for General Knowledge**  
 <https://docs.qq.com/sheet/DY2RmcVVMVE9Qd3JV?tab=BB08J2>  
-A massive collection of over 1000 books across various disciplines, ranging from the core "50 essential reads" to more specialized deep dives.
+A massive collection of over 1000 books across various disciplines, ranging from the core "50 essential reads" to more specialized deep dives.  
+<img src="https://cdn.tw93.fun/blog/upic/ZDzN9K.png"   width="800" />
 
 **Designer's Pocket Psychology (Notion)**  
 <https://iason.notion.site/6719c7650fd1406c92287f556520fbc3>  
-A collection of 53 psychological principles for designers, presented as cards to help brainstorm how human behavior can influence website and app design.
+A collection of 53 psychological principles for designers, presented as cards to help brainstorm how human behavior can influence website and app design.  
+<img src="https://cdn.tw93.fun/blog/upic/KXjBVl.png" width=800 />

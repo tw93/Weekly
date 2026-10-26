@@ -4,7 +4,7 @@ date: 2024/01/29
 
 <img src="https://gw.alipayobjects.com/zos/k/52/163.jpg" width="800" />
 
-<small>The cover photo shows a set of Mahjong tiles I bought last week. they feel as smooth as jade. I'm planning to have my family spend the lunar new year in Hangzhou this year, and Mahjong is the perfect holiday activity.</small>
+<small>The cover photo shows a set of Mahjong tiles I bought last week. They feel as smooth as jade. I'm planning to have my family spend the lunar new year in Hangzhou this year, and Mahjong is the perfect holiday activity.</small>
 
 > **Record the down-to-earth trending technologies seen every week, and publish them here after screening. If you find it good, you can follow this weekly to get update notifications.**
 
@@ -22,6 +22,7 @@ The "GenAI Prism v1.0" by JESS3 and Brian Solis is a comprehensive map of the cu
 ## Trending Tools
 
 **How to make your browser faster**  
+<https://thorium.rocks>  
 Here’s my current setup:
 
 1. Enable "Performance" features in Chromium-based browsers for preloading.
@@ -44,7 +45,7 @@ Another powerful syntax highlighter—great for those who want a fresher look th
 
 **Lectures on Modern Western Thought**  
 <https://book.douban.com/subject/35313227/>  
-I highly recommend Liu Qing's "Lectures on Modern Western Thought." it's great for becoming a more self-aware modern person. I've read it on Kindle and now I'm revisiting the physical book.  
+I highly recommend Liu Qing's "Lectures on Modern Western Thought." It's great for becoming a more self-aware modern person. I've read it on Kindle and now I'm revisiting the physical book.  
 <img src="https://gw.alipayobjects.com/zos/k/4v/IMG_7912.jpg" width="400" />
 
 **Programmer Jokes 😂**  
@@ -54,4 +55,5 @@ Something to share with your partner to see if they'd buy it.
 
 **Podcast: Temu's growth and Colin Huang's philosophy**  
 <https://xiaoyuzhoufm.com/episode/657fc03f991e2ee608f54f98>  
-An insightful episode of "True Imagination" discussing Temu's growth, how its model simplifies logistics, its low-price strategy, and the stages of Chinese enterprises going global.
+An insightful episode of "True Imagination" discussing Temu's growth, how its model simplifies logistics, its low-price strategy, and the stages of Chinese enterprises going global.  
+<img src="https://gw.alipayobjects.com/zos/k/qw/ojRrA5.png" width="800" />

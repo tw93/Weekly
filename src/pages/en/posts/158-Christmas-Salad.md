@@ -16,11 +16,11 @@ Microsoft has released a massive 12-chapter curriculum for anyone looking to get
 
 **Hands-on AI**  
 <https://ai.huhuhang.com/intro>  
-A very thoughtful guide to AI. starting from supervised learning, the author walks through the principles and math behind common algorithms, with corresponding Python implementations.
+A very thoughtful guide to AI. Starting from supervised learning, the author walks through the principles and math behind common algorithms, with corresponding Python implementations.
 
 **Netflix Technology Blog**  
 <https://netflixtechblog.com/>  
-After using Apple TV, I've become more curious about Netflix's engineering. their tech blog is high-quality and updated regularly. definitely worth a subscription.
+After using Apple TV, I've become more curious about Netflix's engineering. Their tech blog is high-quality and updated regularly. Definitely worth a subscription.
 
 ## Trending Tools
 
@@ -35,14 +35,14 @@ Waku is a minimalist React framework with full support for React Server Componen
 
 **gpt-crawler: Content crawling for GPTs**  
 <https://github.com/BuilderIO/gpt-crawler>  
-Crawl websites to generate knowledge files for your custom GPTs. You can crawl your blog to create a "digital twin." it uses Playwright and Crawlee for a simple yet effective implementation.  
+Crawl websites to generate knowledge files for your custom GPTs. You can crawl your blog to create a "digital twin." It uses Playwright and Crawlee for a simple yet effective implementation.  
 <img src="https://cdn.tw93.fun/blog/upic/666rBC.gif" width="800" />
 
 ## Just Looking Around
 
 **Adobe Abandons Acquisition of Figma**  
 <https://www.figma.com/blog/figma-adobe-abandon-proposed-merger/>  
-I personally felt these two weren't a great fit. they officially cited a lack of regulatory approval, which might just be the "polite" way to end the agreement.
+I personally felt these two weren't a great fit. They officially cited a lack of regulatory approval, which might just be the "polite" way to end the agreement.
 
 **Douban 2023 Books of the Year**  
 <https://book.douban.com/annual/2023/>  

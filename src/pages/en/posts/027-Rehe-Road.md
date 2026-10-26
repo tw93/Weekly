@@ -34,7 +34,7 @@ A great guide for filling in the gaps in your knowledge of React’s reactivity 
 
 **Maccy: A Lightweight Clipboard Manager for Mac**  
 <https://github.com/p0deje/Maccy>  
-Keep a persistent history of everything you've copied. simple, fast, and an absolute productivity essential.  
+Keep a persistent history of everything you've copied. Simple, fast, and an absolute productivity essential.  
 <img src="https://cdn.tw93.fun/blog/upic/ELTqbC.gif" width="800" />
 
 **mac-cleanup: Clean Your Mac via the Command Line**  

@@ -26,7 +26,7 @@ Follow this hands-on guide to finally understand Abstract Syntax Trees and how t
 
 **jsii: Cross-Language Interop for JavaScript Classes**  
 <https://github.com/aws/jsii>  
-The magic behind the AWS Cloud Development Kit. it allows you to build a library once in TypeScript and automatically provide idiomatic versions for Go, Java, Python, and more.
+The magic behind the AWS Cloud Development Kit. It allows you to build a library once in TypeScript and automatically provide idiomatic versions for Go, Java, Python, and more.
 
 ```js
 // TypeScript source
@@ -63,10 +63,13 @@ A new, high-performance editor framework from the Meta team designed for accessi
 ## Just Looking Around
 
 **Is the Era of Nike and Adidas in China Ending?**  
-While Adidas' global revenue grew by 15%, it only saw 3% growth in Greater China. Nike’s revenue in the region dropped by 11% over the first nine months. local brands are gaining serious ground.
+<https://mp.weixin.qq.com/s/HC7c9Yj147oDZvWWOvqzow>  
+While Adidas' global revenue grew by 15%, it only saw 3% growth in Greater China. Nike’s revenue in the region dropped by 11% over the first nine months. Local brands are gaining serious ground.
 
 **Why Fujian’s GDP Per Capita is Now 4th in China**  
+<https://mp.weixin.qq.com/s/HnJ941s6aP7FZVkyj2c45A>  
 A surprising look at how Fujian has climbed to 4th place, trailing only Beijing, Shanghai, and Jiangsu—surpassing even Zhejiang and Guangdong.
 
 **What are the U.S. Tech Giants Up To?**  
+<https://mp.weixin.qq.com/s/lO4SegxnI1jqL1tGHsyQ6A>  
 A comparative look at Microsoft, Apple, Google, and Amazon, with a rather sharp critique of Meta’s current direction.

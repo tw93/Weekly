@@ -12,7 +12,7 @@ date: 2022/10/04
 
 **The Complete Guide to React Re-renders**  
 <https://mp.weixin.qq.com/s/SH7N2f5ZhUhysQ7_G2s9rQ>  
-What exactly is a re-render? which ones are necessary and which ones are just wasting cycles? if you’ve ever been confused about React performance, this article has the answers.
+What exactly is a re-render? Which ones are necessary and which ones are just wasting cycles? If you’ve ever been confused about React performance, this article has the answers.
 
 **React, I Love You, But You’re Bringing Me Down**  
 <https://marmelab.com/blog/2022/09/20/react-i-love-you.html>  
@@ -35,11 +35,11 @@ Several developers have already built some very clever functional demos using Ap
 
 **Web-Clipper: Save the Web to your Notes**  
 <https://github.com/webclipper/web-clipper>  
-A powerful extension for clipping web content directly to Notion, Bear, Yuque, and more. it’s a great foundation if you’re looking to build your own information archiving tool.
+A powerful extension for clipping web content directly to Notion, Bear, Yuque, and more. It’s a great foundation if you’re looking to build your own information archiving tool.
 
 **Qwik: HTML-First Frontend Framework**  
 <https://github.com/BuilderIO/qwik>  
-A revolutionary framework that delivers only 1KB of JS to start. its "resumability" concept is a fascinating look at the future of web performance.
+A revolutionary framework that delivers only 1KB of JS to start. Its "resumability" concept is a fascinating look at the future of web performance.
 
 **Homepage: A Highly Customizable Dashboard**  
 <https://github.com/benphelps/homepage>  
@@ -50,14 +50,24 @@ Perfect for a personal start page or a monitoring dashboard for all your self-ho
 
 **Auctioning 1 BTC in 2011**  
 <https://www.v2ex.com/t/13582>  
-A 10-year-old V2EX thread where the site’s founder auctioned off 1 BTC he mined. it was eventually bought by a lucky user for just 65 RMB.
+A 10-year-old V2EX thread where the site’s founder auctioned off 1 BTC he mined. It was eventually bought by a lucky user for just 65 RMB.
 
-**Why People Don’t Switch from Android/iPhone**  
-A pair of matching threads on the friction of switching ecosystems. for me, it’s the seamless convenience of the Apple "Garden" that makes leaving so difficult.
+**2022: What Keeps You from Leaving Android?**  
+<https://www.v2ex.com/t/881790>  
+Worth a look for iPhone users, it may shift your view a little.
+
+**2022: What Keeps You from Leaving iPhone?**  
+<https://www.v2ex.com/t/881633>  
+Haha, there is even a sister thread, so much fun. For me, it’s the seamless convenience of the Apple "Garden" that makes leaving so difficult.
 
 **How to Beat Burnout and Stay Focused**  
 <https://sspai.com/post/75687>  
 My personal trick: keep records, reflect often, and spend as much time as possible on the things you truly care about.
 
+**Do Electric Cars Last Longer than Gas Cars?**  
+<https://www.zhihu.com/question/552123306>  
+Plenty of people still believe an EV cannot be driven for many years, which turns out to be a misconception.
+
 **Living the "Digital Minimalist" Life**  
-A huxiu article on the growing trend of reducing screen time. as Liang Haiyuan joked, "I can go without food or toilet paper, but I’ll wait for my phone to charge before going to the bathroom."
+<https://www.huxiu.com/article/670591.html>  
+A huxiu article on the growing trend of reducing screen time. As Liang Haiyuan joked, "I can go without food or toilet paper, but I’ll wait for my phone to charge before going to the bathroom."

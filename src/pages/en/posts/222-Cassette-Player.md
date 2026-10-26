@@ -41,7 +41,8 @@ I've been reading this lately; it's a very readable investment learning book. Hi
 
 **How to improve product conversion while maintaining a good user experience?**  
 <https://www.uisdc.com/ux-rights-balance>  
-User guidance shouldn't be a "gentle trap" but a "clear invitation." Product design shouldn't be about "making you take the bait" but "making you willing to stay." In this era where experience is king and trust is scarce, designers should ask themselves: Is this path fair? Does the user understand and agree? Can they change their mind at any time? If the answer is "yes," you're doing "benign design."
+User guidance shouldn't be a "gentle trap" but a "clear invitation." Product design shouldn't be about "making you take the bait" but "making you willing to stay." In this era where experience is king and trust is scarce, designers should ask themselves: Is this path fair? Does the user understand and agree? Can they change their mind at any time? If the answer is "yes," you're doing "benign design."  
+<img src="https://cdn.tw93.fun/blog/upic/ZjjjGl22.png" width="800" />
 
 **Working principle of a cassette recorder**  
 <https://g.co/gemini/share/447c46b00acc>  

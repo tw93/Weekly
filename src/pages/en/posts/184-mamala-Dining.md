@@ -4,7 +4,7 @@ date: 2024/07/08
 
 <img src="https://gw.alipayobjects.com/zos/k/1e/184.jpg" width="800" />
 
-<small>The cover photo shows a meal at mamala, a Western restaurant at Grand Canal Place in Hangzhou. it was less crowded than usual—maybe due to the extreme heat. The views from the second floor are great, and the food is excellent. Perfect for a special occasion.</small>
+<small>The cover photo shows a meal at mamala, a Western restaurant at Grand Canal Place in Hangzhou. It was less crowded than usual—maybe due to the extreme heat. The views from the second floor are great, and the food is excellent. Perfect for a special occasion.</small>
 
 > **Record the down-to-earth trending technologies seen every week, and publish them here after screening. If you find it good, you can follow this weekly to get update notifications.**
 
@@ -12,22 +12,22 @@ date: 2024/07/08
 
 **I've switched back to wired headphones**  
 <https://tw93.fun/2024-05-08/sony.html>  
-I've consolidated my thoughts on wired headphones, the performance of the Sony MV1, some great demo discs, and must-hear Chinese albums into this blog post. check it out if you're interested.  
+I've consolidated my thoughts on wired headphones, the performance of the Sony MV1, some great demo discs, and must-hear Chinese albums into this blog post. Check it out if you're interested.  
 <img src="https://img.alicdn.com/imgextra/i2/O1CN010DShe61OIP9RpCjWx_!!6000000001682-0-tps-3658-2744.jpg" width="800" />
 
 **Ice: A simple and useful Mac menu bar manager**  
 <https://icemenubar.app/>  
-Found a great, simple tool for hiding Mac menu bar items. it's much better than the rarely-updated Dozer or HiddenBar, and less complex than Bartender. I love that it can completely hide items you never want to see, and supports auto-show on hover. The developer is actively updating it.  
+Found a great, simple tool for hiding Mac menu bar items. It's much better than the rarely-updated Dozer or HiddenBar, and less complex than Bartender. I love that it can completely hide items you never want to see, and supports auto-show on hover. The developer is actively updating it.  
 <img src="https://gw.alipayobjects.com/zos/k/1z/12.gif" width="800" />
 
 **Twitter AI List: "AI Leaders"**  
 <https://x.com/i/lists/1278784207641284609>  
-If you want the latest AI news, follow this "AI Leaders" list on Twitter. it's several days faster than domestic translations/reposts. you can pin it to your lists for easy access.  
+If you want the latest AI news, follow this "AI Leaders" list on Twitter. It's several days faster than domestic translations/reposts. You can pin it to your lists for easy access.  
 <img src="https://gw.alipayobjects.com/zos/k/mu/SCR-20240707-uffx.png" width="800" />
 
 **Planka: Open-source Trello-like Kanban tool**  
 <https://plankanban.github.io/planka/#/boards/745664150193046535>  
-If you like kanban boards, try Planka. it's very polished and includes multi-member management. you could even set it up for a small team to use directly.  
+If you like kanban boards, try Planka. It's very polished and includes multi-member management. You could even set it up for a small team to use directly.  
 <img src="https://gw.alipayobjects.com/zos/k/fj/SCR-20240630-tamn.png" width="800" />
 
 ## Technical Learning
@@ -51,5 +51,5 @@ A hilarious Korean drama with a 9.2 Douban rating. Probably the funniest K-drama
 
 **Funniest video I've seen lately**  
 <https://www.xiaohongshu.com/explore/665003330000000015011f29>  
-Found this series "Can you marry this boy?" by "Wang Wang Cousin" on Xiaohongshu. Very funny, though I recommend just taking it as comedy.  
+Found this series "Can you marry this boy?" By "Wang Wang Cousin" on Xiaohongshu. Very funny, though I recommend just taking it as comedy.  
 <img src="https://gw.alipayobjects.com/zos/k/e7/SCR-20240707-unxu.png" width="800" />

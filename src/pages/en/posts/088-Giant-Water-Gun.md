@@ -16,11 +16,11 @@ A look at the security flaws of traditional passwords and how the WebAuthn stand
 
 **Bun: The New JS Runtime Challenging Node and Deno**  
 <https://juejin.cn/post/7120179470136246309>  
-Bun has been making waves recently. here’s a solid introduction to help you get started and understand why everyone is talking about it.
+Bun has been making waves recently. Here’s a solid introduction to help you get started and understand why everyone is talking about it.
 
 **How ESLint Works Under the Hood**  
 <https://mp.weixin.qq.com/s/0MGRKzCoPM_jn--ttb7b9Q>  
-A technical breakdown of the core mechanisms of ESLint. understanding the engine can help you write much better custom rules.
+A technical breakdown of the core mechanisms of ESLint. Understanding the engine can help you write much better custom rules.
 
 **How iOS 16 Speeds Up App Launches**  
 <https://www.emergetools.com/blog/posts/iOS16LaunchTime>  
@@ -40,34 +40,36 @@ The benchmarks are staggering. Honestly, I might have started learning this just
 
 **Vite 3.0 is out!**  
 <https://vitejs.dev/blog/announcing-vite3.html>  
-Vite 3.0 has arrived with internal improvements and a new doc site. it’s incredible how fast this ecosystem is moving.
+Vite 3.0 has arrived with internal improvements and a new doc site. It’s incredible how fast this ecosystem is moving.
 
 **Traditional Chinese and Japanese Color Palettes**  
 <https://tool.chinaz.com/tools/cj>  
-I was looking for theme inspiration for my editor over the weekend and found this fantastic tool. it’s a beautifully curated set of traditional colors.  
+I was looking for theme inspiration for my editor over the weekend and found this fantastic tool. It’s a beautifully curated set of traditional colors.  
 <img src="https://gw.alipayobjects.com/zos/k/sc/Ev2SCr.jpg" width="800" />
 
 **Rustlings: Hands-on Rust Exercises**  
 <https://github.com/rust-lang/rustlings>  
-The best way to learn Rust is to fix broken code. this repo is the gold standard for getting your feet wet with the language.
+The best way to learn Rust is to fix broken code. This repo is the gold standard for getting your feet wet with the language.
 
 **The legendary "kkndme" Property Prediction**  
-A legendary thread from Tianya back in the day that predicted China’s housing market trends with uncanny accuracy. still a fascinating read for context.
+<https://github.com/shengcaishizhan/kkndme_tianya>  
+A legendary thread from Tianya back in the day that predicted China’s housing market trends with uncanny accuracy. Still a fascinating read for context.
 
 ## Just Looking Around
 
 **Nothing Phone (1): A Fresh Take on Design**  
 <https://hk.nothing.tech/>  
-The Nothing Phone has been capturing a lot of attention with its transparent "Glyph" interface. it’s a very geeky, unique piece of hardware—definitely check out some unboxings.  
+The Nothing Phone has been capturing a lot of attention with its transparent "Glyph" interface. It’s a very geeky, unique piece of hardware—definitely check out some unboxings.  
 <img src="https://gw.alipayobjects.com/zos/k/x8/3rkjEi.jpg" width="800" />
 
 **The Skeleton Key (2005)**  
 <https://movie.douban.com/subject/1418752/>  
-I watched this thriller over the weekend and loved it. if you’re a fan of atmospheric horror with a great twist, don’t miss it.
+I watched this thriller over the weekend and loved it. If you’re a fan of atmospheric horror with a great twist, don’t miss it.
 
 **The Face ID Fraud Issue**  
-A report on how hackers are using open-source tools to simulate facial movements from photos, successfully bypassing identity verification on some platforms. a sobering reminder of the limits of biometric security.
+<https://finance.sina.com.cn/money/bank/gsdt/2022-07-06/doc-imizmscv0377623.shtml>  
+A report on how hackers are using open-source tools to simulate facial movements from photos, successfully bypassing identity verification on some platforms. A sobering reminder of the limits of biometric security.
 
 **Common Health Issues for Programmers**  
 <https://web.archive.org/web/20100815083705/http://sheddingbikes.com/posts/1281257293.html>  
-The classics: move more, drink water, and fix your posture. a timeless reminder for anyone who sits at a desk all day.
+The classics: move more, drink water, and fix your posture. A timeless reminder for anyone who sits at a desk all day.

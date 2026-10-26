@@ -18,12 +18,12 @@ Did you know you can use `navigator.getBattery()` in the browser to check chargi
 
 **Hacker News: Best Lectures You've Seen**  
 <https://news.ycombinator.com/item?id=34591291>  
-A great thread on the most impactful lectures across technical and other fields. plenty of high-quality content to browse.  
+A great thread on the most impactful lectures across technical and other fields. Plenty of high-quality content to browse.  
 <img src="https://cdn.tw93.fun/blog/upic/TJxrbc.png" width="800" />
 
 **Bento Box Design Trend**  
 <https://mp.weixin.qq.com/s/pXePIwnERlZSUSHqNO_GFQ>  
-A look at the popular "Bento" style design layout. it's visually appealing but requires careful execution.  
+A look at the popular "Bento" style design layout. It's visually appealing but requires careful execution.  
 <img src="https://cdn.tw93.fun/blog/upic/FQiLFN.png" width="800" />
 
 ## Trending Tools
@@ -35,23 +35,24 @@ If you want responsive, beautiful emails that don't break across different clien
 
 **iPhone 15 Pro 3D Mockups**  
 <https://figma.com/community/file/1303247171848616022>  
-High-quality 3D mockups for the iPhone 15 Pro, available for free on Figma.
+High-quality 3D mockups for the iPhone 15 Pro, available for free on Figma.  
+<img src="https://cdn.tw93.fun/blog/upic/Tb5gf7.png" width="800" />
 
 **GPTs "Leaked" Prompts**  
 <https://github.com/linexjlin/GPTs>  
-A collection of system prompts from various popular GPTs. it's like learning secret "magic spells."  
+A collection of system prompts from various popular GPTs. It's like learning secret "magic spells."  
 <img src="https://cdn.tw93.fun/blog/upic/6vz9HO.png" width="800" />
 
 **Clipdrop: AI Image Toolkit**  
 <https://clipdrop.co/>  
-A suite of AI image processing tools including Stable Diffusion generation, background removal, lighting optimization, and more. the free tier is quite generous.  
+A suite of AI image processing tools including Stable Diffusion generation, background removal, lighting optimization, and more. The free tier is quite generous.  
 <img src="https://cdn.tw93.fun/blog/upic/Ktv5Fz.png" width="800" />
 
 ## Just Looking Around
 
 **First Ruling on AI Image Copyright**  
 <https://mp.weixin.qq.com/s/Wu3-GuFvMJvJKJobqqq7vQ>  
-A landmark case from the Beijing Internet Court regarding copyright infringement of AI-generated images. worth a read for anyone following the legal side of AI.
+A landmark case from the Beijing Internet Court regarding copyright infringement of AI-generated images. Worth a read for anyone following the legal side of AI.
 
 **2023 Design Tools Survey**  
 <https://uxtools.co/survey/2023/demographics>  

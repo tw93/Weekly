@@ -16,7 +16,7 @@ An interesting exploration of niche CSS properties that allow for dynamic, acces
 
 **iOS Symbolication: From Basic to Advanced**  
 <https://juejin.cn/post/7084044616864890893>  
-If you’re new to iOS development, crash logs can be intimidating. this guide helps you make sense of those mysterious symbols.
+If you’re new to iOS development, crash logs can be intimidating. This guide helps you make sense of those mysterious symbols.
 
 **GIF: A Slice of Internet History**  
 <https://mp.weixin.qq.com/s/_-3FsN-jDyxaqSSW7hUibw>  
@@ -26,7 +26,7 @@ A look back at why the GIF format became so dominant and how it has shaped the w
 
 **Warp: The 21st Century Terminal**  
 <https://www.warp.dev/>  
-Built with Rust, Warp rethinks the terminal experience with modern UI/UX and collaborative features. definitely worth a try if you’re looking for something fresh.  
+Built with Rust, Warp rethinks the terminal experience with modern UI/UX and collaborative features. Definitely worth a try if you’re looking for something fresh.  
 <img src="https://gw.alipayobjects.com/zos/k/0w/Yg2yuf.jpg" width="800" />
 
 **pkg: Package Node Projects into stand-alone Executables**  
@@ -46,10 +46,13 @@ A powerful extension that uses Vite and esbuild to provide real-time, high-fidel
 ## Just Looking Around
 
 **Why a Simple Terminal Startup Raised $23M**  
+<https://mp.weixin.qq.com/s/KOVqdCnf73ptg8dmLYf5Aw>  
 A deeper look at Warp’s recent Series A and why investors believe there’s massive value in disrupting the age-old terminal interface.
 
 **Evaluating Huawei’s 2022 Financials**  
+<https://www.huxiu.com/article/522309.html>  
 Huawei is doubling down on future tech: Cloud, AI, and smart automotive components are the main pillars of their long-term strategy.
 
 **Mastering the Hotel Experience: A Guide for Frequent Travelers**  
+<https://mp.weixin.qq.com/s/7Ucfy91YaWmFa2li76fqUQ>  
 The pandemic has decimated the travel industry, but it’s also led to some very creative loyalty programs and business models in the hotel space.

@@ -22,7 +22,7 @@ Save configurations to reuse, preview file changes with a dry run before syncing
 
 **OpenDisplay: an open-source alternative to Sidecar / Duet**
 <https://github.com/peetzweg/opendisplay>
-Turn a spare iPhone, iPad, or Mac into a second screen for your Mac, with a proper extended desktop, not just mirroring. iPhone and iPad support USB or Wi-Fi connections and touch input. It's free and open source, so give it a try if you have a spare device around.
+Turn a spare iPhone, iPad, or Mac into a second screen for your Mac, with a proper extended desktop, not just mirroring. IPhone and iPad support USB or Wi-Fi connections and touch input. It's free and open source, so give it a try if you have a spare device around.
 <img src="https://cdn.fliggy.com/pic/rQHnuy25.png" width="800" />
 
 **Runner: orchestrate coding agents in a native terminal**

@@ -66,7 +66,9 @@ fs.writeFileSync("HelloWorld.txt", "hi!")
 Over 13% of the population in China has elevated uric acid levels, often without knowing it until it’s too late. A guide on how to stay ahead of gout.
 
 **What is everyone using for Todo lists these days?**  
-A V2EX thread on productivity tools. surprisingly many people are using TickTick—and the comments on the brand name are hilarious.
+<https://www.v2ex.com/t/851277>  
+A V2EX thread on productivity tools. Surprisingly many people are using TickTick—and the comments on the brand name are hilarious.
 
 **I Can’t Bring Myself to Look at my 2019 Moments…**  
+<https://mp.weixin.qq.com/s/xs4Fj--fR54EGrSmsdDU_A>  
 A reflection on how much has changed in just a few years. I really miss the energy of live rock concerts!

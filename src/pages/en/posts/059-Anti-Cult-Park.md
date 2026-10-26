@@ -58,6 +58,7 @@ A discussion on how a pragmatism-heavy culture might be impacting the quality an
 The actual year-end recap from Bill Gates. Always a worthwhile read for a broader global perspective.
 
 **The "10 Clarifications" from the CPC Plenary Session**  
+<https://dzrb.dzng.com/articleContent/4796_938637.html>  
 "The principal contradiction facing Chinese society in the new era is that between unbalanced and inadequate development and the people's ever-growing need for a better life." Statements that used to feel abstract are starting to make more sense now.
 
 **2021 Mixology Recap**  

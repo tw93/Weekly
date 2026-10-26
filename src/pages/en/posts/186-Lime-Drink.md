@@ -12,7 +12,7 @@ date: 2024/07/22
 
 **React Flow: Most suitable library for AI workflows**  
 <https://reactflow.dev/>  
-`React Flow` is currently the most suitable base library for building AI workflows. For front-end developers with an eye for design, it can create refined and easy-to-use node editors. if you've used it or know of a better alternative, feel free to share your results with me.  
+`React Flow` is currently the most suitable base library for building AI workflows. For front-end developers with an eye for design, it can create refined and easy-to-use node editors. If you've used it or know of a better alternative, feel free to share your results with me.  
 <img src="https://gw.alipayobjects.com/zos/k/vw/SCR-20240714-orvu.png" width="800" />
 
 **SocialScreenshots: Easy social media screenshot tool**  
@@ -34,16 +34,17 @@ This community version of the Apple CarPlay design system is very pleasing to th
 
 **89 things I know about Git commits**  
 <https://jvt.me/posts/2024/07/12/things-know-commits/>  
-An excellent consolidation of 89 tips from 12 years of experience with Git commits. a great read for anyone wanting to master Git.  
+An excellent consolidation of 89 tips from 12 years of experience with Git commits. A great read for anyone wanting to master Git.  
 <img src="https://gw.alipayobjects.com/zos/k/4a/SCR-20240714-nmmf.png" width="800" />
 
 **Basics | Multi-threading and Synchronization**  
 <https://tech.meituan.com/2024/07/19/multi-threading-and-multi-thread-synchronization.html>  
-An article from Meituan Tech exploring the core concepts of multi-threading: atomic operations, CAS, Lock-free, memory barriers, false sharing, out-of-order execution, and more. it includes specific code examples to help developers mast these technologies for better performance and stability.
+An article from Meituan Tech exploring the core concepts of multi-threading: atomic operations, CAS, Lock-free, memory barriers, false sharing, out-of-order execution, and more. It includes specific code examples to help developers mast these technologies for better performance and stability.
 
 ## Random Notes
 
 **Haha, the difference is that big?**  
+<https://www.douban.com/people/156787146/status/4654100941/>  
 Saw this on Douban—light and bitter, like a Chinese medicine that tastes bad but doesn't actually work. Hahaha.  
 <img src="https://gw.alipayobjects.com/zos/k/7v/535shots_so.jpeg" width="800" />
 

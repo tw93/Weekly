@@ -12,7 +12,7 @@ date: 2022/09/06
 
 **Deep Dive into Webpack Source Map Configurations**  
 <https://mp.weixin.qq.com/s/0Sq9Z0i9Q3N0likFlZB0rQ>  
-Before you read this, can you name the different source map modes in Webpack? this article explains the principles behind each one and how to choose the right one for your project.
+Before you read this, can you name the different source map modes in Webpack? This article explains the principles behind each one and how to choose the right one for your project.
 
 **Eliminating "Script Error" Once and For All**  
 <https://mp.weixin.qq.com/s/lnvd8ii58jyR3u-aDvq_9A>  
@@ -26,7 +26,7 @@ Learn how to implement Next.js-style conventional routing in your Vite projects 
 
 **lizhi-app: The Unofficial Li Zhi Music Player**  
 <https://github.com/turkyden/lizhi-app>  
-A beautiful collector’s app for fans of the Nanjing musician Li Zhi. it includes a full player and download capabilities for his curated discography.  
+A beautiful collector’s app for fans of the Nanjing musician Li Zhi. It includes a full player and download capabilities for his curated discography.  
 <img src="https://gw.alicdn.com/imgextra/i1/O1CN01VVAab71YzaSgI4qy5_!!6000000003130-2-tps-3016-1742.png" width="800" />
 
 **lotion: Notion UI Reimagined in Vue 3**  
@@ -46,13 +46,17 @@ A collection of incredible CSS tricks and techniques. CSS is truly what sets fro
 ## Just Looking Around
 
 **24 Hours of Remorse: My Experience with a WeChat Ban**  
+<https://sspai.com/post/75353>  
 An account of what happens when your primary social app gets restricted and the lessons learned about digital dependency.
 
 **The Fallout of the Shopee Offer Rescissions**  
-Shopee’s sudden decision to pull offers from new hires—some of whom had already landed in Singapore with their families—has sparked massive debate. a sobering look at the volatility of the tech market.
+<https://www.huxiu.com/article/647364.html>  
+Shopee’s sudden decision to pull offers from new hires—some of whom had already landed in Singapore with their families—has sparked massive debate. A sobering look at the volatility of the tech market.
 
 **The Struggle to Prepay Mortgages**  
-With interest rates shifting, many homeowners are trying to pay off their loans early, only to find banks putting up various hurdles. we look at the financial logic and social friction behind this trend.
+<https://www.huxiu.com/article/641686.html>  
+With interest rates shifting, many homeowners are trying to pay off their loans early, only to find banks putting up various hurdles. We look at the financial logic and social friction behind this trend.
 
 **The Decline of "Expert" Authority**  
+<https://www.huxiu.com/article/647304.html>  
 A critique of the out-of-touch advice often given by "experts" on social media and how it’s damaging public trust in academic and professional opinion.

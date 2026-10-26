@@ -43,7 +43,7 @@ Truly impressive—clone your voice within 5 seconds and generate any speech con
 
 **tempura: A Lightweight and "Delicious" Template Engine 🍤**  
 <https://github.com/lukeed/tempura>  
-Using a tempura emoji in a dev project is such a vibe. the syntax is clean and very intuitive.
+Using a tempura emoji in a dev project is such a vibe. The syntax is clean and very intuitive.
 
 ```html
 {{#if count == 0}}

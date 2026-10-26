@@ -77,9 +77,10 @@ A technical tour-de-force on patching compiled machine code when you don't have 
 
 **Why is Airline Food Getting Worse?**  
 <https://www.huxiu.com/article/440281.html>  
-I agree—beef or chicken? beef or chicken? even the names sound tired. Check out the [Zhihu discussion](https://www.zhihu.com/question/35768349) for some legendary bad meals.
+I agree—beef or chicken? Beef or chicken? Even the names sound tired. Check out the [Zhihu discussion](https://www.zhihu.com/question/35768349) for some legendary bad meals.
 
 **The "Iron Fist" of Regulation on App Pop-up Ads**  
+<https://www.miit.gov.cn/xwdt/gxdt/sjdt/art/2021/art_71269fd7c4de4182836e4ddf1863ad30.html>  
 The Ministry of Industry and Information Technology is finally cracking down on the aggressive pop-up behavior that plague mobile apps. Hopefully, my post on ["Why Apps from Two Years Ago Felt Better"](https://zhuanlan.zhihu.com/p/384811471) will soon be a relic of the past.
 
 **Why Use Go? What are the Advantages?**  

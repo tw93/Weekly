@@ -24,7 +24,7 @@ A blogger's breakdown of this year's competition problems. See how much of your 
 
 **GitHub Copilot Workspace: A local environment for Copilot**  
 <https://github.blog/2024-04-29-github-copilot-workspace/>  
-The integration with GitHub feels incredibly natural and smooth. definitely worth studying this workflow.
+The integration with GitHub feels incredibly natural and smooth. Definitely worth studying this workflow.
 
 ## Trending Tools
 
@@ -35,7 +35,7 @@ An open-source tool that puts your Apple Reminders in the menu bar. The interact
 
 **Belly Book: Log your meals with AI**  
 <https://bellybook.cn/>  
-A beautifully designed iOS app that uses AI to log your daily meals by photo, showing nutrition and calories. it's perfect for health monitoring with a very "human" touch. An history of your appetite.  
+A beautifully designed iOS app that uses AI to log your daily meals by photo, showing nutrition and calories. It's perfect for health monitoring with a very "human" touch. An history of your appetite.  
 <img src="https://gw.alipayobjects.com/zos/k/4w/27nYe8.jpg" width="800" />
 
 **Madaha Translate: A fun way to learn English**  

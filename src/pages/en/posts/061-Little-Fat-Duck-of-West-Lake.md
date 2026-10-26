@@ -66,10 +66,13 @@ An impressive release from Tencent that supports major frontend stacks including
 ## Just Looking Around
 
 **The 2021 China Gaming Industry Report**  
-Growth is slowing down significantly. facing a 9-month freeze on new game licenses, the industry is seeing its lowest growth since 2018.
+<https://www.36kr.com/p/1529590053941640>  
+Growth is slowing down significantly. Facing a 9-month freeze on new game licenses, the industry is seeing its lowest growth since 2018.
 
 **The "Involuted" World: Korea’s Current Reality**  
+<https://zhuanlan.zhihu.com/p/444286151>  
 A staggering statistic: over 50% of people in their 60s, and 30% of those over 70, still need to work to support themselves in South Korea.
 
 **Why are Japanese Semiconductor Materials So Dominant?**  
+<https://mp.weixin.qq.com/s/ivClQYyK6y2MaT7lxnOjew>  
 A look at the long-term specialized expertise that makes Japanese suppliers essential to the global chip industry.

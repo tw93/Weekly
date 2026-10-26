@@ -44,7 +44,7 @@ If you haven't used `background-clip: text`, you're missing out on some incredib
 
 **Nodes: Build 3D Objects with Logic Nodes**  
 <https://nodes.io/>  
-A visual programming platform for creating 3D content. even if you’re not a 3D expert, you can quickly build and tweak impressive scenes.  
+A visual programming platform for creating 3D content. Even if you’re not a 3D expert, you can quickly build and tweak impressive scenes.  
 <img src="https://gw.alipayobjects.com/zos/k/hg/HULoNC.jpg" width="800" />
 
 **speed-highlight: Lightweight JS Syntax Highlighting**  
@@ -64,6 +64,7 @@ A very effective tool for parsing Photoshop files, including layer information, 
 ## Just Looking Around
 
 **China's 2021 Statistical Report**  
+<http://www.stats.gov.cn/tjsj/zxfb/202202/t20220227_1827960.html>  
 An essential read for anyone looking to understand the macroeconomic and social development trends of the past year.
 
 **The Unique Engineering Culture of Facebook**  
@@ -71,4 +72,5 @@ An essential read for anyone looking to understand the macroeconomic and social 
 A seven-year retrospective on what makes the culture at Meta different from other major tech firms.
 
 **Why Apple’s $150 Charging Cable is Actually Reasonable**  
+<https://www.ifanr.com/1476416>  
 A technical look at what goes into a high-end Thunderbolt cable. (Though I’m still not buying one yet!)

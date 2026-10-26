@@ -4,7 +4,7 @@ date: 2024/08/05
 
 <img src="https://gw.alipayobjects.com/zos/k/2b/188.jpg" width="800" />
 
-<small>The cover photo was taken after finishing work early on Friday. The sky looked like an ink wash painting—beautiful. it instantly brightened my mood; perhaps this is what contentment feels like.</small>
+<small>The cover photo was taken after finishing work early on Friday. The sky looked like an ink wash painting—beautiful. It instantly brightened my mood; perhaps this is what contentment feels like.</small>
 
 > **Record the down-to-earth trending technologies seen every week, and publish them here after screening. If you find it good, you can follow this weekly to get update notifications.**
 
@@ -12,22 +12,22 @@ date: 2024/08/05
 
 **Trending Weekly now supports Dark Mode! 🤣**  
 <https://weekly.tw93.fun/>  
-Go try the toggle button in the bottom right corner. it's perfect for night reading or for users who stay in a system dark theme but want a bright reading experience. switch as you like!  
+Go try the toggle button in the bottom right corner. It's perfect for night reading or for users who stay in a system dark theme but want a bright reading experience. Switch as you like!  
 <video width="800px" preload loop autoplay muted><source src="https://gw.alipayobjects.com/os/k/9h/weekly.mp4" type="video/mp4"></video>
 
 **Sink: A solid open-source short link tool**  
 <https://sink.cool/>  
-Found `Sink` on GitHub—a solid open-source short link tool with visit analytics. it's simple, fast, and secure. you can deploy it directly on Cloudflare. Give it a try.  
+Found `Sink` on GitHub—a solid open-source short link tool with visit analytics. It's simple, fast, and secure. You can deploy it directly on Cloudflare. Give it a try.  
 <img src="https://gw.alipayobjects.com/zos/k/fe/xeIu3H.png" width="800" />
 
 **Beautiful chart library by shadcn/ui**  
 <https://ui.shadcn.com/charts>  
-My favorite UI library, shadcn/ui, has released a beautiful chart library. I love its pure, minimalist modern feel. it offers multiple color schemes and code snippets that are easy to copy and use.  
+My favorite UI library, shadcn/ui, has released a beautiful chart library. I love its pure, minimalist modern feel. It offers multiple color schemes and code snippets that are easy to copy and use.  
 <img src="https://gw.alipayobjects.com/zos/k/ov/SCR-20240728-thui.png" width="800" />
 
 **litegraph.js for graph-based node editors**  
 <https://github.com/jagenjo/litegraph.js>  
-I noticed ComfyUI uses `litegraph.js` for its node relations. it's very suitable for graph-based production scenarios. it has its own HTML5 Canvas2D editor and feels a bit more "industrial" than React Flow. both have their strengths.  
+I noticed ComfyUI uses `litegraph.js` for its node relations. It's very suitable for graph-based production scenarios. It has its own HTML5 Canvas2D editor and feels a bit more "industrial" than React Flow. Both have their strengths.  
 <img src="https://gw.alipayobjects.com/zos/k/ge/E7eqY1.png" width="800" />
 
 ## Technical Learning

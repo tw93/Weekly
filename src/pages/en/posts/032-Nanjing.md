@@ -83,4 +83,6 @@ An interview with the product manager of the viral note-taking app flomo on his 
 Ruan Yifeng’s notes on Huang Qifan’s book "Analysis and Reflection." It’s a masterclass in understanding the economic forces shaping the region.
 
 **The Death of App Deep-Linking from WeChat Mini Programs**  
-WeChat recently disabled the ability for Mini Programs to open external apps directly. While some see it as a move against "over-marketing," I find this level of ecosystem siloing detrimental to the open web.
+<https://www.zhihu.com/question/459459278>  
+WeChat recently disabled the ability for Mini Programs to open external apps directly. While some see it as a move against "over-marketing," I find this level of ecosystem siloing detrimental to the open web.  
+<img src="https://cdn.tw93.fun/blog/upic/2zJmrp.jpg" width="800">

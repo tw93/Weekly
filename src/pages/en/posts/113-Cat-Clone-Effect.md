@@ -12,7 +12,7 @@ date: 2023/01/16
 
 **Top Pens of 2022 on CodePen**  
 <https://codepen.io/2022/popular/pens/>  
-The annual CodePen "Top 100" is always a highlight. it’s a fantastic collection of creative frontend experiments from the past year.
+The annual CodePen "Top 100" is always a highlight. It’s a fantastic collection of creative frontend experiments from the past year.
 
 **Top Front-End Tools of 2022**  
 <https://www.smashingmagazine.com/2023/01/top-frontend-tools-2022/>  
@@ -26,17 +26,17 @@ A look forward at the design aesthetics and technical trends that will define th
 
 **FUTUREPEDIA: The Ultimate AI Tool Directory**  
 <https://www.futurepedia.io/>  
-A massive, frequently updated database of AI tools. it covers everything from writing and voice generation to game assets and data analytics. a great place to stay ahead of the AI curve.  
+A massive, frequently updated database of AI tools. It covers everything from writing and voice generation to game assets and data analytics. A great place to stay ahead of the AI curve.  
 <img src="https://gw.alipayobjects.com/zos/k/dd/TinySnap-2023-01-15-22.13.19.png" width="800" />
 
 **Auto Group Tabs: Keep your Tabs Organized**  
 <https://chrome.google.com/webstore/detail/auto-group-tabs/mnolhkkapjcaekdgopmfolekecfhgoob/related>  
-A life-saver for "tab hoarders." it automatically groups your open browser tabs based on domain or category, keeping your workspace clean and manageable.  
+A life-saver for "tab hoarders." It automatically groups your open browser tabs based on domain or category, keeping your workspace clean and manageable.  
 <img src="https://gw.alipayobjects.com/zos/k/s6/TinySnap-2023-01-15-22.14.26.png" width="800" />
 
 **The Algorithms: Open Source Learning Library**  
 <https://the-algorithms.com/zh_Hans>  
-A comprehensive repository of algorithms implemented in almost every major programming language. it covers everything from basic sorting to complex data structures and image processing.  
+A comprehensive repository of algorithms implemented in almost every major programming language. It covers everything from basic sorting to complex data structures and image processing.  
 <img src="https://gw.alipayobjects.com/zos/k/hu/BFyTMl.jpg" width="800" />
 
 **AlleyRead: Curated Newsletters**  
@@ -48,14 +48,15 @@ A collection of high-quality newsletters. I love that it uses the LXGW WenKai fo
 
 **Understanding WiFi 7**  
 <https://mp.weixin.qq.com/s/GPqPnBf0A5tk0JcMEzIAXw>  
-I only just started using WiFi 6 last year and was blown away by the speed. here’s a look at what the upcoming WiFi 7 standard has in store.
+I only just started using WiFi 6 last year and was blown away by the speed. Here’s a look at what the upcoming WiFi 7 standard has in store.
 
 **Wang Di: Understanding Chinese Society**  
+<https://mp.weixin.qq.com/s/D3j_F0bqI24dvhodl09FMg>  
 A reflection on whether Chinese history is a closed loop (spoiler: it isn’t) and how to view social progress through a lens of historical realism.
 
 **What is Edge Computing?**  
 <https://blogs.nvidia.com/blog/2019/10/22/what-is-edge-computing/>  
-I’ve recently been implementing some edge computing capabilities in my projects. this Nvidia article is a great primer on why processing data at the edge is the future.
+I’ve recently been implementing some edge computing capabilities in my projects. This Nvidia article is a great primer on why processing data at the edge is the future.
 
 **Ten Fastest-Growing Apps of 2022**  
 <https://blog.curiosity.ai/ten-fastest-growing-apps-in-2022-including-some-you-dont-know-c177e46cc5f1>  

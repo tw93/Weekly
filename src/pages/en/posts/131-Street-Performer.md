@@ -4,7 +4,7 @@ date: 2023/06/05
 
 <img src="https://gw.alipayobjects.com/zos/k/fliggy/132.jpg" width="800" />
 
-<small>The cover photo shows a street performer I saw in Osaka Castle Park years ago. the atmosphere of joy and connection between the performer and the crowd was truly wonderful.</small>
+<small>The cover photo shows a street performer I saw in Osaka Castle Park years ago. The atmosphere of joy and connection between the performer and the crowd was truly wonderful.</small>
 
 > **Record the down-to-earth trending technologies seen every week, and publish them here after screening. If you find it good, you can follow this weekly to get update notifications.**
 
@@ -12,15 +12,15 @@ date: 2023/06/05
 
 **FormRender 2.0: The Out-of-the-Box Form Solution**  
 <https://juejin.cn/post/7239715294229299257>  
-The stable 2.0 version is finally here. it introduces advanced features that simplify complex tasks like form validation, linked fields, and data conversion into simple descriptive configs.
+The stable 2.0 version is finally here. It introduces advanced features that simplify complex tasks like form validation, linked fields, and data conversion into simple descriptive configs.
 
 **Web Interface Development Guide**  
 <https://interfaces.rauno.me/>  
-A concise, four-page guide summarizing essential UX and interaction details for frontend developers. it’s modern, practical, and highly effective for polishing your interface.
+A concise, four-page guide summarizing essential UX and interaction details for frontend developers. It’s modern, practical, and highly effective for polishing your interface.
 
 **The Principles of Stable Diffusion Explained**  
 <https://jalammar.github.io/illustrated-stable-diffusion/>  
-A visual, step-by-step breakdown of how Stable Diffusion actually works. understanding the underlying mechanics will help you get much better results with your prompts.
+A visual, step-by-step breakdown of how Stable Diffusion actually works. Understanding the underlying mechanics will help you get much better results with your prompts.
 
 ## Trending Tools
 
@@ -43,7 +43,7 @@ Visual explanations of QUIC, DTLS, and TLS 1.3/1.2 connections—complete with c
 
 **Clean Up CSDN with Tampermonkey**  
 <https://greasyfork.org/zh-CN/scripts/378351>  
-If you find CSDN's rules and popups intrusive, this script provides a much cleaner experience. combine it with an ad-blocker for a truly refined search experience.  
+If you find CSDN's rules and popups intrusive, this script provides a much cleaner experience. Combine it with an ad-blocker for a truly refined search experience.  
 <img src="https://gw.alipayobjects.com/zos/k/dk/TinySnap-2023-05-30-23.35.50.png" width="800" />
 
 ## Just Looking Around
@@ -53,9 +53,10 @@ If you find CSDN's rules and popups intrusive, this script provides a much clean
 A great V2EX thread on the apps, hardware, and services that really make a difference—from 4K monitors and ergonomic chairs to GitHub Copilot and the Arc browser.
 
 **Cyberbullying: Why Doesn't it Stop?**  
+<https://www.huxiu.com/article/1638324.html>  
 The internet gives everyone fifteen minutes of fame, but it also hangs a sword over everyone’s head. This article explores the persistence of online harassment.
 
 **Hello Algorithm: Visual Data Structures and Algorithms**  
 <https://www.hello-algo.com/>  
-A brilliant open-source book for beginners. it uses animations and diagrams to explain DSA concepts across multiple languages (Java, C++, Go, JS, etc.) with a smooth learning curve.  
+A brilliant open-source book for beginners. It uses animations and diagrams to explain DSA concepts across multiple languages (Java, C++, Go, JS, etc.) With a smooth learning curve.  
 <img src="https://cdn.tw93.fun/blog/upic/X60QiJ.png" width="800" />

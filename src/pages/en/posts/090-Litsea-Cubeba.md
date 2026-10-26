@@ -12,11 +12,11 @@ date: 2022/08/09
 
 **Full Transcript: Evan You's Keynote on "2022 Frontend Trends"**  
 <https://mp.weixin.qq.com/s/Q3o0ryTs3g24s0Te1MFqRw>  
-A comprehensive record of the state of the ecosystem and where things are headed. it’s great to see so many people staying curious and learning.
+A comprehensive record of the state of the ecosystem and where things are headed. It’s great to see so many people staying curious and learning.
 
 **Module Federation comes to Vite**  
 <https://mp.weixin.qq.com/s/H8emiJzYxN06Syrmn5ShOg>  
-You can now use Webpack’s powerful Module Federation features within the Vite ecosystem. definitely worth an experiment for micro-frontend architectures.
+You can now use Webpack’s powerful Module Federation features within the Vite ecosystem. Definitely worth an experiment for micro-frontend architectures.
 
 **Wujie: A New Micro-frontend Solution**  
 <https://juejin.cn/post/7125646119727529992>  
@@ -56,10 +56,12 @@ A massive five-level dataset (province, city, county, town, village) for any app
 ## Just Looking Around
 
 **Everything You Need to Know About the STAR Market**  
+<https://www.huxiu.com/article/617151.html>  
 A manga-style explainer that makes the complexities of the Shanghai Stock Exchange’s tech board easy to understand.
 
 **The "High-Stakes" Engineering of XPeng**  
-Compared to its rivals, XPeng is betting big on technical R&D. we look at why their investment in tech might be their ultimate edge.
+<https://www.huxiu.com/article/621108.html>  
+Compared to its rivals, XPeng is betting big on technical R&D. We look at why their investment in tech might be their ultimate edge.
 
 **Movemap: Find your Perfect U.S. City**  
 <https://www.movemap.io/explore/us>  

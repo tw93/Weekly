@@ -20,14 +20,14 @@ A fascinating deep-dive into game planning and the mechanics of user surprise.
 
 **Web Development for Beginners**  
 <https://microsoft.github.io/Web-Dev-For-Beginners/>  
-Microsoft has released a 12-week, 24-lesson curriculum for absolute beginners. it uses project-based learning to teach the fundamentals of frontend development.  
+Microsoft has released a 12-week, 24-lesson curriculum for absolute beginners. It uses project-based learning to teach the fundamentals of frontend development.  
 <img src="https://cdn.tw93.fun/blog/upic/rzzQYG.png" width="800" />
 
 ## Trending Tools
 
 **NPM Dependency Visualization**  
 <https://npmgraph.js.org/>  
-We all have a love-hate relationship with NPM dependencies. this tool helps you visualize the complex web of project dependencies, making them much easier to understand.  
+We all have a love-hate relationship with NPM dependencies. This tool helps you visualize the complex web of project dependencies, making them much easier to understand.  
 <img src="https://cdn.tw93.fun/blog/upic/R1jQHn.png" width="800" />
 
 **Film Hurricane (YSJF) Materials Library**  
@@ -42,17 +42,17 @@ Imagine everyone in the world lived on the same street, organized by income. Thi
 
 **Ruan Yifeng’s TypeScript Tutorial**  
 <https://wangdoc.com/typescript/>  
-An online, open-source guide to TypeScript. in typical Ruan Yifeng fashion, it’s exceptionally clear and easy to understand—perfect for frontend beginners.
+An online, open-source guide to TypeScript. In typical Ruan Yifeng fashion, it’s exceptionally clear and easy to understand—perfect for frontend beginners.
 
 ## Just Looking Around
 
 **Book Recommendation: Hackers & Painters**  
 <https://book.douban.com/subject/6021440/>  
-If you are an engineer and haven’t read this, you must. "I see programmers as creators—the hackers and painters. Coding is about creativity. rote memorization for interviews is the sign of an industry in decline."
+If you are an engineer and haven’t read this, you must. "I see programmers as creators—the hackers and painters. Coding is about creativity. Rote memorization for interviews is the sign of an industry in decline."
 
 **Vox: Explained through Video**  
 <https://youtube.com/@Vox>  
-Vox is a brilliant YouTube channel for understanding world issues through high-quality visual explanations. it’s also excellent for practicing your English listening skills.
+Vox is a brilliant YouTube channel for understanding world issues through high-quality visual explanations. It’s also excellent for practicing your English listening skills.
 
 **How to Write Usefully**  
 <http://paulgraham.com/useful.html>  

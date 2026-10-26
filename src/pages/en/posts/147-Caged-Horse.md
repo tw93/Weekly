@@ -4,7 +4,7 @@ date: 2023/09/25
 
 <img src="https://gw.alipayobjects.com/zos/k/9j/1471.jpg" width="800" />
 
-<small>The cover photo was taken during a team building at a resort in Mogan Mountain. They had a stable with many powerful, magnificent horses. they looked so cool, but it was a shame to see them caged up.</small>
+<small>The cover photo was taken during a team building at a resort in Mogan Mountain. They had a stable with many powerful, magnificent horses. They looked so cool, but it was a shame to see them caged up.</small>
 
 > **Record the down-to-earth trending technologies seen every week, and publish them here after screening. If you find it good, you can follow this weekly to get update notifications.**
 
@@ -29,29 +29,29 @@ If you find the default Mac accent colors a bit dull, you can use these CLI comm
 
 **Awesome-Selfhosted: Host it Yourself**  
 <https://awesome-selfhosted.net/>  
-A massive directory of open-source applications you can host on your own server instead of using SaaS. it covers everything—automation, blogs, monitoring, and content management.  
+A massive directory of open-source applications you can host on your own server instead of using SaaS. It covers everything—automation, blogs, monitoring, and content management.  
 <img src="https://gw.alipayobjects.com/zos/k/2j/SCR-20230918-rngx.png"   width="800" />
 
 **YesIcon: 157+ Open-Source Icon Libraries**  
 <https://yesicon.app/>  
-An amazing aggregate of over 150 free icon sets. what makes this special is that it includes semantic translations and search for Chinese users—a huge time-saver for developers and designers.  
+An amazing aggregate of over 150 free icon sets. What makes this special is that it includes semantic translations and search for Chinese users—a huge time-saver for developers and designers.  
 <img src="https://gw.alipayobjects.com/zos/k/df/SCR-20230918-rfaf.png"   width="800" />
 
 **Open Interpreter: AI Tool for Engineers**  
 <https://github.com/KillianLucas/open-interpreter/>  
-A local, open-source version of OpenAI’s Code Interpreter. run `$interpreter` in your terminal to chat with your computer and have it execute code on your behalf.  
+A local, open-source version of OpenAI’s Code Interpreter. Run `$interpreter` in your terminal to chat with your computer and have it execute code on your behalf.  
 <img src="https://gw.alipayobjects.com/zos/k/fa/SCR-20230917-tpjl.png"   width="800" />
 
 **I Miss My Bar: Ambient Bar Noise**  
 <http://imissmybar.com/>  
-A unique white noise tool that recreates the atmosphere of a bar—bartenders working, low chatter, rain on the windows. combine it with their Spotify playlist for the perfect focus environment.  
+A unique white noise tool that recreates the atmosphere of a bar—bartenders working, low chatter, rain on the windows. Combine it with their Spotify playlist for the perfect focus environment.  
 <img src="https://gw.alipayobjects.com/zos/k/fa/SCR-20230917-tpjl.png"   width="800" />
 
 ## Just Looking Around
 
 **PodTown: A Map of Chinese Podcasts**  
 <https://podtown.xyz/>  
-A beautifully designed map of Chinese podcasts. it’s a great way to discover new shows and explore the diverse range of voices in the podcasting world.  
+A beautifully designed map of Chinese podcasts. It’s a great way to discover new shows and explore the diverse range of voices in the podcasting world.  
 <img src="https://gw.alipayobjects.com/zos/k/qt/SCR-20230918-rmbb.png"   width="800" />
 
 **Song Recommendation: "Da Meng" (Big Dream) - Wa Yi Na X Ren Suxi**  

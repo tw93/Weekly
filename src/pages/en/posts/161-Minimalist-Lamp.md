@@ -28,7 +28,7 @@ A creative CLI tool that generates a distribution of your command-line activity 
 
 **The AI Graveyard**  
 <https://dang.ai/ai-graveyard>  
-Instead of just looking at new AI tools, it's interesting to see which ones have failed. studying why a product "died" can help refine your own ideas.  
+Instead of just looking at new AI tools, it's interesting to see which ones have failed. Studying why a product "died" can help refine your own ideas.  
 <img src="https://gw.alipayobjects.com/zos/k/lp/SCR-20240107-skon.png" width="800" />
 
 **Jan: Offline Desktop LLM**  

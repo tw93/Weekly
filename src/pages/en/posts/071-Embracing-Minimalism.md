@@ -12,15 +12,15 @@ date: 2022/03/29
 
 **XRender: The Journey of an Open-Source Project**  
 <https://juejin.cn/post/7075909235233521678>  
-XRender is over three years old now. we look back at its evolution and the major changes we've implemented in the last year.
+XRender is over three years old now. We look back at its evolution and the major changes we've implemented in the last year.
 
 **Supply Chain Attacks and the Node-IPC Incident**  
 <https://www.zhihu.com/question/522144107>  
-A discussion on the recent "protest-ware" incident where an open-source author intentionally compromised their own package. a stark reminder that while code has no borders, authors do.
+A discussion on the recent "protest-ware" incident where an open-source author intentionally compromised their own package. A stark reminder that while code has no borders, authors do.
 
 **Optimizing High-Refresh Displays for iOS**  
 <https://mp.weixin.qq.com/s/gMxTq0_nmE-xW7GA3pkBJg>  
-Apple doesn't enable ProMotion (120Hz) for all apps by default. here is a guide on the configuration required for developers to fully utilize the high-refresh panels on modern iPhones.
+Apple doesn't enable ProMotion (120Hz) for all apps by default. Here is a guide on the configuration required for developers to fully utilize the high-refresh panels on modern iPhones.
 
 **Accelerating Builds with Distributed Computing**  
 <https://mp.weixin.qq.com/s/0nU5DHX0GnEidoCtlCOaOg>  
@@ -28,13 +28,13 @@ A look at the Bytedance solution for speeding up large-scale project compilation
 
 **Causal Learning, Inference, and Decision Making**  
 <https://tech.meituan.com/2022/03/17/causal-inference.html>  
-A transcript of an internal Meituan lecture on the intersection of AI and causal inference. highly theoretical but very insightful.
+A transcript of an internal Meituan lecture on the intersection of AI and causal inference. Highly theoretical but very insightful.
 
 ## Trending Open Source
 
 **ElectronBot: A New Creation from Peng Zhihui**  
 <https://github.com/peng-zhihui/ElectronBot>  
-A charming desktop-sized robot inspired by EVE from *WALL-E*. it features 6 degrees of freedom and uses a custom-modified servo for joint feedback. truly a marvel of hobbyist engineering.  
+A charming desktop-sized robot inspired by EVE from *WALL-E*. It features 6 degrees of freedom and uses a custom-modified servo for joint feedback. Truly a marvel of hobbyist engineering.  
 <img src="https://gw.alipayobjects.com/zos/k/cu/tDllww.jpg" width="800" />
 
 **Repobeats: A Stunning Review of your GitHub Repository**  
@@ -49,19 +49,23 @@ A great extension for trying out code snippets interactively without needing to 
 
 **rehype-pretty-code: Beautiful Code Blocks for Markdown**  
 <https://github.com/atomiks/rehype-pretty-code>  
-If you use MDX, this is one of the most polished ways to render code snippets. definitely level up your documentation design.  
+If you use MDX, this is one of the most polished ways to render code snippets. Definitely level up your documentation design.  
 <img src="https://gw.alipayobjects.com/zos/k/0g/AuSJjL.jpg" width="800" />
 
 ## Just Looking Around
 
 **Do International Developers Care More About Politics?**  
-A fascinating discussion on V2EX. while it often feels that way, perhaps it's just that domestic developers are much more focused on career and financial growth!
+<https://www.v2ex.com/t/841462>  
+A fascinating discussion on V2EX. While it often feels that way, perhaps it's just that domestic developers are much more focused on career and financial growth!
 
 **Rethinking Treatment for "Mild" COVID Cases**  
-A major shift in China's pandemic management policy: why patients with mild symptoms are no longer being hospitalized. a significant step in the evolving strategy.
+<https://www.huxiu.com/article/511119.html>  
+A major shift in China's pandemic management policy: why patients with mild symptoms are no longer being hospitalized. A significant step in the evolving strategy.
 
 **The Harsh Reality of Tech Financing in 2022**  
-The climate for raising capital has shifted dramatically. we look at the survival guide for tech startups in a cooling market.
+<https://www.huxiu.com/article/511054.html>  
+The climate for raising capital has shifted dramatically. We look at the survival guide for tech startups in a cooling market.
 
 **The Difficulty of Recovering Scammed Funds**  
-A firsthand account of a telecom scam. the takeaway is sobering: recovering lost funds is incredibly difficult, even through official channels—though Apple Pay proved to be surprisingly helpful.
+<https://mp.weixin.qq.com/s/OrzpD-bVkUpL2mkFqqOCPg>  
+A firsthand account of a telecom scam. The takeaway is sobering: recovering lost funds is incredibly difficult, even through official channels—though Apple Pay proved to be surprisingly helpful.

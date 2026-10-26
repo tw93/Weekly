@@ -12,7 +12,7 @@ date: 2022/06/14
 
 **Two Lines of CSS for 7x Faster Rendering**  
 <https://dev.to/mnathani/two-lines-of-css-that-boosts-7x-rendering-performance-4mjd>  
-A fascinating (if somewhat mysterious) claim about performance. while the "why" could be explained better, it’s worth trying out in modern browsers for complex pages.
+A fascinating (if somewhat mysterious) claim about performance. While the "why" could be explained better, it’s worth trying out in modern browsers for complex pages.
 
 ```css
  {
@@ -27,13 +27,13 @@ A look at how a major travel platform adopted Svelte to significantly reduce bun
 
 **The Most Underrated Browser Features and APIs**  
 <https://dev.to/sherrydays/what-are-the-most-underrated-browser-features-and-apis-m19>  
-There are so many modern browser APIs that developers often try to reinvent with custom JS. here’s a look at some of the best built-in solutions you might be missing.
+There are so many modern browser APIs that developers often try to reinvent with custom JS. Here’s a look at some of the best built-in solutions you might be missing.
 
 ## Trending Open Source
 
 **LxgwWenKai: A Beautifully Crafted Chinese Font**  
 <https://github.com/lxgw/LxgwWenKai>  
-I’ve been looking for a polished and soulful Chinese font for a long time. this one is absolutely beautiful and perfect for reading.  
+I’ve been looking for a polished and soulful Chinese font for a long time. This one is absolutely beautiful and perfect for reading.  
 <img src="https://gw.alipayobjects.com/zos/k/ld/216tkN.jpg" width=652 style="margin-left:-26px;margin-bottom:-26px"/>
 
 **Feather: A Simple and Beautiful Icon Set**  
@@ -53,7 +53,8 @@ A practical guide to learning English specifically tailored for developers.
 ## Just Looking Around
 
 **100 Days of Conflict: The State of the Russian Economy**  
-A Twitter thread analyzing the impact of record-breaking sanctions on the Russian economy and the overall course of the conflict. a sobering read.
+<https://twitter.com/KooPeben/status/1533345555510079488>  
+A Twitter thread analyzing the impact of record-breaking sanctions on the Russian economy and the overall course of the conflict. A sobering read.
 
 **Human System Optimization: Learn for a Lifetime**  
 <https://github.com/zijie0/HumanSystemOptimization>  
@@ -61,4 +62,4 @@ While I’m not a fan of using GitHub repos for long-form articles, this piece o
 
 **Rethinking the Bicycle: Adding Radar and Dashcams**  
 <https://sspai.com/post/73521>  
-A very tech-forward approach to bicycle safety. adding modern sensors to a classic mode of transport is a great project.
+A very tech-forward approach to bicycle safety. Adding modern sensors to a classic mode of transport is a great project.

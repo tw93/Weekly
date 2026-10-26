@@ -20,7 +20,7 @@ A technical overview of the infrastructure and processes behind handling high-tr
 
 **The Evolution of Advertising Platform Architecture**  
 <https://tech.meituan.com/2022/03/03/exploration-and-practice-of-advertising-engine-platforming.html>  
-A detailed series from Meituan on how they built and optimized their advertising engine. great for anyone working in commercialization and high-availability systems.
+A detailed series from Meituan on how they built and optimized their advertising engine. Great for anyone working in commercialization and high-availability systems.
 
 ## Trending Open Source
 
@@ -46,7 +46,7 @@ A brilliant localization of the Wordle craze for Chinese characters.
 
 **Docusaurus: The Static Site Generator from Meta**  
 <https://github.com/facebook/docusaurus>  
-One of the most popular tools for building project documentation. it’s fast, accessible, and has great out-of-the-box SEO.
+One of the most popular tools for building project documentation. It’s fast, accessible, and has great out-of-the-box SEO.
 
 ## Just Looking Around
 
@@ -59,7 +59,9 @@ A clear and practical deep dive into why we sleep and the small changes you can 
 A veteran engineer breaks down the security, hardware, and unique modifications of the AirTag. (Even though it’s probably the Apple product I use the least!)
 
 **The Absurdities of War History**  
+<https://mp.weixin.qq.com/s/mtIub16wRiPTAgLdPxI67A>  
 Reflections on the strange and often forgotten stories from historical conflicts, and a pondering on how our current era will be recorded.
 
 **How Tall is Jackson Yee, Really?**  
+<https://www.zhihu.com/question/334884480/answer/2357780412>  
 The ultimate answer to the mystery of celebrity heights in the entertainment industry.

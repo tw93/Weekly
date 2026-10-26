@@ -12,7 +12,7 @@ date: 2022/07/05
 
 **The Soft Skills for Programmers: A Guide to Survival**  
 <https://programmer-soft-skills.vercel.app/1>  
-A viral slide deck covering time management, rapid learning, and personal branding. it’s a well-organized guide to the non-coding side of being a successful developer.
+A viral slide deck covering time management, rapid learning, and personal branding. It’s a well-organized guide to the non-coding side of being a successful developer.
 
 **HTTP/3 is Officially Standardized**  
 <https://mp.weixin.qq.com/s/40YBEWZBaHakDuRuh27fMg>  
@@ -26,7 +26,7 @@ This new property allows for much better cropping and display of product images 
 
 **The Terminal-Inspired Blog Homepage**  
 <https://protiumx.dev/>  
-A very creative personal site that functions like a CLI. try typing `ls` or `help` to explore—it’s a great example of expressive web design.  
+A very creative personal site that functions like a CLI. Try typing `ls` or `help` to explore—it’s a great example of expressive web design.  
 <img src="https://gw.alipayobjects.com/zos/k/he/aFLlTs.jpg" width="800" />
 
 **GitHub Copilot is now Generally Available**  
@@ -35,24 +35,26 @@ It’s $10/month now, but free for open-source maintainers. I tried it over the 
 
 **T3: Create Fluid Motion Graphics**  
 <https://github.com/still-scene/t3>  
-An open-source tool for generating incredibly smooth and organic motion animations. check out the demo videos on their GitHub.
+An open-source tool for generating incredibly smooth and organic motion animations. Check out the demo videos on their GitHub.
 
 **Artvee: Download High-Resolution Classical Art**  
 <https://artvee.com/dl/the-young-scribe>  
-A fantastic resource for free, public-domain classical paintings. perfect for when your project needs a touch of timeless elegance.
+A fantastic resource for free, public-domain classical paintings. Perfect for when your project needs a touch of timeless elegance.
 
 ## Just Looking Around
 
 **Interview with Microsoft CEO Satya Nadella**  
-A look at the future of Windows and how AI is being integrated into the multi-device experience. even without a mobile OS, Microsoft is deeply invested in the phone ecosystem.
+<https://www.huxiu.com/article/589679.html>  
+A look at the future of Windows and how AI is being integrated into the multi-device experience. Even without a mobile OS, Microsoft is deeply invested in the phone ecosystem.
 
 **The Radical MVP: Reading "The Right It"**  
 <http://blog.devtang.com/2022/03/20/the-right-it-book-summary/>  
 Tang Qiao shares insights on product development and the importance of valid data over mere opinion when building new features.
 
 **Which College Majors have the Best Job Prospects in 2022?**  
+<https://www.zhihu.com/question/537010715>  
 A timely discussion on Zhihu for recent graduates. I can’t believe it’s been over a decade since I finished my own college exams!
 
 **Roaming Japan: Sapporo and Sakata**  
 <https://byvoid.com/zhs/blog/jp-roaming-sapporo-sakata/>  
-I’ve followed this "legendary" dev since my university days. he’s now at Google and his travelogues are always a great read.
+I’ve followed this "legendary" dev since my university days. He’s now at Google and his travelogues are always a great read.

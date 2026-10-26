@@ -30,7 +30,7 @@ A technical breakdown of "Baice," the internal performance testing platform used
 
 **HowToCook: The Ultimate Cooking Guide for Programmers**  
 <https://github.com/Anduin2017/HowToCook>  
-A repo that treats cooking like an engineering project. if you like clear instructions and precise measurements, this is the cookbook for you.  
+A repo that treats cooking like an engineering project. If you like clear instructions and precise measurements, this is the cookbook for you.  
 <img src="https://gw.alipayobjects.com/zos/k/9f/0hX7Rg.png" width="800" />
 
 **AILab: Bilibili’s Open-Source HD Animation Solution**  
@@ -40,7 +40,7 @@ A powerful tool for upscaling and enhancing animated content, now open-sourced b
 
 **Lip Gloss: Beautiful Layout Styles for the Terminal**  
 <https://github.com/charmbracelet/lipgloss>  
-A Go library for building sophisticated and colorful terminal UIs. the results are incredibly polished.  
+A Go library for building sophisticated and colorful terminal UIs. The results are incredibly polished.  
 <img src="https://gw.alipayobjects.com/zos/k/hk/BhB9D3.png" width="800" />
 
 **Cleye: Simplify Command-Line Development**  
@@ -59,4 +59,5 @@ The official Mini Program version of the iconic Ant Design library is finally op
 Practical advice on how to fix your sleep schedule. Spoiler: your biggest enemy is almost certainly your phone.
 
 **Water Confirmed on the Moon via Chang'e-5**  
+<https://mp.weixin.qq.com/s/SYaTb_m2nkdM7VzcSi89Yw>  
 The discovery of water in lunar soil and rocks settled a long-standing debate and represents a major milestone for lunar exploration.

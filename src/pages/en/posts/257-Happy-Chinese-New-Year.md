@@ -58,6 +58,7 @@ If you use Claude Code, be sure to try the /plugin function, then go to Marketpl
 <img src="https://gw.alipayobjects.com/zos/k/d4/7ojonZ.png" width="800">
 
 **FineTune: The volume mixer macOS should have**
+<https://github.com/ronitsingh10/FineTune>
 Basically the volume mixer that macOS should have come with - truly independent volume control per application, with separate sliders and mute for each app.
 <img src="https://gw.alipayobjects.com/zos/k/8j/bl1wHy.png" width="800">
 

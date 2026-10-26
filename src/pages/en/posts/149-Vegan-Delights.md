@@ -16,16 +16,17 @@ Many developers aren't familiar with the underlying technology of video. This Gi
 
 **WebGL Fundamentals**  
 <https://webglfundamentals.org/webgl/lessons/zh_cn/>  
-A must-read for anyone starting with 3D on the web. this online tutorial covers the basic principles of WebGL.
+A must-read for anyone starting with 3D on the web. This online tutorial covers the basic principles of WebGL.
 
 **Dilemmas and Breakthroughs for the New Generation of Frontend Devs**  
+<https://mp.weixin.qq.com/s/S3pv-Ijc3sA7ZLsmoRSj6w>  
 I’ll be giving a talk in Chongqing this Saturday on how to grow comfortably in an era where "reinventing the wheel" is no longer the way forward and the market is highly competitive.
 
 ## Trending Tools
 
 **My Action Button Setup for iPhone 15 Pro**  
 <https://icloud.com/shortcuts/1e1f662fa4314dfe89b4d679ee653d60>  
-Here’s my shortcut for the new Action Button. it triggers different actions based on the phone's orientation:
+Here’s my shortcut for the new Action Button. It triggers different actions based on the phone's orientation:
 
 1. **Face Forward**: Open Alipay
 2. **Portrait Up**: Open Camera
@@ -35,12 +36,12 @@ Here’s my shortcut for the new Action Button. it triggers different actions ba
 
 **Godot: A Feature-Rich Cross-Platform Game Engine**  
 <https://godotengine.org/>  
-Godot is a powerful engine for creating 2D and 3D games with a unified interface. it provides a comprehensive set of tools so you can focus on building your game and export to multiple platforms with one click.  
+Godot is a powerful engine for creating 2D and 3D games with a unified interface. It provides a comprehensive set of tools so you can focus on building your game and export to multiple platforms with one click.  
 <img src="https://gw.alipayobjects.com/zos/k/g1/911shots_so.png" width="800" />
 
 **Emojimix: Merge Your Favorite Emojis**  
 <https://tikolu.net/emojimix/>  
-A fun tool that lets you merge two emojis into weird and wonderful new ones. it’s a great way to generate unique sticker ideas.  
+A fun tool that lets you merge two emojis into weird and wonderful new ones. It’s a great way to generate unique sticker ideas.  
 <img src="https://cdn.tw93.fun/blog/upic/C9ez0B.png" width="800" />
 
 **Generative Image Dynamics**  
@@ -56,7 +57,7 @@ A classic article by Liu Weipeng from 2011. it offers great advice for both inte
 
 **Book Recommendation: It Doesn't Have to Be Crazy at Work (重来 3)**  
 <https://book.douban.com/subject/35135787/>  
-A timely book for modern developers. its insights on breaking free from the "busy-ness" trap are incredibly sharp and worth reflecting on.
+A timely book for modern developers. Its insights on breaking free from the "busy-ness" trap are incredibly sharp and worth reflecting on.
 
 **Zahara English: Improve Your Listening**  
 <https://youtube.com/@zaharaEnglish>  

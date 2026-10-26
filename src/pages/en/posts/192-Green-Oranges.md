@@ -12,7 +12,7 @@ date: 2024/09/02
 
 **Zen: An open-source browser based on Firefox with Arc-like features**  
 <https://zen-browser.app/>  
-The most attractive feature for me is the Edge-like vertical tabs. it's a solid Firefox-based option with Arc-like interactions, though I haven't found a browser that truly beats Arc's interaction yet. I tried it for a couple of days but went back to Arc.  
+The most attractive feature for me is the Edge-like vertical tabs. It's a solid Firefox-based option with Arc-like interactions, though I haven't found a browser that truly beats Arc's interaction yet. I tried it for a couple of days but went back to Arc.  
 <img src="https://gw.alipayobjects.com/zos/k/dx/browser-1.png" width="800" />
 
 **OPEN CULTURE: Online learning for humanities and social sciences**  
@@ -29,7 +29,7 @@ If you need an external image host, you can use Telegraph-Image via Cloudflare P
 
 **Lecture by Li Mu: Practical Experience and Future Predictions for LLMs**  
 <https://www.youtube.com/watch?v=ziHUcDh0DwM>  
-If you're interested in AI's future and LLM experience, check out Li Mu's lecture at SJTU. it's very insightful and has a certain "technical proximity" compared to purely foreign content.  
+If you're interested in AI's future and LLM experience, check out Li Mu's lecture at SJTU. It's very insightful and has a certain "technical proximity" compared to purely foreign content.  
 <img src="https://cdn.tw93.fun/blog/upic/1725198456.png" width="800" />
 
 **"Did you lose your AirPods?" - An interesting story**  

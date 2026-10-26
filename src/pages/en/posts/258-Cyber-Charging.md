@@ -20,7 +20,7 @@ date: 2026/03/02
 6. Shell Text Editing: Use Cmd + A to select all, Shift + Arrow keys to extend selection, and type directly to replace selected content - just like a native text editor.
 7. Unified AI Config: The kaku ai interface now manages Kaku Assistant, Factory Droid, and opencode.jsonc in one place.
 8. Tab Bell Indicator: When you switch to another tab, tabs with results or notifications show a blinking dot.
-9. Scroll and Input Improvements: Smoother trackpad scrolling in less, man, etc. with DECSET 1007 alternate scroll mode support. Fixed popup position offset issues with Typeless and other CJK input methods.
+9. Scroll and Input Improvements: Smoother trackpad scrolling in less, man, etc. With DECSET 1007 alternate scroll mode support. Fixed popup position offset issues with Typeless and other CJK input methods.
 10. Window Shadow Restored: Native macOS window shadows are back. They were temporarily disabled due to GPU usage issues in earlier versions.
 11. Faster Startup and Smaller Binary: Lua bytecode caching and lazy loading reduce startup time. Fat LTO and single codegen unit shrink binary size.
 12. Shell Integration Detection Fix: Shell integration now loads correctly in all terminal environments, no longer depending on whether $TERM is kaku. User-loaded plugins are no longer loaded twice.

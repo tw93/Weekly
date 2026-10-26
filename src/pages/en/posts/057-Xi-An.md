@@ -50,7 +50,7 @@ If you want the power of Neovim with the "batteries-included" feel of a modern I
 
 **NUWA: A Unified 3D Transformer Pipeline for Synthesis**  
 <https://github.com/microsoft/NUWA>  
-Impressive research from Microsoft on visual synthesis. check out the [paper](https://arxiv.org/abs/2111.12417) for the deep technical details.  
+Impressive research from Microsoft on visual synthesis. Check out the [paper](https://arxiv.org/abs/2111.12417) for the deep technical details.  
 <img src="https://cdn.tw93.fun/blog/upic/YVyrnM.gif" width="800" />
 
 ## Just Looking Around

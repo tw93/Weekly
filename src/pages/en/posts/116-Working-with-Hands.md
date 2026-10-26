@@ -12,7 +12,7 @@ date: 2023/02/13
 
 **Optimizing the "World's Fastest" Terminal**  
 <https://tw93.fun/2023-01-25/alacritty.html>  
-I recently tried Alacritty, the GPU-accelerated terminal emulator built in Rust. it’s tiny and fast, but default setting is quite plain. I spent some time customizing it, and the result is now my daily driver.
+I recently tried Alacritty, the GPU-accelerated terminal emulator built in Rust. It’s tiny and fast, but default setting is quite plain. I spent some time customizing it, and the result is now my daily driver.
 
 **My VS Code Setup**  
 <https://dev.to/j471n/my-vs-code-setup-971>  
@@ -30,31 +30,34 @@ A collection of 69 articles covering the essentials of A/V engineering—perfect
 
 **Language Reactor: Learn English through Video**  
 <https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm>  
-A powerful extension for YouTube and Netflix that adds bilingual subtitles and allows you to instantly look up word meanings. it turns entertainment into an effective learning tool.  
+A powerful extension for YouTube and Netflix that adds bilingual subtitles and allows you to instantly look up word meanings. It turns entertainment into an effective learning tool.  
 <img src="https://cdn.tw93.fun/blog/upic/mrE4N6.png" width="800" />
 
 **Buzzing: Global Social Media in Chinese**  
 <https://www.buzzing.cc/>  
-Buzzing aggregates popular discussions from Reddit and Twitter and translates them into Chinese. it’s a brilliant way to keep up with global trends in your native language.  
+Buzzing aggregates popular discussions from Reddit and Twitter and translates them into Chinese. It’s a brilliant way to keep up with global trends in your native language.  
 <img src="https://cdn.tw93.fun/blog/upic/dwDLQh.png" width="800" />
 
 **Tree.fm: Forest White Noise from Around the World**  
 <https://www.tree.fm/>  
-A minimalist site that plays ambient sounds from forests across the globe. it’s free and perfect for staying focused while you work.  
+A minimalist site that plays ambient sounds from forests across the globe. It’s free and perfect for staying focused while you work.  
 <img src="https://cdn.tw93.fun/blog/upic/TIjBer.jpg" width="800" />
 
 **Watermark Video Downloader**  
 <https://watermark.liumingye.cn/>  
-An online tool to download videos from popular platforms without watermarks. it’s smooth, fast, and very reliable.  
+An online tool to download videos from popular platforms without watermarks. It’s smooth, fast, and very reliable.  
 <img src="https://cdn.tw93.fun/blog/upic/QEARXG.png" width="800" />
 
 ## Just Looking Around
 
 **Will ChatGPT Replace Search Engines?**  
+<https://zhuanlan.zhihu.com/p/589533490>  
 I believe it will—and it’s already happening.
 
 **Finding the "Tea" in "The Knockout" (Kuang Biao)**  
+<https://www.huxiu.com/article/792434.html>  
 A deep dive into the hidden "tea culture" and social nuances in the hit TV show.
 
 **Retirement at 70 in Japan**  
+<https://www.huxiu.com/article/792486.html>  
 A reflection on Japan’s aging workforce and what it means for a society to work well into their golden years.

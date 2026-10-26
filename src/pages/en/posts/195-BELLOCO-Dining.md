@@ -12,17 +12,17 @@ date: 2024/10/14
 
 **Self-hosted Bio Link version**  
 <https://hi.tw93.fun/>  
-I've set up a self-hosted Bio Link for my Twitter profile. it even supports one-click Github summoning. If you need one, you can right-click to view the source and adapt it for your own use.  
+I've set up a self-hosted Bio Link for my Twitter profile. It even supports one-click Github summoning. If you need one, you can right-click to view the source and adapt it for your own use.  
 <img src="https://gw.alipayobjects.com/zos/k/2w/rkisol.png" width="600" />
 
 **Bolt.new: AI-powered full-stack web development in the browser**  
 <https://github.com/stackblitz/bolt.new>  
-The concept of Bolt.new is fantastic: prompt, run, edit, and deploy full-stack web applications directly in the browser. it's built using WebContainers for an integrated in-browser development environment.  
+The concept of Bolt.new is fantastic: prompt, run, edit, and deploy full-stack web applications directly in the browser. It's built using WebContainers for an integrated in-browser development environment.  
 <img src="https://gw.alipayobjects.com/zos/k/pz/SCR-20241013-rdra.png" width="800" />
 
 **AB Test Design: A collection of AB test results from well-known apps**  
 <https://abtest.design/>  
-I'm not sure how many developers in the indie field do AB testing, but this site collects AB test comparisons from famous apps. it's very much worth studying; sometimes a simple change can yield much better results than complex features.  
+I'm not sure how many developers in the indie field do AB testing, but this site collects AB test comparisons from famous apps. It's very much worth studying; sometimes a simple change can yield much better results than complex features.  
 <img src="https://gw.alipayobjects.com/zos/k/yb/DAJyj5.png" width="800" />
 
 **Cellar Door: Leaderboard for beautiful English words**  
@@ -44,11 +44,11 @@ A recent article from Meituan Tech—a business-oriented perspective on user mod
 
 **Book Recommendation: The AAP Parenting Encyclopedia**  
 <https://book.douban.com/subject/35218443/>  
-This "Parenting Encyclopedia" from the American Academy of Pediatrics is very suitable for families preparing for or already having children. it's a nearly 1000-page tool book that's grounded, readable, and easy to consult for scientific solutions to various issues from birth through growth.  
+This "Parenting Encyclopedia" from the American Academy of Pediatrics is very suitable for families preparing for or already having children. It's a nearly 1000-page tool book that's grounded, readable, and easy to consult for scientific solutions to various issues from birth through growth.  
 <img src="https://gw.alipayobjects.com/zos/k/6c/GZhsPG0aAAEnq_I.jpeg" width="600" />
 
 **Great Item: MUJI Bath Brush**  
-Once you start using this MUJI brush for showers, you'll never go back. it's very effective, especially when paired with their exfoliating scrub.  
+Once you start using this MUJI brush for showers, you'll never go back. It's very effective, especially when paired with their exfoliating scrub.  
 <img src="https://gw.alipayobjects.com/zos/k/pm/GZnmaY7awAAGu3e.jpeg" width="600" />
 
 **I really like this quote lately: A ship is always safe at shore, but that is not what it's built for.**  

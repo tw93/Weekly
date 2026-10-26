@@ -4,7 +4,7 @@ date: 2023/05/08
 
 <img src="https://gw.alipayobjects.com/zos/k/9e/127.jpg" width="800" />
 
-<small>The cover photo shows a late-night walk at West Lake around 11 PM during Golden Week. To my surprise, the place was full of young people singing and hanging out. it felt so much better than the daytime tourist rush. I even heard a cover of a **Wan Qing** song—absolutely brilliant vibe.</small>
+<small>The cover photo shows a late-night walk at West Lake around 11 PM during Golden Week. To my surprise, the place was full of young people singing and hanging out. It felt so much better than the daytime tourist rush. I even heard a cover of a **Wan Qing** song—absolutely brilliant vibe.</small>
 
 > **Record the down-to-earth trending technologies seen every week, and publish them here after screening. If you find it good, you can follow this weekly to get update notifications.**
 
@@ -12,7 +12,7 @@ date: 2023/05/08
 
 **ChatGPT Prompt Engineering for Developers**  
 <https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/>  
-Highly recommend this course from Andrew Ng. it’s exceptionally useful for engineers looking to master the art of prompt engineering.
+Highly recommend this course from Andrew Ng. It’s exceptionally useful for engineers looking to master the art of prompt engineering.
 
 **WebContainers: Node.js on Safari and iPadOS**  
 <https://blog.stackblitz.com/posts/webcontainers-are-now-supported-on-safari/>  
@@ -31,12 +31,12 @@ A project sharing hundreds of ChatGPT accounts for those who can't easily access
 
 **Taira Komori: Free Commercial Sound Effects**  
 <https://taira-komori.jpn.org/freesoundcn.html>  
-A library of high-quality, free-to-use sound effects—covering nature, animals, combat, and ambient noise. an essential bookmark for game developers.  
+A library of high-quality, free-to-use sound effects—covering nature, animals, combat, and ambient noise. An essential bookmark for game developers.  
 <img src="https://gw.alipayobjects.com/zos/k/8q/C0nf81.jpg" width="800" />
 
 **TTSMaker: Online Text-to-Speech**  
 <https://ttsmaker.com/zh-cn>  
-A powerful text-to-speech engine that supports multiple languages and styles. it's free for commercial use and perfect for video narration.  
+A powerful text-to-speech engine that supports multiple languages and styles. It's free for commercial use and perfect for video narration.  
 <img src="https://gw.alipayobjects.com/zos/k/yl/A1YD6G.jpg" width="800" />
 
 **V2EX Polish: A Modern Look for V2EX**  
@@ -46,7 +46,7 @@ V2EX is still one of the best developer communities in China, but its UI is agin
 
 **Openverse: A Creative Commons Search Engine**  
 <https://openverse.org/zh-cn>  
-Search over 700 million reusable creative assets—images, audio, and video—completely for free. it even provides an API for your own projects.  
+Search over 700 million reusable creative assets—images, audio, and video—completely for free. It even provides an API for your own projects.  
 <img src="https://gw.alipayobjects.com/zos/k/qc/YcyqBH.jpg" width="800" />
 
 **EarthCam: Live Webcams Around the Globe**  
@@ -67,11 +67,14 @@ The major "Mom to Grandma" update!
 
 **Book Recommendation: The Clean Coder**  
 <https://book.douban.com/subject/26919457/>  
-A masterclass on what it means to be a professional engineer. it covers everything from saying "no" to teamwork and continuous learning. it feels like a heart-to-heart with an experienced mentor.
+A masterclass on what it means to be a professional engineer. It covers everything from saying "no" to teamwork and continuous learning. It feels like a heart-to-heart with an experienced mentor.  
+<img src="https://gw.alipayobjects.com/zos/k/6b/ZBPCpb.jpg" width="800" />
 
 **Inside the iPhone 14 Pro Structure**  
 <https://sspai.com/post/79533>  
-A deep dive into the structural differences between the standard and Pro models of the iPhone 14—and how Apple manages thermal limits.
+A deep dive into the structural differences between the standard and Pro models of the iPhone 14—and how Apple manages thermal limits.  
+<img src="https://gw.alipayobjects.com/zos/k/bj/TinySnap-2023-05-07-21.40.53.png" width="800" />
 
 **Lu Xun’s Relevance in 2023**  
-A Zhihu discussion on why Lu Xun’s characters still resonate so deeply with the struggles of modern youth. truly ahead of his time.
+<https://www.zhihu.com/question/590280689>  
+A Zhihu discussion on why Lu Xun’s characters still resonate so deeply with the struggles of modern youth. Truly ahead of his time.

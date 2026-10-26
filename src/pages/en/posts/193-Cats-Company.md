@@ -12,7 +12,7 @@ date: 2024/09/09
 
 **SponsorBlock: Skip sponsor ads in YouTube videos**  
 <https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone>  
-A "magical" Chrome extension that skips sponsored segments, subscription reminders, and other fillers in YouTube videos. it's community-driven, with segments marked by users.  
+A "magical" Chrome extension that skips sponsored segments, subscription reminders, and other fillers in YouTube videos. It's community-driven, with segments marked by users.  
 <img src="https://gw.alipayobjects.com/zos/k/kj/SCR-20240907-rfjg.png" width="800" />
 
 **BilibiliSponsorBlock: Skip filler segments on Bilibili**  
@@ -22,7 +22,7 @@ A port of SponsorBlock for Bilibili, automatically skipping sponsored segments a
 
 **kotaemon: Open-source, clean, and customizable RAG tool**  
 <https://github.com/Cinnamon/kotaemon>  
-An open-source RAG tool for document-based AI chatting. The experience is good for both developers and end-users. clone it and give it a try.  
+An open-source RAG tool for document-based AI chatting. The experience is good for both developers and end-users. Clone it and give it a try.  
 <img src="https://gw.alipayobjects.com/zos/k/vh/preview.png" width="800" />
 
 **All-in-One Hacking Tools**  

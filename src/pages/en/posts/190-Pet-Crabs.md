@@ -12,7 +12,7 @@ date: 2024/08/19
 
 **Highly recommending Cursor AI Code Editor**  
 <https://www.cursor.com/>  
-I tried Cursor AI about six months ago but didn't have a great experience. Recently, many friends told me it's much better now, so I gave it another go. it's truly impressive—the transition from VSCode is seamless, and it can arguably replace it entirely since it's essentially VSCode with deeply integrated, super-useful AI. Product-wise, this integrated experience is far superior to just using extensions.  
+I tried Cursor AI about six months ago but didn't have a great experience. Recently, many friends told me it's much better now, so I gave it another go. It's truly impressive—the transition from VSCode is seamless, and it can arguably replace it entirely since it's essentially VSCode with deeply integrated, super-useful AI. Product-wise, this integrated experience is far superior to just using extensions.  
 <img src="https://gw.alipayobjects.com/zos/k/do/bUQgD2.png" width="800" />
 
 **Collection of 3613 high-def company logos**  
@@ -22,7 +22,7 @@ Found a collection of 3,613 high-def company logos on Fey's logo database. You c
 
 **Try imFile for your download needs**  
 <https://imfile.io/>  
-If you frequently download files, try imFile. It supports torrents, magnet links, plays any video file, is cross-platform, and helps you find resources. it's a much better alternative to tools like Xunlei.  
+If you frequently download files, try imFile. It supports torrents, magnet links, plays any video file, is cross-platform, and helps you find resources. It's a much better alternative to tools like Xunlei.  
 <img src="https://gw.alipayobjects.com/zos/k/ay/SL3KaE.png" width="800" />
 
 ## Technical Learning
@@ -40,9 +40,9 @@ Eric Schmidt, who was Google CEO for 10 years, recently gave a talk at Stanford 
 
 **Douban Music Top 250**  
 <https://music.douban.com/top250>  
-Found a treasure trove. When you feel like there's no good new music, search for "Douban Music Top 250" on music apps or Google. it reminded me that Khalil Fong's "Orange Moon" from my high school days still sounds fantastic today.  
+Found a treasure trove. When you feel like there's no good new music, search for "Douban Music Top 250" on music apps or Google. It reminded me that Khalil Fong's "Orange Moon" from my high school days still sounds fantastic today.  
 <img src="https://gw.alipayobjects.com/zos/k/jm/SCR-20240818-rtvr.png" width="800" />
 
 **Quick Tip: Latte with Ceylon Cinnamon**  
-When making a latte at home, try adding a small spoonful of Ceylon cinnamon powder. it gives it a unique and delicious flavor. You can also try cinnamon with apple cider vinegar, or even dipping apple slices in it.  
+When making a latte at home, try adding a small spoonful of Ceylon cinnamon powder. It gives it a unique and delicious flavor. You can also try cinnamon with apple cider vinegar, or even dipping apple slices in it.  
 <img src="https://gw.alipayobjects.com/zos/k/m2/IMG_0324.jpg" width="400" />

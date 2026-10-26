@@ -27,7 +27,7 @@ Cap is a minimalist open-source screen recorder for Mac. The local recording fit
 
 **Simple Icons: Download brand SVG icons**  
 <https://simpleicons.org/>  
-If you need to download SVG icons for well-known brands, check out Simple Icons. it's easy to copy and provides the corresponding brand colors.  
+If you need to download SVG icons for well-known brands, check out Simple Icons. It's easy to copy and provides the corresponding brand colors.  
 <img src="https://gw.alipayobjects.com/zos/k/45/SCR-20241201-tfpu.png" width="800" />
 
 ## Just Looking Around

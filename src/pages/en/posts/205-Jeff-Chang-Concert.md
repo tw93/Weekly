@@ -22,7 +22,7 @@ Found a collection of open-source tools based on Cloudflare. You can see many in
 
 **PDFMathTranslate: AI bilingual PDF translation tool**  
 <https://github.com/Byaidu/PDFMathTranslate>  
-This AI bilingual translation tool for PDFs, PDFMathTranslate, is very good. it maintains the original layout and supports services like Google, DeepL, Ollama, and OpenAI. It offers CLI, GUI, and Docker versions. It's great for reading English papers—start with the translation and then read the original for faster comprehension.  
+This AI bilingual translation tool for PDFs, PDFMathTranslate, is very good. It maintains the original layout and supports services like Google, DeepL, Ollama, and OpenAI. It offers CLI, GUI, and Docker versions. It's great for reading English papers—start with the translation and then read the original for faster comprehension.  
 <img src="https://gw.alipayobjects.com/zos/k/5e/SCR-20241215-ogpc.png" width="800" />
 
 **Applite: One-stop Mac software downloader**  
@@ -32,7 +32,7 @@ Most Mac software isn't available in the App Store; many are downloaded from off
 
 **Wave Terminal: An interesting open-source terminal tool**  
 <https://www.waveterm.dev/>  
-Wave Terminal is quite interesting. it brings together various window components, allowing you to combine command lines, file previews, webpages, AI chat, and visualization components into your own workspace. A very interesting concept worth trying out.  
+Wave Terminal is quite interesting. It brings together various window components, allowing you to combine command lines, file previews, webpages, AI chat, and visualization components into your own workspace. A very interesting concept worth trying out.  
 <img src="https://gw.alipayobjects.com/zos/k/3p/SCR-20241215-odtg.png" width="800" />
 
 ## Just Looking Around

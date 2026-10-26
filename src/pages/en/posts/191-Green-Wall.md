@@ -4,7 +4,7 @@ date: 2024/08/26
 
 <img src="https://gw.alipayobjects.com/zos/k/te/191.jpg" width="800" />
 
-<small>The cover photo shows a green wall in Waitongwu Village, West Lake District. it looks beautiful from afar—all that green reminds me of Anne of Green Gables.</small>
+<small>The cover photo shows a green wall in Waitongwu Village, West Lake District. It looks beautiful from afar—all that green reminds me of Anne of Green Gables.</small>
 
 > **Record the down-to-earth trending technologies seen every week, and publish them here after screening. If you find it good, you can follow this weekly to get update notifications.**
 
@@ -45,7 +45,7 @@ This project uses OpenType features to bake syntax highlighting directly into th
 
 **Deep-Live-Cam: Open-source face-swapping tool**  
 <https://github.com/hacksider/Deep-Live-Cam>  
-Found this open-source tool on GitHub that allows for real-time and video face-swapping with just a single target image. it's powerful and a bit scary—please use responsibly.  
+Found this open-source tool on GitHub that allows for real-time and video face-swapping with just a single target image. It's powerful and a bit scary—please use responsibly.  
 <img src="https://cdn.tw93.fun/blog/upic/1724590339.gif" width="800" />
 
 ## Technical Learning
@@ -63,7 +63,7 @@ Stripe's approach to developer debugging is excellent—very worthy of study, an
 
 **Movie Recommendation: "Maharaja" (2024)**  
 <https://movie.douban.com/subject/36934908/>  
-I watched "Maharaja" over the weekend. I haven't seen such a tightly-plotted, suspenseful movie with so many twists and timelines in a long time. definitely stay until the end. Highly recommended!  
+I watched "Maharaja" over the weekend. I haven't seen such a tightly-plotted, suspenseful movie with so many twists and timelines in a long time. Definitely stay until the end. Highly recommended!  
 <img src="https://gw.alipayobjects.com/zos/k/7k/p2911775292.jpg" width="500" />
 
 **What's the ultimate enjoyment in life?**  

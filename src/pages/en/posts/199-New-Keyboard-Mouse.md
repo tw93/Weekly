@@ -27,7 +27,7 @@ The animations are very smooth. Perfect for micro-interactions to add a touch of
 
 **Top Calendar: Mac menu bar calendar**  
 <https://apps.apple.com/cn/app/top-calendar/id1544980542>  
-I've recommended Top Calendar before. It can replace the native menu bar date/time. Clicking it brings up your recent schedule and meetings. it was previously hard to find in the App Store, but it's available now.  
+I've recommended Top Calendar before. It can replace the native menu bar date/time. Clicking it brings up your recent schedule and meetings. It was previously hard to find in the App Store, but it's available now.  
 <img src="https://gw.alipayobjects.com/zos/k/2f/SCR-20241103-tqzs.png" width="800" />
 
 **Send: Simple, private file sharing service**  

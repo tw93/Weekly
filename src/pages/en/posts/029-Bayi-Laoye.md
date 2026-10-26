@@ -4,7 +4,7 @@ date: 2021/06/08
 
 <img src="https://gw.alipayobjects.com/zos/k/g0/IMG_4629.jpeg" width="800" />
 
-<small>The cover shows Red Willow BBQ at Bayi Laoye. it's arguably the best Xinjiang spot in Hangzhou. If you're near East Station, it's a must-try for their pilaf, big plate chicken, and skewers.</small>
+<small>The cover shows Red Willow BBQ at Bayi Laoye. It's arguably the best Xinjiang spot in Hangzhou. If you're near East Station, it's a must-try for their pilaf, big plate chicken, and skewers.</small>
 
 > **Record the down-to-earth trending technologies seen every week, and publish them here after screening. If you find it good, you can follow this weekly to get update notifications.**
 
@@ -40,7 +40,7 @@ A very "trendy" recognition—if your code contributed to the Mars projects, you
 
 **Logica: Google’s New Logic-Based SQL Language**  
 <https://github.com/EvgSkv/logica>  
-Aimed at simplifying massive SQL queries. personally, I find it a bit abstract, but it’s an interesting technical attempt.
+Aimed at simplifying massive SQL queries. Personally, I find it a bit abstract, but it’s an interesting technical attempt.
 
 ```python
 # Define primes.
@@ -63,6 +63,7 @@ I didn't realize this was even possible until now! I've been using different col
 ## Just Looking Around
 
 **The State of Semiconductor Manufacturing in China**  
+<https://weibo.com/tv/show/1034:4629360712548388?from=old_pc_videoshow>  
 I caught a video of a CAS professor explaining the current chip landscape. It’s a sobering look at how far we still have to go. I’ve included some additional research reports for those who want to dive deeper into the industry.
 
 **A 1968 US Military Computer Teardown**  

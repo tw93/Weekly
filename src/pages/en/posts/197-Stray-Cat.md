@@ -17,12 +17,12 @@ Found a beautiful reading font "Tsanger Jingkai" on WeChat Reading. If you haven
 
 **Follow: Next-gen information browser public beta**  
 <https://follow.is/>  
-I love this new product from DIŸgöd. If you like RSS reading, give it a try. it can consolidate all your reading sources into one place. Feel free to follow [Trending Weekly](https://app.follow.is/share/feeds/41147805276726275) and my [Blog](https://app.follow.is/share/feeds/41147805272531976).  
+I love this new product from DIŸgöd. If you like RSS reading, give it a try. It can consolidate all your reading sources into one place. Feel free to follow [Trending Weekly](https://app.follow.is/share/feeds/41147805276726275) and my [Blog](https://app.follow.is/share/feeds/41147805272531976).  
 <img src="https://gw.alipayobjects.com/zos/k/v8uv8a/SCR-20241027-rtzc.png" width="800" />
 
 **Latest: Open-source Mac app update checker**  
 <https://max.codes/latest/>  
-Found a handy open-source tool for checking Mac app updates. it works for both Mac App Store and third-party apps, allowing for easy checking and downloading.  
+Found a handy open-source tool for checking Mac app updates. It works for both Mac App Store and third-party apps, allowing for easy checking and downloading.  
 <img src="https://gw.alipayobjects.com/zos/k/58/520shots_so.jpeg" width="800" />
 
 **noTunes: Prevent Mac from auto-launching Apple Music**  

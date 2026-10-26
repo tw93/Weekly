@@ -59,7 +59,15 @@ A member of Huawei’s "Genius Youth" program built a bicycle that can balance i
 
 **Apple Announces the 2021 Design Award Winners**  
 <https://www.apple.com/newsroom/2021/06/apple-announces-winners-of-the-2021-apple-design-awards/>  
-Recognizing excellence across six categories, from inclusivity and innovation to social impact. a great reference for what defines a "best-in-class" app.
+Recognizing excellence across six categories, from inclusivity and innovation to social impact. A great reference for what defines a "best-in-class" app.
 
 **Industry Insights: The State of Tourism in 2021**  
 A collection of reports and articles on how the travel industry is evolving post-pandemic, from the rise of platform-based OTAs to the major shifts in consumer behavior.
+
+- [2021 Cultural Tourism Industry Report](https://pdf.dfcfw.com/pdf/H3_AP202104081482580445_1.pdf?1618923988000.pdf)
+- [The Pandemic Speeds Up Platform OTAs, Renewed Deals Tap Lower-Tier Markets](https://mp.weixin.qq.com/s/r6JTi575ESojNXsOuhEgjA)
+- [Online Attention to China's Tourism Industry, Q1 2021](https://hd.weibo.com/article/view/4453)
+- [COVID-19 and Transforming Tourism](https://www.un.org/sites/un2.un.org/files/policy_brief_covid-19_and_transforming_tourism_chinese.pdf)
+- [Everyone Says the Travel Industry Runs Deep, but How Deep?](https://www.zhihu.com/question/19883451)
+- [Opportunities and Trends for China's Travel Industry over the Next 5 to 10 Years](https://www.zhihu.com/question/317264365)
+- [Ctrip Hits Middle Age](https://36kr.com/p/1723470364673)

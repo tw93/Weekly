@@ -52,7 +52,8 @@ await db.write();
 
 **Sucrase: Blazingly Fast Alternative to Babel**  
 <https://github.com/alangpierce/sucrase>  
-A lightweight transform tool that speeds up local builds by focusing only on the most common modern JS transforms.
+A lightweight transform tool that speeds up local builds by focusing only on the most common modern JS transforms.  
+<img src="https://cdn.tw93.fun/blog/upic/wRqFqh.jpg" width="800" />
 
 **RustDesk: An Open-Source Remote Desktop**  
 <https://github.com/rustdesk/rustdesk>  
@@ -65,6 +66,7 @@ A comprehensive checklist for anyone building tools for the command line.
 ## Just Looking Around
 
 **Training AI on Lu Xun and Mao Zedong’s Complete Works**  
+<https://zhuanlan.zhihu.com/p/384410563>  
 What happens when you give an AI the complete works of China’s most iconic writers and ask it to write a college entrance exam essay? The results are surprisingly "on brand."
 
 **SHEIN: A Victory for Long-Term Strategy**  

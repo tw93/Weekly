@@ -4,7 +4,7 @@ date: 2022/09/20
 
 <img src="https://gw.alipayobjects.com/zos/k/app2/shui.jpg" width=900/>
 
-<small>I visited Hangzhou Adventure Park over Mid-Autumn festival. after three visits, it’s starting to lose its novelty, but the water park is still great. the mechanical rides are a bit too dizzying for me these days!</small>
+<small>I visited Hangzhou Adventure Park over Mid-Autumn festival. After three visits, it’s starting to lose its novelty, but the water park is still great. The mechanical rides are a bit too dizzying for me these days!</small>
 
 > **Record the down-to-earth trending technologies seen every week, and publish them here after screening. If you find it good, you can follow this weekly to get update notifications.**
 
@@ -12,7 +12,7 @@ date: 2022/09/20
 
 **Clean Code Concepts Adapted for JavaScript**  
 <https://github.com/ryanmcdermott/clean-code-javascript>  
-It’s always worth revisiting the fundamentals of writing clear, maintainable code. this repository is an excellent translation of classic principles into the JS ecosystem.
+It’s always worth revisiting the fundamentals of writing clear, maintainable code. This repository is an excellent translation of classic principles into the JS ecosystem.
 
 **Rewriting Tests from Cypress to Playwright with GPT-3**  
 <https://contra.com/p/PWBcPYZc-rewriting-tests-from-cypress-to-playwright-using-gpt-3>  
@@ -26,12 +26,12 @@ An interesting look at a real-world micro-frontend solution that embraces the si
 
 **Minimal Theme for Twitter**  
 <https://chrome.google.com/webstore/detail/minimal-theme-for-twitter/pobhoodpcipjmedfenaigbeloiidbflp?hl=zh-CN>  
-If you use Twitter on the web, this extension is a must-have. it strips away the noise and creates a beautifully focused reading experience.  
+If you use Twitter on the web, this extension is a must-have. It strips away the noise and creates a beautifully focused reading experience.  
 <img src="https://cdn.tw93.fun/blog/upic/mhhXih.png" width="800" />
 
 **omni: The Power-User Browser Command Bar**  
 <https://chrome.google.com/webstore/detail/omni-bookmark-history-tab/mapjgeachilmcbbokkgcbgpbakaaeehi>  
-Manage your tabs, bookmarks, and history with a fast, spotlight-style command interface. perfect for navigating like a pro.  
+Manage your tabs, bookmarks, and history with a fast, spotlight-style command interface. Perfect for navigating like a pro.  
 <img src="https://cdn.tw93.fun/blog/upic/sFUkCs.png" width="800" />
 
 **Nushell: A New Kind of Shell**  
@@ -54,7 +54,9 @@ People say the age of independent blogging in China is over, but this list of hu
 An incredibly detailed guide from legendary dev Guo Yu on everything you need to know about migrating to and living in Japan.
 
 **What Ails the "Minority" (Sspai Writers)?**  
+<https://sspai.com/post/75678>  
 A humorous but practical look at common occupational health issues among digital writers—stay hydrated, move often, and get enough sleep!
 
 **The Hidden Business of Hairy Crabs**  
+<https://www.huxiu.com/article/659476.html>  
 A huxiu article on the commercial traps and branding power behind the expensive hairy crab industry. I personally still prefer a good spicy crab dish—much better value!

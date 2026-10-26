@@ -5,7 +5,7 @@ image: https://gw.alipayobjects.com/zos/k/0u/157.jpg
 
 <video width="800px" preload muted autoplay loop><source src="https://cdn.tw93.fun/blog/upic/BDf4l0.mp4" type="video/mp4" poster="https://gw.alipayobjects.com/zos/k/0u/157.jpg"></video>
 
-<small>The cover photo was taken at the Pudong Museum of Art in Shanghai. Xu Bing's "Gravity Theater" is absolutely spectacular. if you're in Shanghai, don't miss it.</small>
+<small>The cover photo was taken at the Pudong Museum of Art in Shanghai. Xu Bing's "Gravity Theater" is absolutely spectacular. If you're in Shanghai, don't miss it.</small>
 
 > **Record the down-to-earth trending technologies seen every week, and publish them here after screening. If you find it good, you can follow this weekly to get update notifications.**
 
@@ -17,7 +17,7 @@ This MIT course focuses on the tools of the trade that universities often skip (
 
 **Deep Learning Paper Reading Videos**  
 <https://github.com/mli/paper-reading>  
-A collection of deep-dive videos on classic and new DL papers, including GPT-4 and large model research. very academic and thorough.
+A collection of deep-dive videos on classic and new DL papers, including GPT-4 and large model research. Very academic and thorough.
 
 **Dynamic HDR Optimization at Netflix**  
 <https://netflixtechblog.com/all-of-netflixs-hdr-video-streaming-is-now-dynamically-optimized-e9e0cb15f2ba>  
@@ -27,7 +27,7 @@ A look at how Netflix dynamically optimizes all its HDR video streams for better
 
 **MyLens: AI-Generated Timelines**  
 <https://mylens.ai/>  
-A polished tool that uses AI to generate beautiful timeline images. it handles both the historical research and the visual layout. I used it to map out an open-source history and the result was excellent.  
+A polished tool that uses AI to generate beautiful timeline images. It handles both the historical research and the visual layout. I used it to map out an open-source history and the result was excellent.  
 <img src="https://cdn.tw93.fun/blog/upic/SDUCV0.png" width="800" />
 
 **Transhumans: Open-Source Illustrations**  
@@ -49,7 +49,7 @@ Generate design palettes for different scenarios and visualize them across vario
 
 **Chen Hao's "Left Ear Listening to Wind"**  
 <https://book.douban.com/subject/36667269/>  
-I've been reading this collection of the late Chen Hao's works. it's a great legacy for engineers.  
+I've been reading this collection of the late Chen Hao's works. It's a great legacy for engineers.  
 <img src="https://cdn.tw93.fun/blog/upic/hoEV0w.png" width="500" />
 
 **Mystery of the [a-z].com Domains**  

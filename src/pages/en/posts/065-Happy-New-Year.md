@@ -24,7 +24,7 @@ An essential technology for real-time communication that continues to power some
 
 **Is Backend Development Generally Easier than Front-End?**  
 <https://news.ycombinator.com/item?id=29328111>  
-A fascinating Hacker News discussion started by a dev who has been doing frontend since 2007 and is tired of the rapid churn. the replies offer some great perspective on the unique challenges of both domains.
+A fascinating Hacker News discussion started by a dev who has been doing frontend since 2007 and is tired of the rapid churn. The replies offer some great perspective on the unique challenges of both domains.
 
 **Best Practices for Front-End Debugging**  
 <https://mp.weixin.qq.com/s/sxBHC2sRIzTUWsZf7x7a-Q>  
@@ -39,7 +39,7 @@ Brought to you by CodeSandbox, Sandpack lets you embed full, interactive coding 
 
 **Markmap: Turn Markdown into Mindmaps**  
 <https://github.com/gera2ld/markmap>  
-A clever tool that parses your Markdown structure and renders it as an interactive mindmap. i wonder if we could automate the reverse—generating Markdown from visual maps?  
+A clever tool that parses your Markdown structure and renders it as an interactive mindmap. I wonder if we could automate the reverse—generating Markdown from visual maps?  
 <img src="https://gw.alipayobjects.com/zos/k/h08pve/20220123203921.png" width="800" />
 
 **mo.js: Motion Graphics for the Web**  
@@ -49,13 +49,15 @@ A powerful motion graphics library for the web that makes creating complex anima
 
 **AnyBar: Customizable Status Dot for the Mac Menu Bar**  
 <https://github.com/tonsky/AnyBar>  
-A simple but effective tool for indicating system status. for example, you can have a red dot appear whenever index.local is down, or green when a build finishes.  
+A simple but effective tool for indicating system status. For example, you can have a red dot appear whenever index.local is down, or green when a build finishes.  
 <img src="https://gw.alipayobjects.com/zos/k/87qgid/20220123201006.png" width="800" />
 
 ## Just Looking Around
 
 **Why Reaching "High-Income" GDP Doesn't Always Feel Different**  
-Average figures often mask the micro-level reality. we look at why macroeconomic growth doesn't always translate to a felt change in daily life for everyone.
+<https://mp.weixin.qq.com/s/QoFLAlbhzON4fs9eqLC9Ag>  
+Average figures often mask the micro-level reality. We look at why macroeconomic growth doesn't always translate to a felt change in daily life for everyone.
 
 **How Much Does a Hairstylist (Tony) Actually Earn in China?**  
-A look into the economics of the hair industry. as they say: "Don't eat shrimp in Qingdao, and don't get a haircut in Hangzhou."
+<https://mp.weixin.qq.com/s/BvTnVHXQ4QX2uhjgrdFfwA>  
+A look into the economics of the hair industry. As they say: "Don't eat shrimp in Qingdao, and don't get a haircut in Hangzhou."

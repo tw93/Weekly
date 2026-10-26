@@ -32,7 +32,7 @@ This local Mac AI knowledge management tool Nessie is well-made. It extracts ins
 
 **OpenAI's "Building an AI-native engineering team" PDF is worth a look**
 <https://cdn.openai.com/business-guides-and-resources/building-an-ai-native-engineering-team.pdf>
-OpenAI's "Building an AI-native engineering team" PDF is worth a look. it tells technical team managers how to build an AI-native engineering team.
+OpenAI's "Building an AI-native engineering team" PDF is worth a look. It tells technical team managers how to build an AI-native engineering team.
 <img src="https://cdn.tw93.fun/blog/upic/XxD4Qz.png" width="800" />
 
 ## Just Looking Around

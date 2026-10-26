@@ -12,7 +12,7 @@ date: 2022/02/01
 
 **The Magic of Browser Rendering: Compositing Layers**  
 <https://mp.weixin.qq.com/s/lNu6PYZWDUoicQXVwSVF-Q>  
-Why does adding a small bit of code suddenly trigger GPU acceleration? this article explains the concept of compositing layers and how it affects web performance.
+Why does adding a small bit of code suddenly trigger GPU acceleration? This article explains the concept of compositing layers and how it affects web performance.
 
 **What's New in iPhone Camera APIs**  
 <https://mp.weixin.qq.com/s/swzI8C1NHeDFQNBbkQQhUQ>  
@@ -30,7 +30,7 @@ It’s always worth it for frontend developers to peek under the hood of backend
 
 **Tesla Light Show: Create Your Own**  
 <https://github.com/teslamotors/light-show>  
-Tesla has open-sourced the tools to build your own custom choreographed light shows. it’s incredibly stylish if you have a car to test it on.  
+Tesla has open-sourced the tools to build your own custom choreographed light shows. It’s incredibly stylish if you have a car to test it on.  
 <img src="https://cdn.tw93.fun/blog/upic/QFBO7E.jpg" width="800" />
 
 **Shan Shui: AI-Generated Landscape Paintings**  
@@ -40,7 +40,7 @@ A beautiful demonstration of generative art that produces traditional Chinese la
 
 **Tiler: Reconstructing Images with Images**  
 <https://github.com/nuno-faria/tiler>  
-A tool for rebuilding any image using a library of smaller images. the results are fascinating mosaics.  
+A tool for rebuilding any image using a library of smaller images. The results are fascinating mosaics.  
 <img src="https://cdn.tw93.fun/blog/upic/KILcvN.jpg" width="800" />
 
 **Termux: Terminal Simulation for Android**  
@@ -56,10 +56,13 @@ A gallery of some truly beautiful and inspiring home workspace setups.
 <img src="https://cdn.tw93.fun/blog/upic/n8IkCm.jpg" width="800" />
 
 **Living in Australia: A Practical Perspective**  
+<https://www.v2ex.com/t/826954>  
 A Chinese developer shares their experience living and working in Australia, covering everything from salaries to the surprisingly short lunch breaks.
 
 **Samsung vs. TSMC: The Semiconductor War**  
+<https://mp.weixin.qq.com/s/kxVZYs2czqIar5TnB5S2OA>  
 A look at the recent moves made by Jay Y. Lee after his parole and how it’s shaking up the global chip supply chain.
 
 **Analyzing the Global Supply Chain through Apple's Top 200 Suppliers**  
-A data-driven look at industrial shifts. while some manufacturing is moving, China maintains a significant competitive edge in the tech ecosystem.
+<https://mp.weixin.qq.com/s/KBEMxroGvXq0VVjdHNDYkg>  
+A data-driven look at industrial shifts. While some manufacturing is moving, China maintains a significant competitive edge in the tech ecosystem.

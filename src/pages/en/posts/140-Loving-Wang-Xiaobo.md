@@ -16,7 +16,7 @@ I gave a talk last Thursday on the cross-platform tech behind Pake. I shared my 
 
 **What Is ChatGPT Doing … and Why Does It Work?**  
 <https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/>  
-A brilliant explanation of the underlying principles of ChatGPT by computer scientist Stephen Wolfram. it’s comprehensive yet accessible.
+A brilliant explanation of the underlying principles of ChatGPT by computer scientist Stephen Wolfram. It’s comprehensive yet accessible.
 
 **CS Exam Preparation Notes**  
 <https://github.com/ddy-ddy/cs-408>  
@@ -41,7 +41,7 @@ Stable Diffusion can be daunting for designers. InvokeAI provides a clean, user-
 
 **driver.js: Web Onboarding and Guidance**  
 <https://driverjs.com/>  
-A minimalist tool for creating product tours and highlighting key features. it’s best used sparingly to show off the most important parts of your UI.  
+A minimalist tool for creating product tours and highlighting key features. It’s best used sparingly to show off the most important parts of your UI.  
 <img src="https://cdn.tw93.fun/blog/upic/26Px2m.gif"   width="800" />
 
 **Web-Check: The Hacker’s Tool for Websites**  
@@ -51,12 +51,12 @@ A very cool tool to see almost everything about a website: IP, SSL, DNS records,
 
 **Dozer: Hide Menu Bar Icons on the Notch**  
 <https://github.com/Mortennn/Dozer>  
-Since switching to a MacBook with a notch, I’ve found Dozer to be the cleanest way to manage my menu bar. it’s far better than Hidden Bar for this specific hardware and keeps everything looking tidy.  
+Since switching to a MacBook with a notch, I’ve found Dozer to be the cleanest way to manage my menu bar. It’s far better than Hidden Bar for this specific hardware and keeps everything looking tidy.  
 <img src="https://cdn.tw93.fun/blog/upic/wt9Ntu.gif"   width="800" />
 
 **TypeChat: Schema Engineering vs Prompt Engineering**  
 <https://github.com/microsoft/TypeChat>  
-Microsoft’s Anders Hejlsberg (creator of TypeScript) released TypeChat. it uses TypeScript types to define the expected JSON output of an LLM, making it much easier to integrate AI results into your code.
+Microsoft’s Anders Hejlsberg (creator of TypeScript) released TypeChat. It uses TypeScript types to define the expected JSON output of an LLM, making it much easier to integrate AI results into your code.
 
 ## Just Looking Around
 
@@ -65,4 +65,5 @@ Microsoft’s Anders Hejlsberg (creator of TypeScript) released TypeChat. it use
 While some crowd into city libraries, others find peace at local community libraries just 300 meters from home—no commute or 40-RMB mocha required.
 
 **The Long-Term Runner’s Journey**  
+<https://www.zhihu.com/question/271697398/answer/3109730055>  
 A fascinating discussion on Zhihu about the long-term effects of running. Does it improve health, or lead to injury? Does the habit stick, or fade away? Worth a read for the perspective.

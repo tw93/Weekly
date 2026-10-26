@@ -12,7 +12,7 @@ date: 2023/02/27
 
 **The Definitive Guide to JavaScript (7th Ed) Bilingual Online**  
 <https://js.okten.cn/>  
-For those starting out in frontend development, reading a systematic book is often better than watching scattered videos. here’s an excellent online, bilingual version of the "Rhino Book."
+For those starting out in frontend development, reading a systematic book is often better than watching scattered videos. Here’s an excellent online, bilingual version of the "Rhino Book."
 
 **Deep Dive into CSS :where() and :is()**  
 <https://mp.weixin.qq.com/s/HwJuJCVyBvF35FyReIRLqA>  
@@ -35,12 +35,12 @@ A fantastic tool for app developers to quickly turn images into icons for Mac, i
 
 **NetNewsWire: A Classic RSS Reader**  
 <https://netnewswire.com/>  
-I’ve been using NetNewsWire for two years now to avoid algorithm-driven feeds. it’s fast, reliable, and looks great on Mac, iPhone, and iPad.  
+I’ve been using NetNewsWire for two years now to avoid algorithm-driven feeds. It’s fast, reliable, and looks great on Mac, iPhone, and iPad.  
 <img src="https://gw.alipayobjects.com/zos/k/e8/GwN7nw.png" width="800" />
 
 **YouGlish: Master Foreign Pronunciation**  
 <https://youglish.com/>  
-An incredible tool that lets you search for any word to find YouTube clips of native speakers pronouncing it. it supports multiple languages and is a great way to learn authentic pronunciation in context.  
+An incredible tool that lets you search for any word to find YouTube clips of native speakers pronouncing it. It supports multiple languages and is a great way to learn authentic pronunciation in context.  
 <img src="https://gw.alipayobjects.com/zos/k/jb/4EvzPd.jpg" width="800" />
 
 **SingleFile: Save a Webpage into a Single HTML**  

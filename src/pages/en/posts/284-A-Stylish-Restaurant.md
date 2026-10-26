@@ -59,7 +59,7 @@ The author reproduced this on their own phone: an `__obi` cookie linked to a Cha
 **Opus 5.5 is a model that's really surprised me lately**
 <https://www.anthropic.com/claude-opus-5-5>
 <img src="https://cdn.fliggy.com/pic/lD4jm700.png" width="800" />
-Opus 5.5 has surprised me so much lately that I've been getting up before 7 a.m. to write code. It feels so good to use. I'd really recommend trying it if you're using Fable 5.1. The capability is close, but it's much cheaper and feels quite a bit faster too.
+Opus 5.5 has surprised me so much lately that I've been getting up before 7 a.m. To write code. It feels so good to use. I'd really recommend trying it if you're using Fable 5.1. The capability is close, but it's much cheaper and feels quite a bit faster too.
 
 I've also found it very good at long coding tasks. It feels like an experienced engineer, with its own thinking and a plan, working methodically through something complicated. It's well suited to jobs like migrations across repositories and audits of large codebases. One task today ran for two hours, and the result was so good that all I could say was holy shit, holy shit, holy shit.
 

@@ -30,7 +30,7 @@ If you've ever wondered how your JavaScript actually gets executed, this is the 
 
 **wifi-card: Print QR Codes to Share Your WiFi**  
 <https://github.com/bndw/wifi-card>  
-The principle is simple but brilliant. the encoded format is just `WIFI:T:WPA;S:SSID;P:PASSWORD;;`. A very handy tool for guest convenience.  
+The principle is simple but brilliant. The encoded format is just `WIFI:T:WPA;S:SSID;P:PASSWORD;;`. A very handy tool for guest convenience.  
 <img src="https://cdn.tw93.fun/blog/upic/12TLth.jpg" width="800" />
 
 **Hyper.js: A Beautiful, Extensible Terminal**  
@@ -45,7 +45,8 @@ Converts Markdown and its various extensions into a clean, queryable Abstract Sy
 
 **fnm: A Fast and Simple Node Version Manager**  
 <https://github.com/Schniz/fnm>  
-Written in Rust, which means it’s blazing fast and easy to set up.
+Written in Rust, which means it’s blazing fast and easy to set up.  
+<img src="https://cdn.tw93.fun/blog/upic/3QuDgY.svg" width="800" />
 
 ## Just Looking Around
 

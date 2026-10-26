@@ -12,15 +12,15 @@ date: 2023/06/12
 
 **How Memory Allocation Works**  
 <https://samwho.dev/memory-allocation/>  
-A visual, step-by-step guide to the fundamentals of memory allocation. it’s exceptionally clear and perfect for anyone interested in lower-level computer science concepts.
+A visual, step-by-step guide to the fundamentals of memory allocation. It’s exceptionally clear and perfect for anyone interested in lower-level computer science concepts.
 
 **LangChain JS Documentation**  
 <https://js.langchain.com/docs/>  
-I’ve been spending my spare time diving deep into the LangChain JS docs. it’s like a "Doraemon’s pocket" for AI developers—providing a massive array of tools to orchestrate and simplify LLM interactions.
+I’ve been spending my spare time diving deep into the LangChain JS docs. It’s like a "Doraemon’s pocket" for AI developers—providing a massive array of tools to orchestrate and simplify LLM interactions.
 
 **The Swift Programming Language (Chinese Translation)**  
 <https://swiftgg.gitbook.io/swift/>  
-A fantastic Chinese translation of the official Apple Swift guide. perfect for frontend developers or beginners looking to pick up a new language over a weekend.
+A fantastic Chinese translation of the official Apple Swift guide. Perfect for frontend developers or beginners looking to pick up a new language over a weekend.
 
 ## Trending Tools
 
@@ -31,12 +31,12 @@ A clean, ad-free site full of high-quality vector assets. You can customize the 
 
 **Scrnshts: App Store Screenshot Inspiration**  
 <https://scrnshts.club/>  
-Struggling with how to design your app’s promotional screenshots? browse this collection of refined examples to find the perfect style for your product.  
+Struggling with how to design your app’s promotional screenshots? Browse this collection of refined examples to find the perfect style for your product.  
 <img src="https://gw.alipayobjects.com/zos/k/5i/TinySnap-2023-06-10-20.32.13.png" width="800" />
 
 **Flowise: Visual UI for LangChain**  
 <https://flowiseai.com/>  
-An open-source, visual tool for building custom LLM workflows with LangChain. it can be installed with a single npm command and is perfect for non-technical users to build their own AI flows.  
+An open-source, visual tool for building custom LLM workflows with LangChain. It can be installed with a single npm command and is perfect for non-technical users to build their own AI flows.  
 <img src="https://gw.alipayobjects.com/zos/k/fs/MSGePS.png" width="800" />
 
 **Every Programmer Should Know**  
@@ -47,10 +47,13 @@ A curated collection of technical knowledge every software developer should poss
 ## Just Looking Around
 
 **The Art of "Muddling Through" for Young Adults**  
+<https://www.huxiu.com/article/1666217.html>  
 A reminder that while life can be messy, we should at least eat well, sleep well, and take care of ourselves.
 
 **Understanding the Semiconductor Industry Chain**  
+<https://mp.weixin.qq.com/s/RiFiCWXZ3WWlYBimxmLGBg>  
 A detailed analysis of the complex global semiconductor ecosystem.
 
 **Apple Vision Pro: Details that Matter**  
+<https://www.zhihu.com/question/604992904>  
 A deep-dive into the technical and UX details revealed during the WWDC keynote. I’m incredibly excited about this product.

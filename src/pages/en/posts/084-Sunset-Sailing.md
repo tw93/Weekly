@@ -16,7 +16,7 @@ A technical breakdown of the logic required to keep two side-by-side panes perfe
 
 **Rico's Cheatsheets**  
 <https://devhints.io/>  
-One of the best collections of technical cheat sheets on the web. a great one-stop shop for quick syntax reminders.
+One of the best collections of technical cheat sheets on the web. A great one-stop shop for quick syntax reminders.
 
 **Better Scrolling through Modern CSS**  
 <https://blog.mayank.co/better-scrolling-through-modern-css>  
@@ -31,25 +31,27 @@ A versatile set of hand-drawn characters that you can mix and match for your web
 
 **vslook: Customize and Preview your VSCode Themes**  
 <https://github.com/sudoaugustin/vslook>  
-A beautifully designed tool that lets you build and preview custom VSCode themes with ease. the product itself is a great example of UI design.  
+A beautifully designed tool that lets you build and preview custom VSCode themes with ease. The product itself is a great example of UI design.  
 <img src="https://gw.alipayobjects.com/zos/k/n9/overview.gif" width="800" />
 
 **330+ Notion Resources**  
 <https://theveller.gumroad.com/l/NotionResources-byTheVeller>  
-A massive directory of templates and tools for Notion power users. while I find the app a bit slow sometimes, there’s no denying the quality of the community content.  
+A massive directory of templates and tools for Notion power users. While I find the app a bit slow sometimes, there’s no denying the quality of the community content.  
 <img src="https://gw.alipayobjects.com/zos/k/vo/1.png" width="800" />
 
 **ray.so: Beautiful Code Screenshots**  
 <https://ray.so/>  
-By the team at Raycast. it’s a fast and elegant way to share your code snippets as beautifully rendered images.  
+By the team at Raycast. It’s a fast and elegant way to share your code snippets as beautifully rendered images.  
 <img src="https://gw.alipayobjects.com/zos/k/oe/raycast-untitled.png" width="800" />
 
 ## Just Looking Around
 
 **Why are People Keeping their Phones Longer?**  
-The average replacement cycle for smartphones has lengthened from 16-18 months to over 36 months recently. we look at the maturity of the hardware and the economic factors behind the shift.
+<https://www.huxiu.com/article/586011.html>  
+The average replacement cycle for smartphones has lengthened from 16-18 months to over 36 months recently. We look at the maturity of the hardware and the economic factors behind the shift.
 
 **Farewell to an Era: Meizu Sold as Huang Zhang Retires**  
+<https://mp.weixin.qq.com/s/gh7houvLUOLFbFKxIvTyiA>  
 A look back at the legendary Meizu M8 era and the legacy of one of China’s most unique smartphone founders as the company is acquired.
 
 **Protecting Personal Data in the Internet Age**  

@@ -72,10 +72,13 @@ A beautifully designed viewer that makes sense of complex JSON structures with a
 ## Just Looking Around
 
 **Behind the Scenes of the Twitter Acquisition**  
+<https://sspai.com/prime/story/twitter-merger-explained>  
 A masterclass in M&A strategy from the Elon Musk playbook. It’s a wild ride that’s about far more than just "free speech."
 
 **Must-Have iPhone Features You Can’t Live Without**  
+<https://www.v2ex.com/t/849965>  
 A V2EX discussion where users reflect on the seamless integration of hardware and software that keeps them in the Apple ecosystem.
 
 **The Rise of Camping in the Age of Travel Restrictions**  
+<https://mp.weixin.qq.com/s/Zzd0hy1FGeNalCbKRNW25g>  
 With people unable to leave their provinces, camping has exploded as the ultimate way to enjoy a "leisurely" holiday close to home.

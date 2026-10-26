@@ -4,7 +4,7 @@ date: 2024/02/26
 
 <img src="https://gw.alipayobjects.com/zos/k/ti/IMG_7287.JPG" width="800" />
 
-<small>The cover photo is an oil painting from Zeng Fanzhi's exhibition at the Pudong Museum of Art in Shanghai. it’s magical—you can’t see the portraits with the naked eye, but they appear clearly when viewed through a phone camera. This issue is a special aggregate of the best learning resources, tools, and materials featured across the 50+ issues of 2023.</small>
+<small>The cover photo is an oil painting from Zeng Fanzhi's exhibition at the Pudong Museum of Art in Shanghai. It’s magical—you can’t see the portraits with the naked eye, but they appear clearly when viewed through a phone camera. This issue is a special aggregate of the best learning resources, tools, and materials featured across the 50+ issues of 2023.</small>
 
 > **Record the down-to-earth trending technologies seen every week, and publish them here after screening. If you find it good, you can follow this weekly to get update notifications.**
 

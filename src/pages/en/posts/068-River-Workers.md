@@ -20,12 +20,12 @@ MutationObserver, IntersectionObserver, PerformanceObserver, ResizeObserver, and
 
 **PWAs on the Oculus Quest 2**  
 <https://web.dev/pwas-on-oculus-2/>  
-Learn how to build and optimize Progressive Web Apps for VR environments. the future of the web is increasingly spatial.  
+Learn how to build and optimize Progressive Web Apps for VR environments. The future of the web is increasingly spatial.  
 <img src="https://gw.alipayobjects.com/zos/k/0z/yON5ME.jpg" width="800" />
 
 **10 Ways to Hide Elements in CSS**  
 <https://juejin.cn/post/7065871783232012318>  
-Before reading this, I could only think of about five. it’s a great deep dive into the nuances of accessibility and layout.
+Before reading this, I could only think of about five. It’s a great deep dive into the nuances of accessibility and layout.
 
 ## Trending Open Source
 
@@ -41,7 +41,7 @@ A clever way to enhance your native phone experience through custom contact mana
 
 **WebVM: Run Linux Virtual Machines in your Browser**  
 <https://github.com/leaningtech/webvm>  
-A full Linux environment running entirely on WebAssembly. the technical feat of getting this to work in the browser is incredible.  
+A full Linux environment running entirely on WebAssembly. The technical feat of getting this to work in the browser is incredible.  
 <img src="https://gw.alipayobjects.com/zos/k/xo/hIsJMV.png" width="800" />
 
 **Stylo: A New Kind of Rich Text Editor**  
@@ -60,4 +60,5 @@ A smart utility that uses the native `MediaDevices` API for capturing screenshot
 An essential guide to understanding your medical checkup results and what you should really be monitoring as a young professional.
 
 **The Return of $100 Oil**  
+<https://mp.weixin.qq.com/s/g10N0brrkNlGPzXJS910tg>  
 With global oil prices likely to stay above $100 a barrel in 2022, we look at the massive economic implications for China and the world.

@@ -21,7 +21,7 @@ Released V1.15, titled "Long Time No See." Highlights:
 
 **Chinese Version of "The Fact-Checking Manual"**  
 <https://dub.sh/fact-check>  
-A must-read. misinformation in the simplified Chinese space is more common than you think. this manual uses examples to introduce text, image, and video verification tools, workflows, and international fact-checking standards.  
+A must-read. Misinformation in the simplified Chinese space is more common than you think. This manual uses examples to introduce text, image, and video verification tools, workflows, and international fact-checking standards.  
 <img src="https://cdn.tw93.fun/blog/upic/1716730846.png" width="800" />
 
 **Principles of Stable Diffusion Image Generation**  
@@ -32,12 +32,12 @@ A great primer on the basic principles and logic behind Stable Diffusion.
 
 **Compare all iPad model specs**  
 <http://kylebing.cn/tools/ipad/>  
-A handy site for comparing every iPad model—weight, screen, camera, biometrics, ports, etc. it’s already got the latest models. Wondering when the Mini 7 will arrive.  
+A handy site for comparing every iPad model—weight, screen, camera, biometrics, ports, etc. It’s already got the latest models. Wondering when the Mini 7 will arrive.  
 <img src="https://cdn.tw93.fun/blog/upic/1716731136.png" width="800" />
 
 **Subtitle Toolbox**  
 <https://zm.i8k.tv/>  
-A suite of tools for video subtitle editing, including bilingual support and translation. it'd be interesting to see this integrated with AI APIs directly.  
+A suite of tools for video subtitle editing, including bilingual support and translation. It'd be interesting to see this integrated with AI APIs directly.  
 <img src="https://gw.alipayobjects.com/zos/k/nf/SCR-20240519-kqst.png" width="800" />
 
 **Hoarder: Open-source self-hosted read-it-later app**  
@@ -54,10 +54,10 @@ A clean inspiration site with high-quality content. Great for site design ideas.
 
 **Book Recommendation: "Glucode Revolution"**  
 <https://book.douban.com/subject/36707112/>  
-If you're trying to lose weight, read this. it explains why we need to control glucose spikes and provides simple tips to balance blood sugar WITHOUT dieting. it improves sleep, mood, skin, and helps with weight loss and anti-aging.  
+If you're trying to lose weight, read this. It explains why we need to control glucose spikes and provides simple tips to balance blood sugar WITHOUT dieting. It improves sleep, mood, skin, and helps with weight loss and anti-aging.  
 <img src="https://cdn.tw93.fun/blog/upic/1716731066.jpeg" width="500" />
 
 **K-Drama Recommendation: "Moving" (2023)**  
 <https://movie.douban.com/subject/35206436/>  
-A fantastic show about people with superpowers—regenerative healing, flight, strength, super senses, etc. it’s violent but deeply human, covering family, love, and North-South relations. Highly recommended.  
+A fantastic show about people with superpowers—regenerative healing, flight, strength, super senses, etc. It’s violent but deeply human, covering family, love, and North-South relations. Highly recommended.  
 <img src="https://cdn.tw93.fun/blog/upic/1716730741.png" width="800" />

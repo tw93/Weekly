@@ -12,12 +12,12 @@ date: 2023/10/30
 
 **Rust Programming (2nd Edition) Chinese Version released**  
 <https://book.douban.com/subject/36547630/>  
-The hot-off-the-press second edition is now available in Chinese. stop obsessing over frontend tech—go learn Rust instead!  
+The hot-off-the-press second edition is now available in Chinese. Stop obsessing over frontend tech—go learn Rust instead!  
 <img src="https://cdn.tw93.fun/blog/upic/QxYMs6.png" width="400" />
 
 **Stop Obsessing Over Tools**  
 <https://plug-world.com/posts/stop-obsessing-over-tools/>  
-A short essay on "tool addiction." don't waste your days searching for the perfect note-taking app or the ultimate AI software. pick one that works and focus on finishing the actual work.
+A short essay on "tool addiction." Don't waste your days searching for the perfect note-taking app or the ultimate AI software. Pick one that works and focus on finishing the actual work.
 
 **Building an Exobrain: PKM in the AI Era**  
 <https://www.indigox.me/build-exobrain/>  
@@ -27,12 +27,12 @@ An exploration of how to use new AI tools to extend the boundaries of thought an
 
 **Alook: The "Three-No" Mobile Browser**  
 <https://alookweb.com/>  
-No ads, no news, no push notifications. Alook is a fast, minimalist browser that even includes built-in web developer debugging tools. highly recommended.  
+No ads, no news, no push notifications. Alook is a fast, minimalist browser that even includes built-in web developer debugging tools. Highly recommended.  
 <img src="https://cdn.tw93.fun/blog/upic/LTHmok.png" width="800" />
 
 **Spacedrive: Cross-Platform File Manager**  
 <https://spacedrive.com/>  
-A Rust-based, open-source file manager that works across all platforms. it’s a beautiful alternative to Finder or Explorer.  
+A Rust-based, open-source file manager that works across all platforms. It’s a beautiful alternative to Finder or Explorer.  
 <img src="https://cdn.tw93.fun/blog/upic/iWI2Lz.png" width="800" />
 
 **Browser-based Image Background Removal**  
@@ -44,7 +44,7 @@ Usually, background removal requires server-side processing, but this library do
 
 **Bilibili Creator: "Xiao Hui's Drifting Journal"**  
 <https://space.bilibili.com/1727750599/>  
-A documentary-style vlog of someone cycling solo across Tibet. his resilience is incredibly moving. worth watching his journey from the very beginning.  
+A documentary-style vlog of someone cycling solo across Tibet. His resilience is incredibly moving. Worth watching his journey from the very beginning.  
 <img src="https://cdn.tw93.fun/blog/upic/9o2xJX.png" width="800" />
 
 **Setapp 2023 Mac Apps Report**  

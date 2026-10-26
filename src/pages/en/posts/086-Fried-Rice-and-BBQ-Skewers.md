@@ -26,21 +26,21 @@ Revisiting the Proxy object to discover some of its less obvious but incredibly 
 
 **Music for Programming: The Ultimate Focus Playlist**  
 <https://musicforprogramming.net/>  
-A highly curated set of tracks designed specifically to help you get into the flow and stay there. the site itself is a work of art.  
+A highly curated set of tracks designed specifically to help you get into the flow and stay there. The site itself is a work of art.  
 <img src="https://cdn.tw93.fun/blog/upic/9mG8yP.jpg" width="800" />
 
 **TinyWow: The Swiss Army Knife for Files**  
 <https://tinywow.com/>  
-An incredibly powerful set of web tools for handling PDFs, images, and videos. free, fast, and very well-made.  
+An incredibly powerful set of web tools for handling PDFs, images, and videos. Free, fast, and very well-made.  
 <img src="https://cdn.tw93.fun/blog/upic/8Knvv6.jpg" width="800" />
 
 **Chinese Poetry: The Most Comprehensive Collection**  
 <https://github.com/chinese-poetry/chinese-poetry>  
-A massive database featuring over 300,000 poems from the Tang and Song dynasties. a fantastic resource for cultural and creative projects.
+A massive database featuring over 300,000 poems from the Tang and Song dynasties. A fantastic resource for cultural and creative projects.
 
 **SnapKit: Elegant AutoLayout for iOS & OS X**  
 <https://github.com/SnapKit/SnapKit>  
-A DSL that makes writing constraints in Swift feel almost like writing frontend styles. highly recommended for Apple platform devs.
+A DSL that makes writing constraints in Swift feel almost like writing frontend styles. Highly recommended for Apple platform devs.
 
 ```swift
 import SnapKit
@@ -64,14 +64,16 @@ An insightful piece from MacTalk on the philosophy and professional approach of 
 
 **How Should I Relate to the World?**  
 <https://sspai.com/post/73704>  
-In an age of information overload, it’s easy to second-guess every decision. this article explores how to stay true to your choices and maintain your center.
+In an age of information overload, it’s easy to second-guess every decision. This article explores how to stay true to your choices and maintain your center.
 
 **Spring in the Local Markets of Leshan and Yibin**  
 <https://zhuanlan.zhihu.com/p/534986693>  
-A culinary tour through the local markets of smaller cities. real food, real people, and the true birthplace of great cuisine.
+A culinary tour through the local markets of smaller cities. Real food, real people, and the true birthplace of great cuisine.
 
 **Xianyu Knows Everything about Milk Tea Shop Failure**  
-The "death" of many milk tea businesses can be tracked by the equipment appearing for sale on second-hand platforms. a sad but fascinating economic indicator.
+<https://www.huxiu.com/article/594177.html>  
+The "death" of many milk tea businesses can be tracked by the equipment appearing for sale on second-hand platforms. A sad but fascinating economic indicator.
 
 **WeChat 8.0.24: 5 Features to Watch**  
+<https://sspai.com/post/74042>  
 The latest update adds some major functionality, including Mini Programs sharing to Moments and a native AirPlay implementation for WeChat.

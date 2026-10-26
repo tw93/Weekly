@@ -19,7 +19,7 @@ date: 2025/01/13
 
 **Install Stash first for network connectivity**  
 <https://stash.wiki/>  
-The first priority is a smooth network. After years of experimenting, I use Stash on my phone, computer, and Apple TV. It syncs easily, looks good, and is reasonably priced. it's my go-to "set and forget" tool.  
+The first priority is a smooth network. After years of experimenting, I use Stash on my phone, computer, and Apple TV. It syncs easily, looks good, and is reasonably priced. It's my go-to "set and forget" tool.  
 <img src="https://gw.alipayobjects.com/zos/k/c5/image.webp" width="800" />
 
 **WeChat Input Method for typing**  

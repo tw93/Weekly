@@ -27,10 +27,11 @@ A fun look at 17 world-changing equations rewritten in JavaScript. Great for fro
 ## Trending Tools
 
 **Recommended Apps for Bookkeeping and Asset Management**  
+<https://apps.apple.com/cn/app/cookie-%E8%AE%B0%E8%B4%A6/id1559943673>  
 After trying several apps, I've settled on two that I highly recommend for tracking spending and assets:
 
 1. **Cookie**: A beautifully designed, minimalist bookkeeping app for iPhone and Mac. The design details are very thoughtful and perfect for daily use.  
-2. **Capivot**: A powerful asset manager that aggregates stocks, cash, and other investments. it automatically pulls stock prices and exchange rates, saving you from manual updates. I just update the total in Cookie every month.  
+2. **Capivot**: A powerful asset manager that aggregates stocks, cash, and other investments. It automatically pulls stock prices and exchange rates, saving you from manual updates. I just update the total in Cookie every month.  
 <img src="https://gw.alipayobjects.com/zos/k/3x/YyTBwh.png" width="800" />
 
 **Visual Capitalist: Data-Driven Visual Analysis**  
@@ -40,17 +41,17 @@ A site that visualizes global trends in economics, tech, energy, and society. Pe
 
 **META SEO inspector: Improve your SEO**  
 <https://chromewebstore.google.com/detail/meta-seo-inspector/ibkclpciafdglkjkcibmohobjkcfkaef>  
-A Chrome extension that highlights missing or suboptimal metadata on your site. very helpful for improving your site's search engine visibility.  
+A Chrome extension that highlights missing or suboptimal metadata on your site. Very helpful for improving your site's search engine visibility.  
 <img src="https://gw.alipayobjects.com/zos/k/nr/SCR-20240224-tgtr.png" width="800" />
 
 **Umami: An Open-Source Alternative to Google Analytics**  
 <https://umami.is/>  
-A simple, fast, privacy-focused alternative to Google Analytics. it's easy to self-host with Vercel and providing all the core analytics you need.  
+A simple, fast, privacy-focused alternative to Google Analytics. It's easy to self-host with Vercel and providing all the core analytics you need.  
 <img src="https://gw.alipayobjects.com/zos/k/nc/SCR-20240224-tcgv.png" width="800" />
 
 **Maybe Finance: Open-Source Personal Finance**  
 <https://github.com/maybe-finance/maybe>  
-An open-source personal finance and wealth management system. it was originally a commercial project that cost 1M USD to develop before being open-sourced. you can self-host it for your own use.  
+An open-source personal finance and wealth management system. It was originally a commercial project that cost 1M USD to develop before being open-sourced. You can self-host it for your own use.  
 <img src="https://gw.alipayobjects.com/zos/k/uv/I7aB0b.png" width="800" />
 
 ## Just Looking Around

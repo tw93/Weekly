@@ -23,12 +23,12 @@ Master your programming skills by recreating your favorite technologies from scr
 
 **EpicEasing: Ease Animation Debugger and Previewer**  
 <https://epiceasing.com/>  
-A polished tool for generating and debugging easing animations. it supports Ease, Spring, and Bounce curves and can export code for CSS, SCSS, Objective-C, and Swift.  
+A polished tool for generating and debugging easing animations. It supports Ease, Spring, and Bounce curves and can export code for CSS, SCSS, Objective-C, and Swift.  
 <img src="https://cdn.tw93.fun/blog/upic/Sap22r.png"   width="800" />
 
 **Compiling Chromium from Source**  
 <https://chromium.googlesource.com/chromium/src/+/main/docs/mac_build_instructions.md>  
-I spent a few hours on Friday evening compiling Chromium. it’s a fascinating process—if you have some time and a powerful Mac, it’s worth a try.  
+I spent a few hours on Friday evening compiling Chromium. It’s a fascinating process—if you have some time and a powerful Mac, it’s worth a try.  
 <img src="https://cdn.tw93.fun/blog/upic/KsAdZ0.png"   width="800" />
 
 **RealChar - Your Realtime AI Character**  
@@ -38,17 +38,18 @@ Create, customize, and converse with your own AI character or companion in real-
 
 **The Pudding: Visual Journalism**  
 <https://pudding.cool>  
-A highly creative site that combines data visualization with storytelling to explain complex topics. it’s a brilliant example of modern multimedia journalism.
+A highly creative site that combines data visualization with storytelling to explain complex topics. It’s a brilliant example of modern multimedia journalism.
 
 ## Just Looking Around
 
 **Paul Krugman’s Economics Masterclass**  
 <https://bilibili.com/video/BV1oU4y177vk>  
-A 2.5-hour masterclass by the Nobel laureate Paul Krugman. it’s very accessible even for those without an economics background.  
+A 2.5-hour masterclass by the Nobel laureate Paul Krugman. It’s very accessible even for those without an economics background.  
 <img src="https://cdn.tw93.fun/blog/upic/4Evdkd.png"   width="800" />
 
 **Lee Hsien Loong’s NDP 2023 Speech**  
-A very pragmatic and grounded speech. it made me want to visit Singapore again soon.
+<https://www.bilibili.com/video/BV1f94y1B7hb/?vd_source=97dc995760bd99887f80600c22d4fcec>  
+A very pragmatic and grounded speech. It made me want to visit Singapore again soon.
 
 **Sam Altman’s Advice for Ambitious 19-Year-Olds**  
 <https://blog.samaltman.com/advice-for-ambitious-19-year-olds>  

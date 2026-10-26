@@ -4,7 +4,7 @@ date: 2024/04/01
 
 <img src="https://gw.alipayobjects.com/zos/k/3c/169.jpg" width="800" />
 
-<small>The cover photo was taken over the weekend in my residential area. Hangzhou’s spring is beautiful, but it’s quite short—it feels like winter just a month ago and it'll be short-sleeve weather next month. the current temperature is lovely, so it’s best to get out and enjoy it before the May heat sets in.</small>
+<small>The cover photo was taken over the weekend in my residential area. Hangzhou’s spring is beautiful, but it’s quite short—it feels like winter just a month ago and it'll be short-sleeve weather next month. The current temperature is lovely, so it’s best to get out and enjoy it before the May heat sets in.</small>
 
 > **Record the down-to-earth trending technologies seen every week, and publish them here after screening. If you find it good, you can follow this weekly to get update notifications.**
 
@@ -12,7 +12,7 @@ date: 2024/04/01
 
 **Modern C++ Tutorial**  
 <https://learnmoderncpp.com/>  
-A great introductory course for self-learning modern C++. updated as recently as January 2024.  
+A great introductory course for self-learning modern C++. Updated as recently as January 2024.  
 <img src="https://gw.alipayobjects.com/zos/k/wb/SCR-20240324-tqai.png" width="800" />
 
 **Web Development History**  
@@ -24,7 +24,7 @@ For those interested in the web’s past, this site feels like walking through a
 
 **Morse Code Learning Tool**  
 <https://www.perry.qa/morse>  
-Want to learn Morse code? this tool makes it fun to learn the system of dots and dashes used for communication. it feels straight out of a spy movie.  
+Want to learn Morse code? This tool makes it fun to learn the system of dots and dashes used for communication. It feels straight out of a spy movie.  
 <img src="https://gw.alipayobjects.com/zos/k/tl/SCR-20240324-tlza.png" width="800" />
 
 **Awesome Front-end Mini-interactions**  
@@ -39,16 +39,69 @@ If you like Hacker News but don't want to browse everything, this site aggregate
 
 ## Just Looking Around
 
+**How to Do Things if You're Not That Smart or Talented**  
+<https://adaobi.substack.com/p/how-to-do-things-if-youre-not-that>  
+This piece is interesting, and the English is easy to follow, so I recommend reading it directly.
+
 **Sam Altman’s Playbook for Startups**  
 <https://jxp73q7qjsg.feishu.cn/docx/WCNZdKDa4o2eUrxK5ElcfBXEnah>  
-A must-read. Success is built on a great idea, team, product, and execution. most people try to skip the execution part, but that's where the hard work happens.
+Sam Altman’s startup playbook is well worth a read. Startup success comes down to a great idea, a great team, a great product and excellent execution. Execution is indispensable and takes a lot of time, yet most people hope to skip it and turn an idea straight into success.
 
-**Selected Insights from the Playbook:**
+**My Quick Summary of the Notes**
 
-- **Product**: Your primary goal is to make something people love. Successful companies ALWAYS start with this.
-- **Team**: A great team is the foundation. Founders need grit, toughness, and resourcefulness. choose co-founders carefully—it's your most important decision.
-- **Development**: focus on real user needs. stay simple and easy to use.
-- **Execution**: keeping growth is the key. as CEO, focus on the vision and strategy, and hire people based on talent over just experience.
-- **Growth**: it's the solution to all problems. focus on retention and revenue, not vanity metrics.
-- **Competitors**: focus on your internal problems. Most startups die from self-inflicted wounds, not competition.
-- **Profitability**: find a way for people to pay for your value. focus on unit economics and LTV.
+The playbook gives first-time founders a set of practical advice, covering how to come up with and validate an idea, build a team, develop the product, execute, grow and raise money.
+
+**Startup Ideas**
+
+- The first goal of a startup is to make something users love.
+- Successful companies all start with a product that early users love.
+- Founders need to be able to explain their idea clearly and concisely.
+- Understanding your target users and solving their urgent needs is essential.
+- A good way to test an idea is to launch the product and see what happens, or to try selling it.
+
+**Building the Team**
+
+- A great team is the foundation of a great company.
+- Founders need unstoppable determination, toughness and resourcefulness.
+- Choose your co-founders carefully, it is one of the most important decisions you will make.
+- Settle equity splits early to avoid disputes later.
+
+**Product Development**
+
+- A great product is the one thing all great companies have in common.
+- Build a "product improvement engine": keep talking to users and keep improving the product.
+- The product should be simple, easy to understand and easy to use.
+- Product work should focus on solving users' real needs.
+
+**Execution**
+
+- Sustaining growth is the key to executing well.
+- The CEO's job is to make sure the company wins, staying focused on its vision and strategy.
+- Hire great people and spend a lot of time on hiring.
+- When managing the team, value aptitude over experience, and let go of people who are not a fit quickly.
+
+**Growth**
+
+- Growth solves every problem, and a lack of growth can only be solved by growth.
+- Keep up momentum and focus on the key growth metrics.
+- Avoid vanity metrics and focus on retention and revenue growth.
+- Set an internal cadence to keep growth going.
+
+**Fundraising**
+
+- Raise money when you need it or when the terms are good.
+- Successful fundraising is built on having a good company.
+- Run fundraising in parallel, and do not let the process drag the company down.
+- Choose good investors, they can add enormous value to the company.
+
+**Competitors**
+
+- Founders should focus on their own problems rather than worrying too much about competitors.
+- Most startups die of their own problems, not because of competitors.
+
+**Profitability**
+
+- Find a way for people to be willing to pay for your product or service.
+- Watch costs and customer lifetime value to become profitable.
+
+In the end, startup success comes down to execution. A good idea, a strong team, an excellent product and outstanding execution are what make it work.

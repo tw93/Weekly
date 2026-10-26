@@ -22,7 +22,7 @@ Mole has updated again! The cleanup section adds more safe operations and multi-
 
 **"Shitcode" Detector is quite interesting**
 <https://github.com/Done-0/fuck-u-code>
-This command-line tool is quite interesting. The name is a bit crude, called "Shit Mountain Code Detector." it evaluates the "shit-mountain level" of code and outputs a beautiful report. I tried it on my own project, and it was "refreshing, as if the code had been kissed by an angel." Not bad at all.
+This command-line tool is quite interesting. The name is a bit crude, called "Shit Mountain Code Detector." It evaluates the "shit-mountain level" of code and outputs a beautiful report. I tried it on my own project, and it was "refreshing, as if the code had been kissed by an angel." Not bad at all.
 <img src="https://gw.alipayobjects.com/zos/k/rv/0znXRb.png" width="800">
 
 **AirBattery: Get all your devices' battery info on Mac**

@@ -12,7 +12,7 @@ date: 2022/04/05
 
 **The Power of `JSON.stringify`**  
 <https://juejin.cn/post/7072122968087724046>  
-Did you know the second `replacer` argument is this powerful? it’s a life-saver for filtering and transforming objects during serialization.
+Did you know the second `replacer` argument is this powerful? It’s a life-saver for filtering and transforming objects during serialization.
 
 **Optimizing GPU Training for Meituan Recommendations**  
 <https://tech.meituan.com/2022/03/24/tensorflow-gpu-training-optimization-practice-in-meituan-waimai-recommendation-scenarios.html>  
@@ -36,21 +36,24 @@ A vital tool for any project that needs to render various document formats direc
 
 **PyWebIO: Interactive Web Apps via Python Scripts**  
 <https://github.com/pywebio/PyWebIO>  
-PyWebIO turns the browser into a "rich text terminal," allowing you to build simple but powerful interactive GUIs using only Python code. its imperative approach is very refreshing.  
+PyWebIO turns the browser into a "rich text terminal," allowing you to build simple but powerful interactive GUIs using only Python code. Its imperative approach is very refreshing.  
 <img src="https://gw.alipayobjects.com/zos/k/o1/11.gif" width="800" />
 
 **CodeEdit: A New Native Code Editor for macOS**  
 <https://github.com/CodeEditApp/CodeEdit>  
-A community-driven project aiming to build a native editor that is as fast as TextEdit but as powerful as Xcode. currently requires manual compilation.  
+A community-driven project aiming to build a native editor that is as fast as TextEdit but as powerful as Xcode. Currently requires manual compilation.  
 <img src="https://gw.alipayobjects.com/zos/k/45/NJw210.jpg" width="800" />
 
 ## Just Looking Around
 
 **New App Store Submission Requirements**  
+<https://developer.apple.com/cn/news/?id=2t1chhp3>  
 As of April 25, all new submissions must be built with Xcode 13. though Apple is strict with versioning, it genuinely helps keep the ecosystem healthy and developers up-to-date.
 
 **Is Google Search Dying?**  
-An interesting translation of a viral article from abroad. while I still find Google invaluable for technical research, the author argues that search quality is declining and people are increasingly turning to Reddit for authentic answers.
+<https://sspai.com/post/72065>  
+An interesting translation of a viral article from abroad. While I still find Google invaluable for technical research, the author argues that search quality is declining and people are increasingly turning to Reddit for authentic answers.
 
 **Building a "Water Army" for Just $300**  
-A sobering look at how the social media manipulation industry has been industrialized. for only 2,000 RMB, anyone can manufacture a significant (if fake) wave of public sentiment.
+<https://mp.weixin.qq.com/s/Lu2CggwOW6vmxecinVSImA>  
+A sobering look at how the social media manipulation industry has been industrialized. For only 2,000 RMB, anyone can manufacture a significant (if fake) wave of public sentiment.

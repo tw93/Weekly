@@ -17,12 +17,12 @@ Found a great free AI background removal tool called Xianyi. The results are exc
 
 **Datong Search: High-quality information for Chinese scenarios**  
 <https://datong.io/>  
-Datong Search is very useful for high-quality Chinese information retrieval, especially for academic, medical, science, and economic topics. it can prioritize English content and translate it into Chinese for easier reading. Very handy for research.  
+Datong Search is very useful for high-quality Chinese information retrieval, especially for academic, medical, science, and economic topics. It can prioritize English content and translate it into Chinese for easier reading. Very handy for research.  
 <img src="https://gw.alipayobjects.com/zos/k/a4/SCR-20240804-rzjr.png" width="800" />
 
 **Bin Fen Kuai Chuan: An open-source file sharing tool**  
 <https://send.bitiful.com/>  
-This open-source file sharing tool is well-made. Based on Bitiful S4 object storage's Simul-Transfer technology, it allows for real-time sharing of large files with multiple people. it's a great alternative to WeTransfer—just copy the link for the receiver. Very fast experience.  
+This open-source file sharing tool is well-made. Based on Bitiful S4 object storage's Simul-Transfer technology, it allows for real-time sharing of large files with multiple people. It's a great alternative to WeTransfer—just copy the link for the receiver. Very fast experience.  
 <img src="https://gw.alipayobjects.com/zos/k/vq/SCR-20240804-rthh.png" width="800" />
 
 ## Technical Learning

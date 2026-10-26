@@ -43,7 +43,7 @@ Convert Java source code directly into TypeScript and JavaScript.
 
 **Kiwi: A Complete Internationalization Solution**  
 <https://github.com/alibaba/kiwi>  
-More than just a library, Kiwi (a great name!) is a full-process solution from design to deployment for software i18n.
+More than just a library, Kiwi (a great name!) Is a full-process solution from design to deployment for software i18n.
 
 **Gopup: A Powerful Data Interface**  
 <https://github.com/justinzm/gopup>  

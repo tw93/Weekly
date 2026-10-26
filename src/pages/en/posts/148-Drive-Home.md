@@ -12,7 +12,7 @@ date: 2023/10/09
 
 **Comprehensive Rust: A Free Course from Google's Android Team**  
 <https://google.github.io/comprehensive-rust/index.html>  
-The Android team at Google has released a 3-day Rust course covering everything from basic syntax to advanced topics. it includes exercises and is perfect for developers coming from other languages.  
+The Android team at Google has released a 3-day Rust course covering everything from basic syntax to advanced topics. It includes exercises and is perfect for developers coming from other languages.  
 <img src="https://cdn.tw93.fun/blog/upic/iYOcI0.png" width="800" />
 
 **Native CSS Nesting Now Supported by Major Browsers**  
@@ -22,7 +22,7 @@ Native nesting is now available in all major modern browsers. You can start usin
 
 **Redesigning Design Systems**  
 <https://redesigningdesign.systems/component-process/getting-started.html>  
-An excellent educational site for designers. it covers the entire lifecycle of a design system component—from research and design to construction and documentation.  
+An excellent educational site for designers. It covers the entire lifecycle of a design system component—from research and design to construction and documentation.  
 <img src="https://gw.alipayobjects.com/zos/k/8w/SCR-20230925-muby.png" width="800" />
 
 ## Trending Tools
@@ -33,12 +33,12 @@ I've switched entirely to the native Mac Mail app recently. One great tip: you c
 
 **SmartKnob: A Haptic Input Dial**  
 <https://github.com/scottbez1/smartknob>  
-An incredible open-source project featuring a smart dial with configurable endstops and virtual detents. it even has an integrated display.  
+An incredible open-source project featuring a smart dial with configurable endstops and virtual detents. It even has an integrated display.  
 <video width="800px" muted preload autoplay loop><source src="https://cdn.tw93.fun/blog/upic/nDMiON.mp4" type="video/mp4" postor="https://cdn.tw93.fun/blog/upic/UlpZ6K.png"></video>
 
 **CasaOS: Simple Open-Source Personal Cloud**  
 <https://github.com/IceWhaleTech/CasaOS>  
-As compute and storage costs drop, ownership of personal data becomes crucial. CasaOS provides a simple, beautiful interface for managing your own data center at home. it's lightweight and works on various hardware.  
+As compute and storage costs drop, ownership of personal data becomes crucial. CasaOS provides a simple, beautiful interface for managing your own data center at home. It's lightweight and works on various hardware.  
 <img src="https://cdn.tw93.fun/blog/upic/RktnzC.png" width="800" />
 
 **IP-Adapter: Image Prompts for Diffusion Models**  
@@ -48,7 +48,7 @@ This project from Tencent AI Lab allows you to use images as prompts for text-to
 
 **FindMyCat: DIY Pet Tracker**  
 <https://www.findmycat.io/docs>  
-A masterclass in open-source product design. this project covers everything from hardware design and 3D printing to the software engine and iOS app. Perfect for DIY enthusiasts who want to build an AirTag-like tracker for their pets.  
+A masterclass in open-source product design. This project covers everything from hardware design and 3D printing to the software engine and iOS app. Perfect for DIY enthusiasts who want to build an AirTag-like tracker for their pets.  
 <img src="https://cdn.tw93.fun/blog/upic/8Fq0lu.gif"  width="800" />
 
 **Headshot AI: SaaS Starter Kit**  
@@ -58,12 +58,12 @@ A perfect starting point for indie hackers. This project covers the entire flow�
 
 **ActivityWatch: Privacy-Focused Screen Time Tracking**  
 <https://activitywatch.net/>  
-A great open-source, cross-platform alternative to RescueTime or WakaTime. it helps you track how you spend your time on your devices while keeping your data private.  
+A great open-source, cross-platform alternative to RescueTime or WakaTime. It helps you track how you spend your time on your devices while keeping your data private.  
 <img src="https://cdn.tw93.fun/blog/upic/tlzdm2.png" width="800" />
 
 **TomatoBar: Minimalist Pomodoro for Mac**  
 <https://github.com/ivoronin/TomatoBar>  
-A very polished, keyboard-friendly Pomodoro app for the macOS menu bar. simple and effective.  
+A very polished, keyboard-friendly Pomodoro app for the macOS menu bar. Simple and effective.  
 <img src="https://cdn.tw93.fun/blog/upic/aaQzoN.png"  width="800" />
 
 ## Just Looking Around

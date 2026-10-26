@@ -16,18 +16,18 @@ Found a CLI tool called Tailspin that highlights log files. After installation, 
 <img src="https://gw.alipayobjects.com/zos/k/yd/906shots_so.jpeg" width="800" />
 
 **Life Tip: Carrier-level spam call blocking**  
-China's major carriers (Unicom, Mobile, Telecom) all have free system-level harassment call blocking. it's simpler than installing an app—you can enable it directly via their WeChat accounts. I've found Unicom's to be good, though some report that China Mobile's can be over-aggressive, so use with discretion.
+China's major carriers (Unicom, Mobile, Telecom) all have free system-level harassment call blocking. It's simpler than installing an app—you can enable it directly via their WeChat accounts. I've found Unicom's to be good, though some report that China Mobile's can be over-aggressive, so use with discretion.
 
 ## Technical Learning
 
 **easy_rust: Learning Rust explained in easy English**  
 <https://github.com/Dhghomon/easy_rust>  
-Found a great tutorial on GitHub: "Rust explained using easy English." it's perfect for non-native English speaking programmers. You can learn Rust basics while brushing up on your English—killing two birds with one stone.  
+Found a great tutorial on GitHub: "Rust explained using easy English." It's perfect for non-native English speaking programmers. You can learn Rust basics while brushing up on your English—killing two birds with one stone.  
 <img src="https://gw.alipayobjects.com/zos/k/19/841shots_so.jpeg" width="800" />
 
 **Web3 101 for Web2 Engineers**  
 <https://s3.laisky.com/public/slides/web3-101.slides.html>  
-Laisky's "Web3 101 for Web2 Engineers" slides are very much worth a look. they help Web2 engineers understand blockchain-centric Web3 basics, focusing on technical implementation and day-to-day operations.  
+Laisky's "Web3 101 for Web2 Engineers" slides are very much worth a look. They help Web2 engineers understand blockchain-centric Web3 basics, focusing on technical implementation and day-to-day operations.  
 <img src="https://gw.alipayobjects.com/zos/k/nm/SCR-20240707-tmcj.png" width="800" />
 
 **0-1 Database Kernel Practical Tutorial**  
@@ -39,7 +39,7 @@ OceanBase's tutorial is great for anyone wanting a deeper understanding of datab
 
 **Book Recommendation: "The Worlds I See" by Fei-Fei Li**  
 <https://book.douban.com/subject/36672955/>  
-I've been reading Fei-Fei Li's memoir "The Worlds I See" lately. I've been waiting for the simplified Chinese edition, and it's finally here. it's so well-written—it feels like hearing a neighbor or friend tell their story of growing into a top scientist. it also provides a great look at the history of AI. A rare, literary scientific memoir.  
+I've been reading Fei-Fei Li's memoir "The Worlds I See" lately. I've been waiting for the simplified Chinese edition, and it's finally here. It's so well-written—it feels like hearing a neighbor or friend tell their story of growing into a top scientist. It also provides a great look at the history of AI. A rare, literary scientific memoir.  
 <img src="https://gw.alipayobjects.com/zos/k/ch/%25E6%259D%258E%25E9%25A3%259E%25E9%25A3%259E.jpg" width="500" />
 
 **Haha! This video by Sun Huowang will make you laugh until you cry**  

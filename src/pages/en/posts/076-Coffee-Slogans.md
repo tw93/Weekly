@@ -54,6 +54,10 @@ A fantastic resource for getting started with Rust. The documentation is incredi
 A charming collection of low-bit pixel art assets available for public use.  
 <img src="https://gw.alipayobjects.com/zos/k/gd/wYam77.jpg" width="800" />
 
+**iRingo: Unlock the Full Set of Apple Features and Integrated Services**  
+<https://github.com/VirgilClyne/iRingo>  
+It takes some setup, but it is simple if you have done this kind of thing before.
+
 **Kap: Open-Source Screen Recording for Mac**  
 <https://github.com/wulkano/kap>  
 A beautifully designed recording tool built with web technologies. The UI is exceptionally polished for an open-source project.
@@ -61,7 +65,9 @@ A beautifully designed recording tool built with web technologies. The UI is exc
 ## Just Looking Around
 
 **State of the Economy: Macro vs. Micro**  
+<https://mp.weixin.qq.com/s/wqian1HakNbz0mYp83W2Xw>  
 Macroeconomic data is one thing; at the micro-level, those numbers represent the lived reality of countless families.
 
 **Why is Everyone Nostalgic for 2019?**  
+<https://mp.weixin.qq.com/s/bzYRRsay92tBJ9RCDZ0GMw>  
 In 2022, there’s an increasing sense of collective longing for the world as it was back in 2019—the last "normal" year.

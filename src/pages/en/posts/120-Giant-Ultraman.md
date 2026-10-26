@@ -4,7 +4,7 @@ date: 2023/03/13
 
 <img src="https://gw.alipayobjects.com/zos/k/w2/120.jpg" width="800" />
 
-<small>The cover photo shows a 1:1 scale Giant Ultraman I spotted while out for a stroll. he’s even got a bit of a belly—definitely needs to hit the gym 😂. quite a fun sight.</small>
+<small>The cover photo shows a 1:1 scale Giant Ultraman I spotted while out for a stroll. He’s even got a bit of a belly—definitely needs to hit the gym 😂. Quite a fun sight.</small>
 
 > **Record the down-to-earth trending technologies seen every week, and publish them here after screening. If you find it good, you can follow this weekly to get update notifications.**
 
@@ -20,7 +20,7 @@ This article dives into the principles of regex, explaining matching rules, the 
 
 **"Dive into Deep Learning" (Open Source Textbook)**  
 <http://zh.d2l.ai/index.html>  
-An excellent deep learning textbook for Chinese readers. it features interactive code and covers PyTorch, NumPy/MXNet, TensorFlow, and PaddlePaddle. it’s used by over 400 universities worldwide.  
+An excellent deep learning textbook for Chinese readers. It features interactive code and covers PyTorch, NumPy/MXNet, TensorFlow, and PaddlePaddle. It’s used by over 400 universities worldwide.  
 <img src="https://gw.alipayobjects.com/zos/k/ke/SLnjvu.jpg" width="800" />
 
 ## Trending Tools
@@ -32,17 +32,17 @@ A curated collection of music designed specifically to reduce distractions and h
 
 **Rspack: Rust-based Web Bundler from ByteDance**  
 <https://www.rspack.dev/zh/>  
-ByteDance has open-sourced its high-performance Rust bundler. give it a spin if you're looking for extreme speed.  
+ByteDance has open-sourced its high-performance Rust bundler. Give it a spin if you're looking for extreme speed.  
 <img src="https://gw.alipayobjects.com/zos/k/v0/0XAUgL.png" width="800" />
 
 **onefetch: Git Information Tool for your Terminal**  
 <https://github.com/o2sh/onefetch>  
-Similar to neofetch, but for Git repos. it displays stats, language distribution, and author info right in your terminal. completely offline and very cool-looking.  
+Similar to neofetch, but for Git repos. It displays stats, language distribution, and author info right in your terminal. Completely offline and very cool-looking.  
 <img src="https://gw.alipayobjects.com/zos/k/ny/UmXjC5.jpg" width="800" />
 
 **ChatGPT Shortcuts & Prompts**  
 <https://newzone.top/chatgpt/>  
-A comprehensive collection of prompts to help you get the most out of ChatGPT. it’s like learning the art of asking the right questions to a machine.  
+A comprehensive collection of prompts to help you get the most out of ChatGPT. It’s like learning the art of asking the right questions to a machine.  
 <img src="https://gw.alipayobjects.com/zos/k/qm/tQRoY1.jpg" width="800" />
 
 **MiaoYan V1.9 Released**  
@@ -57,9 +57,10 @@ The latest version of MiaoYan adds Japanese language support and several bug fix
 The second season of "The Glory" launched with a massive 9.3 rating on Douban. I haven't started it yet, but it looks like a must-watch.
 
 **Silicon Valley Bank Collapse: A Lehman Moment?**  
+<https://www.huxiu.com/article/818270.html>  
 An 8-minute explainer video on the SVB crisis and how it compares to the 2008 financial crash.
 
 **Magical Shiny Button Effect**  
 <https://shiny-button.vercel.app/>  
-A button that looks incredibly realistic with a mirrored finish. can you guess how the author implemented it?  
+A button that looks incredibly realistic with a mirrored finish. Can you guess how the author implemented it?  
 <img src="https://gw.alipayobjects.com/zos/k/9x/z2vEIw.png" width="800" />

@@ -66,9 +66,14 @@ Musk’s latest update shows a monkey playing video games with its mind. Truly i
 <img src="https://cdn.tw93.fun/blog/upic/Hdp6wY.gif" width="800" />
 
 **The Underground Market for Face Recognition "Cracks"**  
-As face data becomes more prevalent, the tools to exploit it are also becoming more sophisticated. a wake-up call for biometric security.  
+<http://www.xinhuanet.com/2021-03/30/c_1127270651.htm>  
+As face data becomes more prevalent, the tools to exploit it are also becoming more sophisticated. A wake-up call for biometric security.  
 <img src="https://cdn.tw93.fun/blog/upic/BcTGE1.gif" width="800" />
 
 **Threat Modeling in Practice**  
 <https://tech.meituan.com/2021/04/08/threat-modeling-security.html>  
 A deep dive from the Meituan security team on how to systematically identify and mitigate potential vulnerabilities.
+
+**Restoring Call Stacks on iOS (iOS 14 Compatible)**  
+<https://iosre.com/t/ios-ios14/19332>  
+Worth a read if you are into client-side reverse engineering, it is quite interesting.

@@ -12,7 +12,7 @@ date: 2024/11/18
 
 **PiliPala: A Bilibili client built with Flutter**  
 <https://github.com/guozhigq/pilipala>  
-This is an excellent project for learning Flutter. it's surprisingly clean and well-designed for a third-party client.  
+This is an excellent project for learning Flutter. It's surprisingly clean and well-designed for a third-party client.  
 <img src="https://gw.alipayobjects.com/zos/k/tc/7PnvGd.png" width="800" />
 
 **Beszel: Lightweight server monitoring platform**  
@@ -45,7 +45,7 @@ Principal Mei said: "People immerse themselves in busyness and gain a numb sense
 Principal Mei explained: "It's the peaceful joy that overflows from the depths of your heart—free of regret or shame—no matter what you see, hear, do, or who you are with."
 
 **This milk powder is delicious**  
-If you like hot milk in winter, try this "Blue Fatzie" (maxigenes) full cream milk powder. it's great in the morning and very cost-effective. Sam's Club carries it.  
+If you like hot milk in winter, try this "Blue Fatzie" (maxigenes) full cream milk powder. It's great in the morning and very cost-effective. Sam's Club carries it.  
 <img src="https://gw.alipayobjects.com/zos/k/ki/IMG_1305.jpg" width="500" />
 
 **Movie Recommendation: "How To Make Millions Before Grandma Dies"**  

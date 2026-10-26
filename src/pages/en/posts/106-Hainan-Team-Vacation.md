@@ -4,7 +4,7 @@ date: 2022/11/28
 
 <img src="https://gw.alipayobjects.com/zos/k/cz/IMG_2262.JPG" width=900/>
 
-<small>The cover photo was taken during our team outing in Hainan last week. We drove from Haikou to Wanning, Lingshui, and finally Sanya. it was a fantastic, relaxing, and very "trendy" trip. Glad we made it safely before any new travel restrictions!</small>
+<small>The cover photo was taken during our team outing in Hainan last week. We drove from Haikou to Wanning, Lingshui, and finally Sanya. It was a fantastic, relaxing, and very "trendy" trip. Glad we made it safely before any new travel restrictions!</small>
 
 > **Record the down-to-earth trending technologies seen every week, and publish them here after screening. If you find it good, you can follow this weekly to get update notifications.**
 
@@ -12,7 +12,7 @@ date: 2022/11/28
 
 **The First Step into Web 3.0**  
 <https://www.bilibili.com/video/BV1Vt411X7JF/>  
-Professor Xiao Zhen’s public course on "Blockchain Technology and Application." it’s incredibly grounded and clear—highly recommended for anyone with a computer science background looking to understand the tech.
+Professor Xiao Zhen’s public course on "Blockchain Technology and Application." It’s incredibly grounded and clear—highly recommended for anyone with a computer science background looking to understand the tech.
 
 **git-flight-rules: The Git Emergency Guide**  
 <https://github.com/k88hudson/git-flight-rules/blob/master/README_zh-CN.md>  
@@ -20,7 +20,7 @@ A comprehensive guide on what to do when things go wrong with Git. I’m always 
 
 **The Design Philosophy of Ant Design**  
 <https://ant.design/docs/spec/introduce-cn>  
-Many developers only look at the component documentation and miss the underlying design principles. those principles are the real treasure. I also highly recommend the [AntV Design Principles](https://antv.vision/zh/docs/specification/principles/basic/) for improving your visual hierarchy and communication.
+Many developers only look at the component documentation and miss the underlying design principles. Those principles are the real treasure. I also highly recommend the [AntV Design Principles](https://antv.vision/zh/docs/specification/principles/basic/) for improving your visual hierarchy and communication.
 
 **Computer Science Crash Course**  
 <https://www.bilibili.com/video/av21376839/>  
@@ -46,26 +46,27 @@ A fascinating (and slightly hilarious) diagram reconstructed from a photo Elon M
 
 **Daily.dev: High-Quality Tech News Aggregator**  
 <https://app.daily.dev/>  
-A beautifully designed tool for keeping up with global tech news. this is where I find a lot of the international articles for this weekly. it’s highly customizable and great for a quick morning scrawl.  
+A beautifully designed tool for keeping up with global tech news. This is where I find a lot of the international articles for this weekly. It’s highly customizable and great for a quick morning scrawl.  
 <img src="https://cdn.tw93.fun/blog/upic/2bYyH8.png" width="800" />
 
 **Speechless: One-Click Weibo Backup**  
 <https://github.com/meterscao/Speechless>  
-Easily export any Weibo account (yours or someone else's) to a high-quality PDF. it handles text, images, and long posts perfectly. a great way to preserve digital memories.  
+Easily export any Weibo account (yours or someone else's) to a high-quality PDF. It handles text, images, and long posts perfectly. A great way to preserve digital memories.  
 <img src="https://gw.alipayobjects.com/zos/k/1s/12.gif" width="800" />
 
 **Orbit: Visualize your Twitter Network**  
 <https://orbit.livasch.com/>  
-A fun tool to see who you interact with most on Twitter, presented as a "planetary orbit" diagram. data is all pulled from public APIs.
+A fun tool to see who you interact with most on Twitter, presented as a "planetary orbit" diagram. Data is all pulled from public APIs.
 
 ## Just Looking Around
 
 **Watching the World Cup as a Middle-Aged Fan**  
+<https://www.huxiu.com/article/726076.html>  
 A huxiu article on how life and responsibilities change the way we experience major sporting events as we get older, even if the passion remains the same.
 
 **Must Watch: Reborn Rich (Chaebol Family's Youngest Son)**  
 <https://movie.douban.com/subject/30291070/>  
-A thrilling K-drama about revenge and corporate intrigue. a secretary is betrayed and murdered by a massive conglomerate, only to wake up in the 1980s as the family's youngest son. the acting and pacing are top-notch.  
+A thrilling K-drama about revenge and corporate intrigue. A secretary is betrayed and murdered by a massive conglomerate, only to wake up in the 1980s as the family's youngest son. The acting and pacing are top-notch.  
 <img src="https://cdn.tw93.fun/blog/upic/EBI3Lt.jpg" width="800" />
 
 **Code Effect of the Week: Space Globe (Three.js)**  

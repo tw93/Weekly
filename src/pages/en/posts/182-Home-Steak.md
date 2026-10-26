@@ -17,7 +17,7 @@ A must-read for remote workers, covering team collaboration, organizational desi
 
 **Streamline: A better tool for custom text expansion**  
 <https://github.com/brianyu28/streamline>  
-I was looking for a better text expansion tool for custom phrases. while Apple's built-in tool is okay, I wanted something faster and more customizable (e.g., `vdz` for my address, `vdh` for my phone number). `Streamline` is open-source and much more minimalist than the paid `aText`.  
+I was looking for a better text expansion tool for custom phrases. While Apple's built-in tool is okay, I wanted something faster and more customizable (e.g., `vdz` for my address, `vdh` for my phone number). `Streamline` is open-source and much more minimalist than the paid `aText`.  
 <img src="https://cdn.tw93.fun/blog/upic/1719150680.png" width="800" />
 
 **YouTube Subtitle Downloader**  
@@ -34,7 +34,7 @@ TIME selected the top 100 people in AI. You can read their profiles and follow t
 
 **Can we animate app icons on iPhone?**  
 <https://bryce.co/animated-app-icons/>  
-Many iOS developers have wondered if it's possible to animate home screen icons. this article "Tricking iOS Into Animating App Icons" is a fascinating read on how to actually achieve it.  
+Many iOS developers have wondered if it's possible to animate home screen icons. This article "Tricking iOS Into Animating App Icons" is a fascinating read on how to actually achieve it.  
 <video width="500px" preload loop autoplay muted><source src="https://gw.alipayobjects.com/os/k/a1/GitHubIcon.mp4" type="video/mp4"></video>
 
 ## Random Notes

@@ -12,7 +12,7 @@ date: 2023/09/18
 
 **LLM Principles: A Guide for Beginners**  
 <https://s3tlxskbq3.feishu.cn/docx/NyPqdCKraoXz9gxNVCfcIFdnnAc>  
-A surprisingly clear guide to the underlying technology of Large Language Models. it’s designed for non-technical readers but explains the core concepts very well.
+A surprisingly clear guide to the underlying technology of Large Language Models. It’s designed for non-technical readers but explains the core concepts very well.
 
 **Game Hall of the Young: A Designer’s Knowledge Base**  
 <https://tuulih6pyq.feishu.cn/wiki/AVhMwAP14iXVKxkc32ackfGInAc>  
@@ -22,22 +22,22 @@ A comprehensive guide for the new generation of designers—covering everything 
 
 **Thorium: The Fastest Browser?**  
 <https://thorium.rocks/>  
-Based on Chromium, Thorium claims to be the fastest browser on Earth through heavy compiler optimization. I’ve tried it—it’s incredibly quick and supports Google sync. definitely one to watch.  
+Based on Chromium, Thorium claims to be the fastest browser on Earth through heavy compiler optimization. I’ve tried it—it’s incredibly quick and supports Google sync. Definitely one to watch.  
 <img src="https://cdn.tw93.fun/blog/upic/sozcr9.png"   width="800" />
 
 **YesNo.wtf: Decision Making for the Indecisive**  
 <https://yesno.wtf/>  
-A hilarious tool that gives you a random "Yes" or "No" with a funny GIF background. perfect for when you're stuck on a decision.  
+A hilarious tool that gives you a random "Yes" or "No" with a funny GIF background. Perfect for when you're stuck on a decision.  
 <img src="https://cdn.tw93.fun/blog/upic/W4TkvZ.png"   width="800" />
 
 **HTML-to-Markdown Converter**  
 <https://devtool.tech/html-md/>  
-An excellent tool for converting any webpage into perfectly formatted Markdown. it’s great for saving documentation or articles to your local notebook.  
+An excellent tool for converting any webpage into perfectly formatted Markdown. It’s great for saving documentation or articles to your local notebook.  
 <img src="https://cdn.tw93.fun/blog/upic/6WPlNb.png"   width="800" />
 
 **Writing an OS in Rust**  
 <https://os.phil-opp.com/>  
-A fantastic blog that walks you through building a small operating system in Rust. each post is a tutorial with matching GitHub code—perfect for learning Rust by doing.  
+A fantastic blog that walks you through building a small operating system in Rust. Each post is a tutorial with matching GitHub code—perfect for learning Rust by doing.  
 <img src="https://cdn.tw93.fun/blog/upic/bzzi76.png"   width="800" />
 
 **LifeHacker: Modern Productivity Tips**  
