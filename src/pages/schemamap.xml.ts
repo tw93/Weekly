@@ -12,6 +12,8 @@ export const GET = () => {
   const feeds = [
     `${site}/feeds/posts.jsonl`,
     `${site}/api/posts.json`,
+    `${site}/api/items.jsonl`,
+    `${site}/api/en/items.jsonl`,
     `${site}/rss.xml`,
     `${site}/en/rss.xml`,
   ];

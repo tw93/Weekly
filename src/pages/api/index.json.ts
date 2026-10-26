@@ -69,6 +69,25 @@ export const GET = () => {
       },
       {
         method: "GET",
+        path: "/api/items.jsonl",
+        description:
+          "Every recommended item across all Chinese issues, one JSON object per line with issue, section, title, url and Tw93's note. About 1.5MB, for searching the whole archive.",
+        example: `${site}/api/items.jsonl`,
+      },
+      {
+        method: "GET",
+        path: "/api/en/items.jsonl",
+        description: "The same for the English issues.",
+      },
+      {
+        method: "GET",
+        path: "/items/{year}.md",
+        description:
+          "One year of items as Markdown, grouped by issue, for agents that cannot download the full file. English: /en/items/{year}.md.",
+        example: `${site}/items/${zhIssues[0]?.date.slice(0, 4) ?? "2020"}.md`,
+      },
+      {
+        method: "GET",
         path: "/posts/{issue}.md",
         description: "Chinese issue as Markdown (text/markdown).",
         example: `${site}/posts/${latest}.md`,

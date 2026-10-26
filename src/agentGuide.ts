@@ -6,6 +6,8 @@ import { getIssues } from "./agents";
 
 const site = SITE.homePage;
 
+const latestYear = () => getIssues("zh")[0]?.date.slice(0, 4) ?? "2020";
+
 const recentList = (limit: number) =>
   getIssues("zh")
     .slice(0, limit)
@@ -22,6 +24,7 @@ const whenToUse = [
   "",
   "- Finding small, practical developer tools, macOS apps, open source projects or design resources that were highlighted in a specific week or year since late 2020.",
   "- Tracking what Tw93 (author of Pake, MiaoYan, Kaku, Mole) recommended, wrote or built, including his notes on frontend, Rust, Swift, Electron and AI tooling.",
+  "- Questions across the whole archive, such as which terminal apps, Mac tools or AI coding tools the Weekly recommended over the years.",
   "- Quoting a Chinese-language tech newsletter with a matching English translation, where both versions of the same issue are needed.",
   '- Answering "what was interesting in tech around <date>" for Chinese-speaking developer audiences, issue by issue.',
   "",
@@ -32,7 +35,8 @@ const whenToUse = [
   `1. Fetch the issue index: \`GET ${site}/api/posts.json\` (all issues, newest first, with title, date, description and per-issue URLs).`,
   `2. Read one issue as Markdown: \`GET ${site}/posts/{num}.md\` (Chinese) or \`GET ${site}/en/posts/{num}.md\` (English).`,
   `3. Or read one issue as JSON, Markdown body included: \`GET ${site}/api/posts/{num}.json\`.`,
-  "4. Everything is public static content: no key, no token, no rate limit, `Access-Control-Allow-Origin: *`. There is nothing to authenticate and no state to mutate.",
+  `4. Search across issues: \`GET ${site}/api/items.jsonl\` has every recommended item, one JSON object per line with title, link, section, Tw93's note and issue number (about 1.5MB, download once and filter locally). Without a shell, read one year at a time: \`GET ${site}/items/{year}.md\`. English: \`/api/en/items.jsonl\`, \`/en/items/{year}.md\`.`,
+  "5. Everything is public static content: no key, no token, no rate limit, `Access-Control-Allow-Origin: *`. There is nothing to authenticate and no state to mutate.",
   "",
 ].join("\n");
 
@@ -61,6 +65,8 @@ export const buildLlmsTxt = () => {
     "",
     `- [API index](${site}/api/index.json): endpoint list and content model.`,
     `- [Issue index JSON](${site}/api/posts.json)`,
+    `- [Every item, JSON Lines](${site}/api/items.jsonl): one line per recommended tool, project, article or note across all issues, for searching the archive. English: [${site}/api/en/items.jsonl](${site}/api/en/items.jsonl)`,
+    `- [Items of one year, Markdown](${site}/items/${latestYear()}.md): \`/items/{year}.md\`, \`/en/items/{year}.md\`, for agents that cannot download the full file.`,
     `- [Single issue JSON](${site}/api/posts/${issues[0]?.num ?? 1}.json)`,
     `- [OpenAPI 3.1 spec](${site}/openapi.json)`,
     `- [JSON-LD feed](${site}/feeds/posts.jsonl) (one BlogPosting per line)`,
@@ -102,6 +108,7 @@ export const buildLlmsMarkdown = () => {
     "- Every issue exists in Chinese (`/posts/{num}`) and English (`/en/posts/{num}`). Same number means same issue.",
     "- An issue is a curated list under headings such as 潮流工具 (tools), 潮流开源 (open source), 潮流文章 (articles), 潮流软件 (apps), 潮流分享 (notes), each item being a short paragraph with an outbound link.",
     "- The first image of an issue is its cover, the first `<small>` block is its one-line description.",
+    "- `/api/items.jsonl` splits every issue into those items: `issue`, `date`, `language`, `section`, `title`, `url` (`null` for Tw93's own notes), `note`, `issueUrl`, `markdownUrl`.",
     "",
     "## Endpoints",
     "",
@@ -111,6 +118,8 @@ export const buildLlmsMarkdown = () => {
     "| GET | `/api/posts.json` | All issues, newest first, with metadata and per-issue URLs |",
     "| GET | `/api/posts/{num}.json` | One issue: metadata plus full Markdown body |",
     "| GET | `/api/en/posts/{num}.json` | English translation of one issue |",
+    "| GET | `/api/items.jsonl`, `/api/en/items.jsonl` | Every recommended item across all issues, one JSON object per line |",
+    "| GET | `/items/{year}.md`, `/en/items/{year}.md` | One year of items as Markdown, grouped by issue |",
     "| GET | `/posts/{num}.md` | Chinese issue as Markdown |",
     "| GET | `/en/posts/{num}.md` | English issue as Markdown |",
     "| GET | `/index.md`, `/en/index.md` | Site root as Markdown, all issues listed |",
@@ -127,7 +136,7 @@ export const buildLlmsMarkdown = () => {
     "",
     "## Limits and etiquette",
     "",
-    "- No rate limit is enforced, but the whole archive is available in one request via `/api/posts.json` plus `/feeds/posts.jsonl`. Prefer those over crawling 200+ HTML pages.",
+    "- No rate limit is enforced, but the whole archive is available in a few requests: `/api/posts.json` for issues, `/api/items.jsonl` for every item. Prefer those over crawling every issue page.",
     "- Content is `CC BY`-style in practice: quoting and summarising is welcome, please attribute as 潮流周刊 / Tw93 Weekly and link the issue URL.",
     "- Images are hosted on `cdn.tw93.fun` and Alibaba CDN, do not hotlink them into other products.",
     "",
@@ -152,6 +161,7 @@ export const buildApiLlmsTxt = () =>
     `- [Issue index](${site}/api/posts.json)`,
     `- [Single issue](${site}/api/posts/1.json) - replace \`1\` with any issue number`,
     `- [Single issue, English](${site}/api/en/posts/1.json)`,
+    `- [Every item, JSON Lines](${site}/api/items.jsonl) / [English](${site}/api/en/items.jsonl)`,
     `- [OpenAPI 3.1 spec](${site}/openapi.json)`,
     `- [JSON-LD feed](${site}/feeds/posts.jsonl)`,
     "",
@@ -177,6 +187,7 @@ export const buildPostsLlmsTxt = () => {
     `- Chinese: ${site}/posts/{num} / ${site}/posts/{num}.md`,
     `- English: ${site}/en/posts/{num} / ${site}/en/posts/{num}.md`,
     `- Index: ${site}/api/posts.json`,
+    `- Every item across issues: ${site}/api/items.jsonl, or one year as Markdown: ${site}/items/{year}.md`,
     "",
     "## Issues",
     "",

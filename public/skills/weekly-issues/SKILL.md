@@ -14,6 +14,7 @@ Everything below is public static content: no API key, no token, no rate limit, 
 
 - A question names an issue number, or asks what a given week or month of 潮流周刊 covered.
 - A task needs the tools, projects or articles Tw93 highlighted, with the original wording and outbound links.
+- A question spans the whole archive, such as which terminal apps, Mac tools or AI coding tools the Weekly recommended over the years.
 - A quote is needed in both Chinese and English from the same paragraph of the same issue.
 
 Do not use it as a general search engine or as official documentation for the products it mentions: it is one person's curation, and the products are third-party.
@@ -82,6 +83,24 @@ GET https://weekly.tw93.fun/feeds/posts.jsonl
 ```
 
 One schema.org `BlogPosting` JSON-LD object per line, both languages. Prefer this plus `/api/posts.json` over crawling the HTML pages.
+
+## Search across issues
+
+Every recommended item of every issue, one JSON object per line, newest issue first:
+
+```
+GET https://weekly.tw93.fun/api/items.jsonl      # Chinese
+GET https://weekly.tw93.fun/api/en/items.jsonl   # English
+```
+
+Each line carries `issue`, `date`, `language`, `section`, `title`, `url` (the tool or article, `null` for Tw93's own notes), `note` (his comment as plain text), `issueUrl` and `markdownUrl`. The file is about 1.5MB, so with a shell download it once and filter locally, for example `curl -s https://weekly.tw93.fun/api/items.jsonl | grep -i terminal`. Without a shell, read one year at a time as Markdown:
+
+```
+GET https://weekly.tw93.fun/items/{year}.md      # Chinese, one file per year since 2020
+GET https://weekly.tw93.fun/en/items/{year}.md   # English
+```
+
+Match on both `title` and `note`, since a tool is often named only in the note. Then open `markdownUrl` when the surrounding issue matters.
 
 ## Issue anatomy
 

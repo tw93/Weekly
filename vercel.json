@@ -106,7 +106,7 @@
       ]
     },
     {
-      "source": "/feeds/posts.jsonl",
+      "source": "/(.*)\\.jsonl",
       "headers": [
         {
           "key": "Content-Type",

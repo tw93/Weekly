@@ -3,6 +3,7 @@
 // Everything here is derived from the Markdown posts, so the agent surfaces
 // never drift from the published site.
 import { SITE } from "./config";
+import { parseIssueItems } from "./issueItems.js";
 
 export type Lang = "zh" | "en";
 
@@ -104,6 +105,108 @@ export const getIssueBody = async (
   );
   if (!entry) return null;
   return stripFrontmatter(await entry[1]());
+};
+
+export interface IssueItem {
+  issue: number;
+  date: string;
+  language: "zh-Hans" | "en";
+  section: string | null;
+  title: string;
+  url: string | null;
+  note: string;
+  issueUrl: string;
+  markdownUrl: string;
+}
+
+const parsedItems = async (lang: Lang, num: number) => {
+  const body = await getIssueBody(lang, num);
+  return body === null ? [] : parseIssueItems(body);
+};
+
+/**
+ * Every recommended item across the archive, newest issue first, for
+ * /api/items.jsonl and /items/{year}.md. Some English translations dropped
+ * the `<url>` line of an item, so when both languages split into the same
+ * number of items the English item borrows the Chinese link at that position.
+ */
+export const getIssueItems = async (lang: Lang): Promise<IssueItem[]> => {
+  const records: IssueItem[] = [];
+  for (const issue of getIssues(lang)) {
+    const items = await parsedItems(lang, issue.num);
+    const original =
+      lang === "en" && items.some((item) => !item.url)
+        ? await parsedItems("zh", issue.num)
+        : null;
+    const aligned = original?.length === items.length ? original : null;
+
+    items.forEach((item, index) => {
+      records.push({
+        issue: issue.num,
+        date: issue.date,
+        language: lang === "en" ? "en" : "zh-Hans",
+        section: item.section,
+        title: item.title,
+        url: item.url ?? aligned?.[index]?.url ?? null,
+        note: item.note,
+        issueUrl: issue.url,
+        markdownUrl: issue.mdUrl,
+      });
+    });
+  }
+  return records;
+};
+
+export const issueYears = (lang: Lang) =>
+  [...new Set(getIssues(lang).map((issue) => issue.date.slice(0, 4)))].sort(
+    (a, b) => b.localeCompare(a),
+  );
+
+/** One year of items as Markdown, grouped by issue, for /items/{year}.md. */
+export const renderItemsMarkdown = (
+  lang: Lang,
+  year: string,
+  items: IssueItem[],
+) => {
+  const isEn = lang === "en";
+  const prefix = isEn ? "/en" : "";
+  const inYear = items.filter((item) => item.date.startsWith(year));
+  const years = issueYears(lang);
+  const lines = [
+    isEn
+      ? `# Weekly (潮流周刊) items, ${year}`
+      : `# 潮流周刊 ${year} 年推荐条目`,
+    "",
+    isEn
+      ? `> ${inYear.length} items Tw93 recommended or wrote in ${year}, newest issue first. Each item keeps its section, outbound link and Tw93's note.`
+      : `> ${year} 年周刊里推荐和写下的 ${inYear.length} 个条目，按期倒序，每条保留所在栏目、原始链接和 Tw93 的点评。`,
+    "",
+    `- ${isEn ? "All years" : "全部年份"}: ${years
+      .map((y) => `${SITE.homePage}${prefix}/items/${y}.md`)
+      .join(" ")}`,
+    `- ${isEn ? "Whole archive as JSON Lines" : "全部条目 JSON Lines"}: ${SITE.homePage}${isEn ? "/api/en" : "/api"}/items.jsonl`,
+  ];
+
+  let currentIssue: number | null = null;
+  for (const item of inYear) {
+    if (item.issue !== currentIssue) {
+      currentIssue = item.issue;
+      const issue = getIssue(lang, item.issue);
+      lines.push(
+        "",
+        `## ${issue?.title ?? item.issue} (${item.date})`,
+        "",
+        `${item.issueUrl} / ${item.markdownUrl}`,
+        "",
+      );
+    }
+    const title = item.url ? `[${item.title}](${item.url})` : item.title;
+    const section = item.section ? ` (${item.section})` : "";
+    lines.push(`- ${title}${section}${item.note ? `: ${item.note}` : ""}`);
+  }
+
+  lines.push("");
+  return lines.join("\n");
 };
 
 /** Compact issue record used by /api/posts.json and the JSON-LD feed. */
@@ -240,6 +343,7 @@ export const renderIndexMarkdown = (lang: Lang) => {
     `- Agent guide: ${SITE.homePage}/llms.md`,
     `- Agent index: ${SITE.homePage}/llms.txt`,
     `- JSON API: ${SITE.homePage}/api/index.json`,
+    `- ${isEn ? "Every item, for searching" : "全部条目，用于跨期查找"}: ${SITE.homePage}${isEn ? "/api/en" : "/api"}/items.jsonl, ${SITE.homePage}${prefix}/items/{year}.md`,
     `- OpenAPI: ${SITE.homePage}/openapi.json`,
     `- RSS: ${SITE.homePage}${isEn ? "/en/rss.xml" : "/rss.xml"}`,
     `- About: ${SITE.homePage}${prefix}/about`,

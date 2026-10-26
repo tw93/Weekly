@@ -31,6 +31,17 @@
       ]
     },
     {
+      "name": "weekly-item-search",
+      "description": "Search every tool, project, article and note recommended across all issues, with Tw93's comment and the issue it came from. Use for questions that span the archive, such as which terminal apps or AI coding tools the Weekly recommended over the years.",
+      "documentation": "https://weekly.tw93.fun/skills/weekly-issues/SKILL.md",
+      "endpoints": [
+        "https://weekly.tw93.fun/api/items.jsonl",
+        "https://weekly.tw93.fun/api/en/items.jsonl",
+        "https://weekly.tw93.fun/items/{year}.md",
+        "https://weekly.tw93.fun/en/items/{year}.md"
+      ]
+    },
+    {
       "name": "weekly-translation-pair",
       "description": "Fetch the Chinese original and the English translation of the same issue number, for quoting or comparing bilingual versions of the same paragraph.",
       "documentation": "https://weekly.tw93.fun/llms.md",

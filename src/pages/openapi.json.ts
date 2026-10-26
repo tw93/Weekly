@@ -10,6 +10,14 @@ const issueParam = {
   schema: { type: "integer", minimum: 1 },
 };
 
+const yearParam = {
+  name: "year",
+  in: "path",
+  required: true,
+  description: "Calendar year of the issues, from 2020.",
+  schema: { type: "integer", minimum: 2020 },
+};
+
 const markdownResponse = (description: string) => ({
   "200": {
     description,
@@ -201,6 +209,64 @@ export const GET = () => {
           responses: markdownResponse("Agent guide as Markdown."),
         },
       },
+      "/api/items.jsonl": {
+        get: {
+          operationId: "listItems",
+          tags: ["feeds"],
+          summary: "Every recommended item across all Chinese issues",
+          description:
+            "Newline-delimited JSON, one IssueItem per line, newest issue first: every tool, project, article and note the issues recommend, for searching the whole archive in one request. About 1.5MB; download once and filter locally.",
+          responses: {
+            "200": {
+              description: "One IssueItem object per line.",
+              content: {
+                "application/x-ndjson": {
+                  schema: { type: "string" },
+                  "x-item-schema": { $ref: "#/components/schemas/IssueItem" },
+                },
+              },
+            },
+          },
+        },
+      },
+      "/api/en/items.jsonl": {
+        get: {
+          operationId: "listItemsEnglish",
+          tags: ["feeds"],
+          summary: "Every recommended item across all English issues",
+          responses: {
+            "200": {
+              description: "One IssueItem object per line.",
+              content: {
+                "application/x-ndjson": {
+                  schema: { type: "string" },
+                  "x-item-schema": { $ref: "#/components/schemas/IssueItem" },
+                },
+              },
+            },
+          },
+        },
+      },
+      "/items/{year}.md": {
+        get: {
+          operationId: "getYearItemsMarkdown",
+          tags: ["feeds"],
+          summary: "One year of Chinese items as Markdown",
+          description:
+            "The same items as /api/items.jsonl for one calendar year, grouped by issue, sized for agents that can only fetch a page at a time.",
+          parameters: [yearParam],
+          responses: markdownResponse("Items of that year as Markdown."),
+        },
+      },
+      "/en/items/{year}.md": {
+        get: {
+          operationId: "getYearItemsMarkdownEnglish",
+          tags: ["feeds"],
+          summary: "One year of English items as Markdown",
+          parameters: [yearParam],
+          responses: markdownResponse("Items of that year as Markdown."),
+        },
+      },
       "/feeds/posts.jsonl": {
         get: {
           operationId: "getIssueFeed",
@@ -382,6 +448,41 @@ export const GET = () => {
                 },
               },
             },
+          },
+        },
+        IssueItem: {
+          type: "object",
+          required: [
+            "issue",
+            "date",
+            "language",
+            "title",
+            "url",
+            "note",
+            "issueUrl",
+            "markdownUrl",
+          ],
+          properties: {
+            issue: { type: "integer" },
+            date: { type: "string", examples: ["2026/10/26"] },
+            language: { type: "string", enum: ["zh-Hans", "en"] },
+            section: {
+              type: ["string", "null"],
+              description: "Heading the item sits under, such as 潮流工具.",
+            },
+            title: { type: "string" },
+            url: {
+              type: ["string", "null"],
+              format: "uri",
+              description:
+                "Link to the tool or article; null for Tw93's own notes.",
+            },
+            note: {
+              type: "string",
+              description: "Tw93's comment on the item, as plain text.",
+            },
+            issueUrl: { type: "string", format: "uri" },
+            markdownUrl: { type: "string", format: "uri" },
           },
         },
         Error: {
