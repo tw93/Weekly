@@ -22,6 +22,7 @@
     "astro": "astro",
     "postbuild": "pagefind --site dist --silent",
     "image:probe": "node scripts/probe-images.js",
+    "brand:generate": "node scripts/generate-brand-assets.js",
     "sync:content": "node build.js && astro build && node scripts/generate-weekly-skill.js --write-from-api dist/api/posts.json",
     "check:content": "node scripts/check-content-parity.js --dist-api dist/api/posts.json",
     "test:unit": "node --test tests/*.test.js",
@@ -49,6 +50,7 @@
     "probe-image-size": "^7.2.3",
     "rehype": "^13.0.2",
     "rehype-parse": "^9.0.1",
+    "sharp": "0.34.5",
     "tailwindcss": "^3.4.17",
     "throat": "^6.0.2",
     "unist-util-visit": "^5.0.0"

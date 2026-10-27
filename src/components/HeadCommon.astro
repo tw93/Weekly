@@ -1,8 +1,6 @@
 ---
 import '../styles/theme.css';
 import '../styles/index.css';
-import { SITE } from '@/config';
-const { icon } = SITE;
 ---
 
 <!-- Global Metadata -->
@@ -45,8 +43,9 @@ reader may have changed either setting on another page in the meantime. -->
 
 <link rel='icon' href='/favicon.ico' />
 <link rel='icon' type='image/png' sizes='32x32' href='/icon-32.png' />
-<link rel='icon' type='image/png' sizes='144x144' href={icon} />
-<link rel='apple-touch-icon' sizes='144x144' href={icon} />
+<link rel='icon' type='image/svg+xml' sizes='any' href='/icon.svg' />
+<link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
+<link rel='manifest' href='/site.webmanifest' />
 <link rel='sitemap' href='/sitemap.xml' />
 <!-- Canonical URL is handled in HeadSEO.astro (included via BaseLayout) -->
 

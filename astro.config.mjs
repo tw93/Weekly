@@ -78,7 +78,7 @@ function defaultLayoutPlugin() {
     }
 
     frontmatter.description = frontmatter.description || SITE.description;
-    frontmatter.image = frontmatter.image || SITE.siteImage;
+    frontmatter.image = frontmatter.image || (isEn ? SITE.siteImageEn : SITE.siteImage);
 
     // Fallback to file creation time if no date is specified
     if (!frontmatter.date) {

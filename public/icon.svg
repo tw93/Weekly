@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" fill="none" class="weekly-cup" aria-hidden="true" focusable="false">
+  <style>
+    .weekly-cup {
+      --cup-lid-top: #5c514b;
+      --cup-lid: #413a36;
+      --cup-paper: #e4d8ce;
+      --cup-sleeve: #a67c52;
+      --cup-bean: #f4ede5;
+    }
+    @media (prefers-color-scheme: dark) {
+      .weekly-cup { --cup-lid-top: #baa796; --cup-lid: #947b67; }
+    }
+    [data-theme="light"] .weekly-cup { --cup-lid-top: #5c514b; --cup-lid: #413a36; }
+    [data-theme="dark"] .weekly-cup { --cup-lid-top: #baa796; --cup-lid: #947b67; }
+    @media (max-width: 24px) {
+      .cup-detail { display: none; }
+    }
+  </style>
+  <path d="M28 39h88l-11 88a9 9 0 0 1-9 8H48a9 9 0 0 1-9-8L28 39Z" fill="var(--cup-paper)"/>
+  <path d="m33 31 4-17a7 7 0 0 1 7-6h56a7 7 0 0 1 7 6l4 17H33Z" fill="var(--cup-lid-top)"/>
+  <path d="M24 29h96a6 6 0 0 1 6 6v5a4 4 0 0 1-4 4H22a4 4 0 0 1-4-4v-5a6 6 0 0 1 6-6Z" fill="var(--cup-lid)"/>
+  <path d="M29 66h86a4 4 0 0 1 4 5l-4 30a5 5 0 0 1-5 4H34a5 5 0 0 1-5-4l-4-30a4 4 0 0 1 4-5Z" fill="var(--cup-sleeve)"/>
+  <ellipse cx="72" cy="85.5" rx="12" ry="16" transform="rotate(34 72 85.5)" fill="var(--cup-bean)"/>
+  <path class="cup-detail" d="M77.5 73.5c-12 6-1 15-11 24" stroke="var(--cup-sleeve)" stroke-width="2.8" stroke-linecap="round"/>
+</svg>

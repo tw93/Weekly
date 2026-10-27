@@ -1,6 +1,26 @@
 ---
 const { size, class: className } = Astro.props;
-import { SITE } from '@/config';
+import cup from '../../../public/icon.svg?raw';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const t = useTranslations(getLangFromUrl(Astro.url));
 ---
 
-<img src={SITE.icon} alt={SITE.title} width={size} height={size} class={className} />
+<span class:list={['weekly-mark', className]} style={{ width: `${size}px`, height: `${size}px` }} role='img' aria-label={t('site.title')} set:html={cup} />
+
+<style>
+  .weekly-mark {
+    display: inline-block;
+    flex-shrink: 0;
+    line-height: 0;
+    vertical-align: top;
+    /* Keep the accepted ink edge: the wider cup starts 3/144 nearer the canvas edge. */
+    transform: translateX(calc(100% / 48));
+  }
+
+  .weekly-mark :global(svg) {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+</style>

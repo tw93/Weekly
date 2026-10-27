@@ -7,12 +7,13 @@ export interface Props {
   pageURL: URL | string;
   markdownUrl?: string;
 }
-const { icon, keywords, author, twitterId, githubId, homePage, siteImage, blogPage, repo } = SITE;
+const { icon, keywords, author, twitterId, githubId, homePage, blogPage, repo } = SITE;
 const { content = {}, pageURL, markdownUrl } = Astro.props;
 const { title: contentTitle, socialImage, description: contentDescription, image } = content;
 
 // Site name follows the page language so English pages share as "Weekly ..."
 const lang = getLangFromUrl(Astro.url);
+const siteImage = lang === 'en' ? SITE.siteImageEn : SITE.siteImage;
 const t = useTranslations(lang);
 const title = t('site.title');
 // Check if this is an article page
@@ -55,7 +56,7 @@ const organization = {
   name: '潮流周刊 (Tw93 Weekly)',
   alternateName: ['潮流周刊', 'Tw93 Weekly', 'Weekly'],
   url: homePage,
-  logo: { '@type': 'ImageObject', url: icon, width: 144, height: 144 },
+  logo: { '@type': 'ImageObject', url: icon, width: 512, height: 512 },
   image: siteImage,
   description: t('site.description'),
   email: 'tw93@qq.com',
