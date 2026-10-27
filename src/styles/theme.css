@@ -64,12 +64,6 @@ body {
   letter-spacing: 0.5px;
 }
 
-.dark .shadow-md {
-  box-shadow:
-    0 2px 5px -1px rgb(0 0 0 / 0.18),
-    0 1px 5px -1px rgb(0 0 0 / 0.18);
-}
-
 site-search dialog {
   background-color: var(--theme-bg);
   color: var(--theme-text);

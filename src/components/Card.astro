@@ -33,7 +33,7 @@ const cover = cardImage(image);
   href={link}
   data-astro-prefetch
   data-image={image}
-  class='pb-5 sm:pb-3 flex flex-col justify-center rounded-lg shadow-md overflow-hidden w-full card-content preload-link'
+  class='flex flex-col w-full card-content preload-link'
 >
   <img
     src={cover.src}
@@ -45,9 +45,9 @@ const cover = cardImage(image);
     loading={priority ? 'eager' : 'lazy'}
     decoding='async'
     fetchpriority={isLCP ? 'high' : 'auto'}
-    class='block w-full aspect-[5/3] object-cover rounded-t-lg'
+    class='block w-full aspect-[5/3] object-cover rounded-lg card-cover'
   />
-  <div class='w-full flex justify-between items-center leading-tight pt-4 px-5 sm:pt-3 sm:px-3'>
+  <div class='w-full flex justify-between items-center leading-tight pt-3'>
     <div
       class='text-gray-800 dark:text-gray-200 font-semibold sm:text-base text-lg overflow-hidden text-ellipsis whitespace-nowrap flex-1 mr-2 min-w-0'
     >
@@ -57,7 +57,7 @@ const cover = cardImage(image);
       {date}
     </div>
   </div>
-  <p class='text-gray-600 dark:text-gray-300 overflow-hidden pt-2 line-clamp-2 px-5 sm:px-3 w-full sm:h-12 h-14 sm:text-sm text-[15px]'>
+  <p class='text-gray-600 dark:text-gray-300 overflow-hidden pt-1.5 line-clamp-2 w-full sm:h-12 h-14 sm:text-sm text-[15px]'>
     {description}
   </p>
 </a>

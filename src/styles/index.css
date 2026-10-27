@@ -490,44 +490,44 @@ h2.heading {
   }
 }
 
-/* Feed cards: transitions name their properties instead of `all`, and no
-   standing will-change, so ~290 cards do not each hold a compositor layer.
-   content-visibility skips layout and paint for cards outside the viewport;
-   `auto` remembers each card's real height once it has rendered. */
+/* Feed items: no card around them, the cover and the spacing carry each
+   issue. No standing will-change, so ~290 items do not each hold a compositor
+   layer. content-visibility skips layout and paint for items outside the
+   viewport; `auto` remembers each one's real height once it has rendered. */
 .card-content {
-  transition: box-shadow 120ms ease-out;
   content-visibility: auto;
   contain-intrinsic-size: auto 300px;
   -webkit-tap-highlight-color: transparent;
 }
 
-/* The global a:hover fades links to 0.8, which let the page white show
-   through the whole card; cards answer hover and press with depth instead. */
+/* The global a:hover fades links to 0.8, which would wash out the cover;
+   the cover answers hover and press by dimming a little instead. */
 .card-content:hover {
   opacity: 1;
-  box-shadow:
-    0 8px 20px -6px rgb(0 0 0 / 0.16),
-    0 2px 6px -2px rgb(0 0 0 / 0.08);
 }
 
-.card-content:active {
-  box-shadow:
-    0 3px 8px -3px rgb(0 0 0 / 0.14),
-    0 1px 3px -1px rgb(0 0 0 / 0.08);
+.card-content:focus-visible {
+  outline: 2px solid var(--theme-text);
+  outline-offset: 4px;
+  border-radius: var(--radius);
 }
 
-.dark .card-content:hover {
-  box-shadow:
-    0 8px 22px -6px rgb(0 0 0 / 0.55),
-    0 2px 8px -2px rgb(0 0 0 / 0.35);
+/* A hairline inside the cover keeps pale skies and white walls from melting
+   into the page. */
+.card-cover {
+  outline: 1px solid rgb(0 0 0 / 0.05);
+  outline-offset: -1px;
+  transition: filter 120ms ease-out;
 }
 
-.dark .card-content:active {
-  box-shadow:
-    0 3px 8px -3px rgb(0 0 0 / 0.45),
-    0 1px 4px -1px rgb(0 0 0 / 0.3);
+.dark .card-cover {
+  outline-color: rgb(255 255 255 / 0.06);
 }
 
-.card-content img {
-  transition: transform 200ms ease;
+.card-content:hover .card-cover {
+  filter: brightness(0.94);
+}
+
+.card-content:active .card-cover {
+  filter: brightness(0.88);
 }
