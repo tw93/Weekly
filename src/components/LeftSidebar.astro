@@ -154,12 +154,12 @@ const sidebarSections = allPosts.reduce((sections, post, index) => {
     margin-top: -8px;
   }
 
-  /* No left padding, so the titles' ink starts on the cup's; the cup keeps
-     the header's position so it does not move between the feed and an issue. */
+  /* The titles sit 6px inside the cup's ink, halfway between flush (read as
+     too far left) and the old 11px padding; the cup keeps the header's
+     position so it does not move between the feed and an issue. */
   .nav-link a {
     font-size: 17px;
-    padding: 5px 11px 5px 0;
-    margin-left: -1px;
+    padding: 5px 11px 5px 5px;
     color: inherit;
     text-decoration: none;
     display: block;
