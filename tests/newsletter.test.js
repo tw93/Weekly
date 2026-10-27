@@ -96,13 +96,32 @@ test("subscribe only mails a confirmation, and only for the two sites", async (t
   assert.ok(!calls.some((call) => call.method === "POST" && call.path === "/contacts"), "no contact yet");
 });
 
-test("subscribe skips the email for an address already on the list", async (t) => {
+test("an address already on the list is told so by email, not by the form", async (t) => {
   const calls = mockResend(t, {
     "GET /contacts/reader%40example.com": [200, { unsubscribed: false }],
     "GET /contacts/reader%40example.com/topics": [200, { data: [{ id: "topic-weekly", subscription: "opt_in" }] }],
   });
-  assert.equal((await subscribe(post(signup))).status, 200);
-  assert.ok(!calls.some((call) => call.path === "/emails"));
+  const response = await subscribe(post(signup));
+  assert.equal(response.status, 200);
+  assert.deepEqual(await response.json(), { ok: true }, "same answer as a new address");
+  const sent = calls.find((call) => call.path === "/emails");
+  assert.ok(sent, "the reader still gets an email");
+  assert.equal(sent.body.subject, "你已经订阅了潮流周刊");
+  assert.doesNotMatch(sent.body.html, /api\/confirm/, "nothing to confirm");
+  assert.match(sent.headers["Idempotency-Key"], /^already\/[0-9a-f]{64}$/);
+  assert.ok(!calls.some((call) => call.method !== "GET" && call.path.startsWith("/contacts")), "no write");
+});
+
+test("the confirm link says so when the address is already subscribed", async (t) => {
+  const calls = mockResend(t, {
+    "GET /contacts/reader%40example.com": [200, { unsubscribed: false }],
+    "GET /contacts/reader%40example.com/topics": [200, { data: [{ id: "topic-weekly", subscription: "opt_in" }] }],
+  });
+  const page = await confirmPage(new Request(`https://weekly.tw93.fun/api/confirm?t=${createToken(signup, SECRET)}`));
+  const html = await page.text();
+  assert.match(html, /你已经订阅过了/);
+  assert.doesNotMatch(html, /<form/);
+  assert.ok(calls.every((call) => call.method === "GET"));
 });
 
 test("subscribe answers 503 instead of half-working without config", async (t) => {
@@ -112,13 +131,16 @@ test("subscribe answers 503 instead of half-working without config", async (t) =
 });
 
 test("opening the link writes nothing; the button press saves the contact", async (t) => {
-  const calls = mockResend(t);
+  const calls = mockResend(t, { "GET /contacts/reader%40example.com": [404, {}] });
   const token = createToken(signup, SECRET);
 
   const page = await confirmPage(new Request(`https://weekly.tw93.fun/api/confirm?t=${token}`));
   assert.equal(page.status, 200);
   assert.match(await page.text(), /<form method="post"/);
-  assert.equal(calls.length, 0, "a link scanner opening the page subscribes no one");
+  assert.ok(
+    calls.every((call) => call.method === "GET"),
+    "a link scanner opening the page subscribes no one",
+  );
 
   const done = await confirm(
     new Request("https://weekly.tw93.fun/api/confirm", { method: "POST", body: new URLSearchParams({ t: token }) }),

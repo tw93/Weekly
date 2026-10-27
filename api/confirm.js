@@ -5,6 +5,7 @@
 import {
   CONFIRM_URL,
   NAMES,
+  alreadySubscribed,
   escapeHtml,
   readConfig,
   saveContact,
@@ -15,26 +16,30 @@ import {
 const COPY = {
   zh: {
     title: (name) => `确认订阅${name}`,
-    body: (name, email) => `点下面的按钮，之后${name}有新内容会发到 ${email}。`,
+    body: (name, email) => `之后有更新会发到 ${email}`,
     button: "确认订阅",
     doneTitle: "订阅好了",
-    done: (name, email) => `之后${name}有新内容会发到 ${email}，每封邮件底部都可以退订。`,
+    done: (name, email) => `之后${name}有更新会发到 ${email}`,
+    alreadyTitle: "你已经订阅过了",
+    already: (name, email) => `不用再确认，${name}有更新会照常发到 ${email}`,
     invalidTitle: "链接已失效",
-    invalid: "回到网站重新订阅一次就好。",
+    invalid: "回到网站重新订阅一次就好",
     failedTitle: "暂时没能订阅上",
-    failed: "过一会儿再点一次邮件里的链接试试。",
+    failed: "过一会儿再点一次邮件里的按钮试试",
     back: (name) => `回到${name}`,
   },
   en: {
     title: (name) => `Confirm your subscription to ${name}`,
-    body: (name, email) => `Click the button below and new posts from ${name} will be sent to ${email}.`,
+    body: (name, email) => `New posts will come to ${email}.`,
     button: "Confirm subscription",
     doneTitle: "You're subscribed",
-    done: (name, email) => `New posts from ${name} will be sent to ${email}. Every email has an unsubscribe link at the bottom.`,
+    done: (name, email) => `New posts from ${name} will come to ${email}.`,
+    alreadyTitle: "You're already subscribed",
+    already: (name, email) => `New posts from ${name} keep coming to ${email}. Nothing to confirm.`,
     invalidTitle: "This link has expired",
     invalid: "Subscribe again on the site to get a new one.",
     failedTitle: "Couldn't subscribe right now",
-    failed: "Try the link in the email again in a little while.",
+    failed: "Try the button in the email again in a little while.",
     back: (name) => `Back to ${name}`,
   },
 };
@@ -95,6 +100,11 @@ export async function GET(request) {
   }
   const copy = COPY[signup.lang];
   const name = subscriptionName(signup.lang, signup.topics);
+  const back = backLink(signup.lang, signup.topics);
+  // Reading the list writes nothing, so a link scanner still subscribes no one.
+  if (await alreadySubscribed(config, signup)) {
+    return page(signup.lang, 200, copy.alreadyTitle, copy.already(name, signup.email), back);
+  }
   const form = `<form method="post" action="${CONFIRM_URL}"><input type="hidden" name="t" value="${escapeHtml(token)}"><button type="submit">${copy.button}</button></form>`;
   return page(signup.lang, 200, copy.title(name), copy.body(name, signup.email), form);
 }

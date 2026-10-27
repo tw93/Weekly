@@ -1,6 +1,6 @@
 // POST /api/subscribe: the signup form on weekly.tw93.fun and tw93.fun posts
-// here. It never writes a contact; it mails a confirmation link, once per
-// address and choice per day.
+// here. It never writes a contact; it mails a confirmation link, or a note
+// that the address is already subscribed, once per address and choice per day.
 
 import {
   ALLOWED_ORIGINS,
@@ -34,29 +34,57 @@ const reply = (status, body, origin) =>
     },
   });
 
-export const confirmationEmail = (signup, link) => {
-  const name = subscriptionName(signup.lang, signup.topics);
-  const url = escapeHtml(link);
-  const zh = signup.lang === "zh";
-  const subject = zh ? `确认订阅${name}` : `Confirm your subscription to ${name}`;
-  const lines = zh
-    ? [
-        `刚刚有人用这个邮箱订阅了${escapeHtml(name)}，如果是你，点下面的按钮确认一下，之后有新内容会发到这里。`,
-        "确认订阅",
-        "不是你操作的话忽略这封邮件就好，不确认就不会收到任何邮件。",
-      ]
-    : [
-        `Someone just subscribed this address to ${escapeHtml(name)}. If it was you, confirm below and new posts will arrive here.`,
-        "Confirm subscription",
-        "If it wasn't you, ignore this email. Nothing is sent unless you confirm.",
-      ];
-  const html = `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif;max-width:520px;margin:0 auto;padding:24px 16px;color:#363433;font-size:15px;line-height:1.7">
-<p>${lines[0]}</p>
-<p style="margin:28px 0"><a href="${url}" style="display:inline-block;background:#363433;color:#fdfcf9;text-decoration:none;padding:10px 20px;border-radius:8px">${lines[1]}</a></p>
-<p style="color:#6b6863;font-size:13px">${lines[2]}</p>
+const wrap = (lines, link) => {
+  const button = link
+    ? `<p style="margin:28px 0"><a href="${escapeHtml(link)}" style="display:inline-block;background:#363433;color:#fdfcf9;text-decoration:none;padding:10px 20px;border-radius:8px">${lines.button}</a></p>`
+    : "";
+  const note = lines.note ? `<p style="color:#6b6863;font-size:13px">${lines.note}</p>` : "";
+  return `<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif;max-width:520px;margin:0 auto;padding:24px 16px;color:#363433;font-size:15px;line-height:1.7">
+<p>${lines.body}</p>
+${button}${note}
 </div>`;
-  const text = `${lines[0]}\n\n${lines[1]}: ${link}\n\n${lines[2]}`;
-  return { subject, html, text };
+};
+
+const plain = (lines, link) =>
+  [lines.body, link && `${lines.button}: ${link}`, lines.note].filter(Boolean).join("\n\n");
+
+export const confirmationEmail = (signup, link) => {
+  const title = subscriptionName(signup.lang, signup.topics);
+  const name = escapeHtml(title);
+  const lines =
+    signup.lang === "zh"
+      ? {
+          subject: `确认订阅${title}`,
+          body: `点下面的按钮确认订阅，之后${name}有更新会发到这个邮箱。`,
+          button: "确认订阅",
+          note: "不是你订阅的话，忽略这封邮件就好。",
+        }
+      : {
+          subject: `Confirm your subscription to ${title}`,
+          body: `Confirm below and new posts from ${name} will come to this address.`,
+          button: "Confirm subscription",
+          note: "Didn't sign up? Just ignore this email.",
+        };
+  return { subject: lines.subject, html: wrap(lines, link), text: plain(lines, link) };
+};
+
+// Sent instead of a confirmation when the address already receives all it
+// asked for, so a repeat signup still gets an answer in the inbox while the
+// form itself replies the same either way.
+export const alreadyEmail = (signup) => {
+  const title = subscriptionName(signup.lang, signup.topics);
+  const name = escapeHtml(title);
+  const lines =
+    signup.lang === "zh"
+      ? {
+          subject: `你已经订阅了${title}`,
+          body: `这个邮箱已经订阅过${name}了，不用再确认，之后有更新会照常发到这里。`,
+        }
+      : {
+          subject: `You're already subscribed to ${title}`,
+          body: `This address is already subscribed to ${name}, so there's nothing to confirm. New posts will keep coming here.`,
+        };
+  return { subject: lines.subject, html: wrap(lines), text: plain(lines) };
 };
 
 export function OPTIONS(request) {
@@ -90,18 +118,18 @@ export async function POST(request) {
   const config = readConfig();
   if (!config) return reply(503, { ok: false, error: "unavailable" }, origin);
 
-  // The same answer whether or not the address is on the list, so the form
-  // cannot be used to test who subscribes.
-  if (await alreadySubscribed(config, signup)) return reply(200, { ok: true }, origin);
-
-  const link = `${CONFIRM_URL}?t=${createToken(signup, config.secret)}`;
-  const email = confirmationEmail(signup, link);
+  // The form gets the same answer whether or not the address is on the list,
+  // so it cannot be used to test who subscribes; the inbox tells them apart.
+  const already = await alreadySubscribed(config, signup);
+  const email = already
+    ? alreadyEmail(signup)
+    : confirmationEmail(signup, `${CONFIRM_URL}?t=${createToken(signup, config.secret)}`);
   const sent = await resend(
     config.apiKey,
     "POST",
     "/emails",
     { from: FROM, to: [signup.email], ...email },
-    { "Idempotency-Key": idempotencyKey(signup) },
+    { "Idempotency-Key": idempotencyKey(signup, Date.now(), already ? "already" : "confirm") },
   );
   // 409 is Resend refusing a repeat of today's request: already mailed.
   if (!sent.ok && sent.status !== 409) {

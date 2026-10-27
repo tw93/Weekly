@@ -90,8 +90,9 @@ export function verifyToken(token, secret, now = Date.now()) {
   return parseSignup({ email: data.e, lang: data.l, topics: data.t });
 }
 
-export const idempotencyKey = (signup, now = Date.now()) =>
-  "confirm/" +
+// `kind` keeps the confirmation and the already-subscribed notice apart.
+export const idempotencyKey = (signup, now = Date.now(), kind = "confirm") =>
+  `${kind}/` +
   createHash("sha256")
     .update(
       [signup.email, signup.lang, signup.topics.join(","), Math.floor(now / DAY)].join("|"),
