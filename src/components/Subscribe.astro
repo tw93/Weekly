@@ -44,15 +44,40 @@ const copy =
 }
 
 <script>
-  // The 邮件订阅 button beside 支持作者 opens the form under the pair.
+  // The 邮件订阅 button beside 支持作者 opens the form under the pair. The
+  // panel grows from nothing and fades in over 0.25s, and shrinks back the same
+  // way; reduced motion just shows or hides it.
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   document.querySelectorAll<HTMLButtonElement>('.newsletter-toggle').forEach((toggle) => {
     const form = document.getElementById(toggle.getAttribute('aria-controls') ?? '');
     if (!form) return;
+    let running: Animation | undefined;
     toggle.addEventListener('click', () => {
-      const open = form.hidden;
-      form.hidden = !open;
+      const open = toggle.getAttribute('aria-expanded') !== 'true';
       toggle.setAttribute('aria-expanded', String(open));
+      running?.cancel();
+      form.hidden = false;
       if (open) form.querySelector<HTMLInputElement>('input[type="email"]')?.focus({ preventScroll: true });
+      if (reduceMotion.matches) {
+        form.hidden = !open;
+        return;
+      }
+      const style = getComputedStyle(form);
+      const shown = {
+        height: `${form.offsetHeight}px`,
+        paddingTop: style.paddingTop,
+        paddingBottom: style.paddingBottom,
+        marginTop: style.marginTop,
+        marginBottom: style.marginBottom,
+        opacity: 1,
+      };
+      const folded = { height: '0px', paddingTop: '0px', paddingBottom: '0px', marginTop: '0px', marginBottom: '0px', opacity: 0 };
+      form.style.overflow = 'hidden';
+      running = form.animate(open ? [folded, shown] : [shown, folded], { duration: 250, easing: 'ease-out' });
+      running.onfinish = () => {
+        form.style.overflow = '';
+        form.hidden = !open;
+      };
     });
   });
 
@@ -95,7 +120,6 @@ const copy =
     padding: 20px;
     border-radius: 12px;
     background: rgba(0, 0, 0, 0.03);
-    animation: newsletter-in 0.25s ease-out;
   }
 
   :global([data-theme='dark']) .newsletter {
@@ -104,18 +128,6 @@ const copy =
 
   .newsletter[hidden] {
     display: none;
-  }
-
-  @keyframes newsletter-in {
-    from {
-      opacity: 0;
-    }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .newsletter {
-      animation: none;
-    }
   }
 
   .newsletter-note {

@@ -291,14 +291,27 @@ const giscusAttrs = {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      min-width: 136px;
+      min-width: 160px;
       padding: 0 var(--space-5);
       border-radius: var(--radius);
       font-size: var(--font-size-small);
+      transition: opacity 0.12s ease-out;
     }
 
     .heti .pay-button:hover {
       opacity: 0.9;
+    }
+
+    .heti .pay-button:active {
+      opacity: 0.8;
+    }
+
+    /* On phones the pair splits the row and lines up with the panel below. */
+    @media (max-width: 640px) {
+      .heti .pay-button {
+        flex: 1 1 0;
+        min-width: 0;
+      }
     }
 
     .lang-switch-icon:hover {
@@ -346,7 +359,7 @@ const giscusAttrs = {
           </a>
         </h1>
         <slot />
-        <div class='flex align-middle justify-center gap-3 mt-6 md:mt-10 pay-button-wrapper'>
+        <div class='flex align-middle justify-center gap-4 mt-6 md:mt-10 pay-button-wrapper'>
           {
             newsletterEnabled && (
               <button type='button' class='pay-button newsletter-toggle' aria-expanded='false' aria-controls='newsletter'>
