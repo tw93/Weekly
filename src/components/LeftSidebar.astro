@@ -196,11 +196,11 @@ const sidebarSections = allPosts.reduce((sections, post, index) => {
     display: block;
   }
 
-  /* The cup sits 6px inside its own canvas; this puts its ink on the issue
-     titles below, which start 11px inside their links. */
+  /* Same offset as the header's logo, so going from the home page to an issue
+     the cup stays where it was; at 1386px and wider both land on one x. */
   .logo .logo-image {
     margin-top: -14px;
-    margin-left: 2px;
+    margin-left: -10px;
   }
 
   .logo a {
