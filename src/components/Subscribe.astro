@@ -15,7 +15,8 @@ const copy =
         note: 'Each new issue lands in your inbox.',
         label: 'Email address',
         button: 'Subscribe',
-        sent: 'Sent to {email}. Check your inbox to confirm.',
+        sent: 'Sent to {email}. {open}.',
+        open: 'Check your inbox to confirm',
         invalid: "That email address doesn't look right.",
         failed: "Couldn't send it right now, try again later.",
       }
@@ -23,7 +24,8 @@ const copy =
         note: '每周新一期发布后发到你的邮箱',
         label: '邮箱地址',
         button: '订阅',
-        sent: '邮件已发到 {email}，去邮箱确认一下。',
+        sent: '邮件已发到 {email}，{open}。',
+        open: '去邮箱确认',
         invalid: '邮箱地址的格式不对。',
         failed: '暂时没能发出，过一会儿再试试。',
       };
@@ -31,7 +33,7 @@ const copy =
 
 {
   enabled && (
-    <form id='newsletter' class='newsletter' hidden data-lang={lang} data-sent={copy.sent} data-invalid={copy.invalid} data-failed={copy.failed}>
+    <form id='newsletter' class='newsletter' hidden data-lang={lang} data-sent={copy.sent} data-open={copy.open} data-invalid={copy.invalid} data-failed={copy.failed}>
       <p class='newsletter-note'>{copy.note}</p>
       <div class='newsletter-row'>
         <input type='email' name='email' required autocomplete='email' maxlength='254' placeholder={copy.label} aria-label={copy.label} />
@@ -58,6 +60,55 @@ const copy =
     });
   });
 
+  // Webmail for the common providers, so 去邮箱确认 opens the inbox itself.
+  // Company and other domains have no known web address and stay plain text.
+  const WEBMAIL: [RegExp, string][] = [
+    [/^(gmail|googlemail)\.com$/, 'https://mail.google.com/'],
+    [/^(qq|vip\.qq|foxmail)\.com$/, 'https://mail.qq.com/'],
+    [/^163\.com$/, 'https://mail.163.com/'],
+    [/^126\.com$/, 'https://mail.126.com/'],
+    [/^yeah\.net$/, 'https://mail.yeah.net/'],
+    [/^vip\.(163|126)\.com$/, 'https://vip.163.com/'],
+    [/^188\.com$/, 'https://www.188.com/'],
+    [/^(sina\.com|sina\.cn|vip\.sina\.com)$/, 'https://mail.sina.com.cn/'],
+    [/^sohu\.com$/, 'https://mail.sohu.com/'],
+    [/^aliyun\.com$/, 'https://mail.aliyun.com/'],
+    [/^139\.com$/, 'https://mail.10086.cn/'],
+    [/^189\.cn$/, 'https://mail.189.cn/'],
+    [/^wo\.cn$/, 'https://mail.wo.cn/'],
+    [/^tom\.com$/, 'https://mail.tom.com/'],
+    [/^263\.net$/, 'https://mail.263.net/'],
+    [/^((outlook|hotmail|live)\.[a-z.]+|msn\.com)$/, 'https://outlook.live.com/mail/'],
+    [/^(icloud|me|mac)\.com$/, 'https://www.icloud.com/mail'],
+    [/^yahoo\.co\.jp$/, 'https://mail.yahoo.co.jp/'],
+    [/^(yahoo\.[a-z.]+|ymail\.com|rocketmail\.com)$/, 'https://mail.yahoo.com/'],
+    [/^aol\.com$/, 'https://mail.aol.com/'],
+    [/^(proton\.me|protonmail\.(com|ch)|pm\.me)$/, 'https://mail.proton.me/'],
+    [/^(zoho|zohomail)\.(com|com\.cn)$/, 'https://mail.zoho.com/'],
+    [/^(fastmail\.(com|fm))$/, 'https://app.fastmail.com/'],
+    [/^hey\.com$/, 'https://app.hey.com/'],
+    [/^(tutanota\.(com|de)|tuta\.(io|com))$/, 'https://app.tuta.com/'],
+    [/^gmx\.(com|us|co\.uk)$/, 'https://www.gmx.com/'],
+    [/^gmx\.(de|net|at|ch)$/, 'https://www.gmx.net/'],
+    [/^web\.de$/, 'https://web.de/'],
+    [/^(yandex\.[a-z]+|ya\.ru)$/, 'https://mail.yandex.com/'],
+    [/^(mail|inbox|list|bk)\.ru$/, 'https://e.mail.ru/'],
+    [/^naver\.com$/, 'https://mail.naver.com/'],
+    [/^(daum\.net|hanmail\.net)$/, 'https://mail.daum.net/'],
+  ];
+  const webmailFor = (email: string) => {
+    const domain = email.split('@').pop()?.toLowerCase() ?? '';
+    return WEBMAIL.find(([pattern]) => pattern.test(domain))?.[1];
+  };
+
+  // Writes 邮件已发到 {email}，{open}。 with {open} as a link when the inbox is known.
+  const showSent = (status: HTMLElement, template: string, open: string, email: string) => {
+    const [before, after = ''] = template.replace('{email}', email).split('{open}');
+    const url = webmailFor(email);
+    const action = url ? Object.assign(document.createElement('a'), { href: url, target: '_blank', rel: 'noopener', textContent: open }) : document.createTextNode(open);
+    status.replaceChildren(before, action, after);
+  };
+
   document.querySelectorAll<HTMLFormElement>('form.newsletter').forEach((form) => {
     const status = form.querySelector<HTMLElement>('.newsletter-status')!;
     const button = form.querySelector<HTMLButtonElement>('button')!;
@@ -65,6 +116,7 @@ const copy =
       event.preventDefault();
       const data = new FormData(form);
       button.disabled = true;
+      const email = String(data.get('email') ?? '').trim();
       let message = form.dataset.failed;
       try {
         const response = await fetch('/api/subscribe', {
@@ -79,8 +131,11 @@ const copy =
         });
         if (response.ok) {
           // Keep the address in the field so a typo stays visible.
-          message = form.dataset.sent?.replace('{email}', String(data.get('email')).trim());
-        } else if (response.status === 400) {
+          showSent(status, form.dataset.sent ?? '', form.dataset.open ?? '', email);
+          button.disabled = false;
+          return;
+        }
+        if (response.status === 400) {
           message = form.dataset.invalid;
         }
       } catch {}
