@@ -1,0 +1,106 @@
+---
+// The homepage feed. ~290 issues as live DOM cost old iPhones seconds of
+// layout (Safari before 18 has no content-visibility), so only the first
+// FIRST cards are in the page; the rest wait in <template> batches, which the
+// parser keeps inert, and join the grid well before the reader scrolls to them.
+import Card from './Card.astro';
+
+export interface Props {
+  allPosts: any[];
+}
+
+const { allPosts } = Astro.props;
+const FIRST = 12;
+const BATCH = 24;
+const first = allPosts.slice(0, FIRST);
+const batches: any[][] = [];
+for (let i = FIRST; i < allPosts.length; i += BATCH) batches.push(allPosts.slice(i, i + BATCH));
+---
+
+<div id='feed' class='grid gap-x-4 gap-y-8 sm:gap-x-5 pt-4 sm:pt-5 grid-cols-1 sm:grid-cols-2 pad:grid-cols-3 wide:grid-cols-4'>
+  {first.map((post, index) => <Card post={post} priority={index === 0} isLCP={index === 0} />)}
+</div>
+{batches.map((batch) => <template data-feed-batch>{batch.map((post) => <Card post={post} />)}</template>)}
+<div id='feed-end' aria-hidden='true'></div>
+
+<script is:inline>
+  // Inline and synchronous on purpose: coming back from an issue, the batches
+  // that were open are shown before the browser restores the scroll position,
+  // so it lands on the same card instead of the end of the first batch.
+  (() => {
+    const grid = document.getElementById('feed');
+    const end = document.getElementById('feed-end');
+    const batches = document.querySelectorAll('template[data-feed-batch]');
+    const key = `feed-shown:${location.pathname}`;
+    let shown = 0;
+    const showNext = () => {
+      const batch = batches[shown];
+      if (!batch) return false;
+      grid.append(batch.content);
+      shown += 1;
+      try {
+        sessionStorage.setItem(key, String(shown));
+      } catch {}
+      return true;
+    };
+    // Rows that have not rendered yet sit at contain-intrinsic-size, so the
+    // browser's pixel restore misses on wide layouts; restore by card instead:
+    // the first card in view and its distance from the top.
+    const anchorKey = `feed-anchor:${location.pathname}`;
+    const saveAnchor = () => {
+      const card = [...grid.children].find((el) => el.getBoundingClientRect().bottom > 0);
+      if (!card) return;
+      try {
+        sessionStorage.setItem(anchorKey, JSON.stringify([card.getAttribute('href'), card.getBoundingClientRect().top]));
+      } catch {}
+    };
+    addEventListener('pagehide', saveAnchor);
+    const type = performance.getEntriesByType('navigation')[0]?.type;
+    let open = 0;
+    let anchor = null;
+    try {
+      if (type === 'back_forward' || type === 'reload') {
+        open = Number(sessionStorage.getItem(key)) || 0;
+        anchor = JSON.parse(sessionStorage.getItem(anchorKey) || 'null');
+      }
+    } catch {}
+    while (shown < open && showNext());
+    const card = anchor && grid.querySelector(`a[href="${CSS.escape(anchor[0])}"]`);
+    if (card) {
+      history.scrollRestoration = 'manual';
+      const restore = () => scrollTo({ top: card.getBoundingClientRect().top + scrollY - anchor[1], behavior: 'instant' });
+      restore();
+      addEventListener('DOMContentLoaded', restore, { once: true });
+    }
+    if (!('IntersectionObserver' in window)) {
+      while (showNext());
+      return;
+    }
+    // About two phone screens ahead, so a fast fling still finds cards waiting.
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) return;
+        observer.unobserve(end);
+        if (showNext()) observer.observe(end);
+      },
+      { rootMargin: '0px 0px 1500px 0px' }
+    );
+    observer.observe(end);
+  })();
+</script>
+
+<script>
+  // Astro's hover prefetch binds mouseenter only to links present at load, so
+  // cards added later get it through the grid; prefetch() skips repeats.
+  import { prefetch } from 'astro:prefetch';
+
+  let timer = 0;
+  const feed = document.getElementById('feed');
+  feed?.addEventListener('mouseover', (event) => {
+    const link = (event.target as Element).closest<HTMLAnchorElement>('a.card-content');
+    if (!link) return;
+    clearTimeout(timer);
+    timer = window.setTimeout(() => prefetch(link.href), 80);
+  });
+  feed?.addEventListener('mouseout', () => clearTimeout(timer));
+</script>

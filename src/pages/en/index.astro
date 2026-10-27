@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import Card from '../../components/Card.astro';
+import Feed from '../../components/Feed.astro';
 import Header from '../../components/Header/Header.astro';
 import { SITE } from '@/config';
 import { sortPosts } from '@/util';
@@ -23,8 +23,6 @@ const t = useTranslations('en');
 
   <Header layout='feed' />
   <div class='feed-container mx-auto -mt-5 mb-12'>
-    <div class='grid gap-x-4 gap-y-8 sm:gap-x-5 pt-4 sm:pt-5 grid-cols-1 sm:grid-cols-2 pad:grid-cols-3 wide:grid-cols-4'>
-      {allPosts.map((post, index) => <Card post={post} priority={index <= 2} isLCP={index <= 2} />)}
-    </div>
+    <Feed allPosts={allPosts} />
   </div>
 </BaseLayout>
