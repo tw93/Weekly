@@ -12,6 +12,8 @@ const enabled = import.meta.env.PUBLIC_NEWSLETTER === '1';
 const copy =
   lang === 'en'
     ? {
+        title: 'Subscribe to Weekly',
+        note: 'Each new issue lands in your inbox.',
         label: 'Email address',
         button: 'Subscribe',
         sent: 'Check your inbox and click the link to confirm.',
@@ -19,8 +21,10 @@ const copy =
         failed: "Couldn't send it right now, try again later.",
       }
     : {
+        title: '订阅潮流周刊',
+        note: '每周新一期发布后发到你的邮箱',
         label: '邮箱地址',
-        button: '订阅周刊',
+        button: '订阅',
         sent: '确认信已发到邮箱，点里面的链接就订阅好了。',
         invalid: '邮箱地址的格式不对。',
         failed: '暂时没能发出，过一会儿再试试。',
@@ -30,6 +34,8 @@ const copy =
 {
   enabled && (
     <form class='newsletter' data-lang={lang} data-sent={copy.sent} data-invalid={copy.invalid} data-failed={copy.failed}>
+      <p class='newsletter-title'>{copy.title}</p>
+      <p class='newsletter-note'>{copy.note}</p>
       <div class='newsletter-row'>
         <input type='email' name='email' required autocomplete='email' maxlength='254' placeholder={copy.label} aria-label={copy.label} />
         <button type='submit'>{copy.button}</button>
@@ -76,23 +82,46 @@ const copy =
 <style>
   .newsletter {
     width: 100%;
-    max-width: 360px;
-    margin: var(--space-4) auto 0;
+    margin: 40px 0 0;
+    padding: 20px;
+    border-radius: 12px;
+    background: var(--grid-line-color);
+  }
+
+  .newsletter-title {
+    margin: 0;
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    color: var(--theme-text);
+  }
+
+  .newsletter-note {
+    margin: 4px 0 14px;
+    font-size: var(--font-size-small);
+    color: var(--theme-text);
+    opacity: 0.65;
+  }
+
+  @media (max-width: 640px) {
+    .newsletter-note {
+      font-size: 15px;
+    }
   }
 
   .newsletter-row {
     display: flex;
     gap: var(--space-2);
+    max-width: 440px;
   }
 
   .newsletter input[type='email'] {
     flex: 1;
     min-width: 0;
-    height: 40px;
+    height: 44px;
     padding: 0 var(--space-3);
     border: 1px solid var(--theme-divider);
     border-radius: var(--radius);
-    background: transparent;
+    background: var(--theme-bg);
     color: var(--theme-text);
     /* iOS Safari zooms the page into any field under 16px. */
     font-size: 16px;
@@ -104,12 +133,12 @@ const copy =
   }
 
   .newsletter button {
-    height: 40px;
+    height: 44px;
     padding: 0 var(--space-4);
     border: 0;
     border-radius: var(--radius);
-    background: var(--grid-line-color);
-    color: var(--theme-text);
+    background: var(--theme-text);
+    color: var(--theme-bg);
     font-size: var(--font-size-small);
     font-weight: 500;
     white-space: nowrap;
@@ -134,10 +163,12 @@ const copy =
     opacity: 0;
   }
 
+  .newsletter-status:empty {
+    display: none;
+  }
+
   .newsletter-status {
     margin: var(--space-2) 0 0;
-    min-height: 1.5em;
-    text-align: center;
     font-size: var(--font-size-small);
     color: var(--theme-text);
   }

@@ -340,6 +340,7 @@ const giscusAttrs = {
           </a>
         </h1>
         <slot />
+        <Subscribe lang={lang === 'en' ? 'en' : 'zh'} />
         <div class='flex align-middle justify-center mt-4 pay-button-wrapper'>
           <a
             class='inline-block items-center rounded px-5 py-3 text-sm font-medium pay-button'
@@ -348,7 +349,6 @@ const giscusAttrs = {
             rel='noreferrer'>{SUPPORT_CALLOUT[lang]}</a
           >
         </div>
-        <Subscribe lang={lang === 'en' ? 'en' : 'zh'} />
         <hr class='post-divider' />
         <div class='flex justify-between md:flex-row flex-col mt-2 post-footer'>
           <div class='text-gray-800 dark:text-gray-200 flex-1'>
