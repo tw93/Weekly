@@ -91,12 +91,15 @@ const copy =
 <style>
   .newsletter {
     width: 100%;
-    max-width: 480px;
-    margin: 16px auto 0;
+    margin: 20px 0 0;
     padding: 20px;
     border-radius: 12px;
-    background: var(--grid-line-color);
+    background: rgba(0, 0, 0, 0.03);
     animation: newsletter-in 0.25s ease-out;
+  }
+
+  :global([data-theme='dark']) .newsletter {
+    background: rgba(255, 255, 255, 0.04);
   }
 
   .newsletter[hidden] {
