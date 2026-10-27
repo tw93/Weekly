@@ -20,7 +20,6 @@ const isArticle = contentTitle && content.date;
 const pageTitle = socialTitle({ isArticle, lang, siteTitle: title, contentTitle });
 const imageSrc = isArticle ? (socialImage || siteImage) : siteImage;
 const description = contentDescription || t('site.description');
-const preloadImage = image ? `${image}?x-oss-process=image/resize,w_1200/format,webp` : false;
 const canonicalURL = new URL(pageURL, homePage).href;
 const inLanguage = lang === 'en' ? 'en' : 'zh-Hans';
 
@@ -223,4 +222,3 @@ const structuredData = {
 <!-- JSON-LD Structured Data -->
 <script type='application/ld+json' set:html={JSON.stringify(structuredData)} />
 
-{preloadImage && <link rel='preload' href={preloadImage} as='image' />}

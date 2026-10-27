@@ -31,10 +31,14 @@ function getImageMetadata() {
 // - github raw / camo / anything else: no URL-based optimization available, return unchanged.
 const CF_DOMAIN = "cdn.tw93.fun";
 const CF_TRANSFORM = "width=2000,quality=80,format=auto,fit=scale-down";
+// cdn.fliggy.com is still live Aliyun OSS and hosts most issue images; it
+// fell out of this list in the R2 migration and served multi-megabyte
+// originals (issue 287's cover was 8MB). Quality 90 keeps photos as sharp as
+// the originals at the 800px column; the lightbox still opens the original.
 const OSS_DOMAIN_REGEX =
-  /^https:\/\/(?:cdn\.alipayobjects\.com|gw\.alipayobjects\.com|gw\.alicdn\.com|img\.alicdn\.com)\//;
+  /^https:\/\/(?:cdn\.fliggy\.com|cdn\.alipayobjects\.com|gw\.alipayobjects\.com|gw\.alicdn\.com|img\.alicdn\.com)\//;
 const OSS_PROCESS =
-  "x-oss-process=image/auto-orient,1/resize,w_2000/format,webp";
+  "x-oss-process=image/auto-orient,1/resize,w_2000/quality,q_90/format,webp";
 
 function optimizeImageUrl(url) {
   const cfPrefix = `https://${CF_DOMAIN}/`;
