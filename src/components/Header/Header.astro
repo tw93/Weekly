@@ -66,8 +66,11 @@ const navClass = `nav-wrapper mx-auto ${layout === 'feed' ? 'feed-container' : '
     color: var(--theme-accent);
   }
 
+  /* The cup sits 21px inside its 144px canvas, 6px at 40px; pull it out so its
+     ink, not the transparent margin, lines up with the content edge. */
   .logo .logo-image {
     margin-top: -14px;
+    margin-left: -10px;
   }
 
   .logo h1 {

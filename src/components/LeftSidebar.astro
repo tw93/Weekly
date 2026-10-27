@@ -196,9 +196,11 @@ const sidebarSections = allPosts.reduce((sections, post, index) => {
     display: block;
   }
 
+  /* The cup sits 6px inside its own canvas; this puts its ink on the issue
+     titles below, which start 11px inside their links. */
   .logo .logo-image {
     margin-top: -14px;
-    margin-left: -4px;
+    margin-left: 2px;
   }
 
   .logo a {
