@@ -113,11 +113,18 @@ const giscusAttrs = {
   <style slot='head'>
     body {
       width: 100%;
-      --gutter: 8px;
+      /* Track plus padding equals the feed's --frame-pad, so on narrow
+         screens the text starts where the home cards do. */
+      --gutter: calc(var(--frame-pad) / 2);
       --doc-padding: 32px;
     }
 
+    /* The homepage's frame (--frame-width in index.css), so the page keeps
+       its width and the logo stays put between the feed and an issue. */
     .layout {
+      width: 100%;
+      max-width: var(--frame-width);
+      margin: 0 auto;
       display: grid;
       grid-auto-flow: column;
       grid-template-columns:
@@ -219,7 +226,8 @@ const giscusAttrs = {
 
       #grid-left {
         display: flex;
-        padding-left: 32px;
+        /* Puts the sidebar cup where the header's sits on the feed. */
+        padding-left: calc(var(--frame-pad) + 5px);
         position: sticky;
         grid-column: 1;
       }
@@ -261,7 +269,13 @@ const giscusAttrs = {
 
       #grid-main {
         margin-top: 0;
-        padding: 12px 8px var(--doc-padding) 8px;
+        padding: 12px var(--gutter) var(--doc-padding) var(--gutter);
+      }
+
+      /* md:max-w-2xl would centre the text in the 768-799 band, the only
+         widths where it is narrower than the column, and move the logo. */
+      #write {
+        max-width: none;
       }
 
       .heti h1.content-title:first-child {

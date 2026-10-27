@@ -432,35 +432,40 @@ h2.heading {
 }
 
 /* Homepage feed width. Shared by the header and the card grid so the logo
-   always lines up with the first card. Breakpoints mirror tailwind.config.cjs. */
-.feed-container {
-  width: 100%;
-  box-sizing: border-box;
-  max-width: 36rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+   always lines up with the first card, and by the issue layout (post.astro),
+   so the page keeps one width and one logo position between the two.
+   Breakpoints mirror tailwind.config.cjs. */
+:root {
+  --frame-width: 36rem;
+  --frame-pad: 1rem;
 }
 
 @media (min-width: 640px) {
-  .feed-container {
-    max-width: 840px;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+  :root {
+    --frame-width: 840px;
+    --frame-pad: 1.25rem;
   }
 }
 
 @media (min-width: 1000px) {
-  .feed-container {
-    max-width: 1180px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+  :root {
+    --frame-width: 1180px;
+    --frame-pad: 1.5rem;
   }
 }
 
 @media (min-width: 1300px) {
-  .feed-container {
-    max-width: 1386px;
+  :root {
+    --frame-width: 1386px;
   }
+}
+
+.feed-container {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: var(--frame-width);
+  padding-left: var(--frame-pad);
+  padding-right: var(--frame-pad);
 }
 
 /* About page width. Shared by the header and the article so the logo lines up
