@@ -12,7 +12,6 @@ const enabled = import.meta.env.PUBLIC_NEWSLETTER === '1';
 const copy =
   lang === 'en'
     ? {
-        title: 'Subscribe to Weekly',
         note: 'Each new issue lands in your inbox.',
         label: 'Email address',
         button: 'Subscribe',
@@ -21,7 +20,6 @@ const copy =
         failed: "Couldn't send it right now, try again later.",
       }
     : {
-        title: '订阅潮流周刊',
         note: '每周新一期发布后发到你的邮箱',
         label: '邮箱地址',
         button: '订阅',
@@ -33,8 +31,7 @@ const copy =
 
 {
   enabled && (
-    <form class='newsletter' data-lang={lang} data-sent={copy.sent} data-invalid={copy.invalid} data-failed={copy.failed}>
-      <p class='newsletter-title'>{copy.title}</p>
+    <form id='newsletter' class='newsletter' hidden data-lang={lang} data-sent={copy.sent} data-invalid={copy.invalid} data-failed={copy.failed}>
       <p class='newsletter-note'>{copy.note}</p>
       <div class='newsletter-row'>
         <input type='email' name='email' required autocomplete='email' maxlength='254' placeholder={copy.label} aria-label={copy.label} />
@@ -47,6 +44,18 @@ const copy =
 }
 
 <script>
+  // The 邮件订阅 button beside 支持作者 opens the form under the pair.
+  document.querySelectorAll<HTMLButtonElement>('.newsletter-toggle').forEach((toggle) => {
+    const form = document.getElementById(toggle.getAttribute('aria-controls') ?? '');
+    if (!form) return;
+    toggle.addEventListener('click', () => {
+      const open = form.hidden;
+      form.hidden = !open;
+      toggle.setAttribute('aria-expanded', String(open));
+      if (open) form.querySelector<HTMLInputElement>('input[type="email"]')?.focus({ preventScroll: true });
+    });
+  });
+
   document.querySelectorAll<HTMLFormElement>('form.newsletter').forEach((form) => {
     const status = form.querySelector<HTMLElement>('.newsletter-status')!;
     const button = form.querySelector<HTMLButtonElement>('button')!;
@@ -82,21 +91,32 @@ const copy =
 <style>
   .newsletter {
     width: 100%;
-    margin: 40px 0 0;
+    max-width: 480px;
+    margin: 16px auto 0;
     padding: 20px;
     border-radius: 12px;
     background: var(--grid-line-color);
+    animation: newsletter-in 0.25s ease-out;
   }
 
-  .newsletter-title {
-    margin: 0;
-    font-size: var(--font-size-base);
-    font-weight: 600;
-    color: var(--theme-text);
+  .newsletter[hidden] {
+    display: none;
+  }
+
+  @keyframes newsletter-in {
+    from {
+      opacity: 0;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .newsletter {
+      animation: none;
+    }
   }
 
   .newsletter-note {
-    margin: 4px 0 14px;
+    margin: 0 0 12px;
     font-size: var(--font-size-small);
     color: var(--theme-text);
     opacity: 0.65;
@@ -111,7 +131,6 @@ const copy =
   .newsletter-row {
     display: flex;
     gap: var(--space-2);
-    max-width: 440px;
   }
 
   .newsletter input[type='email'] {

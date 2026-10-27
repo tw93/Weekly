@@ -36,6 +36,8 @@ const normalize = (path: string | undefined) => {
 const { date, image, description, url, socialImage, numericUrl, legacySlug, issueTitle, heroImage } = Astro.props.frontmatter;
 
 const lang = getLangFromUrl(Astro.url);
+// The signup toggle and its form render only once Resend is configured.
+const newsletterEnabled = import.meta.env.PUBLIC_NEWSLETTER === '1';
 const t = useTranslations(lang);
 const translatePath = useLocalizedPath(lang);
 
@@ -281,11 +283,15 @@ const giscusAttrs = {
     }
 
     .heti .pay-button {
+      border: 0;
+      cursor: pointer;
       color: var(--theme-bg);
       background-color: var(--theme-text);
       height: 40px;
       display: inline-flex;
       align-items: center;
+      justify-content: center;
+      min-width: 136px;
       padding: 0 var(--space-5);
       border-radius: var(--radius);
       font-size: var(--font-size-small);
@@ -340,8 +346,14 @@ const giscusAttrs = {
           </a>
         </h1>
         <slot />
-        <Subscribe lang={lang === 'en' ? 'en' : 'zh'} />
-        <div class='flex align-middle justify-center mt-4 pay-button-wrapper'>
+        <div class='flex align-middle justify-center gap-3 mt-4 pay-button-wrapper'>
+          {
+            newsletterEnabled && (
+              <button type='button' class='pay-button newsletter-toggle' aria-expanded='false' aria-controls='newsletter'>
+                {lang === 'en' ? 'Subscribe' : '邮件订阅'}
+              </button>
+            )
+          }
           <a
             class='inline-block items-center rounded px-5 py-3 text-sm font-medium pay-button'
             href={SUPPORT_CALLOUT.link[lang]}
@@ -349,6 +361,7 @@ const giscusAttrs = {
             rel='noreferrer'>{SUPPORT_CALLOUT[lang]}</a
           >
         </div>
+        <Subscribe lang={lang === 'en' ? 'en' : 'zh'} />
         <hr class='post-divider' />
         <div class='flex justify-between md:flex-row flex-col mt-2 post-footer'>
           <div class='text-gray-800 dark:text-gray-200 flex-1'>
