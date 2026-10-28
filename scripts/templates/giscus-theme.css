@@ -1,0 +1,199 @@
+{{header}}
+{{fonts}}
+main {
+{{syntax}}
+  --color-btn-text: {{text}};
+  --color-btn-bg: {{fill}};
+  --color-btn-border: {{line}};
+  --color-btn-shadow: none;
+  --color-btn-inset-shadow: none;
+  --color-btn-hover-bg: {{fill_hover}};
+  --color-btn-hover-border: {{line}};
+  --color-btn-active-bg: {{fill_hover}};
+  --color-btn-active-border: {{line}};
+  --color-btn-selected-bg: {{fill_hover}};
+  --color-btn-primary-text: {{btn_text}};
+  --color-btn-primary-bg: {{btn}};
+  --color-btn-primary-border: transparent;
+  --color-btn-primary-shadow: none;
+  --color-btn-primary-inset-shadow: none;
+  --color-btn-primary-hover-bg: {{btn}};
+  --color-btn-primary-hover-border: transparent;
+  --color-btn-primary-selected-bg: {{btn}};
+  --color-btn-primary-selected-shadow: none;
+  --color-btn-primary-disabled-text: {{btn_disabled_text}};
+  --color-btn-primary-disabled-bg: {{btn_disabled}};
+  --color-btn-primary-disabled-border: transparent;
+  --color-action-list-item-default-hover-bg: {{fill}};
+  --color-segmented-control-bg: {{fill}};
+  --color-segmented-control-button-bg: {{bg}};
+  --color-segmented-control-button-selected-border: {{line}};
+  --color-fg-default: {{text}};
+  --color-fg-muted: {{muted}};
+  --color-fg-subtle: {{subtle}};
+  --color-canvas-default: {{bg}};
+  --color-canvas-overlay: {{bg}};
+  --color-canvas-inset: {{bg}};
+  --color-canvas-subtle: {{bg}};
+  --color-border-default: {{line}};
+  --color-border-muted: {{line}};
+  --color-neutral-muted: {{fill}};
+  --color-accent-fg: {{accent}};
+  --color-accent-emphasis: transparent;
+  --color-accent-muted: transparent;
+  --color-accent-subtle: {{reacted}};
+  --color-success-fg: {{status_success}};
+  --color-attention-fg: {{status_attention}};
+  --color-attention-muted: {{status_attention_muted}};
+  --color-attention-subtle: {{status_attention_subtle}};
+  --color-danger-fg: {{status_danger}};
+  --color-danger-muted: {{status_danger_muted}};
+  --color-danger-subtle: {{status_danger_subtle}};
+  --color-primer-shadow-inset: none;
+  --color-social-reaction-bg-hover: {{fill_hover}};
+  --color-social-reaction-bg-reacted-hover: {{reacted_hover}};
+  color-scheme: {{scheme}};
+}
+
+main {
+  font-family: "TsangerJinKai02", "STKaiti", "KaiTi", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  letter-spacing: 0.5px;
+}
+
+main .pagination-loader-container {
+  background-image: url("https://gw.alipayobjects.com/zos/k/7c/progressive-disclosure-line.svg");
+}
+
+main .gsc-loading-image {
+  background-image: url("https://gw.alipayobjects.com/zos/k/xi/mona-loading-default.gif");
+}
+
+main .gsc-left-header .color-text-secondary,
+.gsc-header {
+  display: none;
+}
+
+/* One hairline, around the comment box. Comments part by space, replies hang
+   off the timeline line, and reactions, badges and tabs use fill instead. */
+.gsc-social-reaction-summary-item,
+.color-box-border-info {
+  border-color: transparent;
+  background-color: var(--color-neutral-muted);
+}
+
+.gsc-social-reaction-summary-item.has-reacted {
+  background-color: var(--color-accent-subtle);
+}
+
+main .gsc-comment-box-textarea,
+main .gsc-comment-box-textarea-extras,
+.gsc-comment .min-w-0.rounded-md.border,
+.gsc-comment-box-tabs,
+.gsc-comment-box-tabs .rounded-t {
+  border-color: transparent;
+}
+
+main .gsc-replies {
+  border-top-color: transparent;
+}
+
+main .gsc-comment-box-textarea:focus,
+#__next .form-control:focus,
+textarea:focus,
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.form-control {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 14px;
+}
+
+.btn-primary,
+.btn.ml-1.rounded-md.border {
+  box-shadow: none;
+  border: none;
+}
+
+.gsc-tl-line {
+  width: 1px;
+}
+
+.gsc-comment {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.gsc-comment-content {
+  font-size: 16px;
+}
+
+.gsc-reactions-count {
+  visibility: hidden;
+}
+
+.gsc-reactions-count:after {
+  content: "欢迎一起交流~";
+  visibility: visible;
+  font-size: 22px;
+  display: inline-block;
+  margin-bottom: 16px;
+  margin-left: -64px;
+}
+
+html[lang="en"] .gsc-reactions-count:after {
+  content: "Feel free to discuss~";
+}
+
+.gsc-reply-content {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+#__next .rounded-md {
+  border-radius: 8px;
+}
+
+/* Buttons are pills, like the site's own small controls; cards and the
+   comment box keep the 8px corner. */
+.gsc-social-reaction-summary-item {
+  font-size: 14px;
+  border-radius: 999px;
+  line-height: 26px;
+  padding: 0 6px;
+}
+
+#__next .btn-primary {
+  border-radius: 999px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+#__next .gsc-comment-box-tabs .rounded-t {
+  border-radius: 999px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.gsc-comment-box-tabs .color-bg-canvas {
+  background-color: var(--color-neutral-muted);
+}
+
+.link-secondary.overflow-hidden.text-ellipsis {
+  text-decoration: none;
+  word-spacing: -2px;
+}
+
+/* Six reactions plus the add button fit one row from a 375px phone up. */
+@media (max-width: 400px) {
+  .gsc-direct-reaction-buttons {
+    gap: 6px;
+  }
+
+  .gsc-social-reaction-summary-item {
+    padding: 0 5px;
+  }
+}
