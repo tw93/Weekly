@@ -97,7 +97,6 @@ const giscusAttrs = {
   'data-emit-metadata': GISCUS_CONFIG.emitMetadata,
   'data-input-position': GISCUS_CONFIG.inputPosition,
   'data-lang': lang === 'en' ? 'en' : 'zh-CN',
-  'data-loading': 'lazy',
 };
 ---
 
@@ -412,15 +411,28 @@ const giscusAttrs = {
               // iframe is born in the right theme instead of being corrected by
               // postMessage calls that can arrive before it is ready.
               (() => {
-                const theme = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
-                const script = document.createElement('script');
-                script.id = 'giscus-script';
-                script.src = 'https://giscus.app/client.js';
-                script.async = true;
-                script.crossOrigin = 'anonymous';
-                Object.entries(giscusAttrs).forEach(([key, value]) => script.setAttribute(key, String(value)));
-                script.setAttribute('data-theme', `${location.origin}/styles/giscus-${theme}.css`);
-                document.body.appendChild(script);
+                const load = () => {
+                  const theme = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
+                  const script = document.createElement('script');
+                  script.id = 'giscus-script';
+                  script.src = 'https://giscus.app/client.js';
+                  script.async = true;
+                  script.crossOrigin = 'anonymous';
+                  Object.entries(giscusAttrs).forEach(([key, value]) => script.setAttribute(key, String(value)));
+                  script.setAttribute('data-theme', `${location.origin}/styles/giscus-${theme}.css`);
+                  document.body.appendChild(script);
+                };
+                // giscus takes two to four seconds to show comments, most of it
+                // waiting on GitHub, so start three screens ahead rather than at
+                // the browser's lazy-iframe distance and readers arrive to them.
+                const target = document.querySelector('.giscus');
+                if (!target || !('IntersectionObserver' in window)) return load();
+                const observer = new IntersectionObserver((entries) => {
+                  if (!entries.some((entry) => entry.isIntersecting)) return;
+                  observer.disconnect();
+                  load();
+                }, { rootMargin: '0px 0px 300% 0px' });
+                observer.observe(target);
               })();
             </script>
           </>
