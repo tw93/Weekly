@@ -94,34 +94,4 @@ const navClass = `nav-wrapper mx-auto ${layout === 'feed' ? 'feed-container' : '
       margin-bottom: 5px;
     }
   }
-
-  :root {
-    --docsearch-primary-color: var(--theme-accent);
-    --docsearch-logo-color: var(--theme-text);
-  }
-
-  .search-item {
-    display: none;
-    position: relative;
-    z-index: 10;
-    flex-grow: 1;
-    padding-right: 11px;
-    display: flex;
-    max-width: 200px;
-  }
-
-  .btn-yellow {
-    color: #a67c52 !important;
-    font-weight: bold;
-  }
-
-  :global(.search-item > *) {
-    flex-grow: 1;
-  }
-
-  @media (min-width: 800px) {
-    .search-item {
-      max-width: 400px;
-    }
-  }
 </style>

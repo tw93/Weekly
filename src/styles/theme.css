@@ -33,16 +33,10 @@
   --theme-accent: #a67c52;
   --theme-text: #262626;
   --theme-divider: #e6e6e6;
-  --placeholder-gradient-start: #ece9e6;
-  --placeholder-gradient-end: #ffffff;
   --pagefind-ui-text: #393939;
   --pagefind-ui-background: #ffffff;
   --pagefind-ui-border: #eeeeee;
   --pagefind-ui-tag: #eeeeee;
-
-  /* Decorative Elements */
-  --grid-line-color: rgba(0, 0, 0, 0.06);
-  --lightense-backdrop-color: rgba(230, 230, 230, 0.85);
 }
 
 [data-theme="dark"] {
@@ -51,14 +45,10 @@
   --theme-text: #e7e9ea;
   --theme-divider: #555;
   --theme-bg: #21262b;
-  --lightense-backdrop-color: rgba(18, 18, 18, 0.78);
-  --placeholder-gradient-start: #2c3e50;
-  --placeholder-gradient-end: #34495e;
   --pagefind-ui-text: #e7e9ea;
   --pagefind-ui-background: #21262b;
   --pagefind-ui-border: #333;
   --pagefind-ui-tag: #333;
-  --grid-line-color: rgba(255, 255, 255, 0.06);
 }
 
 body {

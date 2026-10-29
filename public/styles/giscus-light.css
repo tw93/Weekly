@@ -1122,10 +1122,6 @@ input:focus {
   border: none;
 }
 
-.gsc-tl-line {
-  width: 1px;
-}
-
 .gsc-comment {
   font-size: 14px;
   line-height: 1.7;
@@ -1150,11 +1146,6 @@ input:focus {
 
 html[lang="en"] .gsc-reactions-count:after {
   content: "Feel free to discuss~";
-}
-
-.gsc-reply-content {
-  padding-top: 13px;
-  padding-bottom: 13px;
 }
 
 #__next .rounded-md {
