@@ -260,11 +260,6 @@ export const issueDetail = async (lang: Lang, num: number) => {
   };
 };
 
-export const MARKDOWN_HEADERS = {
-  "Content-Type": "text/markdown; charset=utf-8",
-  "Access-Control-Allow-Origin": "*",
-};
-
 export const JSON_HEADERS = {
   "Content-Type": "application/json; charset=utf-8",
   "Access-Control-Allow-Origin": "*",

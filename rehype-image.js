@@ -165,7 +165,7 @@ export default function rehypeCustomizeImageSrc() {
           ? originalHeightMatch[1].replace("px", "")
           : null;
 
-        let newAttrs = `src="${optimizeImageUrl(p1)}" data-lightense-src="${p1}" data-pswp-src="${p1}"`;
+        let newAttrs = `src="${optimizeImageUrl(p1)}" data-pswp-src="${p1}"`;
 
         // Use metadata for aspect-ratio and lightbox, user-specified for display size
         const metaWidth = meta?.width;

@@ -6,11 +6,6 @@ const PAGE_CACHE = "weekly-pages-v1";
 const PAGE_CACHE_LIMIT = 40;
 const ISSUE_PAGE = /^\/(?:en\/)?posts\/\d+$/;
 const FONT_BASE_URL = "https://gw.alipayobjects.com/os/k/jinkai/";
-const IMMUTABLE_ASSETS = [
-  "https://gw.alipayobjects.com/os/k/s3/lightense.min.js",
-  "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png",
-  "https://gw.alicdn.com/imgextra/i4/O1CN010j3h201UDilmn716N_!!6000000002484-2-tps-1280-640.png",
-];
 
 self.addEventListener("install", (event) => {
   self.skipWaiting();
@@ -63,10 +58,7 @@ self.addEventListener("fetch", (event) => {
     event.respondWith(servePage(event));
     return;
   }
-  const isImmutableAsset =
-    IMMUTABLE_ASSETS.includes(url) ||
-    url.startsWith(FONT_BASE_URL) ||
-    url.includes("/fonts/jinkai.css");
+  const isImmutableAsset = url.startsWith(FONT_BASE_URL) || url.includes("/fonts/jinkai.css");
 
   if (isImmutableAsset) {
     event.respondWith(
