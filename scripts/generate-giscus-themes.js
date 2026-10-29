@@ -25,111 +25,6 @@ const darkStatus = {
   danger_subtle: "#f851491a",
 };
 
-// Weekly's thread and comment box, ahead of the blog, which keeps the timeline
-// line and the framed box until it takes the same change. A reply hangs under
-// its comment, its avatar centred on the commenter's name and its text and
-// reactions on the avatar's edge; a thread sits closer together than the gap
-// to the next one, so the tree reads without lines. The box drops its frame:
-// the field takes the fill the reactions use, and the tabs and the button stay
-// on the page, sharing one row under the field, so a reader writes first and
-// then previews or posts. giscus writes its spacing utilities as
-// `#__next .mt-2`, so the tabs' own margin needs the same id to lose it.
-const weeklyOnly = `
-main .gsc-replies {
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 24px;
-}
-
-main .gsc-comment-footer {
-  margin-bottom: 2px;
-}
-
-main .gsc-reply {
-  padding-top: 8px;
-  padding-bottom: 0;
-}
-
-main .gsc-reply-content {
-  padding-top: 4px;
-  padding-bottom: 0;
-  margin-left: -38px;
-}
-
-main .gsc-reply-footer {
-  margin-top: 6px;
-  margin-left: -38px;
-}
-
-main .gsc-tl-line {
-  display: none;
-}
-
-main .gsc-timeline {
-  row-gap: 24px;
-}
-
-main .gsc-comment-box {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: center;
-  column-gap: 8px;
-  border-color: transparent;
-}
-
-main .gsc-comment-box-main {
-  grid-row: 1;
-  grid-column: 1 / -1;
-}
-
-main .gsc-comment-box-tabs {
-  grid-row: 2;
-  grid-column: 1;
-  justify-content: flex-start;
-  align-items: center;
-  min-width: 0;
-  margin: 0 0 8px;
-  border-bottom-width: 0;
-}
-
-#__next .gsc-comment-box-tabs > .mt-2 {
-  margin: 0 0 0 8px;
-  white-space: nowrap;
-}
-
-main .gsc-comment-box-md-toolbar {
-  margin: 0 0 0 4px;
-}
-
-main .gsc-comment-box-bottom {
-  grid-row: 2;
-  grid-column: 2;
-  margin: 0 8px 8px 0;
-}
-
-/* The tabs, the Aa toggle and the login button fit one row from 361px. */
-@media (max-width: 400px) {
-  #__next .gsc-comment-box-tabs .rounded-t {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-}
-
-main .gsc-comment-box-textarea,
-main .gsc-comment-box-textarea:focus,
-main .gsc-comment-box-textarea-extras {
-  background-color: var(--color-btn-bg);
-}
-
-main .gsc-comment-box-textarea {
-  border-radius: 8px 8px 0 0;
-}
-
-main .gsc-comment-box-textarea-extras {
-  border-radius: 0 0 8px 8px;
-}
-`;
-
 // Links take the accent; the login and submit button take btn, so the dark
 // theme can keep its orange links without an orange button.
 const themes = {
@@ -139,7 +34,6 @@ const themes = {
     fill: "#f5f5f5", fill_hover: "#ededed", accent: "#a67c52",
     reacted: "rgb(166 124 82 / 10%)", reacted_hover: "rgb(166 124 82 / 16%)",
     btn: "#a67c52", btn_text: "#fff", btn_disabled: "#d3bea9", btn_disabled_text: "#fffc",
-    weekly_only: weeklyOnly,
   },
   "giscus-dark.css": {
     scheme: "dark", status: darkStatus,
@@ -147,7 +41,6 @@ const themes = {
     fill: "#2a3035", fill_hover: "#323940", accent: "#e8a15a",
     reacted: "rgb(232 161 90 / 14%)", reacted_hover: "rgb(232 161 90 / 20%)",
     btn: "#e7e9ea", btn_text: "#21262b", btn_disabled: "#4a5157", btn_disabled_text: "#a9aeb3",
-    weekly_only: weeklyOnly,
   },
   "giscus-blog.css": {
     scheme: "light", status: lightStatus,
@@ -155,7 +48,6 @@ const themes = {
     fill: "#f5f5f5", fill_hover: "#ededed", accent: "#222",
     reacted: "rgb(34 34 34 / 7%)", reacted_hover: "rgb(34 34 34 / 12%)",
     btn: "#222", btn_text: "#fff", btn_disabled: "#9a9a9a", btn_disabled_text: "#fffc",
-    weekly_only: "",
   },
 };
 

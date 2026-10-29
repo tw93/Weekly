@@ -1076,8 +1076,8 @@ main .gsc-left-header .color-text-secondary,
   display: none;
 }
 
-/* One hairline, around the comment box. Comments part by space, replies hang
-   off the timeline line, and reactions, badges and tabs use fill instead. */
+/* No lines: comments part by space, replies by indent (see the end of this
+   file), and reactions, badges, tabs and the comment field use fill. */
 .gsc-social-reaction-summary-item,
 .color-box-border-info {
   border-color: transparent;
@@ -1201,7 +1201,13 @@ html[lang="en"] .gsc-reactions-count:after {
     padding: 0 5px;
   }
 }
-
+/* A reply hangs under its comment, its avatar centred on the commenter's name
+   and its text and reactions on the avatar's edge; a thread sits closer
+   together than the gap to the next one, so the tree reads without lines.
+   The box drops its frame: the field takes the fill the reactions use, and
+   the tabs and the button share one row under the field, so a reader writes
+   first and then previews or posts. giscus writes its spacing utilities as
+   #__next .mt-2, so the tabs' own margin needs the same id to lose it. */
 main .gsc-replies {
   padding-top: 0;
   padding-bottom: 0;
