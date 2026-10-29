@@ -1342,7 +1342,10 @@ main .gsc-comment-box-textarea-extras {
   background-color: var(--color-btn-bg);
 }
 
+/* Most comments are a line or two, so the field opens two lines tall and
+   giscus grows it as the reader types. */
 main .gsc-comment-box-textarea {
+  min-height: 54px;
   border-radius: 8px 8px 0 0;
 }
 
@@ -1355,6 +1358,12 @@ main .gsc-comment-box-textarea-extras {
 main .gsc-comment-box-is-reply {
   width: auto;
   margin: 8px 8px 0 32px;
+}
+
+/* While a reply form is open the comment box at the bottom steps aside, so
+   there is one place to type; it returns on Cancel or after posting. */
+main:has(.gsc-comment-box-is-reply) .gsc-comment-box:not(.gsc-comment-box-is-reply) {
+  display: none;
 }
 
 #__next .gsc-comment-box-buttons .btn {
@@ -1370,7 +1379,7 @@ main .gsc-comment-box-is-reply {
 /* Preview takes the field's place: the same fill and height instead of a
    2px rule, so switching tabs moves nothing. */
 main .gsc-comment-box-preview {
-  min-height: 129px;
+  min-height: 83px;
   padding: 6px 8px;
   border-bottom-width: 0;
   border-radius: 8px;
