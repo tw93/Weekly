@@ -181,12 +181,12 @@ const sidebarSections = allPosts.reduce((sections, post, index) => {
 
   .logo {
     display: flex;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: bolder;
     flex-shrink: 0;
     font-weight: 600;
     line-height: 1;
-    gap: 4px;
+    gap: 9px;
     padding: 4px 0;
     margin-top: 0;
   }
@@ -216,9 +216,11 @@ const sidebarSections = allPosts.reduce((sections, post, index) => {
     color: var(--theme-accent);
   }
 
+  /* Title ink at about 0.7 of the cup's, 12px off it and centred on it. */
   .logo h1 {
     font: inherit;
     margin: 0;
+    margin-top: -5px;
     margin-left: -2px;
   }
 
