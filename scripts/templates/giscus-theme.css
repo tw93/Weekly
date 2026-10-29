@@ -216,6 +216,11 @@ main .gsc-comment-footer {
   margin-bottom: 2px;
 }
 
+/* The replies show right under the comment, so counting them says nothing. */
+main .gsc-comment-replies-count {
+  display: none;
+}
+
 main .gsc-reply {
   padding-top: 8px;
   padding-bottom: 0;
