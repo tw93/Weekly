@@ -9,7 +9,7 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<div class='flex-grow text-right flex items-center justify-end gap-4'>
+<div class='header-right flex-grow text-right flex items-center justify-end gap-4'>
   <HeaderLink href={blogPage} target='_blank' class='hidden md:inline-flex'>{t('nav.home')}</HeaderLink>
   <HeaderLink href={`https://twitter.com/${twitterId}`} target='_blank' class='lg:inline-flex hidden'>{t('nav.twitter')}</HeaderLink>
   <HeaderLink href={`https://github.com/${githubId}`} target='_blank' class='hidden md:inline-flex'>{t('nav.github')}</HeaderLink>
@@ -25,3 +25,12 @@ const t = useTranslations(lang);
     {lang === 'en' ? '中' : 'En'}
   </a>
 </div>
+
+<style>
+  /* The cup is pulled 14px up inside the logo box, so the row centred on that
+     box sat 3.5px under the cup; the same pull, halved by the centring, puts
+     the links and the round buttons on the cup's centre. */
+  .header-right {
+    margin-top: -7px;
+  }
+</style>
