@@ -185,27 +185,6 @@
       if (placeholder?.tagName === 'IMG') placeholder.style.setProperty('--pswp-ph-scale', String(width / 250 || 1));
     });
 
-    // Parse data from image tags
-    lightbox.on('uiRegister', function () {
-      lightbox.pswp.ui.registerElement({
-        name: 'custom-caption',
-        order: 9,
-        isButton: false,
-        appendTo: 'root',
-        html: 'Caption text',
-        onInit: (el, pswp) => {
-          pswp.on('change', () => {
-            const currSlideElement = pswp.currSlide.data.element;
-            let captionText = '';
-            if (currSlideElement) {
-              captionText = currSlideElement.getAttribute('alt') || '';
-            }
-            el.innerHTML = captionText ? `<div class="pswp-caption-content">${captionText}</div>` : '';
-          });
-        },
-      });
-    });
-
     // Handle opening via validation of data attributes
     lightbox.addFilter('domItemData', (itemData, element) => {
       if (!element) {
