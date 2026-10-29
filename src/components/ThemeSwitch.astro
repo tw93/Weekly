@@ -1,3 +1,7 @@
+---
+import { GISCUS_THEME_VERSION } from '@/giscusTheme';
+---
+
 <button id='theme-toggle' class='theme-toggle fixed bottom-6 right-6' aria-label='Toggle theme'>
   <svg class='sun-and-moon' aria-hidden='true' width='24' height='24' viewBox='0 0 24 24'>
     <mask class='moon' id='moon-mask'>
@@ -108,9 +112,9 @@
   }
 </style>
 
-<script is:inline>
+<script is:inline define:vars={{ themeVersion: GISCUS_THEME_VERSION }}>
   const GISCUS_ORIGIN = 'https://giscus.app';
-  const giscusThemeUrl = (theme) => `${window.location.origin}/styles/giscus-${theme}.css`;
+  const giscusThemeUrl = (theme) => `${window.location.origin}/styles/giscus-${theme}.css?v=${themeVersion}`;
 
   // Giscus drops messages sent before its app has mounted, so theme changes
   // wait for its first message (it always reports its height on load).

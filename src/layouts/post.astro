@@ -8,6 +8,7 @@ import ReaderModeToggle from '../components/ReaderModeToggle.astro';
 import ParagraphShare from '../components/ParagraphShare.astro';
 import { SITE, GISCUS_CONFIG } from '@/config';
 import { SUPPORT_CALLOUT } from '@/supportCallout';
+import { GISCUS_THEME_VERSION } from '@/giscusTheme';
 import Subscribe from '@/components/Subscribe.astro';
 import { parseTitle, sortPosts, getIndex, toNumericUrl, extractTitlePart, getSlugParts } from '@/util';
 import { getLangFromUrl, useTranslations, useLocalizedPath } from '../i18n/utils';
@@ -406,7 +407,7 @@ const giscusAttrs = {
         GISCUS_CONFIG.repo === SITE.repo && (
           <>
             <div class='giscus' />
-            <script is:inline define:vars={{ giscusAttrs }}>
+            <script is:inline define:vars={{ giscusAttrs, themeVersion: GISCUS_THEME_VERSION }}>
               // Create the Giscus script with the theme already resolved, so the
               // iframe is born in the right theme instead of being corrected by
               // postMessage calls that can arrive before it is ready.
@@ -419,7 +420,7 @@ const giscusAttrs = {
                   script.async = true;
                   script.crossOrigin = 'anonymous';
                   Object.entries(giscusAttrs).forEach(([key, value]) => script.setAttribute(key, String(value)));
-                  script.setAttribute('data-theme', `${location.origin}/styles/giscus-${theme}.css`);
+                  script.setAttribute('data-theme', `${location.origin}/styles/giscus-${theme}.css?v=${themeVersion}`);
                   document.body.appendChild(script);
                 };
                 // giscus takes two to four seconds to show comments, most of it

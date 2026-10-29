@@ -1201,3 +1201,55 @@ html[lang="en"] .gsc-reactions-count:after {
     padding: 0 5px;
   }
 }
+
+main .gsc-replies {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 24px;
+}
+
+main .gsc-comment-footer {
+  margin-bottom: 2px;
+}
+
+main .gsc-reply {
+  padding-top: 8px;
+  padding-bottom: 0;
+}
+
+main .gsc-reply-content {
+  padding-top: 4px;
+  padding-bottom: 0;
+  margin-left: -38px;
+}
+
+main .gsc-reply-footer {
+  margin-top: 6px;
+  margin-left: -38px;
+}
+
+main .gsc-tl-line {
+  display: none;
+}
+
+main .gsc-timeline {
+  row-gap: 24px;
+}
+
+main .gsc-comment-box {
+  border-color: transparent;
+}
+
+main .gsc-comment-box-textarea,
+main .gsc-comment-box-textarea:focus,
+main .gsc-comment-box-textarea-extras {
+  background-color: var(--color-btn-bg);
+}
+
+main .gsc-comment-box-textarea {
+  border-radius: 8px 8px 0 0;
+}
+
+main .gsc-comment-box-textarea-extras {
+  border-radius: 0 0 8px 8px;
+}
