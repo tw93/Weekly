@@ -31,7 +31,9 @@ const darkStatus = {
 // reactions on the avatar's edge; a thread sits closer together than the gap
 // to the next one, so the tree reads without lines. The box drops its frame:
 // the field takes the fill the reactions use, and the tabs and the button stay
-// on the page.
+// on the page, sharing one row under the field, so a reader writes first and
+// then previews or posts. giscus writes its spacing utilities as
+// `#__next .mt-2`, so the tabs' own margin needs the same id to lose it.
 const weeklyOnly = `
 main .gsc-replies {
   padding-top: 0;
@@ -68,7 +70,49 @@ main .gsc-timeline {
 }
 
 main .gsc-comment-box {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: 8px;
   border-color: transparent;
+}
+
+main .gsc-comment-box-main {
+  grid-row: 1;
+  grid-column: 1 / -1;
+}
+
+main .gsc-comment-box-tabs {
+  grid-row: 2;
+  grid-column: 1;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  margin: 0 0 8px;
+  border-bottom-width: 0;
+}
+
+#__next .gsc-comment-box-tabs > .mt-2 {
+  margin: 0 0 0 8px;
+  white-space: nowrap;
+}
+
+main .gsc-comment-box-md-toolbar {
+  margin: 0 0 0 4px;
+}
+
+main .gsc-comment-box-bottom {
+  grid-row: 2;
+  grid-column: 2;
+  margin: 0 8px 8px 0;
+}
+
+/* The tabs, the Aa toggle and the login button fit one row from 361px. */
+@media (max-width: 400px) {
+  #__next .gsc-comment-box-tabs .rounded-t {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 }
 
 main .gsc-comment-box-textarea,
