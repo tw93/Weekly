@@ -1326,8 +1326,9 @@ main .gsc-comment-box-tabs {
   white-space: nowrap;
 }
 
+/* The Aa toggle only switches the field to a monospace font. */
 main .gsc-comment-box-md-toolbar {
-  margin: 0 0 0 4px;
+  display: none;
 }
 
 main .gsc-comment-box-bottom {
@@ -1336,7 +1337,7 @@ main .gsc-comment-box-bottom {
   margin: 0 8px 8px 0;
 }
 
-/* The tabs, the Aa toggle and the login button fit one row from 361px. */
+/* The tabs, Sign out and the button fit one row from 361px. */
 @media (max-width: 400px) {
   #__next .gsc-comment-box-tabs .rounded-t {
     padding-left: 12px;
