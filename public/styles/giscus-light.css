@@ -1223,6 +1223,57 @@ main .gsc-comment-replies-count {
   display: none;
 }
 
+/* Signed in, giscus closes every comment with a ruled band holding a framed
+   reply field. The comment becomes a two-column grid so that button joins the
+   footer row as one more pill beside the reactions; the open reply form is a
+   different element and still lands under the replies. An empty reactions
+   list would add a second gap before it. */
+main .gsc-comment > div {
+  display: grid;
+  grid-template-columns: minmax(0, max-content) minmax(0, 1fr);
+}
+
+main .gsc-comment > div > * {
+  grid-column: 1 / -1;
+}
+
+main .gsc-comment > div > .gsc-comment-footer {
+  grid-row: 3;
+  grid-column: 1;
+}
+
+main .gsc-comment > div > .gsc-reply-box {
+  grid-row: 3;
+  grid-column: 2;
+  align-self: center;
+  margin-bottom: 2px;
+  padding: 0 0 0 8px;
+  border-top-width: 0;
+  background-color: transparent;
+}
+
+#__next .gsc-reply-box > button {
+  width: auto;
+  min-height: 0;
+  height: 26px;
+  padding: 0 10px;
+  border-width: 0;
+  border-radius: 999px;
+  background-color: var(--color-btn-bg);
+  box-shadow: none;
+  font-size: 12px;
+  line-height: 26px;
+}
+
+#__next .gsc-reply-box > button:hover {
+  background-color: var(--color-btn-hover-bg);
+  color: var(--color-fg-default);
+}
+
+main .gsc-direct-reaction-buttons:empty {
+  display: none;
+}
+
 main .gsc-reply {
   padding-top: 8px;
   padding-bottom: 0;
@@ -1305,4 +1356,58 @@ main .gsc-comment-box-textarea {
 
 main .gsc-comment-box-textarea-extras {
   border-radius: 0 0 8px 8px;
+}
+
+/* The open reply form lines its field up with the reply text, and Cancel
+   takes the same pill as the submit button. */
+main .gsc-comment-box-is-reply {
+  width: auto;
+  margin: 8px 8px 0 32px;
+}
+
+#__next .gsc-comment-box-buttons .btn {
+  border-radius: 999px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+#__next .gsc-comment-box-buttons .btn + .btn {
+  margin-left: 8px;
+}
+
+/* Preview takes the field's place: the same fill and height instead of a
+   2px rule, so switching tabs moves nothing. */
+main .gsc-comment-box-preview {
+  min-height: 129px;
+  padding: 6px 8px;
+  border-bottom-width: 0;
+  border-radius: 8px;
+  background-color: var(--color-btn-bg);
+}
+
+main .gsc-comment-box-bottom > .link-secondary {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 16px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+/* giscus labels the repository owner 所有者 / Owner; on a blog that is the
+   author. Only the owner gets that badge, so matching the profile link leaves
+   Contributor and Member as they are; without :has() it stays 所有者. */
+:is(.gsc-comment-author, .gsc-reply-author):has(a[href="https://github.com/tw93"]) .color-box-border-info {
+  font-size: 0;
+  line-height: 0;
+}
+
+:is(.gsc-comment-author, .gsc-reply-author):has(a[href="https://github.com/tw93"]) .color-box-border-info::after {
+  content: "作者";
+  display: block;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+:lang(en) :is(.gsc-comment-author, .gsc-reply-author):has(a[href="https://github.com/tw93"]) .color-box-border-info::after {
+  content: "Author";
 }
