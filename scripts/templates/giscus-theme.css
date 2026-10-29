@@ -98,10 +98,12 @@ main .gsc-replies {
   border-top-color: transparent;
 }
 
+main .gsc-comment-box-write:focus-within,
 main .gsc-comment-box-textarea:focus,
 #__next .form-control:focus,
 textarea:focus,
 input:focus {
+  border-color: transparent;
   outline: none;
   box-shadow: none;
 }
@@ -157,8 +159,8 @@ html[lang="en"] .gsc-reactions-count:after {
   border-radius: 8px;
 }
 
-/* Buttons are pills, like the site's own small controls; cards and the
-   comment box keep the 8px corner. */
+/* Reactions and tabs are pills; the submit and login button takes each
+   site's own button corner. Cards and the comment box keep 8px. */
 .gsc-social-reaction-summary-item {
   font-size: 14px;
   border-radius: 999px;
@@ -167,7 +169,7 @@ html[lang="en"] .gsc-reactions-count:after {
 }
 
 #__next .btn-primary {
-  border-radius: 999px;
+  border-radius: {{btn_radius}};
   padding-left: 14px;
   padding-right: 14px;
 }
