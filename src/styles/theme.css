@@ -9,6 +9,8 @@
 
   /* Design System Tokens */
   --radius: 8px;
+  /* Buttons are pills, as on tw93.fun and the product sites; cards keep --radius. */
+  --radius-button: 999px;
   --transition-base: 200ms ease;
   --line-height-normal: 1.7;
   --line-height-tight: 1.6;

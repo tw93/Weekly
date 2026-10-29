@@ -33,14 +33,14 @@ const themes = {
     bg: "#fff", text: "#262626", muted: "#666", subtle: "#767676", line: "#ebebeb",
     fill: "#f5f5f5", fill_hover: "#ededed", accent: "#a67c52",
     reacted: "rgb(166 124 82 / 10%)", reacted_hover: "rgb(166 124 82 / 16%)",
-    btn: "#a67c52", btn_text: "#fff", btn_disabled: "#d3bea9", btn_disabled_text: "#fffc", btn_radius: "999px",
+    btn: "#a67c52", btn_text: "#fff", btn_disabled: "#d3bea9", btn_disabled_text: "#fffc",
   },
   "giscus-dark.css": {
     scheme: "dark", status: darkStatus,
     bg: "#21262b", text: "#e7e9ea", muted: "#a9aeb3", subtle: "#8b949e", line: "#343a40",
     fill: "#2a3035", fill_hover: "#323940", accent: "#e8a15a",
     reacted: "rgb(232 161 90 / 14%)", reacted_hover: "rgb(232 161 90 / 20%)",
-    btn: "#e7e9ea", btn_text: "#21262b", btn_disabled: "#4a5157", btn_disabled_text: "#a9aeb3", btn_radius: "999px",
+    btn: "#e7e9ea", btn_text: "#21262b", btn_disabled: "#4a5157", btn_disabled_text: "#a9aeb3",
   },
   "giscus-blog.css": {
     scheme: "light", status: lightStatus,
@@ -48,8 +48,6 @@ const themes = {
     fill: "#f5f5f5", fill_hover: "#ededed", accent: "#222",
     reacted: "rgb(34 34 34 / 7%)", reacted_hover: "rgb(34 34 34 / 12%)",
     btn: "#222", btn_text: "#fff", btn_disabled: "#9a9a9a", btn_disabled_text: "#fffc",
-    // tw93.fun's $border-radius, the corner of its 邮件订阅 and 支持作者 buttons.
-    btn_radius: "8px",
   },
 };
 
