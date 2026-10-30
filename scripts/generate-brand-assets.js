@@ -10,12 +10,6 @@ const colors = Object.fromEntries(
     ([, key, value]) => [key, value],
   ),
 );
-const darkColors = Object.fromEntries(
-  [...cup.match(/\[data-theme="dark"\] \.weekly-cup\s*\{([^}]+)\}/)[1]
-    .matchAll(/(--cup-[\w-]+):\s*(#[\da-f]+);/g)].map(
-    ([, key, value]) => [key, value],
-  ),
-);
 const staticCup = (palette) => cup
   .replace(/<style>[\s\S]*?<\/style>/, "")
   .replace(/var\((--cup-[\w-]+)\)/g, (_, key) => palette[key]);
@@ -78,28 +72,6 @@ await writeFile(
   Buffer.concat([directory, ...frames]),
 );
 
-for (const lang of ["zh", "en"]) {
-  const wordmark = await readFile(
-    new URL(`scripts/assets/wordmark-${lang}.svg`, root),
-  );
-  const cupImage = await sharp(Buffer.from(staticCup({ ...colors, ...darkColors })), { density: 288 })
-    .resize(352, 352)
-    .png()
-    .toBuffer();
-  const title = await sharp(wordmark, { density: 72 })
-    .resize(780, 184, { fit: "inside" })
-    .png()
-    .toBuffer({ resolveWithObject: true });
-  const centreOffset = Math.round((780 - title.info.width) / 2);
-  await sharp({
-    create: { width: 1280, height: 640, channels: 3, background: "#36563c" },
-  })
-    .composite([
-      { input: cupImage, left: 80 + centreOffset, top: 144 },
-      { input: title.data, left: 430 + centreOffset, top: Math.round((640 - title.info.height) / 2) },
-    ])
-    .png()
-    .toFile(new URL(`public/og-${lang}.png`, root).pathname);
-}
-
-console.log("Generated cup icons and both Weekly share images.");
+// The share images public/og-zh.png and og-en.png are the family share cards since 2026-10-30
+// (Kata scripts/share-cards/gen.py), no longer drawn here.
+console.log("Generated cup icons.");
