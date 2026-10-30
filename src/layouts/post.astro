@@ -5,6 +5,7 @@ import AstroLogo from '../components/Header/AstroLogo.astro';
 import LeftSidebar from '../components/LeftSidebar.astro';
 import Search from '../components/Header/Search.astro';
 import ReaderModeToggle from '../components/ReaderModeToggle.astro';
+import GlobeIcon from '../components/Header/GlobeIcon.astro';
 import ParagraphShare from '../components/ParagraphShare.astro';
 import { SITE, GISCUS_CONFIG } from '@/config';
 import { SUPPORT_CALLOUT } from '@/supportCallout';
@@ -343,10 +344,11 @@ const giscusAttrs = {
           <Search />
           <a
             href={lang === 'en' ? zhPath : enPath}
-            class='lang-switch-wrapper flex items-center justify-center h-9 w-9 rounded-full ml-2 !bg-gray-100 dark:!bg-gray-800 text-sm font-medium transition-colors !text-gray-600 dark:!text-gray-400 hover:!text-gray-900 dark:hover:!text-gray-200 lang-switch-mobile-btn'
+            class='lang-switch-wrapper flex items-center justify-center h-9 w-9 rounded-full ml-2 !bg-gray-100 dark:!bg-gray-800 transition-colors !text-gray-600 dark:!text-gray-400 hover:!text-gray-900 dark:hover:!text-gray-200 lang-switch-mobile-btn'
             aria-label={translationLabel}
+            title={translationLabel}
           >
-            {lang === 'en' ? '中' : 'En'}
+            <GlobeIcon />
           </a>
         </h1>
         <slot />

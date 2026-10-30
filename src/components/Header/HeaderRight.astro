@@ -2,6 +2,7 @@
 import { SITE } from '@/config';
 import HeaderLink from './HeaderLink.astro';
 import Search from './Search.astro';
+import GlobeIcon from './GlobeIcon.astro';
 import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 
 const { blogPage, twitterId, githubId } = SITE;
@@ -18,11 +19,12 @@ const t = useTranslations(lang);
   <Search />
   <a
     href={lang === 'en' ? '/' : '/en'}
-    class='flex items-center justify-center h-9 w-9 rounded-full !bg-gray-100 dark:!bg-gray-800 text-sm font-medium transition-colors !text-gray-600 dark:!text-gray-400 hover:!text-gray-900 dark:hover:!text-gray-200'
+    class='flex items-center justify-center h-9 w-9 rounded-full !bg-gray-100 dark:!bg-gray-800 transition-colors !text-gray-600 dark:!text-gray-400 hover:!text-gray-900 dark:hover:!text-gray-200'
     aria-label={lang === 'en' ? 'Switch to Chinese' : 'Switch to English'}
+    title={lang === 'en' ? '中文' : 'English'}
     style='text-decoration: none;'
   >
-    {lang === 'en' ? '中' : 'En'}
+    <GlobeIcon />
   </a>
 </div>
 
