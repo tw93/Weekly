@@ -2,7 +2,7 @@
 date: 2026/02/19
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/sq/257.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/sq-257.webp" width="800" />
 
 <small>The cover photo was taken a few days before Chinese New Year when I visited Shaoxing for a few days. It was pretty nice overall - this is a drone photo of Anchang Ancient Town. It was fun, very much like a traditional water town.</small>
 

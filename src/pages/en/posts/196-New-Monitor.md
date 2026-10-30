@@ -2,7 +2,7 @@
 date: 2024/10/21
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/wxoxop/196.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/wxoxop-196.webp" width="800" />
 
 <small>The cover photo shows my new Dell U2723QE monitor in my study. A simple setup with a great result—happiness levels have definitely increased.</small>
 

@@ -2,7 +2,7 @@
 date: 2021/06/15
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/c1/IMG_4854.jpeg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/c1-IMG_4854.webp" width="800" />
 
 <small>Taken at 9:30 PM in Urumqi. Yes, 9:30 in the evening, not the morning. It’s fascinating how the sky stays completely bright—and the clouds were quite beautiful that night.</small>
 

@@ -2,7 +2,7 @@
 date: 2024/02/26
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/ti/IMG_7287.JPG" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/ti-IMG_7287.webp" width="800" />
 
 <small>The cover photo is an oil painting from Zeng Fanzhi's exhibition at the Pudong Museum of Art in Shanghai. It’s magical—you can’t see the portraits with the naked eye, but they appear clearly when viewed through a phone camera. This issue is a special aggregate of the best learning resources, tools, and materials featured across the 50+ issues of 2023.</small>
 

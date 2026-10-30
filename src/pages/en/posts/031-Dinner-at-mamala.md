@@ -2,7 +2,7 @@
 date: 2021/06/22
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/6f/L3GWS7.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/6f-L3GWS7.webp" width="800" />
 
 <small>The cover shows a steak at mamala—a fantastic Western restaurant with an incredible view. It’s the perfect spot for a special occasion or a fancy date night.</small>
 

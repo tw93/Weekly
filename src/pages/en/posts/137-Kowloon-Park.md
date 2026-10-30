@@ -2,7 +2,7 @@
 date: 2023/07/17
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/60/137.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/60-137.webp" width="800" />
 
 <small>The cover photo shows the Kowloon Park Swimming Pool in Tsim Sha Tsui. I’ve loved the song "Kowloon Park Swimming Pool" by **My Little Airport** for years, and it was quite a moment to find this maze nearby and snap this photo.</small>
 

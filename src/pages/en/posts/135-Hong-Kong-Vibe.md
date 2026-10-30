@@ -2,7 +2,7 @@
 date: 2023/07/03
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/1w/135.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/1w-135.webp" width="800" />
 
 <small>The cover photo was taken in Hong Kong after I attended the GIAC conference in Shenzhen last week. It was raining in Victoria Harbour, but the city still felt incredibly trendy and culturally rich.</small>
 

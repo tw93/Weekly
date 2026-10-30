@@ -2,7 +2,7 @@
 date: 2024/08/05
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/2b/188.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/2b-188.webp" width="800" />
 
 <small>The cover photo was taken after finishing work early on Friday. The sky looked like an ink wash painting—beautiful. It instantly brightened my mood; perhaps this is what contentment feels like.</small>
 

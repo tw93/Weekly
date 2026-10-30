@@ -2,7 +2,7 @@
 date: 2021/06/01
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/um/IMG_4524.jpeg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/um-IMG_4524.webp" width="800" />
 
 <small>The cover shows the statue of young Mao Zedong at Orange Isle in Changsha. Our team had an outing there—mostly to drink all the Sexy Tea (Chayan Yuese).</small>
 

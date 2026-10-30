@@ -2,7 +2,7 @@
 date: 2024/09/09
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/t6e9zd/193.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/t6e9zd-193.webp" width="800" />
 
 <small>The cover photo was taken on Sunday evening while I was organizing the Trending Weekly. Tangyuan was resting quietly in a corner of the desk, purring occasionally. He loves being in the same space as me, and this quiet companionship feels wonderful.</small>
 
@@ -48,8 +48,8 @@ A detailed collection: 203 yaoguai (monsters), 203 poems, and 203 stories. The i
 
 **Li Mu's Method for Continuous Self-Improvement**  
 Reviewed the recommended video from last issue. Li Mu's method for self-improvement is great—I've also been in the habit of periodic reflection to keep my goals clear and avoid drifting aimlessly.  
-<img src="https://gw.alipayobjects.com/zos/k/8p/IMG_0481.JPG" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/8p-IMG_0481.webp" width="800" />
 
 **The lemon Perrier is delicious when iced**  
 I used to find room-temperature Perrier terrible and wouldn't drink it without coconut water. But having a lemon-flavored iced one on the go was a revelation—like a subtle, zero-sugar Sprite. Recommended!  
-<img src="https://gw.alipayobjects.com/zos/k/fj/IMG_0502.JPG" width="400" />
+<img src="https://cdn.tw93.fun/blog/2000/fj-IMG_0502.webp" width="400" />

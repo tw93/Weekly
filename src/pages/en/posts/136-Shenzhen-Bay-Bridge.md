@@ -2,7 +2,7 @@
 date: 2023/07/10
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/2a/136.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/2a-136.webp" width="800" />
 
 <small>The cover photo is of a bridge in Shenzhen Bay—you can see Hong Kong right across the water. The sea breeze was lovely and cool, a very different vibe from Hangzhou.</small>
 

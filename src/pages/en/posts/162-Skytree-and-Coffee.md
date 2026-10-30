@@ -2,7 +2,7 @@
 date: 2024/01/21
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/pv/162.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/pv-162.webp" width="800" />
 
 <small>The cover photo shows the Tokyo Skytree I took earlier. At 634m, it's the tallest tower in the world. It looked beautiful against the clear sky—almost like a scene from an anime.</small>
 
@@ -50,7 +50,7 @@ An excellent podcast discussing AI researcher Fei-Fei Li’s autobiography. Her 
 
 ### How to Get Good Coffee Every Day for Under 1,000 RMB
 
-<img src="https://gw.alipayobjects.com/zos/k/fm/IMG_7802.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/fm-IMG_7802.webp" width="800" />
 
 How do you get good coffee every day for under 1,000 RMB? I want to use this post to share my experience buying and using a coffee machine and choosing its accessories, the purchase that has added the most to my daily life lately.
 

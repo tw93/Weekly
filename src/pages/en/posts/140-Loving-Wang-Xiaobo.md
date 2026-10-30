@@ -2,7 +2,7 @@
 date: 2023/08/07
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/1/140.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/1-140.webp" width="800" />
 
 <small>The cover photo shows the Wang Xiaobo Bookstore—my "spiritual home"—near Wulin in Hangzhou. It’s a very quiet place. I’ve been reading Wang Xiaobo since university; I love his wisdom, rationality, and unique, "uncommon" perspective.</small>
 

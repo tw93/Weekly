@@ -2,7 +2,7 @@
 date: 2022/08/30
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/91/IMG_9669.JPG" width=900/>
+<img src="https://cdn.tw93.fun/blog/2000/91-IMG_9669.webp" width=900/>
 
 <small>Fans of Miserable Faith will recognize this—"Protect the Girls." Gao Hu and his band might be getting older, but their hearts remain incredibly young. Always a great live experience.</small>
 

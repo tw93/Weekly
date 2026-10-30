@@ -2,7 +2,7 @@
 date: 2026/09/14
 ---
 
-<img src="https://cdn.fliggy.com/pic/28229.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/pic-28229.webp" width="800" />
 
 <small>The cover was taken a few weeks ago in Shanghai, on a foggy evening just before dark. It has a real feel to it. The title should probably have been Fog Shanghai, that would have even more of that feel.</small>
 

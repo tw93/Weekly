@@ -2,7 +2,7 @@
 date: 2024/01/08
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/sdx28w/160.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/sdx28w-160.webp" width="800" />
 
 <small>The cover photo is of some fried rice I had recently. I’ve realized that fried rice is a great way to measure a restaurant’s skill and passion: are the grains distinct? Are the eggs and onions balanced? Does it come out with that authentic "wok hei"? When done right, it’s a true delicacy.</small>
 

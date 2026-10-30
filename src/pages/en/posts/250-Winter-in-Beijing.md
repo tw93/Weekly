@@ -2,7 +2,7 @@
 date: 2025/12/22
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/eg09ef/250.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/eg09ef-250.webp" width="800" />
 
 <small>The cover image was taken from a tree in Beijing. It's been a long time since I've been to Beijing. I happened to come here over the weekend as an invited speaker for AICon. The winter in Beijing is really cold with a bit of a breeze, and the trees are bare, giving a very different feeling from the south.</small>
 

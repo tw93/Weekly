@@ -2,7 +2,7 @@
 date: 2021/04/20
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/5u/H2lAp3.jpeg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/5u-H2lAp3.webp" width="800" />
 
 <small>The cover shows Sanya in winter. I’m already looking forward to those bright, sunny winter days.</small>
 

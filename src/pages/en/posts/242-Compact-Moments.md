@@ -2,7 +2,7 @@
 date: 2025/10/27
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/zk/242.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/zk-242.webp" width="800" />
 
 <small>The cover photo shows me making coffee at home over the weekend. I got a very nice-looking coffee puck—very flat and clean, compacted thoroughly. My OCD side really loved it, so I took a quick snap to use as the image for the Weekly.</small>
 

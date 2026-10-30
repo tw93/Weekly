@@ -2,7 +2,7 @@
 date: 2023/08/21
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/1/142.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/1-142.webp" width="800" />
 
 <small>The cover photo was taken after I bought a Dahon folding bike over the weekend. I'm planning to go for night rides during the summer. My first 10km ride was incredibly refreshing—much more enjoyable than running in a gym.</small>
 

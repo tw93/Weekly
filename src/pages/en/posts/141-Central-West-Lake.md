@@ -2,7 +2,7 @@
 date: 2023/08/14
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/1/141.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/1-141.webp" width="800" />
 
 <small>The cover photo shows a quiet walk at West Lake over the weekend. I prefer going when it’s less crowded—finding a breezy bench to sit on for hours is far more relaxing than wandering aimlessly.</small>
 

@@ -2,7 +2,7 @@
 date: 2024/04/22
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/oi/173.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/oi-173.webp" width="800" />
 
 <small>The cover photo is an oil painting on canvas by Zeng Fanzhi. The more you look, the better it gets. Interestingly, the artist extended the work to the walls and floor of the exhibition space, creating a deliberate sense of immersion.</small>
 
@@ -49,7 +49,7 @@ Sindre Sorhus, the developer of the "Command X" app above, is a full-time open-s
 **Book Recommendation: "Outlive: The Science and Art of Longevity"**  
 <https://m.douban.com/book/subject/36696538/>  
 I've been reading "Outlive" and it's excellent. For engineers, having a healthy body and a happy mind is more important than almost anything else. Longevity is only meaningful with high quality of life.  
-<img src="https://gw.alipayobjects.com/zos/k/qq/IMG_8755.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/qq-IMG_8755.webp" width="800" />
 
 **Funny Changelogs**  
 <https://mp.weixin.qq.com/s/oHRMKY74JtJ8E35yKxACJw>  

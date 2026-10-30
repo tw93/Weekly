@@ -2,7 +2,7 @@
 date: 2025/11/17
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/ffpbdy/245.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/ffpbdy-245.webp" width="800" />
 
 <small>The cover image was taken at Oōli in autumn. I really love the yellow and red leaves this season. This taxi is actually an exhibition at the BY Art Museum, called "Nature is a Taxi." It feels very evocative when photographed this way.</small>
 

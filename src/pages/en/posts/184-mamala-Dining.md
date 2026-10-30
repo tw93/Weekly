@@ -2,7 +2,7 @@
 date: 2024/07/08
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/1e/184.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/1e-184.webp" width="800" />
 
 <small>The cover photo shows a meal at mamala, a Western restaurant at Grand Canal Place in Hangzhou. It was less crowded than usual—maybe due to the extreme heat. The views from the second floor are great, and the food is excellent. Perfect for a special occasion.</small>
 

@@ -2,7 +2,7 @@
 date: 2025/09/08
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/iw/237.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/iw-237.webp" width="800" />
 
 <small>The cover image was taken when I passed by West Lake on Sunday. I captured a very beautiful sunset, very atmospheric, and I really love the color of the light.</small>
 

@@ -2,7 +2,7 @@
 date: 2022/05/31
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/m5/52.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/m5-52.webp" width="800" />
 
 <small>I took this while feeding elephants in Xishuangbanna last National Day. With current travel restrictions, I’m already wondering what to do for this year's holiday. By the way, when was the last time you saw an elephant?</small>
 

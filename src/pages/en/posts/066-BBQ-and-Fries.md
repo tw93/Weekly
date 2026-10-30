@@ -2,7 +2,7 @@
 date: 2022/02/22
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/65/IMG_7912.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/65-IMG_7912.webp" width="800" />
 
 <small>Grilled lamb chops for dinner over the weekend. I’ve always believed that BBQ and fries are a match made in heaven.</small>
 

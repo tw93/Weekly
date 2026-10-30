@@ -2,7 +2,7 @@
 date: 2026/01/05
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/3u/253.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/3u-253.webp" width="800" />
 
 <small>Cover photo taken at Daxing Airport in December. I looked up and saw this huge ceiling, which felt quite designed and aesthetic.</small>
 

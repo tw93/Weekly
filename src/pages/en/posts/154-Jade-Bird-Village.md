@@ -2,7 +2,7 @@
 date: 2023/11/20
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/k0/154.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/k0-154.webp" width="800" />
 
 <small>The cover photo was taken on a beautiful Sunday at Jade Bird Village. No filters, just raw blue sky. I really love the architecture there.</small>
 

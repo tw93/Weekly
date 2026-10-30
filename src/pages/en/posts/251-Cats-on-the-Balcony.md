@@ -2,7 +2,7 @@
 date: 2025/12/29
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/ahexue/251.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/ahexue-251.webp" width="800" />
 
 <small>The cover photo was taken on Saturday morning after sleeping until waking up naturally. The sun shone through the curtains, and I saw the shadow of Tangyuan the cat sunbathing on the cat tree on the balcony. It felt very atmospheric.</small>
 

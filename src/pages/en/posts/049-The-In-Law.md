@@ -2,7 +2,7 @@
 date: 2021/10/26
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/ww/12ds024.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/ww-12ds024.webp" width="800" />
 
 <small>I took a short break for the Mid-Autumn Festival, but my enthusiastic readers quickly [asked for updates](https://cdn.tw93.fun/blog/upic/0jo5W9.jpg). Here it is! Taken during a visit to Lingyin Temple—every visit there reveals new surprises.</small>
 

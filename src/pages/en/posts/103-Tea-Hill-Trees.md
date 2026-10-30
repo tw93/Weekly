@@ -2,7 +2,7 @@
 date: 2022/11/07
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/app/IMG_1385.jpg" width=900/>
+<img src="https://cdn.tw93.fun/blog/2000/app-IMG_1385.webp" width=900/>
 
 <small>The cover photo was taken at Guangmingsi Reservoir last Saturday. I brought a camping blanket, put on some Li Zhi, and had a wonderful afternoon nap in the sun.</small>
 

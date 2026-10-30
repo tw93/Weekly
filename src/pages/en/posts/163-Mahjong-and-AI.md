@@ -2,7 +2,7 @@
 date: 2024/01/29
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/52/163.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/52-163.webp" width="800" />
 
 <small>The cover photo shows a set of Mahjong tiles I bought last week. They feel as smooth as jade. I'm planning to have my family spend the lunar new year in Hangzhou this year, and Mahjong is the perfect holiday activity.</small>
 
@@ -46,7 +46,7 @@ Another powerful syntax highlighter—great for those who want a fresher look th
 **Lectures on Modern Western Thought**  
 <https://book.douban.com/subject/35313227/>  
 I highly recommend Liu Qing's "Lectures on Modern Western Thought." It's great for becoming a more self-aware modern person. I've read it on Kindle and now I'm revisiting the physical book.  
-<img src="https://gw.alipayobjects.com/zos/k/4v/IMG_7912.jpg" width="400" />
+<img src="https://cdn.tw93.fun/blog/2000/4v-IMG_7912.webp" width="400" />
 
 **Programmer Jokes 😂**  
 Something to share with your partner to see if they'd buy it.  

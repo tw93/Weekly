@@ -2,7 +2,7 @@
 date: 2021/03/30
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/z5/Kqn0P0.jpeg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/z5-Kqn0P0.webp" width="800" />
 
 <small>The cover shows West Lake at sunset. It’s always worth a walk when the weather is this good.</small>
 

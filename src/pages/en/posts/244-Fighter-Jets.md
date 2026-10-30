@@ -2,7 +2,7 @@
 date: 2025/11/10
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/pw/244.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/pw-244.webp" width="800" />
 
 <small>The cover image was a snapshot taken while walking after dinner, showing four fighter jets flying over the rooftop. They coordinate perfectly with the weather and the building.</small>
 

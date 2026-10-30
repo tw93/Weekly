@@ -2,7 +2,7 @@
 date: 2025/01/13
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/ll/208.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/ll-208.webp" width="800" />
 
 <small>The cover photo shows a Starlight MacBook Air 13.6-inch I bought over the weekend with national subsidies. Its feel, color, and weight are perfect—much better for home use than that Pro 16-inch that weighs several pounds. I'll share my "must-install" software in this issue.</small>
 

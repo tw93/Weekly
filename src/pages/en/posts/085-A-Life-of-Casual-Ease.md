@@ -2,7 +2,7 @@
 date: 2022/07/05
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/d2/IMG_8908.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/d2-IMG_8908.webp" width="800" />
 
 <small>I caught this rainy scene during a recent camping trip in Lishui. It reminds me of the classic line "A straw cloak in the mist and rain, a life of casual ease." Coincidentally, I saw a Japanese indie dev on [YouTube](https://www.youtube.com/watch?v=w-M9UFHLAl0) yesterday with a very similar vibe.</small>
 

@@ -2,7 +2,7 @@
 date: 2021/06/08
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/g0/IMG_4629.jpeg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/g0-IMG_4629.webp" width="800" />
 
 <small>The cover shows Red Willow BBQ at Bayi Laoye. It's arguably the best Xinjiang spot in Hangzhou. If you're near East Station, it's a must-try for their pilaf, big plate chicken, and skewers.</small>
 

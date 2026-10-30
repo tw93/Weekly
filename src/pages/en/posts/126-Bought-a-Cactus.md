@@ -2,7 +2,7 @@
 date: 2023/04/23
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/ge/126.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/ge-126.webp" width="800" />
 
 <small>The cover photo shows a cactus I bought at IKEA last weekend. I love how vibrant it looks on my desk—here’s hoping I can keep it alive! 😂</small>
 

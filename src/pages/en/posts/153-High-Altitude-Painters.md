@@ -2,7 +2,7 @@
 date: 2023/11/13
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/f9/153.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/f9-153.webp" width="800" />
 
 <small>The cover photo shows "high-altitude painters" working on a skyscraper during my morning commute. I stopped to watch for a while, it was quite powerful.</small>
 

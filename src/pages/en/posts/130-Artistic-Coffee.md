@@ -2,7 +2,7 @@
 date: 2023/05/28
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/vx/130.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/vx-130.webp" width="800" />
 
 <small>The cover photo shows a coffee shop in Dongxin Hechuang Park. It was a hot day, and I saw a young man playing guitar outside. I had a great "Dirty" coffee there, though I didn't stay long as the place was packed with young women taking photos.</small>
 

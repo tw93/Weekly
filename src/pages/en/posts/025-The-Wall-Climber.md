@@ -2,7 +2,7 @@
 date: 2021/05/11
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/29/ZoRs7B.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/29-ZoRs7B.webp" width="800" />
 
 <small>The cover shows three people cleaning high-altitude windows at Hangzhou EFC. It felt like watching real-life superheroes "walking on walls"—a mix of awe and deep respect!</small>
 

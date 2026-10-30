@@ -2,7 +2,7 @@
 date: 2021/07/06
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/cg/Qbj7jv.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/cg-Qbj7jv.webp" width="800" />
 
 <small>The cover shows the intelligent cat litter box I bought last month. It’s about the size of a small fridge and has been a total game-changer over the last 20 days. If you’re into smart pet care, I also highly recommend automatic water fountains and food dispensers.</small>
 

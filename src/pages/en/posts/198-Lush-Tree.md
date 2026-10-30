@@ -2,7 +2,7 @@
 date: 2024/11/04
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/6gkn97/198.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/6gkn97-198.webp" width="800" />
 
 <small>The cover photo shows "Thousand Layer Gold" (Melaleuca) a friend gave me. Inserted in a bottle, it looks like a lush little tree—bringing a lot of life to the house.</small>
 

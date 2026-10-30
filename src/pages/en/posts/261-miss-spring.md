@@ -43,7 +43,7 @@ It's very small. The openclaw project was previously implemented based on this f
 
 **Try Buying Pre-made Ice Cubes This Summer**
 I had been debating whether to buy an ice maker, but since I'm the only one at home who likes drinking ice water, I felt the usage rate would be low and it would just take up space. Freezing ice cubes myself was also inconvenient—I'd usually realize I forgot to make them right when I wanted a drink. I found a great solution: just buy some pre-made ice cubes and keep them in the freezer. When you need them, just take them out. You can even use them directly to make Americanos in the summer. The cost-effectiveness is super high.
-<img src="https://gw.alipayobjects.com/zos/k/ob/IMG_9934.JPG" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/ob-IMG_9934.webp" width="800" />
 
 **Got a Singapore HSBC Card**
 If you already have HSBC accounts in mainland China and Hong Kong, you can ask your relationship manager to help you apply for a Singapore one. Although it kind of feels like a supermarket loyalty card. The registered mail didn't arrive for three months; after a phone call, they remade it and it arrived via express delivery in a week.

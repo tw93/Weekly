@@ -2,7 +2,7 @@
 date: 2024/08/26
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/te/191.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/te-191.webp" width="800" />
 
 <small>The cover photo shows a green wall in Waitongwu Village, West Lake District. It looks beautiful from afar—all that green reminds me of Anne of Green Gables.</small>
 

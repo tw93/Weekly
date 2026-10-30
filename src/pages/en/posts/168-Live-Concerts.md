@@ -2,7 +2,7 @@
 date: 2024/03/18
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/wx/168.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/wx-168.webp" width="800" />
 
 <small>The cover photo was taken at the 2022 West Lake Music Festival. I loved the red and black vibe. It's been almost a year since my last live show, and I'm hoping to snag tickets for Li Zhi's Japan tour this Friday.</small>
 

@@ -2,7 +2,7 @@
 date: 2024/07/22
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/cm/186.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/cm-186.webp" width="800" />
 
 <small>The cover photo shows my morning drink—delicious! Three ice cubes, three small cut limes, half a cup of soda water, and half a cup of pure coconut water. Try it—it looks and tastes great.</small>
 

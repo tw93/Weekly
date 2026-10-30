@@ -2,7 +2,7 @@
 date: 2022/03/01
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/jd/68.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/jd-68.webp" width="800" />
 
 <small>A quick snap after my driving lesson. The best part of learning to drive is finally being allowed to do solo laps around the course without the instructor in the car—it’s surprisingly fun! 😂</small>
 

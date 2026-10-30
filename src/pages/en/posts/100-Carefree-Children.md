@@ -2,7 +2,7 @@
 date: 2022/10/17
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/vf/100.jpg" width=900/>
+<img src="https://cdn.tw93.fun/blog/2000/vf-100.webp" width=900/>
 
 <small>I saw a group of children playing carefree on a small road in Hunan—one was even rolling around on the ground in pure joy. It’s 100 issues of the Weekly now, and I hope you’re just as happy!</small>
 

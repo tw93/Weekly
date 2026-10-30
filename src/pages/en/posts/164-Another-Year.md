@@ -2,7 +2,7 @@
 date: 2024/02/19
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/ae/164.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/ae-164.webp" width="800" />
 
 <small>The cover photo was taken at Liangzhu Jade Bird Village on a sunny day. It’s my first time spent Chinese New Year in Hangzhou. The spring festival felt very long this year. Wishing you a year as comfortable as this picture.</small>
 

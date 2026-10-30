@@ -2,7 +2,7 @@
 date: 2024/01/14
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/0s/IMG_7768.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/0s-IMG_7768.webp" width="800" />
 
 <small>The cover photo shows a black Xiaomi desk lamp I bought over the weekend. The metal texture is beautiful, and it's perfect as a screen light.</small>
 

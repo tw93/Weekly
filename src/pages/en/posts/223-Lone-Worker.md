@@ -2,7 +2,7 @@
 date: 2025/05/26
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/45/223.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/45-223.webp" width="800" />
 
 <small>The cover photo was taken at a construction site across from the community hospital. In the morning, a worker was standing on a large reinforcement mesh maintaining something; I just took a quick snap.</small>
 

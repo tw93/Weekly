@@ -2,7 +2,7 @@
 date: 2022/08/02
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/eg/2268.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/eg-2268.webp" width="800" />
 
 <small>I took this inside a cave on the outskirts of Hangzhou. It was sweltering outside, but just two minutes on a boat and it was perfectly cool. This photo captured the vibe perfectly.</small>
 

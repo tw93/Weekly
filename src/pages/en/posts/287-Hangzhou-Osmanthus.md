@@ -2,7 +2,7 @@
 date: 2026/10/26
 ---
 
-<img src="https://cdn.fliggy.com/pic/28728.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/pic-28728.webp" width="800" />
 
 <small>The cover was taken on a walk after lunch one day, when I came across osmanthus in full bloom and it smelled wonderful. Hangzhou is really comfortable this time of year and great for walks, and you can smell osmanthus almost everywhere.</small>
 

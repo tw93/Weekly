@@ -2,7 +2,7 @@
 date: 2023/02/27
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/wt/118.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/wt-118.webp" width="800" />
 
 <small>The cover photo is of a little calico cat I saw on the street. It was so clean, beautiful, and completely unfazed by strangers—truly elegant and dignified.</small>
 

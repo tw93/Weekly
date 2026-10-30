@@ -2,7 +2,7 @@
 date: 2022/12/20
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/7i/IMG_1730.jpg" width=900/>
+<img src="https://cdn.tw93.fun/blog/2000/7i-IMG_1730.webp" width=900/>
 
 <small>The cover photo is from the West Lake Music Festival last Sunday, specifically the performance by Shetou feat. Lao Dan. The stage was visually shocking, but the experimental rock style was a bit much—it felt like a machine gun firing at your chest. I prefer the rock style of Mercader.</small>
 

@@ -2,7 +2,7 @@
 date: 2021/07/27
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/s8/2edIcG.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/s8-2edIcG.webp" width="800" />
 
 <small>The thin-crust Parma ham pizza at Peach (Mitao) this weekend was incredible. The restaurant has a great atmosphere and is surprisingly good value—highly recommended.</small>
 

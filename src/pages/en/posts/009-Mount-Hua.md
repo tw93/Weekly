@@ -2,7 +2,7 @@
 date: 2021/01/19
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/bb/12121221mmm.jpg" width=900/>
+<img src="https://cdn.tw93.fun/blog/2000/bb-12121221mmm.webp" width=900/>
 
 <small>The cover shows the peak of Mount Hua. It’s an incredibly dangerous climb with slopes nearly 80 degrees. It took a whole day to reach the top, but the view was magnificent. Definitely a must-visit in Xi'an besides the food.</small>
 

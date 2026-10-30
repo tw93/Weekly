@@ -2,7 +2,7 @@
 date: 2021/04/27
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/ks/M59va6.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/ks-M59va6.webp" width="800" />
 
 <small>The cover shows a plate of Hunan-style stir-fried beef. The secret ingredients? Ginger, garlic, garlic sprouts, red chili peppers, cilantro, and celery stems. Give it a try next time!</small>
 

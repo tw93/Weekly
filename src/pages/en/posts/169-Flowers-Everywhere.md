@@ -2,7 +2,7 @@
 date: 2024/03/25
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/pc/169.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/pc-169.webp" width="800" />
 
 <small>The cover photo shows a tree in full bloom by the road over the weekend. The juxtaposition of the beautiful flowers with a harsh, protruding security camera feels almost like a piece of performance art.</small>
 

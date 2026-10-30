@@ -2,7 +2,7 @@
 date: 2023/02/06
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/9v/115.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/9v-115.webp" width="800" />
 
 <small>The cover photo was taken during a walk along the river in my hometown after the New Year. Clear water, bustling banks, and perfect sunny weather.</small>
 

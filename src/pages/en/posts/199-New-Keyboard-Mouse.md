@@ -2,7 +2,7 @@
 date: 2024/11/11
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/ft/199.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/ft-199.webp" width="800" />
 
 <small>The cover photo shows the Logitech MX Mechanical (Brown Switch) keyboard and MX Master 3s mouse I bought last week—both "For Mac" versions in white. The texture is excellent and the white is minimalist. However, as someone used to Mac's native keyboard and trackpad, I'm still adjusting—and it's not the easiest process.</small>
 

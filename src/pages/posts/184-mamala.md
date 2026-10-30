@@ -2,7 +2,7 @@
 date: 2024/07/08
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/1e/184.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/1e-184.webp" width="800" />
 
 <small>封面图拍摄来周末去杭州远洋乐堤港吃了顿 mamala 西餐，相比之前去人要少一些，不知道是天气实在太热的缘故还是啥，这家的二楼窗外和室内风景很好，西餐很好吃，挺适合仪式感日子。</small>
 

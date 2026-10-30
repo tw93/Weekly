@@ -2,7 +2,7 @@
 date: 2026/09/28
 ---
 
-<img src="https://cdn.fliggy.com/pic/28507.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/pic-28507.webp" width="800" />
 
 <small>The cover photo is from a restaurant upstairs at B1OCK in Tianmuli, where I went this weekend for a meal with beautifully presented food. I used to like eating there a few years ago. This time it felt more like an Instagram spot. The food was still decent, though I didn't enjoy it as much as before, and quite a few dishes had changed, which was a little disappointing. These bottles were by the entrance, so I took a photo. I like the feel of it.</small>
 

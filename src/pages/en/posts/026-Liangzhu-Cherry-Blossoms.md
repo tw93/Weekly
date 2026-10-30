@@ -2,7 +2,7 @@
 date: 2021/05/18
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/x7/IMG_41551.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/x7-IMG_41551.webp" width="800" />
 
 <small>Taken during a cherry blossom walk at Liangzhu last weekend. Turns out it was more of a "people-watching" walk—the crowds and traffic were wild. Maybe sticking to the campus entrance is better next time!</small>
 

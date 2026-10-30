@@ -2,7 +2,7 @@
 date: 2024/12/30
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/6t/206.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/6t-206.webp" width="800" />
 
 <small>The cover photo shows a little dog I saw outside. It's kept in a fence, looks very well-groomed with nice fur, and was very obedient when told to sit. Very cute.</small>
 
@@ -49,13 +49,13 @@ I sold my Kindle because transferring books was a hassle. I picked up a domestic
 <table style="margin-top:-20px">
     <tr>
         <td width="33%">
-          <img src="https://gw.alipayobjects.com/zos/k/ew/IMG_1786.JPG" width="400" />
+          <img src="https://cdn.tw93.fun/blog/2000/ew-IMG_1786.webp" width="400" />
         </td>
         <td width="33%">
-            <img src="https://gw.alipayobjects.com/zos/k/jp/IMG_1787.JPG" width="400" />
+            <img src="https://cdn.tw93.fun/blog/2000/jp-IMG_1787.webp" width="400" />
         </td>
         <td width="33%">
-            <img src="https://gw.alipayobjects.com/zos/k/a7/IMG_1788.JPG" width="400" />
+            <img src="https://cdn.tw93.fun/blog/2000/a7-IMG_1788.webp" width="400" />
         </td>
     </tr>
 </table>

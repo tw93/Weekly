@@ -2,7 +2,7 @@
 date: 2023/05/22
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/q3/129.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/q3-129.webp" width="800" />
 
 <small>The cover photo shows a clean white cat sunbathing in the emerald grass at Jiuxi Smoke Tree Park. It was so peaceful and completely unfazed by people. Just lovely.</small>
 

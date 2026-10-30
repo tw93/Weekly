@@ -2,7 +2,7 @@
 date: 2022/05/17
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/appo/IMG_8952.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/appo-IMG_8952.webp" width="800" />
 
 <small>I finally managed to capture this panorama of the Buddha at the Hangzhou Botanical Garden without any tourists in the shot! A rare moment of peace—here’s hoping it brings us all a week without any bugs.</small>
 

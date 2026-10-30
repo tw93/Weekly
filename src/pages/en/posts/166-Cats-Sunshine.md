@@ -2,7 +2,7 @@
 date: 2024/03/04
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/th/166.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/th-166.webp" width="800" />
 
 <small>The cover photo shows Tang Yuan (my cat) sunbathing on the balcony over the weekend. The weather was lovely—cats really know how to enjoy the best spots.</small>
 

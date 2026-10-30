@@ -2,7 +2,7 @@
 date: 2023/08/28
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/1/134.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/1-134.webp" width="800" />
 
 <small>The cover photo was taken on my way home on Valentine's Day. The clouds turned pink—a truly romantic touch from nature.</small>
 

@@ -2,7 +2,7 @@
 date: 2025/11/03
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/ddp2al/243.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/ddp2al-243.webp" width="800" />
 
 <small>The cover image was taken over the weekend when I took my baby to Mogaoshan Kaiyuan Senbo for two days. It's very suitable for families, with excellent service. Staying by the lake in the mountains was very comfortable.</small>
 

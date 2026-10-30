@@ -2,7 +2,7 @@
 date: 2026/04/06
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/kd/264.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/kd-264.webp" width="800" />
 
 <small>The cover photo is a shot of my hardware toy finally finished. It was a fun ride, and I wanted to document the whole process in this week's issue. Hope you enjoy reading it.</small>
 

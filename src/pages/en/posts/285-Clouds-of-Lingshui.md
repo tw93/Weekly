@@ -2,7 +2,7 @@
 date: 2026/10/12
 ---
 
-<img src="https://cdn.fliggy.com/pic/28549.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/pic-28549.webp" width="800" />
 
 <small>The cover photo is from a few days in Lingshui over the National Day holiday, a small city next to Sanya with the sea, few people, good snacks and not much commercial feel, though it was pretty hot those days.</small>
 
@@ -131,4 +131,4 @@ Being on Twitter through both the pre-AI and current AI eras, I have a habit tha
 
 So I want to use my brain as much as I can in the places I can still handle, and just treat it as a new kind of entertainment.
 
-<img src="https://cdn.fliggy.com/pic/IMG_396324.JPG" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/pic-IMG_396324.webp" width="800" />

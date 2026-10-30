@@ -2,7 +2,7 @@
 date: 2023/10/16
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/1/IMG_6060.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/1-IMG_6060.webp" width="800" />
 
 <small>The cover photo is from a delicious vegetarian restaurant in Hangzhou called **Pu**. The fried rice, fried eggplant, tofu, brown rice juice, and chestnuts were all better than meat. If you're in the mood for something light, definitely try it (just remember to book a seat ahead of time).</small>
 

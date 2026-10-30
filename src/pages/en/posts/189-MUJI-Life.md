@@ -2,7 +2,7 @@
 date: 2024/08/12
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/3q/189.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/3q-189.webp" width="800" />
 
 <small>The cover photo shows a MUJI aroma diffuser I bought 7 years ago. I stopped using it for a few years after moving, but when I took it out this year, it still works perfectly. The quality is better than I expected. I've bought several MUJI items this year and been very satisfied—their summer quilts and bath towels are comfortable, their stainless steel cups have great insulation, and their bone china teapots have a lovely texture. I'm planning to move more of my lifestyle products to their brand. What's your most recommended MUJI item?</small>
 

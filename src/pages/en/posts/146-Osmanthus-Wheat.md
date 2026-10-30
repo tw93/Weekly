@@ -2,7 +2,7 @@
 date: 2023/09/18
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/1/146.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/1-146.webp" width="800" />
 
 <small>The cover photo was taken last night when I suddenly wanted a craft beer. I had an "Osmanthus Wheat"—it was so refreshing and crisp, especially that first sip.</small>
 

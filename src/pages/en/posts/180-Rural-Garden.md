@@ -2,7 +2,7 @@
 date: 2024/06/10
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/hch1rw/180.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/hch1rw-180.webp" width="800" />
 
 <small>The cover photo shows a corner of a small vegetable garden next to the football field in our new office park. It's such an organic space with eggplant, calabash, chili, and tomatoes. You can pick them every month. I think when I'm older, I'd love to have a small, affordable piece of land to grow vegetables—it must feel wonderful.</small>
 
@@ -56,13 +56,13 @@ This is my favorite summer drink: 3 ice cubes, half a cup of soda water, half a 
 <table style="margin-top: -1.4em;">
     <tr>
         <td width="33%">
-          <img src="https://gw.alipayobjects.com/zos/k/w54lv0/IMG_9265.JPG" width="400" />
+          <img src="https://cdn.tw93.fun/blog/2000/w54lv0-IMG_9265.webp" width="400" />
         </td>
         <td width="33%">
-            <img src="https://gw.alipayobjects.com/zos/k/kzt3qd/IMG_9239.jpg" width="400" />
+            <img src="https://cdn.tw93.fun/blog/2000/kzt3qd-IMG_9239.webp" width="400" />
         </td>
          <td width="33%">
-            <img src="https://gw.alipayobjects.com/zos/k/n3bre0/IMG_9266.JPG" width="400" />
+            <img src="https://cdn.tw93.fun/blog/2000/n3bre0-IMG_9266.webp" width="400" />
         </td>
     </tr>
 </table>

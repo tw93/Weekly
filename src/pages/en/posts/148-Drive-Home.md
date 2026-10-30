@@ -2,7 +2,7 @@
 date: 2023/10/09
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/l0/148.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/l0-148.webp" width="800" />
 
 <small>The cover photo shows a piece of porcelain at the Jingdezhen service area, taken during my Golden Week drive back to Hangzhou from Hunan. Jingdezhen’s aesthetic remains top-tier. Since I missed an issue during the holiday, this one is extra-long!</small>
 

@@ -2,7 +2,7 @@
 date: 2022/07/19
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/ha/87.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/ha-87.webp" width="800" />
 
 <small>I took this at the Taihu Bay Music Festival over the weekend. Seeing Miserable Faith perform "Protect the Girls" was a highlight. Props to Changzhou for pulling this off—it was the band's first live show in over 400 days.</small>
 

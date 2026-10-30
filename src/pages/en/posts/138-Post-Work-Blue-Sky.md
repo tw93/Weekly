@@ -2,7 +2,7 @@
 date: 2023/07/24
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/05/138.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/05-138.webp" width="800" />
 
 <small>The cover photo was taken on my way home last week. It was just a regular blue sky at night, but I was in such a good mood that everything looked beautiful.</small>
 

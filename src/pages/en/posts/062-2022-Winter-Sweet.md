@@ -2,7 +2,7 @@
 date: 2022/01/25
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/px/Ty4WR3.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/px-Ty4WR3.webp" width="800" />
 
 <small>Fragrant Wintersweet blossoms at Longjing. Their delicate scent and naturally slender branches perfectly capture the essence of a quiet winter afternoon.</small>
 

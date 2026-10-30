@@ -2,7 +2,7 @@
 date: 2025/01/06
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/gy/207.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/gy-207.webp" width="800" />
 
 <small>The cover photo shows sweet potatoes I'm hydro-growing at home. They grow much better than many store-bought plants. Just toss a sweet potato in a cup with some water, leave it alone, and after a month it becomes a work of art. You should try it too.</small>
 

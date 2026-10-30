@@ -2,7 +2,7 @@
 date: 2023/05/08
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/9e/127.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/9e-127.webp" width="800" />
 
 <small>The cover photo shows a late-night walk at West Lake around 11 PM during Golden Week. To my surprise, the place was full of young people singing and hanging out. It felt so much better than the daytime tourist rush. I even heard a cover of a **Wan Qing** song—absolutely brilliant vibe.</small>
 

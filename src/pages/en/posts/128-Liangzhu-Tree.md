@@ -2,7 +2,7 @@
 date: 2023/05/15
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/ib/128.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/ib-128.webp" width="800" />
 
 <small>The cover photo shows a tree at Liangzhu Park, taken while I was lounging on a blanket in the grass. I thought about editing out the person, but I decided that having them there adds character—it makes it feel more "real" and less like a generic wallpaper.</small>
 

@@ -2,7 +2,7 @@
 date: 2024/07/29
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/av/187.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/av-187.webp" width="800" />
 
 <small>The cover photo was taken over the weekend at a lotus field behind the Gexiang Metro Station parking lot in Hangzhou. The sunset lighting was fantastic. I captured lotuses in various stages: "I'm closed off," "I'm starting to open," and "I'm fully open." Hahaha, here's one almost fully open.</small>
 

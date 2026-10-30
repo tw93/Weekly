@@ -2,7 +2,7 @@
 date: 2026/03/09
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/sj/259.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/sj-259.webp" width="800" />
 
 <small>Cover photo taken during a weekend trip to Jingshan Flower Sea with my drone. Currently only rapeseed flowers are blooming - the other flowers haven't really opened yet. Flew the drone to maximum altitude for some photos and spotted quite a few nice views.</small>
 

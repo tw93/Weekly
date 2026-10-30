@@ -2,7 +2,7 @@
 date: 2023/12/25
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/e0/158.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/e0-158.webp" width="800" />
 
 <small>The cover photo was taken when I had an early Christmas meal at 18th Brewing. The salad looked great and the shrimp was delicious. Merry Christmas to all!</small>
 

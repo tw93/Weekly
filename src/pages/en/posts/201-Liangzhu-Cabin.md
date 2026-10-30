@@ -2,7 +2,7 @@
 date: 2024/11/25
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/6f/201.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/6f-201.webp" width="800" />
 
 <small>The cover photo was taken over the weekend at a wooden cabin in Kaiyuan Senbo, Hangzhou. Quite poetic—I especially loved the bamboo forest behind the balcony. The air was great for a morning walk, though I imagine it's even better in spring or summer.</small>
 
@@ -42,9 +42,9 @@ Learning AI with Li Mu can even be treated as leisure—very high quality. Also 
 **Youtube Video: Incense and Guitar**  
 <https://www.youtube.com/watch?v=Kbkc_0Ns6q0>  
 Very cool. This video is perfect for having open on a monitor while you work on something else on your laptop. Very atmospheric.  
-<img src="https://gw.alipayobjects.com/zos/k/22/IMG_1455.JPG" width="500" />
+<img src="https://cdn.tw93.fun/blog/2000/22-IMG_1455.webp" width="500" />
 
 **Mi Motion-Activated Night Light 2 is very useful**  
 <https://www.mi.com/nightlight>  
 The Mi Motion-Activated Night Light 2 is great for places where you don't want to turn on the main light. It turns on automatically when someone passes by. Three batteries last about a year. At only 35 RMB, it's a high-value item. I have two outside our bathrooms—truly great value.  
-<img src="https://gw.alipayobjects.com/zos/k/wq/IMG_1471.JPG" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/wq-IMG_1471.webp" width="800" />

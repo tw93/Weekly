@@ -2,7 +2,7 @@
 date: 2024/10/28
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/sf/197.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/sf-197.webp" width="800" />
 
 <small>The cover photo shows a stray cat in our neighborhood that looks just like my cat Tangyuan. I went down with some cat food hoping for a chance encounter, and luckily, he got a full meal.</small>
 

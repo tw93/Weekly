@@ -2,7 +2,7 @@
 date: 2026/04/20
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/ky/265.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/ky-265.webp" width="800" />
 
 <small>The cover photo is from lunch at Yueya in Xixi Wetland one noon this week. I had not been there in a long time. The place still feels great. The sun was out, short sleeves felt just right, and I took this shot outside the window. Spring moves fast.</small>
 

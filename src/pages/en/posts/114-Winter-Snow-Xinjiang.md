@@ -2,7 +2,7 @@
 date: 2023/01/29
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/14/114.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/14-114.webp" width="800" />
 
 <small>The cover photo is from my trip to see the snow in Urumqi, Xinjiang. Going from 9°C Hangzhou to -21°C Xinjiang was a shock, but playing in the snow and eating the local food was absolutely worth it.</small>
 

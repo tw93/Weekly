@@ -2,7 +2,7 @@
 date: 2025/09/15
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/0b/238.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/0b-238.webp" width="800" />
 
 <small>The cover image was taken at a small Hunan cuisine restaurant I often visit. It's in the Yintian Jincheng store, not very far, and you can walk there from the company. The owner is great, everything is fresh stir-fried with plenty of "wok hei" (breath of the wok), and the prices aren't expensive. I always order 15 minutes ahead, and a table full of dishes is ready when I arrive. Interested friends nearby should try it.</small>
 

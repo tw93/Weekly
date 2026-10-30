@@ -72,18 +72,18 @@ Keep APIs small, behavior explicit, and naming clear. Avoid cleverness unless it
 <table style="margin-top:-20px">
     <tr>
         <td width="50%">
-           <img src="https://gw.alipayobjects.com/zos/k/gg/IMG_9948.JPG" width="600" />
+           <img src="https://cdn.tw93.fun/blog/2000/gg-IMG_9948.webp" width="600" />
         </td>
         <td width="50%">
-           <img src="https://gw.alipayobjects.com/zos/k/8e/IMG_9949.JPG" width="600" />
+           <img src="https://cdn.tw93.fun/blog/2000/8e-IMG_9949.webp" width="600" />
         </td>
     </tr>
     <tr>
         <td width="50%">
-           <img src="https://gw.alipayobjects.com/zos/k/97/IMG_9950.JPG" width="600" />
+           <img src="https://cdn.tw93.fun/blog/2000/97-IMG_9950.webp" width="600" />
         </td>
         <td width="50%">
-           <img src="https://gw.alipayobjects.com/zos/k/p2/IMG_9951.JPG" width="600" />
+           <img src="https://cdn.tw93.fun/blog/2000/p2-IMG_9951.webp" width="600" />
         </td>
     </tr>
 </table>

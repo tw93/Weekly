@@ -2,7 +2,7 @@
 date: 2026/09/21
 ---
 
-<img src="https://cdn.fliggy.com/pic/IMG_355245.JPG" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/pic-IMG_355245.webp" width="800" />
 
 <small>The cover photo is from my trip to the cinema this Saturday to see The Shawshank Redemption. It moved me and left me with a lot to think about, almost as if I could feel what it was like to watch it in a cinema back in 1994.</small>
 

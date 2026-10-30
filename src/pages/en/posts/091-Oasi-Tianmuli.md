@@ -2,7 +2,7 @@
 date: 2022/08/16
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/l8/IMG_0065.jpg" width=900/>
+<img src="https://cdn.tw93.fun/blog/2000/l8-IMG_0065.webp" width=900/>
 
 <small>I visited Tianmuli over the weekend to grab food and browse some books. The atmosphere is wonderful, but it was just a bit too hot to stay outside for long!</small>
 

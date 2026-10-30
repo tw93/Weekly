@@ -1,9 +1,9 @@
 ---
 date: 2023/12/18
-image: https://gw.alipayobjects.com/zos/k/0u/157.jpg
+image: https://cdn.tw93.fun/blog/2000/0u-157.webp
 ---
 
-<video width="800px" preload muted autoplay loop><source src="https://cdn.tw93.fun/blog/upic/BDf4l0.mp4" type="video/mp4" poster="https://gw.alipayobjects.com/zos/k/0u/157.jpg"></video>
+<video width="800px" preload muted autoplay loop><source src="https://cdn.tw93.fun/blog/upic/BDf4l0.mp4" type="video/mp4" poster="https://cdn.tw93.fun/blog/2000/0u-157.webp"></video>
 
 <small>The cover photo was taken at the Pudong Museum of Art in Shanghai. Xu Bing's "Gravity Theater" is absolutely spectacular. If you're in Shanghai, don't miss it.</small>
 

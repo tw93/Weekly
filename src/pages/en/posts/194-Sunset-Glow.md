@@ -2,7 +2,7 @@
 date: 2024/09/23
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/6t/194.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/6t-194.webp" width="800" />
 
 <small>The cover photo was taken a few days ago. The sunsets in Hangzhou have been beautiful lately, and luckily it's not as hot anymore. A bit of breeze makes walks very comfortable.</small>
 
@@ -47,4 +47,4 @@ Stanford's CS229 Machine Learning has a new introductory lecture "Building Large
 **Ryuichi Sakamoto's "How Many More Times Will I Watch the Full Moon Rise?"**  
 <https://book.douban.com/subject/36361860/>  
 Reading this book while listening to his piano music at home—elegant people are elegant everywhere.  
-<img src="https://gw.alipayobjects.com/zos/k/tn/IMG_0612.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/tn-IMG_0612.webp" width="800" />

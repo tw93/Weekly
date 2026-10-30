@@ -2,7 +2,7 @@
 date: 2024/10/14
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/yt/195.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/yt-195.webp" width="800" />
 
 <small>封面图拍摄于杭州嘉里中心外面的韩式料理餐厅 BELLOCO，依稀记得之前很难排队，最近消费降级好了不少，环境服务菜品都挺好的，值得一去。</small>
 

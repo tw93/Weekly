@@ -40,7 +40,7 @@ Returns every issue, newest first. This sample is generated from the current arc
       "language": "zh-Hans",
       "date": "2026/10/26",
       "description": "封面图拍摄于某天吃完中饭去散步的路上看到了开满的桂花，非常香，杭州这个季节很舒服很适合散步，几乎都能闻到桂花。",
-      "coverImage": "https://cdn.fliggy.com/pic/28728.jpg",
+      "coverImage": "https://cdn.tw93.fun/blog/2000/pic-28728.webp",
       "url": "https://weekly.tw93.fun/posts/287",
       "markdownUrl": "https://weekly.tw93.fun/posts/287.md",
       "jsonUrl": "https://weekly.tw93.fun/api/posts/287.json",

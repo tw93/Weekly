@@ -46,7 +46,7 @@ Principal Mei explained: "It's the peaceful joy that overflows from the depths o
 
 **This milk powder is delicious**  
 If you like hot milk in winter, try this "Blue Fatzie" (maxigenes) full cream milk powder. It's great in the morning and very cost-effective. Sam's Club carries it.  
-<img src="https://gw.alipayobjects.com/zos/k/ki/IMG_1305.jpg" width="500" />
+<img src="https://cdn.tw93.fun/blog/2000/ki-IMG_1305.webp" width="500" />
 
 **Movie Recommendation: "How To Make Millions Before Grandma Dies"**  
 <https://movie.douban.com/subject/36328210/>  

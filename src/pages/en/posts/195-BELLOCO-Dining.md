@@ -2,7 +2,7 @@
 date: 2024/10/14
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/yt/195.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/yt-195.webp" width="800" />
 
 <small>The cover photo shows BELLOCO, a Korean restaurant outside Kerry Center in Hangzhou. I recall it used to have very long queues, but it's much better now with the recent consumption shift. The environment, service, and dishes are all excellent—well worth a visit.</small>
 

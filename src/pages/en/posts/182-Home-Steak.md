@@ -2,7 +2,7 @@
 date: 2024/06/24
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/hz/182.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/hz-182.webp" width="800" />
 
 <small>The cover photo shows a steak I made over the weekend. Seasoned with black pepper, salt, and oil for 5 minutes, then seared for a minute on each side, followed by a low-heat finish with butter, garlic, cherry tomatoes, and rosemary. Absolutely delicious!</small>
 

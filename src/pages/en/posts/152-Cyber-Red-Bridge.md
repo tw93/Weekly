@@ -2,7 +2,7 @@
 date: 2023/11/06
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/mi/152.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/mi-152.webp" width="800" />
 
 <small>The cover photo shows the long bridge taken from Huguang Guild Hall. The yellow architecture and the red bridge created a beautiful cyberpunk-adjacent palette.</small>
 

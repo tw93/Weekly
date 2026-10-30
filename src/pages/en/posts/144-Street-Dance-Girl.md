@@ -2,7 +2,7 @@
 date: 2023/09/04
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/1/144.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/1-144.webp" width="800" />
 
 <small>The cover photo shows a POPPING street dance competition I saw below the mall after dinner. The rhythm was infectious—I stood there watching for quite a while. To be young again!</small>
 

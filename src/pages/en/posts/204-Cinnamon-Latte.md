@@ -2,7 +2,7 @@
 date: 2024/12/16
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/w1/204.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/w1-204.webp" width="800" />
 
 <small>The cover photo shows a cup of Cinnamon Latte I made at home over the weekend. Hot coffee with a bit of Ceylon cinnamon is delicious—perfect for a sunny winter day.</small>
 
@@ -50,4 +50,4 @@ Ryuichi Sakamoto loved dining at a particular Japanese restaurant. The food was 
 
 **Try the Tesla Christmas Easter Egg**  
 Open the Toybox, find "Santa" in the bottom bar, and tap "Santa mode." It turns cars on the road into reindeer and people into Santas. It even rings bells when turning. Very cute.  
-<img src="https://gw.alipayobjects.com/zos/k/sr/IMG_1707.JPG" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/sr-IMG_1707.webp" width="800" />

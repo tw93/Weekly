@@ -2,7 +2,7 @@
 date: 2024/07/01
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/wr/IMG_9536.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/wr-IMG_9536.webp" width="800" />
 
 <small>The cover photo was taken last week by West Lake. This "E-person" grandpa was skating with a speaker playing the Titanic theme song, looking so happy. It reminds me of Tang Dynasty's song "Flying Bird": "Everyone once longed to be a flying bird, traveling between the sky and the sun, flying over the endless long wilderness..." The only difference is the vibe—one soft, one bold.</small>
 

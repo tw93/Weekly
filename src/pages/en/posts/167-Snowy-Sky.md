@@ -2,7 +2,7 @@
 date: 2024/03/11
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/i1/167.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/i1-167.webp" width="800" />
 
 <small>The cover photo shows the snow-covered landscape of Urumqi, taken from a plane flying toward Changsha last winter around 9 AM. The distant morning light, blue sky, clouds, and snow were breathtaking—"Snowy Sky" is the perfect description.</small>
 

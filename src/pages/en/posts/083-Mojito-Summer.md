@@ -2,7 +2,7 @@
 date: 2022/06/21
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/em/IMG_9399.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/em-IMG_9399.webp" width="800" />
 
 <small>I had a Mojito at Lambach over the weekend—the perfect summer drink. Their pizza and pork knuckle are also incredible; definitely worth a visit if you have the chance.</small>
 

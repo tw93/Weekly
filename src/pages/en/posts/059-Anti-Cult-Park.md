@@ -2,7 +2,7 @@
 date: 2022/01/04
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/da/1OoIEz.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/da-1OoIEz.webp" width="800" />
 
 <small>I took this while hiking in a park. I saw this sign right at the entrance and had to capture it—quite an unexpected find.</small>
 

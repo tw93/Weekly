@@ -2,7 +2,7 @@
 date: 2025/02/09
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/7q/209.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/7q-209.webp" width="800" />
 
 <small>The cover photo was taken at Hangzhou Airport on a Lunar New Year morning. The sunrise and the plane appearing together looked beautiful. Finally back to work, looking forward to another meaningful year. This issue is a bit more scattered, as it contains many things I wrote during the Spring Festival.</small>
 

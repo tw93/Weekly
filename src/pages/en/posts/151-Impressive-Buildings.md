@@ -2,7 +2,7 @@
 date: 2023/10/30
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/uw/151.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/uw-151.webp" width="800" />
 
 <small>The cover photo shows a "tube building" (Tongzilaou) in Chongqing. I was curious why it was designed this way—it feels quite artistic and atmospheric.</small>
 

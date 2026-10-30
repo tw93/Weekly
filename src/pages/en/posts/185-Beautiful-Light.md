@@ -2,7 +2,7 @@
 date: 2024/07/15
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/bn/185.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/bn-185.webp" width="800" />
 
 <small>The cover photo was taken last week during a walk in the office park after dinner. The combination of green trees, glass, light, clouds, and fitness is beautiful. I especially love this shade of blue; it makes me feel happy.</small>
 

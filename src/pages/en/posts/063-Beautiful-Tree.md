@@ -2,7 +2,7 @@
 date: 2022/02/01
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/pt/AKRZvA.jpeg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/pt-AKRZvA.webp" width="800" />
 
 <small>The dense forests of Xishuangbanna—it felt like stepping onto the set of an old-school jungle adventure movie.</small>
 

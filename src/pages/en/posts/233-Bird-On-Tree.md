@@ -2,7 +2,7 @@
 date: 2025/08/11
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/kk/233.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/kk-233.webp" width="800" />
 
 <small>The cover photo was taken on a nice morning last week; I saw a large bird in a tree, and it looked quite beautiful with the sunlight and green leaves.</small>
 

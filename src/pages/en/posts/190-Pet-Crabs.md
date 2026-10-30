@@ -2,7 +2,7 @@
 date: 2024/08/19
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/u1/190.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/u1-190.webp" width="800" />
 
 <small>The cover photo shows two "Xiangshou" crabs I bought on Dingdong Maicai a month ago. They have incredible vitality and eat almost anything—vegetables, dried shrimp, even dry noodles. They've become a "real-world TV" for the two cats at home.</small>
 
@@ -45,4 +45,4 @@ Found a treasure trove. When you feel like there's no good new music, search for
 
 **Quick Tip: Latte with Ceylon Cinnamon**  
 When making a latte at home, try adding a small spoonful of Ceylon cinnamon powder. It gives it a unique and delicious flavor. You can also try cinnamon with apple cider vinegar, or even dipping apple slices in it.  
-<img src="https://gw.alipayobjects.com/zos/k/m2/IMG_0324.jpg" width="400" />
+<img src="https://cdn.tw93.fun/blog/2000/m2-IMG_0324.webp" width="400" />

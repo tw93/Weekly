@@ -2,7 +2,7 @@
 date: 2023/10/23
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/st/150.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/st-150.webp" width="800" />
 
 <small>The cover photo was taken outside Chongqing airport after I landed last weekend. I had a great two days exploring—I tried to avoid the usual tourist traps and just wandered around eating. It was very relaxing.</small>
 

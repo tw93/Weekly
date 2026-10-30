@@ -2,7 +2,7 @@
 date: 2023/09/11
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/1/145.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/1-145.webp" width="800" />
 
 <small>The cover photo was taken at IKEA in Hangzhou over the weekend—it’s my fourth time there this year. I always manage to find something small and useful. This time, I saw this rubber tree that looked full of life, so I bought it.</small>
 

@@ -2,7 +2,7 @@
 date: 2024/06/17
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/u1/181.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/u1-181.webp" width="800" />
 
 <small>The cover photo shows hydroponic mint grown from an empty soda bottle. I just cut a few stems from a pot and put them in water—they're so full of life and have grown many roots!</small>
 

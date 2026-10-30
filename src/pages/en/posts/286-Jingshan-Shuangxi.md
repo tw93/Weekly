@@ -77,7 +77,7 @@ I think both approaches are fine, it's just a choice between different engineer 
 
 Right now for normal tasks in Claude I pick the faster opus 5.5 medium tier, and high for complex tasks. For Codex I default to GPT-6-Astra medium, because its other models really aren't that great. That said, Codex's computer use is genuinely good, so inside Claude I also use a tool called lcu to have it call Codex's computer use, and both the speed and the results are a lot better.
 
-<img src="https://cdn.fliggy.com/pic/IMG_410048.JPG" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/pic-IMG_410048.webp" width="800" />
 
 Speaking of computer use and AI operating devices, this area is a lot of fun. I've been building some Windows software lately, so I bought Parallels Desktop and installed it on my Mac, and use computer use to drive a lot of its features. Writing code and the AI all stay in the Mac environment, while debugging and verification happen in the virtual machine. Then, to get something closer to the real thing, I got a ThinkPad X1, keep it on 24 hours a day and connect to it with UU Remote, so my Mac can use the remote terminal, ssh and UU to operate this real Windows computer really well, helping me do a lot of multi-environment testing and verification, plus acceptance checks for installing, uninstalling and cleaning all kinds of software. Beyond that, my Mac is also connected by cable to my small Android tablet, and with Android debugging the AI can operate this phone-like device really well too, opening apps to look things up and operate services that have no API or CLI, and playing with some fun stuff.
 

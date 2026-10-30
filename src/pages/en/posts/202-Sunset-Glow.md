@@ -2,7 +2,7 @@
 date: 2024/12/02
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/qx/202.JPG" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/qx-202.webp" width="800" />
 
 <small>The cover photo was taken over a sunny weekend afternoon. Sunset was around 5 PM; I was riding by a river in Hangzhou with my Bose QC45 on and captured this shot of a distant building—the sunset glow was very comfortable.</small>
 

@@ -2,7 +2,7 @@
 date: 2022/06/07
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/fq/IMG_9201.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/fq-IMG_9201.webp" width="800" />
 
 <small>A Friday afternoon team hike in Liangzhu. The park is absolutely massive and feels like a vast grassland. We even visited a deer park—very cute!</small>
 

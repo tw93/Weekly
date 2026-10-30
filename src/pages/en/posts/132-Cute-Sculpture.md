@@ -2,7 +2,7 @@
 date: 2023/06/12
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/o6/132.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/o6-132.webp" width="800" />
 
 <small>The cover photo shows a giant, cute sculpture I saw in a furniture shop. I’ve been browsing for furniture recently and it’s fascinating how different aesthetic pursuits are often quite unified.</small>
 

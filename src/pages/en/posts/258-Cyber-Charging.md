@@ -2,7 +2,7 @@
 date: 2026/03/02
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/7t/258.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/7t-258.webp" width="800" />
 
 <small>Cover photo shows my finally installed cyber charging station at home. It looks incredibly cool! I ordered it back in January and it finally got installed today. Tesla's service remains as professional as ever, and their products are as cool as ever. Staying long on Tesla.</small>
 

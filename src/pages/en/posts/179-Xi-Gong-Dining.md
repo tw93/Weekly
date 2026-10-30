@@ -2,7 +2,7 @@
 date: 2024/06/03
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/pj/179.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/pj-179.webp" width="800" />
 
 <small>The cover photo shows Xi Gong, a restaurant in Hangzhou. If you're looking for stir-fried, spicy, and "rice-killing" dishes with that authentic "wok hei," this is the place. It's affordable, incredibly fragrant, and common for a colleague to eat three bowls of rice here.</small>
 

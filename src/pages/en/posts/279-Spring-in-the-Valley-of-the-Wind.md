@@ -2,7 +2,7 @@
 date: 2026/08/24
 ---
 
-<img src="https://cdn.fliggy.com/pic/27936.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/pic-27936.webp" width="800" />
 
 <small>The cover photo was taken during a weekend trip to the Valley of the Wind in Lin'an, where I took my kid to play in the water. The place is wide open, though there are lots of children and adults on weekends. My kid liked it. From a distance, the water had an unusual blue-green look. I took the photo by a large lake outside.</small>
 

@@ -2,7 +2,7 @@
 date: 2024/05/20
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/t4/177.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/t4-177.webp" width="800" />
 
 <small>The cover photo was taken at the Jingshan Flower Sea. It's a great place in Hangzhou—spacious, low crowds, and easy parking. There are always seasonal flowers, but I prefer lying on a mat in the cool breeze.</small>
 

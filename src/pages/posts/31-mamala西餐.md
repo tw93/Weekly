@@ -2,7 +2,7 @@
 date: 2021/06/22
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/6f/L3GWS7.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/6f-L3GWS7.webp" width="800" />
 
 <small>封面图摄于 mamala 家的牛排，挺不错的一家西餐厅，窗外风景极其不错，适合在有仪式感的日子去吃一次~ </small>
 

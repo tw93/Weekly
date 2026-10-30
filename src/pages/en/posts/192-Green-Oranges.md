@@ -2,7 +2,7 @@
 date: 2024/09/02
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/ap/192.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/ap-192.webp" width="800" />
 
 <small>The cover photo shows green-skinned oranges I bought on Xiaohongshu. I haven't had this green-yet-sweet flavor in years. Do you still find these often?</small>
 

@@ -2,7 +2,7 @@
 date: 2023/07/31
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/bi/139.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/bi-139.webp" width="800" />
 
 <small>The cover photo shows my new 16-inch M2 Pro MacBook. I’ve been setting it up over the weekend—it’s incredibly fast compared to my old 16-inch model, the battery is amazing, and the keyboard is a joy to use. Love it.</small>
 
