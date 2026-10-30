@@ -10,7 +10,10 @@
   }
 
   // Lazy load Google Analytics
+  let gaLoaded = false;
   const loadGA = () => {
+    if (gaLoaded) return;
+    gaLoaded = true;
     const script = document.createElement('script');
     script.src = 'https://www.googletagmanager.com/gtag/js?id=G-DT01FBW30E';
     script.async = true;

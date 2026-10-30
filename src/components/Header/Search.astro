@@ -102,6 +102,10 @@ import SearchIcon from './SearchIcon.astro';
         openBtn.addEventListener('click', openModal);
         openBtn.disabled = false;
         closeBtn.addEventListener('click', closeModal);
+        dialog.addEventListener('close', () => {
+          document.body.classList.remove('overflow-hidden');
+          window.removeEventListener('click', onWindowClick);
+        });
         document.addEventListener('astro:after-swap', closeModal);
 
         window.addEventListener('keydown', (e) => {
