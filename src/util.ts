@@ -56,10 +56,13 @@ export const parseTitle = (
 // (cdn.tw93.fun) ignores Aliyun's ?x-oss-process= and would serve the
 // multi-megabyte original, so it gets its own /cdn-cgi/image/ transform.
 const R2_PREFIX = "https://cdn.tw93.fun/";
+// Already 2000px WebP without EXIF, made locally; served as is.
+const R2_PRESIZED = `${R2_PREFIX}blog/2000/`;
 const OSS_HOST =
   /^https:\/\/(?:cdn\.fliggy\.com|cdn\.alipayobjects\.com|gw\.alipayobjects\.com|gw\.alicdn\.com|img\.alicdn\.com)\//;
 
 export const resizeImage = (url: string, width: number, quality = 80) => {
+  if (url.startsWith(R2_PRESIZED)) return url;
   if (url.startsWith(R2_PREFIX) && !url.includes("/cdn-cgi/image/")) {
     return `${R2_PREFIX}cdn-cgi/image/width=${width},quality=${quality},format=auto,fit=scale-down/${url.slice(R2_PREFIX.length)}`;
   }

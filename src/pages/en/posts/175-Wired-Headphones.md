@@ -2,7 +2,7 @@
 date: 2024/05/06
 ---
 
-<img src="https://gw.alipayobjects.com/zos/k/v9/175.jpg" width="800" />
+<img src="https://cdn.tw93.fun/blog/2000/v9-175.webp" width="800" />
 
 <small>The cover photo shows a wired headphone I carefully selected last week. It sounds incredible! I went back to my hometown for the May Day holiday, but it rained every day, so I just "lied flat" and listened to music while watching the rain outside. Because of my "lying flat," this issue is more about fun things and less about technical stuff.</small>
 
@@ -77,18 +77,18 @@ But if you, like me, already have noise-canceling buds for daily use and want so
 <table>
     <tr>
         <td width="50%">
-          <img src="https://gw.alipayobjects.com/zos/k/v9/175.jpg" width="500" />
+          <img src="https://cdn.tw93.fun/blog/2000/v9-175.webp" width="500" />
         </td>
         <td width="50%">
-            <img src="https://gw.alipayobjects.com/zos/k/ze/IMG_8864.jpg" width="500" />
+            <img src="https://cdn.tw93.fun/blog/2000/ze-IMG_8864.webp" width="500" />
         </td>
     </tr>
     <tr>
         <td width="50%">
-          <img src="https://gw.alipayobjects.com/zos/k/u7/IMG_8865.jpg" width="500" />
+          <img src="https://cdn.tw93.fun/blog/2000/u7-IMG_8865.webp" width="500" />
         </td>
         <td width="50%">
-            <img src="https://gw.alipayobjects.com/zos/k/xd/IMG_8873.jpg" width="500" />
+            <img src="https://cdn.tw93.fun/blog/2000/xd-IMG_8873.webp" width="500" />
         </td>
     </tr>
 </table>

@@ -31,6 +31,9 @@ function getImageMetadata() {
 // - github raw / camo / anything else: no URL-based optimization available, return unchanged.
 const CF_DOMAIN = "cdn.tw93.fun";
 const CF_TRANSFORM = "width=2000,quality=80,format=auto,fit=scale-down";
+// Photos made locally at 2000px WebP with the EXIF (GPS included) stripped,
+// served as is so they spend none of the free monthly transformations.
+const CF_PRESIZED = `https://${CF_DOMAIN}/blog/2000/`;
 // cdn.fliggy.com is still live Aliyun OSS and hosts most issue images; it
 // fell out of this list in the R2 migration and served multi-megabyte
 // originals (issue 287's cover was 8MB). Quality 90 keeps photos as sharp as
@@ -43,7 +46,7 @@ const OSS_PROCESS =
 function optimizeImageUrl(url) {
   const cfPrefix = `https://${CF_DOMAIN}/`;
   if (url.startsWith(cfPrefix)) {
-    if (url.includes("/cdn-cgi/image/")) return url;
+    if (url.includes("/cdn-cgi/image/") || url.startsWith(CF_PRESIZED)) return url;
     return `${cfPrefix}cdn-cgi/image/${CF_TRANSFORM}/${url.slice(cfPrefix.length)}`;
   }
   if (OSS_DOMAIN_REGEX.test(url)) {
