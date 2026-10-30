@@ -75,7 +75,7 @@ main .gsc-left-header .color-text-secondary,
 }
 
 /* No lines: comments part by space, replies by indent (see the end of this
-   file), and reactions, badges, tabs and the comment field use fill. */
+   file), and reactions, badges and the comment field use fill. */
 .gsc-social-reaction-summary-item,
 .color-box-border-info {
   border-color: transparent;
@@ -88,9 +88,7 @@ main .gsc-left-header .color-text-secondary,
 
 main .gsc-comment-box-textarea,
 main .gsc-comment-box-textarea-extras,
-.gsc-comment .min-w-0.rounded-md.border,
-.gsc-comment-box-tabs,
-.gsc-comment-box-tabs .rounded-t {
+.gsc-comment .min-w-0.rounded-md.border {
   border-color: transparent;
 }
 
@@ -165,16 +163,6 @@ html[lang="en"] .gsc-reactions-count:after {
   padding-right: 14px;
 }
 
-#__next .gsc-comment-box-tabs .rounded-t {
-  border-radius: 999px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-.gsc-comment-box-tabs .color-bg-canvas {
-  background-color: var(--color-neutral-muted);
-}
-
 .link-secondary.overflow-hidden.text-ellipsis {
   text-decoration: none;
   word-spacing: -2px;
@@ -193,10 +181,7 @@ html[lang="en"] .gsc-reactions-count:after {
 /* A reply hangs under its comment, its avatar centred on the commenter's name
    and its text and reactions on the avatar's edge; a thread sits closer
    together than the gap to the next one, so the tree reads without lines.
-   The box drops its frame: the field takes the fill the reactions use, and
-   the tabs and the button share one row under the field, so a reader writes
-   first and then previews or posts. giscus writes its spacing utilities as
-   #__next .mt-2, so the tabs' own margin needs the same id to lose it. */
+   The box drops its frame and takes the fill the reactions use. */
 main .gsc-replies {
   padding-top: 0;
   padding-bottom: 0;
@@ -287,51 +272,70 @@ main .gsc-timeline {
   row-gap: 30px;
 }
 
+/* The field is the whole box: Write and Preview go, since a reader types
+   Markdown either way, and so do Sign out, the Markdown link and the resize
+   grip. The button sits inside the field's bottom row, where the Markdown link
+   was, so nothing hangs under the box. giscus still grows the field as the
+   reader types, and the row stays under the text. */
 main .gsc-comment-box {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: center;
-  column-gap: 8px;
+  grid-template-columns: minmax(0, 1fr);
   border-color: transparent;
 }
 
-main .gsc-comment-box-main {
-  grid-row: 1;
-  grid-column: 1 / -1;
-}
-
-main .gsc-comment-box-tabs {
-  grid-row: 2;
-  grid-column: 1;
-  justify-content: flex-start;
-  align-items: center;
-  min-width: 0;
-  margin: 0 0 8px;
-  border-bottom-width: 0;
-}
-
-#__next .gsc-comment-box-tabs > .mt-2 {
-  margin: 0 0 0 8px;
-  white-space: nowrap;
-}
-
-/* The Aa toggle only switches the field to a monospace font. */
-main .gsc-comment-box-md-toolbar {
+main .gsc-comment-box-tabs,
+main .gsc-comment-box-bottom > .link-secondary,
+#__next .gsc-comment-box-markdown-hint {
   display: none;
 }
 
+main .gsc-comment-box-main,
 main .gsc-comment-box-bottom {
-  grid-row: 2;
-  grid-column: 2;
-  margin: 0 8px 8px 0;
+  grid-row: 1;
+  grid-column: 1;
 }
 
-/* The tabs, Sign out and the button fit one row from 361px. */
-@media (max-width: 400px) {
-  #__next .gsc-comment-box-tabs .rounded-t {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
+/* The field sits 8px inside the box, so 16 leaves the button 8px clear of
+   the field's corner. */
+main .gsc-comment-box-bottom {
+  align-self: end;
+  justify-self: end;
+  margin: 0 16px 16px 0;
+}
+
+main .gsc-comment-box-textarea-extras {
+  height: 44px;
+  padding: 0;
+}
+
+main .gsc-comment-box-textarea {
+  resize: none;
+}
+
+/* giscus fixes the placeholder at 写评论 / Write a comment; a field the reader
+   can type in gets a warmer line drawn over it. Signed out, the field is
+   disabled and keeps its sign-in prompt. Without :has() the original shows. */
+main .gsc-comment-box-write {
+  position: relative;
+}
+
+main .gsc-comment-box:not(.gsc-comment-box-is-reply) .gsc-comment-box-write:has(> textarea:not(:disabled):placeholder-shown) > textarea::placeholder {
+  color: transparent;
+}
+
+main .gsc-comment-box:not(.gsc-comment-box-is-reply) .gsc-comment-box-write:has(> textarea:not(:disabled):placeholder-shown)::before {
+  content: "说说你的想法吧";
+  position: absolute;
+  top: 7px;
+  left: 9px;
+  color: #9ca3af; /* giscus's own placeholder grey */
+  font-size: 14px;
+  line-height: 20px;
+  pointer-events: none;
+}
+
+:lang(en) main .gsc-comment-box:not(.gsc-comment-box-is-reply) .gsc-comment-box-write:has(> textarea:not(:disabled):placeholder-shown)::before {
+  content: "Share your thoughts";
 }
 
 main .gsc-comment-box-textarea,
@@ -374,22 +378,14 @@ main:has(.gsc-comment-box-is-reply) .gsc-comment-box:not(.gsc-comment-box-is-rep
   margin-left: 8px;
 }
 
-/* Preview takes the field's place: the same fill and height instead of a
-   2px rule, so switching tabs moves nothing. */
-main .gsc-comment-box-preview {
-  min-height: 83px;
-  padding: 6px 8px;
-  border-bottom-width: 0;
-  border-radius: 8px;
-  background-color: var(--color-btn-bg);
+/* Inside the field, Cancel's usual fill is the field's own, so it takes the
+   page ground to stay a button. */
+#__next .gsc-comment-box-buttons .btn:not(.btn-primary) {
+  background-color: var(--color-canvas-default);
 }
 
-main .gsc-comment-box-bottom > .link-secondary {
-  display: inline-flex;
-  align-items: center;
-  margin-right: 16px;
-  white-space: nowrap;
-  text-decoration: none;
+#__next .gsc-comment-box-buttons .btn:not(.btn-primary):hover {
+  background-color: var(--color-btn-hover-bg);
 }
 
 /* giscus labels the repository owner 所有者 / Owner; on a blog that is the
