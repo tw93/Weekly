@@ -1,6 +1,8 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import {
+  alreadySubscribed,
+  saveContact,
   createToken,
   idempotencyKey,
   parseSignup,
@@ -100,6 +102,7 @@ test("an address already on the list is told so by email, not by the form", asyn
   const calls = mockResend(t, {
     "GET /contacts/reader%40example.com": [200, { unsubscribed: false }],
     "GET /contacts/reader%40example.com/topics": [200, { data: [{ id: "topic-weekly", subscription: "opt_in" }] }],
+    "GET /contacts/reader%40example.com/segments": [200, { data: [{ id: "seg-zh" }] }],
   });
   const response = await subscribe(post(signup));
   assert.equal(response.status, 200);
@@ -116,6 +119,7 @@ test("the confirm link says so when the address is already subscribed", async (t
   const calls = mockResend(t, {
     "GET /contacts/reader%40example.com": [200, { unsubscribed: false }],
     "GET /contacts/reader%40example.com/topics": [200, { data: [{ id: "topic-weekly", subscription: "opt_in" }] }],
+    "GET /contacts/reader%40example.com/segments": [200, { data: [{ id: "seg-zh" }] }],
   });
   const page = await confirmPage(new Request(`https://weekly.tw93.fun/api/confirm?t=${createToken(signup, SECRET)}`));
   const html = await page.text();
@@ -148,7 +152,7 @@ test("opening the link writes nothing; the button press saves the contact", asyn
   assert.equal(done.status, 200);
   const created = calls.find((call) => call.method === "POST" && call.path === "/contacts");
   assert.deepEqual(created.body.segments, [{ id: "seg-zh" }]);
-  assert.deepEqual(created.body.topics, [{ id: "topic-weekly", subscription: "opt_in" }]);
+  assert.deepEqual(created.body.topics, [{ id: "topic-weekly", subscription: "opt_in" }, { id: "topic-blog", subscription: "opt_out" }]);
 
   const bad = await confirm(
     new Request("https://weekly.tw93.fun/api/confirm", { method: "POST", body: new URLSearchParams({ t: `${token}x` }) }),
@@ -191,4 +195,41 @@ test("the email keeps the issue body and drops site chrome", () => {
   assert.ok(!html.includes("<video") && html.includes("这里有段视频"));
   assert.ok(!html.includes("#d73a49") && !html.includes("background:#fff"), "dark-theme code colours are dropped");
   assert.match(html, /<pre style="[^"]*color:#363433/);
+});
+
+
+test("a topic subscription in another language still needs confirmation", async (t) => {
+  mockResend(t, {
+    "GET /contacts/reader%40example.com": [200, { unsubscribed: false }],
+    "GET /contacts/reader%40example.com/topics": [200, { data: [{ id: "topic-weekly", subscription: "opt_in" }] }],
+    "GET /contacts/reader%40example.com/segments": [200, { data: [{ id: "seg-zh" }] }],
+  });
+  assert.equal(await alreadySubscribed(readConfig(ENV), signup), true);
+  assert.equal(await alreadySubscribed(readConfig(ENV), { ...signup, lang: "en" }), false);
+});
+
+test("new readers opt out of unselected topics regardless of topic defaults", async (t) => {
+  const calls = mockResend(t, { "GET /contacts/reader%40example.com": [404, {}] });
+  assert.equal(await saveContact(readConfig(ENV), { ...signup, topics: ["blog"] }), true);
+  const created = calls.find(c => c.method === "POST" && c.path === "/contacts");
+  assert.deepEqual(created.body.topics, [
+    { id: "topic-weekly", subscription: "opt_out" },
+    { id: "topic-blog", subscription: "opt_in" },
+  ]);
+});
+
+test("adding a topic preserves existing choices and does not recreate the contact", async (t) => {
+  const calls = mockResend(t, {
+    "GET /contacts/reader%40example.com": [200, { unsubscribed: false }],
+    "GET /contacts/reader%40example.com/segments": [200, { data: [{ id: "seg-en" }] }],
+  });
+  assert.equal(await saveContact(readConfig(ENV), signup), true);
+  assert.ok(!calls.some(c => c.method === "POST" && c.path === "/contacts"));
+  assert.deepEqual(calls.find(c => c.path.endsWith("/topics")).body, [{ id: "topic-weekly", subscription: "opt_in" }]);
+});
+
+test("contact lookup errors never become a create or preference overwrite", async (t) => {
+  const calls = mockResend(t, { "GET /contacts/reader%40example.com": [503, {}] });
+  assert.equal(await saveContact(readConfig(ENV), signup), false);
+  assert.ok(calls.every(c => c.method === "GET"));
 });

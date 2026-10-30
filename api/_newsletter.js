@@ -137,26 +137,36 @@ export async function alreadySubscribed(config, signup) {
       .filter((topic) => topic.subscription === "opt_in")
       .map((topic) => topic.id),
   );
-  return signup.topics.every((topic) => optedIn.has(config.topics[topic]));
+  if (!signup.topics.every((topic) => optedIn.has(config.topics[topic]))) return false;
+  const segments = await resend(config.apiKey, "GET", `${path}/segments`);
+  return segments.ok && (segments.data?.data ?? []).some((item) => item.id === config.segments[signup.lang]);
 }
 
 /** Writes a confirmed signup: segment for its language, opt-in for its topics. */
 export async function saveContact(config, signup) {
   const segment = config.segments[signup.lang];
-  const topics = signup.topics.map((topic) => ({
-    id: config.topics[topic],
-    subscription: "opt_in",
-  }));
-  const created = await resend(config.apiKey, "POST", "/contacts", {
-    email: signup.email,
-    unsubscribed: false,
-    segments: [{ id: segment }],
-    topics,
-  });
-  if (created.ok) return true;
-
-  // The address is already a contact, perhaps for the other topic or language.
   const path = `/contacts/${encodeURIComponent(signup.email)}`;
+  const contact = await resend(config.apiKey, "GET", path);
+  if (!contact.ok && contact.status !== 404) return false;
+  if (contact.status === 404) {
+    // Explicit choices prevent opt-in topic defaults subscribing a new reader
+    // to a site they did not select. Existing readers keep their other choices.
+    const created = await resend(config.apiKey, "POST", "/contacts", {
+      email: signup.email,
+      unsubscribed: false,
+      segments: [{ id: segment }],
+      topics: TOPICS.map((topic) => ({
+        id: config.topics[topic],
+        subscription: signup.topics.includes(topic) ? "opt_in" : "opt_out",
+      })),
+    });
+    if (created.ok) return true;
+    if (created.status !== 409) return false;
+    // Another confirmation may have created the address since the lookup.
+  }
+  const topics = signup.topics.map((topic) => ({
+    id: config.topics[topic], subscription: "opt_in",
+  }));
   const updated = await resend(config.apiKey, "PATCH", path, { unsubscribed: false });
   if (!updated.ok) return false;
   const segments = await resend(config.apiKey, "GET", `${path}/segments`);
