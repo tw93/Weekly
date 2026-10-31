@@ -49,11 +49,6 @@
   }
 </script>
 
-<!-- GEOInflow loads after the page's load event, so a slow fetch never holds load either; the script itself waits out a hover prerender -->
-<script is:inline>
-  (function(){function go(){var s=document.createElement('script');s.async=true;s.src='https://geo.tw93.fun/geo.js';s.dataset.websiteId='6e0320f4-f274-41d1-b2b3-4ae01e92f73b';s.dataset.domains='weekly.tw93.fun';document.head.appendChild(s)}document.readyState==='complete'?go():addEventListener('load',go,{once:true})})();
-</script>
-
 <script is:inline>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
