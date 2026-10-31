@@ -178,6 +178,25 @@ html[lang="en"] .gsc-reactions-count:after {
     padding: 0 5px;
   }
 }
+/* Comments run flush with the article column on both sides, like the date
+   row above them: the card's transparent frame and giscus's 16px gutters go,
+   and a reply keeps its 24px step from the comment's avatar. */
+#__next main .gsc-comment > div,
+#__next main .gsc-comment-box {
+  border-width: 0;
+}
+
+main .gsc-comment-header,
+main .gsc-comment-content,
+main .gsc-reply {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+main .gsc-comment-reactions {
+  margin-left: 0;
+}
+
 /* A reply hangs under its comment, its avatar centred on the commenter's name
    and its text and reactions on the avatar's edge; a thread sits closer
    together than the gap to the next one, so the tree reads without lines.
@@ -295,12 +314,16 @@ main .gsc-comment-box-bottom {
   grid-column: 1;
 }
 
-/* The field sits 8px inside the box, so 16 leaves the button 8px clear of
-   the field's corner. */
+main .gsc-comment-box-main {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* The field fills the box, so the button sits 8px clear of its corner. */
 main .gsc-comment-box-bottom {
   align-self: end;
   justify-self: end;
-  margin: 0 16px 16px 0;
+  margin: 0 8px 16px 0;
 }
 
 main .gsc-comment-box-textarea-extras {
@@ -359,7 +382,7 @@ main .gsc-comment-box-textarea-extras {
    takes the same pill as the submit button. */
 main .gsc-comment-box-is-reply {
   width: auto;
-  margin: 8px 8px 0 32px;
+  margin: 8px 0 0 24px;
 }
 
 /* While a reply form is open the comment box at the bottom steps aside, so
