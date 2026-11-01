@@ -1,0 +1,136 @@
+---
+// Every code block in a post gets a copy button in its top-right corner.
+// Prose blocks (txt, markdown, text) are prompts meant to be read and pasted,
+// so they wrap instead of scrolling sideways; real code keeps its lines.
+---
+
+<script>
+  const article = document.getElementById('write');
+
+  if (article) {
+    const isEn = document.documentElement.lang === 'en';
+    const label = isEn ? 'Copy' : '复制';
+    const done = isEn ? 'Copied' : '已复制';
+    const failed = isEn ? 'Failed' : '复制失败';
+
+    article.querySelectorAll<HTMLPreElement>('pre').forEach((pre) => {
+      const code = pre.querySelector('code');
+      if (!code || pre.parentElement?.classList.contains('code-block')) return;
+
+      const wrap = document.createElement('div');
+      wrap.className = 'code-block';
+      pre.before(wrap);
+      wrap.appendChild(pre);
+
+      // Keeps the first wrapped line clear of the button.
+      const gap = document.createElement('span');
+      gap.className = 'code-copy-gap';
+      gap.setAttribute('aria-hidden', 'true');
+      code.prepend(gap);
+
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'code-copy';
+      btn.textContent = label;
+      wrap.appendChild(btn);
+
+      let timer: ReturnType<typeof setTimeout>;
+      btn.addEventListener('click', async () => {
+        try {
+          if (!navigator.clipboard?.writeText)
+            throw new Error('Clipboard API unavailable');
+          await navigator.clipboard.writeText(
+            (code.textContent || '').replace(/\n$/, ''),
+          );
+          btn.textContent = done;
+        } catch {
+          btn.textContent = failed;
+        }
+        clearTimeout(timer);
+        timer = setTimeout(() => (btn.textContent = label), 2000);
+      });
+    });
+  }
+</script>
+
+<style is:global>
+  .code-block {
+    position: relative;
+  }
+
+  .heti pre:is(
+      [data-language='txt'],
+      [data-language='text'],
+      [data-language='markdown']
+    ) {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    hyphens: manual;
+  }
+
+  /* Button right inset + min-width - pre padding + 8px air, and its bottom
+     edge less the pre's 12px top padding. */
+  .code-copy-gap {
+    float: right;
+    width: 66px;
+    height: 26px;
+  }
+
+  .code-copy {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    justify-content: center;
+    height: auto;
+    min-height: 0;
+    min-width: 64px;
+    padding: 2px 8px;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: var(--font-size-small);
+    line-height: 20px;
+    color: rgb(225 228 232 / 0.7);
+    background: #24292e;
+    cursor: pointer;
+    transition:
+      color 0.12s ease-out,
+      background-color 0.12s ease-out;
+  }
+
+  .code-copy:hover,
+  .code-copy:focus-visible {
+    opacity: 1;
+    color: #e1e4e8;
+    background: #30363d;
+  }
+
+  /* Matches `.dark .heti pre` in markdown.css. */
+  .dark .code-copy {
+    background: #151515;
+  }
+
+  .dark .code-copy:hover,
+  .dark .code-copy:focus-visible {
+    background: #262626;
+  }
+
+  @media (pointer: coarse) {
+    .code-copy {
+      top: 6px;
+      right: 6px;
+      padding: 6px 10px;
+    }
+
+    .code-copy-gap {
+      width: 70px;
+      height: 32px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .code-copy {
+      transition: none;
+    }
+  }
+</style>
