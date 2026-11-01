@@ -192,7 +192,7 @@
     position: fixed;
     left: 50%;
     bottom: 40px;
-    transform: translateX(-50%) translateY(8px);
+    transform: translateX(-50%);
     z-index: 60;
     padding: 8px 16px;
     max-width: calc(100vw - 24px);
@@ -203,14 +203,11 @@
     box-shadow: 0 4px 12px rgb(0 0 0 / 0.18);
     opacity: 0;
     pointer-events: none;
-    transition:
-      opacity 0.2s ease,
-      transform 0.2s ease;
+    transition: opacity 0.2s ease;
   }
 
   #para-share-toast.show {
     opacity: 1;
-    transform: translateX(-50%) translateY(0);
   }
 
   @media (pointer: coarse) {

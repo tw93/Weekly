@@ -1,15 +1,18 @@
 ---
 import '@pagefind/default-ui/css/ui.css';
 import SearchIcon from './SearchIcon.astro';
+import { getLangFromUrl } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
 ---
 
-<site-search id='search' class='ms-auto relative md:inline-block hidden site-search'>
+<site-search id='search' class='ms-auto relative md:inline-block hidden site-search' data-lang={lang}>
   <button
     data-open-modal
     disabled
     class='flex items-center justify-center rounded-full gap-1 search-icon !bg-gray-100 dark:!bg-gray-800 !text-gray-600 dark:!text-gray-400 hover:!text-gray-900 dark:hover:!text-gray-200'
-    title='输入/进行搜索'
-    aria-label='Search'
+    title={lang === 'en' ? 'Press / to search' : '输入/进行搜索'}
+    aria-label={lang === 'en' ? 'Search' : '搜索'}
   >
     <SearchIcon />
   </button>
@@ -49,13 +52,22 @@ import SearchIcon from './SearchIcon.astro';
         baseUrl: import.meta.env.BASE_URL,
         bundlePath: import.meta.env.BASE_URL.replace(/\/$/, '') + '/pagefind/',
         showImages: false,
-        translations: {
-          placeholder: '搜索潮流内容',
-          zero_results: '没有找到 [SEARCH_TERM]',
-          many_results: '[COUNT] 条搜索命中 [SEARCH_TERM]',
-          clear_search: '清除',
-          load_more: '加载更多结果',
-        },
+        translations:
+          document.getElementById('search')?.dataset.lang === 'en'
+            ? {
+                placeholder: 'Search the weekly',
+                zero_results: 'No results for [SEARCH_TERM]',
+                many_results: '[COUNT] results for [SEARCH_TERM]',
+                clear_search: 'Clear',
+                load_more: 'Load more results',
+              }
+            : {
+                placeholder: '搜索潮流内容',
+                zero_results: '没有找到 [SEARCH_TERM]',
+                many_results: '[COUNT] 条搜索命中 [SEARCH_TERM]',
+                clear_search: '清除',
+                load_more: '加载更多结果',
+              },
       });
     }));
   };
@@ -76,15 +88,9 @@ import SearchIcon from './SearchIcon.astro';
         const openModal = (event) => {
           dialog.showModal();
 
-          // The dialog starts at opacity-0; keep the end state once the animation ends.
+          // The dialog starts at opacity-0; keep the end state once the fade ends.
           dialog.style.opacity = '1';
-          dialog.animate(
-            {
-              clipPath: ['polygon(0 0, 100% 0, 100% -200%, -200% -200%)', 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)'],
-              opacity: [0, 1],
-            },
-            { duration: 200 }
-          );
+          dialog.animate({ opacity: [0, 1] }, { duration: 200 });
           document.body.classList.add('overflow-hidden');
           this.querySelector('input')?.focus();
           // On first open the search input is created once PagefindUI loads.

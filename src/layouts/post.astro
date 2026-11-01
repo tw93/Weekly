@@ -376,16 +376,20 @@ const giscusAttrs = {
               href={`https://github.com/${SITE.repo}/tree/main/src/pages${url}.md`}
               target='_blank'
               data-pagefind-sort='date'
-              title='Edit'>{date}</a
+              title={lang === 'en' ? 'Edit' : '编辑'}>{date}</a
             >
           </div>
           <div class='md:mt-0 mt-4 flex-1 text-right'>
-            {nextUrl ? <a href={translatePath(nextUrl)}>{lang === 'en' ? 'Next' : '下一篇'} |</a> : null}
-            {prevUrl ? <a href={translatePath(prevUrl)}>{lang === 'en' ? 'Prev' : '上一篇'} |</a> : null}
-            <a href={translatePath('/')}>{lang === 'en' ? 'Home' : '去首页'} |</a>
-            <a href={`https://twitter.com/${SITE.twitterId}`} target='_blank' title='Follow'>Twitter</a>
-            <a href={`https://github.com/${SITE.repo}`} title='Star' target='_blank' class='lg:inline-block hidden'> | Github</a>
-            <a href='/rss.xml' title='Subscribe' target='_blank' class='xl:inline-block hidden'> | RSS</a>
+            {nextUrl ? <><a href={translatePath(nextUrl)}>{lang === 'en' ? 'Next' : '下一篇'}</a> | </> : null}
+            {prevUrl ? <><a href={translatePath(prevUrl)}>{lang === 'en' ? 'Prev' : '上一篇'}</a> | </> : null}
+            <a href={translatePath('/')}>{lang === 'en' ? 'Home' : '去首页'}</a> |{' '}
+            <a href={`https://twitter.com/${SITE.twitterId}`} target='_blank' title={lang === 'en' ? 'Follow' : '关注'}>Twitter</a>
+            <span class='lg:inline hidden'>
+              {' '}| <a href={`https://github.com/${SITE.repo}`} title={lang === 'en' ? 'Star' : '点个 Star'} target='_blank'>Github</a>
+            </span>
+            <span class='xl:inline hidden'>
+              {' '}| <a href={lang === 'en' ? '/en/rss.xml' : '/rss.xml'} title={lang === 'en' ? 'Subscribe' : '订阅'} target='_blank'>RSS</a>
+            </span>
           </div>
         </div>
       </div>
