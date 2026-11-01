@@ -96,7 +96,7 @@ a {
   font-weight: 400;
   align-items: center;
   text-decoration: none;
-  transition: all var(--transition-base);
+  transition: color 120ms ease-out, background-color 120ms ease-out, opacity 120ms ease-out;
 }
 
 a:hover {
@@ -306,7 +306,7 @@ button {
   font-size: var(--font-size-base);
   border-radius: var(--radius);
   color: var(--theme-text);
-  transition: all var(--transition-base);
+  transition: color 120ms ease-out, background-color 120ms ease-out, opacity 120ms ease-out;
   cursor: pointer;
   height: 36px;
   min-height: 36px;
