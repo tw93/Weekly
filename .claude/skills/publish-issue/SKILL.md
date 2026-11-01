@@ -19,7 +19,7 @@ Done means the issue is live on `main` in both languages, its Discussion carries
 - Draft: `~/Library/Mobile Documents/iCloud~com~tw93~miaoyan/Documents/潮流/潮流周刊（第{n}期） - {标题}.md`. Copy it to `src/pages/posts/{n}-{标题}.md` unchanged except the date.
 - Date: the draft template carries a stale `date: 2026/11/12`. Use the Monday after publishing, one week after the previous issue's date (285 was 2026/10/12, 286 2026/10/19), and say so in the report.
 - English twin: `src/pages/en/posts/{n:03}-{English-Slug}.md`, translated by hand in the voice of the previous English issue (section names: Trending Tools, Just Looking Around, Random Thoughts). Keep every media tag and width; switch `/zh/` product links to their English pages after checking they return 200.
-- Cover: the newest image in `~/Downloads`, converted with `sips -s format jpeg -s formatOptions 85 <src> --out public/assets/{n}.jpg`.
+- Cover: the newest image in `~/Downloads`, converted with `sips -s format jpeg -s formatOptions 85 <src> --out public/assets/{n}.jpg`. A phone photo carries GPS, which sips keeps and `tests/image-privacy.test.js` rejects; when `mdls -name kMDItemLatitude` shows a value, re-encode with Pillow instead, dropping EXIF tag `0x8825` and keeping orientation and the ICC profile (288).
 - Missing media the text refers to: search earlier issues first (`rg` over `src/pages/posts`), reuse the exact tag, and add it to both twins.
 - Run `pnpm sync:content` and `pnpm test`, check `dist/posts/{n}/` and `dist/en/posts/{n}/` exist, then commit and push per the global Git rules. `git fetch` first: the bot commits `Updated content` to `main` often.
 
@@ -37,7 +37,18 @@ for r in THUMBS_UP LAUGH HOORAY HEART ROCKET EYES; do
 done
 ```
 
-Confirm `gh api user -q .login` is `tw93` first, and read `reactionGroups{content viewerHasReacted}` back afterwards. If the Discussion does not exist yet, say so instead of creating one.
+Confirm `gh api user -q .login` is `tw93` first, and read `reactionGroups{content viewerHasReacted}` back afterwards.
+
+giscus only creates the Discussion when someone first reacts or comments on the page, so right after publishing `num` is usually empty. Create it yourself once `https://weekly.tw93.fun/posts/$n` returns 200, then run the reactions above (maintainer 2026-11-01: 「下次你自己去建立讨论」). giscus finds it because `post.astro` uses mapping `specific` with the issue number as the term and `strict: "0"`, which matches by title in the General category; the body copies what giscus writes itself (#324):
+
+```bash
+summary='…'  # the cover <small> sentence of the Chinese issue
+body=$(printf '# %s\n\n%s\n\nhttps://weekly.tw93.fun/posts/%s\n\n<!-- sha1: %s -->' "$n" "$summary" "$n" "$(printf '%s' "$n" | shasum | cut -d' ' -f1)")
+gh api graphql -f query='mutation($r:ID!,$c:ID!,$t:String!,$b:String!){createDiscussion(input:{repositoryId:$r,categoryId:$c,title:$t,body:$b}){discussion{number}}}' \
+  -f r=R_kgDOG4TsQA -f c=DIC_kwDOG4TsQM4CR4bV -f t="$n" -f b="$body"
+```
+
+Search for an existing Discussion titled `$n` first so a second one is never made (#321 is such a duplicate).
 
 ## 3. Telegram channel post
 
