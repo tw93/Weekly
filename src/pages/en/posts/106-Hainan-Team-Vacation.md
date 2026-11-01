@@ -40,7 +40,7 @@ The latest update to my Markdown editor:
 <img src="https://cdn.tw93.fun/blog/upic/SkAewA.png" width="800" />
 
 **The Twitter 2022 Architecture Diagram**  
-<https://twitter.com/alexxubyte/status/1594008281340530688>  
+<https://x.com/alexxubyte/status/1594008281340530688>  
 A fascinating (and slightly hilarious) diagram reconstructed from a photo Elon Musk tweeted from the Twitter office.  
 <img src="https://cdn.tw93.fun/blog/upic/sMMIgx.jpg" width="800" />
 

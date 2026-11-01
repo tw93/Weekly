@@ -53,7 +53,7 @@ A practical guide to learning English specifically tailored for developers.
 ## Just Looking Around
 
 **100 Days of Conflict: The State of the Russian Economy**  
-<https://twitter.com/KooPeben/status/1533345555510079488>  
+<https://x.com/KooPeben/status/1533345555510079488>  
 A Twitter thread analyzing the impact of record-breaking sanctions on the Russian economy and the overall course of the conflict. A sobering read.
 
 **Human System Optimization: Learn for a Lifetime**  

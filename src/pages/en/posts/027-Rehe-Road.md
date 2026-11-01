@@ -68,5 +68,5 @@ A curated collection of exceptional iOS components and libraries—perfect for l
 
 **The "Beautiful Biker" Who Was Actually a 50-Year-Old Man**  
 <https://mothership.sg/2021/03/japanese-biker-actually-man/>  
-A viral story of a Japanese biker who used FaceApp to transform their appearance. You can find their original Twitter at [azusagakuyuki](https://twitter.com/azusagakuyuki).  
+A viral story of a Japanese biker who used FaceApp to transform their appearance. You can find their original Twitter at [azusagakuyuki](https://x.com/azusagakuyuki).  
 <img src="https://cdn.tw93.fun/blog/upic/2B4l2w.jpg" width="800" />
