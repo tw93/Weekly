@@ -147,6 +147,11 @@ export default defineConfig({
     },
     gfm: markdownConfig.gfm,
     smartypants: markdownConfig.smartypants,
+    // Both palettes are written at build time: light inline, dark as
+    // --shiki-dark variables that `.dark` switches to in markdown.css.
+    shikiConfig: {
+      themes: { light: "github-light-default", dark: "github-dark" },
+    },
   },
   vite: {
     server: {

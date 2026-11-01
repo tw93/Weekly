@@ -90,8 +90,8 @@
     font-family: inherit;
     font-size: var(--font-size-small);
     line-height: 20px;
-    color: rgb(225 228 232 / 0.7);
-    background: #24292e;
+    color: rgb(36 41 46 / 0.72);
+    background: #f6f8fa;
     cursor: pointer;
     transition:
       color 0.12s ease-out,
@@ -101,17 +101,19 @@
   .code-copy:hover,
   .code-copy:focus-visible {
     opacity: 1;
-    color: #e1e4e8;
-    background: #30363d;
+    color: #24292e;
+    background: #e8ecf0;
   }
 
-  /* Matches `.dark .heti pre` in markdown.css. */
+  /* Each fill matches the code ground in markdown.css. */
   .dark .code-copy {
+    color: rgb(225 228 232 / 0.7);
     background: #151515;
   }
 
   .dark .code-copy:hover,
   .dark .code-copy:focus-visible {
+    color: #e1e4e8;
     background: #262626;
   }
 

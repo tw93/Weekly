@@ -195,6 +195,31 @@ blockquote blockquote {
   background-color: #151515 !important;
 }
 
+/* Shiki writes the light palette inline; GitHub's light code ground. */
+.heti pre.astro-code {
+  background-color: #f6f8fa !important;
+}
+
+/* github-light-default comments read 4.27:1 on that ground; Primer's current
+   muted text reads 5.9:1. */
+.heti pre.astro-code span[style^="color:#6E7781"] {
+  color: #59636e !important;
+}
+
+.dark .heti pre.astro-code,
+.dark .heti pre.astro-code span {
+  color: var(--shiki-dark) !important;
+}
+
+.dark .heti pre.astro-code {
+  background-color: #151515 !important;
+}
+
+/* github-dark comments read 3.79:1 on #151515; Primer's dark muted 6.2:1. */
+.dark .heti pre.astro-code span[style*="--shiki-dark:#6A737D"] {
+  color: #8b949e !important;
+}
+
 .heti pre code {
   margin: 0;
   padding: 0;
