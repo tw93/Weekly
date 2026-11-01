@@ -74,9 +74,19 @@
     "height": 4284,
     "mime": "image/jpeg"
   },
+  "https://cdn.fliggy.com/pic/28837.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "mime": "image/jpeg"
+  },
   "https://cdn.fliggy.com/pic/39jcpx32.png": {
     "width": 2048,
     "height": 1331,
+    "mime": "image/png"
+  },
+  "https://cdn.fliggy.com/pic/4lj1S206.png": {
+    "width": 1908,
+    "height": 1426,
     "mime": "image/png"
   },
   "https://cdn.fliggy.com/pic/5Uqh1q52.png": {
@@ -209,6 +219,11 @@
     "height": 2204,
     "mime": "image/png"
   },
+  "https://cdn.fliggy.com/pic/jgRQn959.png": {
+    "width": 1600,
+    "height": 1000,
+    "mime": "image/png"
+  },
   "https://cdn.fliggy.com/pic/lD4jm700.png": {
     "width": 3428,
     "height": 1920,
@@ -227,6 +242,11 @@
   "https://cdn.fliggy.com/pic/pk6SJi02.png": {
     "width": 1946,
     "height": 2310,
+    "mime": "image/png"
+  },
+  "https://cdn.fliggy.com/pic/r878Hp16.png": {
+    "width": 4512,
+    "height": 2840,
     "mime": "image/png"
   },
   "https://cdn.fliggy.com/pic/rQHnuy25.png": {
@@ -3883,6 +3903,21 @@
     "width": 1585,
     "height": 992,
     "mime": "image/png"
+  },
+  "https://cdn.tw93.fun/notes/3_2115689850385141760.jpg": {
+    "width": 2048,
+    "height": 2048,
+    "mime": "image/jpeg"
+  },
+  "https://cdn.tw93.fun/notes/3_2115689850410254336.jpg": {
+    "width": 2048,
+    "height": 2048,
+    "mime": "image/jpeg"
+  },
+  "https://cdn.tw93.fun/notes/3_2116508994374434816.jpg": {
+    "width": 2048,
+    "height": 896,
+    "mime": "image/jpeg"
   },
   "https://cdn.tw93.fun/uPic/1gevLE01.png": {
     "width": 3972,
