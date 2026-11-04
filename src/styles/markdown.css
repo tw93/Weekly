@@ -44,7 +44,7 @@ body {
    keep the compact layout. */
 .heti p.entry-lead > strong:first-child {
   display: block;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 6px;
 }
 
@@ -71,11 +71,15 @@ a:hover {
   opacity: 0.8;
 }
 
+/* The reading rhythm MiaoYan's preview, its iPhone reader and tw93.fun share
+   (maintainer 2026-11-04): 17px body, 1.64 line height, 0.02em tracking. The
+   chrome around it keeps --font-size-base, which Tailwind's rem sizes follow. */
 .heti {
+  font-size: 17px;
   font-weight: 400;
   -webkit-font-smoothing: subpixel-antialiased;
-  line-height: 1.75;
-  letter-spacing: 0.5px;
+  line-height: 1.64;
+  letter-spacing: 0.02em;
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
@@ -137,8 +141,8 @@ a:hover {
 .heti hr {
   width: 100%;
   height: 1px;
-  margin-block-start: 28px;
-  margin-block-end: 28px;
+  margin-block-start: 2em;
+  margin-block-end: 2em;
   margin-inline-start: auto;
   margin-inline-end: auto;
   border: 0;
@@ -146,8 +150,8 @@ a:hover {
 }
 
 .heti p {
-  margin-block-start: 20px;
-  margin-block-end: 20px;
+  margin-block-start: 1.15em;
+  margin-block-end: 1.15em;
   text-align: left;
 }
 
@@ -170,12 +174,12 @@ blockquote blockquote {
 }
 
 .heti pre {
-  margin-block-start: 13px;
-  margin-block-end: 28px;
+  margin-block-start: 1.15em;
+  margin-block-end: 1.15em;
   margin-inline-start: 0;
   margin-inline-end: 0;
-  padding-block-start: 12px;
-  padding-block-end: 12px;
+  padding-block-start: 14px;
+  padding-block-end: 14px;
   padding-inline-start: 16px;
   padding-inline-end: 16px;
   overflow: auto;
@@ -229,10 +233,8 @@ blockquote blockquote {
   color: inherit;
 }
 
-.heti pre.astro-code {
-  margin-top: -20px;
-}
-
+/* A heading sits close to its own text and far from the text above; the
+   block right under it drops its top margin. */
 .heti h1,
 .heti h2,
 .heti h3,
@@ -241,67 +243,56 @@ blockquote blockquote {
 .heti h6 {
   position: relative;
   margin: 0;
-  line-height: 1.7;
-  margin-block-start: 28px;
-  margin-block-end: 13px;
-  font-weight: bolder;
+  line-height: 1.4;
+  margin-block-start: 1.4em;
+  margin-block-end: 0.4em;
+  font-weight: bold;
+  letter-spacing: 0.02em;
 }
 
 .heti h1 {
   font-size: 26px;
+  margin-block-end: 0.45em;
 }
 
 .heti h2 {
+  font-size: 24px;
+}
+
+.heti h3 {
   font-size: 20px;
+  margin-block-start: 1.3em;
 }
 
-.heti h3 {
-  font-size: 18px;
-  margin-block-start: 10px;
-}
-
-.heti h4 {
-  font-size: var(--font-size-base);
-  margin-block-start: 10px;
-}
-
-.heti h5 {
-  font-size: var(--font-size-base);
-  margin-block-start: 10px;
-}
-
+.heti h4,
+.heti h5,
 .heti h6 {
-  font-size: var(--font-size-base);
-  margin-block-start: 10px;
+  font-size: 1em;
+  margin-block-start: 1.2em;
+  margin-block-end: 0.35em;
 }
 
-.heti h1,
-.heti h2,
-.heti h3 {
-  letter-spacing: 0.8px;
-}
-
-.heti h1 + h2,
-.heti h2 + h3,
-.heti h3 + h4,
-.heti h4 + h5,
-.heti h5 + h6 {
-  margin-block-start: 13px;
+.heti :is(h1, h2, h3, h4, h5, h6) + * {
+  margin-block-start: 0;
 }
 
 .heti ul,
 .heti ol,
 .heti dl {
-  margin-block-start: 13px;
-  margin-block-end: 28px;
+  margin-block-start: 1.15em;
+  margin-block-end: 1.15em;
 }
 
 .heti ul {
-  padding-inline-start: 32px;
+  padding-inline-start: 1.5em;
 }
 
 .heti ol {
-  padding-inline-start: 40px;
+  padding-inline-start: 1.75em;
+}
+
+.heti li {
+  margin-block: 0.4em;
 }
 
 .heti ul ul,
@@ -339,8 +330,9 @@ blockquote blockquote {
 .heti table {
   box-sizing: border-box;
   table-layout: fixed;
-  margin-block-start: 13px;
-  margin-block-end: 28px;
+  font-size: 0.92em;
+  margin-block-start: 1.15em;
+  margin-block-end: 1.15em;
   margin-inline-start: auto;
   margin-inline-end: auto;
   border-collapse: collapse;
@@ -352,9 +344,9 @@ blockquote blockquote {
 
 .heti p > code,
 .heti li > code {
-  background-color: #eef1f2;
-  padding: 2px;
-  border-radius: var(--radius);
+  background-color: rgba(39, 35, 29, 0.055);
+  padding: 0.12em 0.38em;
+  border-radius: 4px;
 }
 
 [data-theme="dark"] .heti table {
@@ -363,7 +355,7 @@ blockquote blockquote {
 
 [data-theme="dark"] .heti p > code,
 [data-theme="dark"] .heti li > code {
-  background-color: #343941;
+  background-color: rgba(255, 255, 255, 0.08);
   color: #e8e8eb;
 }
 
@@ -374,10 +366,10 @@ blockquote blockquote {
 
 .heti th,
 .heti td {
-  padding-block-start: 6px;
-  padding-block-end: 6px;
-  padding-inline-start: 8px;
-  padding-inline-end: 8px;
+  padding-block-start: 8px;
+  padding-block-end: 8px;
+  padding-inline-start: 12px;
+  padding-inline-end: 12px;
   border-width: 1px;
   border-style: solid;
   border-color: #e5e7eb;
@@ -423,12 +415,19 @@ blockquote blockquote {
 .heti code {
   margin-inline-start: 4px;
   margin-inline-end: 4px;
-  font-size: var(--font-size-base);
+  font-size: 1em;
   font-family: var(--font-fallback);
 }
 
-.heti pre code {
+/* Code blocks are monospace a step below the body; inline code keeps the text face.
+   Shiki's code sits under index.css's `pre.astro-code > code { all: unset }`,
+   which has the same weight, so the rule names that path too. */
+.heti pre code,
+.heti pre.astro-code > code {
   font-family: var(--font-mono);
+  font-size: 0.86em;
+  line-height: 1.6;
+  letter-spacing: 0;
 }
 
 .heti dfn {

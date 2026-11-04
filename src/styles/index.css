@@ -58,23 +58,6 @@ h6 {
   line-height: 1;
 }
 
-:is(h2, h3):not(:first-child) {
-  margin-top: 42px;
-  margin-bottom: -10px;
-}
-
-:is(h4, h5, h6):not(:first-child) {
-  margin-top: 32px;
-  margin-bottom: -6px;
-}
-
-/* When a heading is directly followed by an image (not a text paragraph),
-   there is no line-height leading to absorb the negative margin above, so
-   the image overlaps the heading. Restore a normal gap for that case only. */
-:is(h2, h3, h4, h5, h6):not(:first-child):has(+ img) {
-  margin-bottom: 16px;
-}
-
 p {
   line-height: var(--line-height-normal);
 }
@@ -250,18 +233,38 @@ blockquote code {
   }
 }
 
+/* Muted text beside a thin warm bar that starts and stops with the text, the
+   quote MiaoYan and tw93.fun draw (sumi: no full-height grey stripe). */
 blockquote,
 .heti blockquote {
-  margin: var(--space-6) 0;
-  padding: var(--space-1) var(--space-3);
-  border-left: 3px solid var(--theme-divider);
+  position: relative;
+  margin: 1.15em 0;
+  padding: 0.1em 0 0.1em 1.1em;
   background-color: transparent;
-  border-radius: 0 var(--radius) var(--radius) 0;
   line-height: var(--line-height-normal);
-  color: #777;
+  color: #6e6658;
   overflow: visible;
   box-sizing: border-box;
   max-width: 100%;
+}
+
+blockquote::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  bottom: 0.55em;
+  width: 3px;
+  border-radius: 1.5px;
+  background: #ddd9cd;
+}
+
+[data-theme="dark"] blockquote::before {
+  background: #4a4843;
+}
+
+.heti blockquote p {
+  margin-block: 0.34em;
 }
 
 [data-theme="dark"] blockquote,
