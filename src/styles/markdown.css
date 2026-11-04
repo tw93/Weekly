@@ -272,7 +272,10 @@ blockquote blockquote {
   margin-block-end: 0.35em;
 }
 
-.heti :is(h1, h2, h3, h4, h5, h6) + * {
+/* The block under a heading belongs to it. Doubled class so it outranks the
+   .heti ul / table / blockquote margins whatever order the sheets load in; a
+   heading that follows keeps its own space. */
+.heti.heti :is(h1, h2, h3, h4, h5, h6) + :not(h1, h2, h3, h4, h5, h6) {
   margin-block-start: 0;
 }
 
@@ -293,6 +296,11 @@ blockquote blockquote {
 
 .heti li {
   margin-block: 0.4em;
+}
+
+/* A loose list wraps each item in a paragraph; keep items 0.4em apart. */
+.heti li > p {
+  margin-block: 0.26em;
 }
 
 .heti ul ul,
