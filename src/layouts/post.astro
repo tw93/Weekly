@@ -418,6 +418,26 @@ const giscusAttrs = {
                 // waiting on GitHub, so start three screens ahead rather than at
                 // the browser's lazy-iframe distance and readers arrive to them.
                 const target = document.querySelector('.giscus');
+                // Back from GitHub sign-in (giscus adds ?giscus= to the page
+                // URL), keep the comment box, which sits under every comment,
+                // at the bottom of the screen while images above and the
+                // comments load, until the reader scrolls. Pinning once is not
+                // enough: images above push the box down, and an offscreen
+                // giscus frame is throttled and never grows.
+                if (target && 'ResizeObserver' in window && new URLSearchParams(location.search).has('giscus')) {
+                  const events = ['wheel', 'touchstart', 'keydown', 'pointerdown'];
+                  const pin = () => target.scrollIntoView({ block: 'end', behavior: 'instant' });
+                  const observer = new ResizeObserver(pin);
+                  const stop = () => {
+                    observer.disconnect();
+                    events.forEach((type) => window.removeEventListener(type, stop));
+                  };
+                  observer.observe(document.body);
+                  events.forEach((type) => window.addEventListener(type, stop, { passive: true }));
+                  setTimeout(stop, 15000);
+                  load();
+                  return pin();
+                }
                 if (!target || !('IntersectionObserver' in window)) return load();
                 const observer = new IntersectionObserver((entries) => {
                   if (!entries.some((entry) => entry.isIntersecting)) return;
