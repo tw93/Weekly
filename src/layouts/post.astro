@@ -419,14 +419,15 @@ const giscusAttrs = {
                 // the browser's lazy-iframe distance and readers arrive to them.
                 const target = document.querySelector('.giscus');
                 // Back from GitHub sign-in (giscus adds ?giscus= to the page
-                // URL), keep the comment box, which sits under every comment,
-                // at the bottom of the screen while images above and the
-                // comments load, until the reader scrolls. Pinning once is not
-                // enough: images above push the box down, and an offscreen
-                // giscus frame is throttled and never grows.
+                // URL), hold the page at its very end, where the comment box
+                // sits under every comment with the page's bottom padding below
+                // it, while images above and the comments load, until the
+                // reader scrolls. Pinning once is not enough: images above push
+                // the box down, and an offscreen giscus frame is throttled and
+                // never grows.
                 if (target && 'ResizeObserver' in window && new URLSearchParams(location.search).has('giscus')) {
                   const events = ['wheel', 'touchstart', 'keydown', 'pointerdown'];
-                  const pin = () => target.scrollIntoView({ block: 'end', behavior: 'instant' });
+                  const pin = () => window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'instant' });
                   const observer = new ResizeObserver(pin);
                   const stop = () => {
                     observer.disconnect();
