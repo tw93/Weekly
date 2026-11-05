@@ -256,6 +256,13 @@ main .gsc-comment > div > .gsc-reply-box {
   box-shadow: none;
   font-size: 12px;
   line-height: 26px;
+  /* giscus gives it a text cursor as a stand-in field; here it is a button. */
+  cursor: pointer;
+}
+
+/* Same as giscus's own disabled reaction buttons: an empty reply cannot be sent. */
+#__next .btn:disabled {
+  cursor: not-allowed;
 }
 
 #__next .gsc-reply-box > button:hover {
