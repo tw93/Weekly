@@ -6,6 +6,10 @@ module.exports = {
     // source order; `extend` would append them after xl and let them win at
     // desktop widths.
     screens: {
+      // Whole header nav: it fits from about 480px, so small Android tablets
+      // in portrait (OPPO Pad Mini) and phones in landscape get it. Same
+      // 540px as tw93.fun's $nav-full.
+      nav: "540px",
       sm: "640px",
       md: "768px",
       pad: "1000px",

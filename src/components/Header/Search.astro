@@ -6,7 +6,7 @@ import { getLangFromUrl } from '../../i18n/utils';
 const lang = getLangFromUrl(Astro.url);
 ---
 
-<site-search id='search' class='ms-auto relative md:inline-block hidden site-search' data-lang={lang}>
+<site-search id='search' class='ms-auto relative nav:inline-block hidden site-search' data-lang={lang}>
   <button
     data-open-modal
     disabled
