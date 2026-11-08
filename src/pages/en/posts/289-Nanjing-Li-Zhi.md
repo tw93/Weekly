@@ -4,7 +4,7 @@ date: 2026/11/09
 
 <img src="https://cdn.tw93.fun/uPic/28943.JPG" width="800" />
 
-<small>The cover shows Li Zhi's 2004 to 2018 best-of CD, which I unwrapped over the weekend. It's really good and I love it, and played on my cassette and CD player it has a wonderful feel. This week I'm going to Kuala Lumpur to see Li Zhi, so happy!</small>
+<small>The cover shows Li Zhi's 2004 to 2018 best-of CD, which I unwrapped over the weekend. It's really good and I love it, and played on my cassette and CD player it has a wonderful feel.</small>
 
 > **Down-to-earth tech I come across each week, picked out and shared here. Follow the newsletter to get updates.**
 

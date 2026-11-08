@@ -39,7 +39,7 @@ Returns every issue, newest first. This sample is generated from the current arc
       "name": "南京李志",
       "language": "zh-Hans",
       "date": "2026/11/09",
-      "description": "封面图拍摄于周末新拆的李志 CD 2004 年到 2018 年的精选集，非常不错，很喜欢，用我的磁带 CD 机播放出来非常有感觉，这周要去吉隆坡看李志了，真高兴！",
+      "description": "封面图拍摄于周末新拆的李志 CD 2004 年到 2018 年的精选集，非常不错，很喜欢，用我的磁带 CD 机播放出来非常有感觉。",
       "coverImage": "https://cdn.tw93.fun/uPic/28943.JPG",
       "url": "https://weekly.tw93.fun/posts/289",
       "markdownUrl": "https://weekly.tw93.fun/posts/289.md",
