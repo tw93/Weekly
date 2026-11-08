@@ -239,8 +239,9 @@ blockquote,
 .heti blockquote {
   position: relative;
   margin: 1.15em 0;
-  padding: 0.1em 0 0.1em 1.1em;
+  padding: 0.1em 0 0.1em 0.75em;
   background-color: transparent;
+  font-size: var(--font-size-base);
   line-height: var(--line-height-normal);
   color: #6e6658;
   overflow: visible;
@@ -252,8 +253,8 @@ blockquote::before {
   content: "";
   position: absolute;
   left: 0;
-  top: 0.55em;
-  bottom: 0.55em;
+  top: 0.3em;
+  bottom: 0.3em;
   width: 3px;
   border-radius: 1.5px;
   background: #ddd9cd;
@@ -335,9 +336,8 @@ h2.heading {
   scroll-margin: calc(var(--theme-sidebar-offset, 80px) + 32px) 0 32px;
 }
 
-#write > img,
-#write > p > img,
-#write > table > img {
+/* Same scope as the PhotoSwipe gallery in ClientScripts.astro. */
+#write img:not(.pswp-ignore) {
   cursor: zoom-in;
 }
 
