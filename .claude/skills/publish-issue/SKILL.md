@@ -12,7 +12,7 @@ metadata:
 
 # Publish Issue
 
-Done means the issue is live on `main` in both languages, its Discussion carries the six positive reactions, and the Telegram send dialog holds the cover and caption, waiting for the maintainer.
+Done means the issue is live on `main` in both languages, its Discussion carries the six positive reactions, and the maintainer has the Telegram caption as plain text.
 
 ## 1. Content
 
@@ -20,6 +20,7 @@ Done means the issue is live on `main` in both languages, its Discussion carries
 - Date: the draft template carries a stale `date: 2026/11/12`. Use the Monday after publishing, one week after the previous issue's date (285 was 2026/10/12, 286 2026/10/19), and say so in the report.
 - English twin: `src/pages/en/posts/{n:03}-{English-Slug}.md`, translated by hand in the voice of the previous English issue (section names: Trending Tools, Just Looking Around, Random Thoughts). Keep every media tag and width; switch `/zh/` product links to their English pages after checking they return 200.
 - Cover: the newest image in `~/Downloads`, converted with `sips -s format jpeg -s formatOptions 85 <src> --out public/assets/{n}.jpg`. A phone photo carries GPS, which sips keeps and `tests/image-privacy.test.js` rejects; when `mdls -name kMDItemLatitude` shows a value, re-encode with Pillow instead, dropping EXIF tag `0x8825` and keeping orientation and the ICC profile (288).
+- Check each entry's link against its own screenshot and the previous issue before copying: 289's Runlayer entry carried last week's OpenUsage link while its screenshot's address bar read `mcp-explained.com`. Fix a link the evidence settles in both the draft and the repo, and report it.
 - Missing media the text refers to: search earlier issues first (`rg` over `src/pages/posts`), reuse the exact tag, and add it to both twins.
 - Run `pnpm sync:content` and `pnpm test`, check `dist/posts/{n}/` and `dist/en/posts/{n}/` exist, then commit and push per the global Git rules. `git fetch` first: the bot commits `Updated content` to `main` often.
 
@@ -51,6 +52,8 @@ gh api graphql -f query='mutation($r:ID!,$c:ID!,$t:String!,$b:String!){createDis
 Search for an existing Discussion titled `$n` first so a second one is never made (#321 is such a duplicate).
 
 ## 3. Telegram channel post
+
+Since 287 the maintainer posts this alone: give the caption in the reply as plain text in a code block, with no links, and do not open AyuGram (287 to 289). The steps below apply only when the maintainer asks for the dialog to be filled.
 
 Channel 「Newlearnerの自留地」 (@NewlearnerChannel) in AyuGram, posted as Tw93. Read the desktop skill first. The agent fills the dialog and stops; the maintainer clicks Send or right-clicks it to schedule. Never click Send, Schedule or a menu item, and never use the Scheduled Messages view.
 
