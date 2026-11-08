@@ -26,7 +26,7 @@ I had a look and I think it's quite pretty and clean. I don't use it much myself
 
 **Mika: an on-device AI Agent for Android**
 <https://github.com/wangzan101/Mika>
-On-device Agents for Android have slowly been multiplying lately, partly because opus 5.5 has gotten stronger. This one doesn't take over your screen, and instead calls Android's own features in the background to get things done for you.
+On-device Agents for Android have slowly been multiplying lately, partly because Opus 5.5 has gotten stronger. This one doesn't take over your screen, and instead calls Android's own features in the background to get things done for you.
 <img src="https://cdn.fliggy.com/pic/4lj1S206.png" width="800" />
 
 **HackerTube: a YouTube recommendation homepage made by Karpathy**
