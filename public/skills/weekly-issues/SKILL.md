@@ -29,27 +29,27 @@ Returns every issue, newest first. This sample is generated from the current arc
 
 ```json
 {
-  "count": 288,
-  "englishCount": 288,
-  "latestIssue": 288,
+  "count": 289,
+  "englishCount": 289,
+  "latestIssue": 289,
   "issues": [
     {
-      "issue": 288,
-      "title": "第 288 期 - 偶遇小猫",
-      "name": "偶遇小猫",
+      "issue": 289,
+      "title": "第 289 期 - 南京李志",
+      "name": "南京李志",
       "language": "zh-Hans",
-      "date": "2026/11/02",
-      "description": "封面图拍摄于周末去乔村吃饭，在门口看到两只小猫，晒着太阳，非常舒服的样子，一点都不怕人。",
-      "coverImage": "https://cdn.fliggy.com/pic/28837.jpg",
-      "url": "https://weekly.tw93.fun/posts/288",
-      "markdownUrl": "https://weekly.tw93.fun/posts/288.md",
-      "jsonUrl": "https://weekly.tw93.fun/api/posts/288.json",
+      "date": "2026/11/09",
+      "description": "封面图拍摄于周末新拆的李志CD 2004年到2018年的精选集，非常不错，很喜欢，用我的磁带CD机播放出来非常有感觉，这周要去吉隆坡看李志了，真高兴！",
+      "coverImage": "https://cdn.tw93.fun/uPic/28943.JPG",
+      "url": "https://weekly.tw93.fun/posts/289",
+      "markdownUrl": "https://weekly.tw93.fun/posts/289.md",
+      "jsonUrl": "https://weekly.tw93.fun/api/posts/289.json",
       "translation": {
         "language": "en",
-        "title": "288. Meeting Kittens",
-        "url": "https://weekly.tw93.fun/en/posts/288",
-        "markdownUrl": "https://weekly.tw93.fun/en/posts/288.md",
-        "jsonUrl": "https://weekly.tw93.fun/api/en/posts/288.json"
+        "title": "289. Nanjing Li Zhi",
+        "url": "https://weekly.tw93.fun/en/posts/289",
+        "markdownUrl": "https://weekly.tw93.fun/en/posts/289.md",
+        "jsonUrl": "https://weekly.tw93.fun/api/en/posts/289.json"
       }
     }
   ]
@@ -63,15 +63,15 @@ For a compact human-readable index of the whole archive, fetch `https://weekly.t
 Append `.md` to any issue URL to get the Markdown source:
 
 ```
-GET https://weekly.tw93.fun/posts/288.md      # Chinese
-GET https://weekly.tw93.fun/en/posts/288.md   # English
+GET https://weekly.tw93.fun/posts/289.md      # Chinese
+GET https://weekly.tw93.fun/en/posts/289.md   # English
 ```
 
 Or take metadata and body together as JSON:
 
 ```
-GET https://weekly.tw93.fun/api/posts/288.json
-GET https://weekly.tw93.fun/api/en/posts/288.json
+GET https://weekly.tw93.fun/api/posts/289.json
+GET https://weekly.tw93.fun/api/en/posts/289.json
 ```
 
 The JSON response carries `contentMarkdown` (the full Markdown body), `translation`, `newerIssue` and `olderIssue`.
