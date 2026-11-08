@@ -69,16 +69,17 @@
   }
 
   /* Button right inset + min-width - pre padding + 8px air, and its bottom
-     edge less the pre's 12px top padding. */
+     edge less the pre's 14px top padding. */
   .code-copy-gap {
     float: right;
     width: 66px;
     height: 26px;
   }
 
+  /* The label's ink sits on the first code line's, about 27px down the block. */
   .code-copy {
     position: absolute;
-    top: 10px;
+    top: 15px;
     right: 10px;
     justify-content: center;
     height: auto;
@@ -119,7 +120,7 @@
 
   @media (pointer: coarse) {
     .code-copy {
-      top: 6px;
+      top: 11px;
       right: 6px;
       padding: 6px 10px;
     }

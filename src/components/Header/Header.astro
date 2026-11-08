@@ -40,6 +40,8 @@ const navClass = `nav-wrapper mx-auto ${layout === 'feed' ? 'feed-container' : '
     align-items: center;
     justify-content: center;
     top: 0;
+    /* Puts the row's centre line at 46px, the line an issue page's row sits on. */
+    padding-bottom: 4px;
   }
 
   .logo {
@@ -69,17 +71,18 @@ const navClass = `nav-wrapper mx-auto ${layout === 'feed' ? 'feed-container' : '
   /* The cup sits 21px inside its 144px canvas, 6px at 40px; pull it out so its
      ink, not the transparent margin, lines up with the content edge. */
   .logo .logo-image {
-    margin-top: -14px;
     margin-left: -10px;
   }
 
-  /* Title ink at about 0.7 of the cup's, 12px off it; 2px under the cup's
-     centre, where the lighter cup body puts its visual weight. */
+  /* Title ink at about 0.7 of the cup's, 12px off it, on the cup's centre. */
   .logo h1 {
     font: inherit;
-    margin: 0;
+    margin: 1px 0 0 -2px;
+  }
+
+  /* Latin capitals sit 1.3px lower in the line box than Han glyphs do. */
+  .logo h1:lang(en) {
     margin-top: -1px;
-    margin-left: -2px;
   }
 
   .nav-wrapper {

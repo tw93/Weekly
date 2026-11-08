@@ -118,10 +118,12 @@ const sidebarSections = allPosts.reduce((sections, post, index) => {
     margin-right: 16px;
   }
 
+  /* The same 46px centre line as the header on the feed. */
   .sidebar-header {
     height: var(--theme-navbar-height);
     display: flex;
     align-items: center;
+    padding-bottom: 4px;
   }
   .nav-groups {
     height: 100%;
@@ -193,7 +195,6 @@ const sidebarSections = allPosts.reduce((sections, post, index) => {
   /* Same offset as the header's logo, so going from the home page to an issue
      the cup stays where it was; at 1386px and wider both land on one x. */
   .logo .logo-image {
-    margin-top: -14px;
     margin-left: -10px;
   }
 
@@ -207,13 +208,15 @@ const sidebarSections = allPosts.reduce((sections, post, index) => {
     color: var(--theme-accent);
   }
 
-  /* Title ink at about 0.7 of the cup's, 12px off it; 2px under the cup's
-     centre, where the lighter cup body puts its visual weight. */
+  /* Title ink at about 0.7 of the cup's, 12px off it, on the cup's centre. */
   .logo h1 {
     font: inherit;
-    margin: 0;
+    margin: 1px 0 0 -2px;
+  }
+
+  /* Latin capitals sit 1.3px lower in the line box than Han glyphs do. */
+  .logo h1:lang(en) {
     margin-top: -1px;
-    margin-left: -2px;
   }
 
   @media (min-width: 800px) {

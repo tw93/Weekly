@@ -146,12 +146,17 @@ const giscusAttrs = {
       align-items: center;
     }
 
+    /* Latin capitals sit 1.3px lower in the line box than Han glyphs do. */
+    .content-title > span:lang(en) {
+      position: relative;
+      top: -1px;
+    }
+
     .content-title .content-logo {
       display: inline-flex;
       align-items: center;
       padding: 8px 4px;
       margin: -8px -4px;
-      margin-top: -14px;
       /* The cup sits 6px inside its own canvas; pull its ink onto the cover's edge. */
       margin-left: -10px;
       -webkit-tap-highlight-color: transparent;
@@ -176,7 +181,7 @@ const giscusAttrs = {
       }
 
       .heti h1.content-title:first-child {
-        margin-bottom: 32px;
+        margin-bottom: 34px;
       }
 
       .markdown-body {
@@ -220,7 +225,7 @@ const giscusAttrs = {
 
       /* Puts the issue title and its buttons on the sidebar title's line. */
       #grid-main {
-        padding: 16px 32px 64px 32px;
+        padding: 14px 32px 64px 32px;
       }
 
       #grid-left {
@@ -269,8 +274,8 @@ const giscusAttrs = {
       }
 
       .heti h1.content-title:first-child {
-        margin-block-start: 16px !important;
-        margin-bottom: 24px;
+        margin-block-start: 14px !important;
+        margin-bottom: 22px;
         font-size: 26px;
         line-height: 1;
       }
