@@ -134,6 +134,16 @@
     "height": 4096,
     "mime": "image/png"
   },
+  "https://cdn.fliggy.com/pic/DnfY1D48.png": {
+    "width": 3890,
+    "height": 2144,
+    "mime": "image/png"
+  },
+  "https://cdn.fliggy.com/pic/Fg9c9M32.png": {
+    "width": 1920,
+    "height": 1080,
+    "mime": "image/png"
+  },
   "https://cdn.fliggy.com/pic/GAcV7J53.png": {
     "width": 1230,
     "height": 2048,
@@ -177,6 +187,11 @@
   "https://cdn.fliggy.com/pic/O2qk1j42.png": {
     "width": 2540,
     "height": 2078,
+    "mime": "image/png"
+  },
+  "https://cdn.fliggy.com/pic/PFHQUk01.png": {
+    "width": 2560,
+    "height": 1440,
     "mime": "image/png"
   },
   "https://cdn.fliggy.com/pic/RBPkvo03.png": {
@@ -3919,6 +3934,56 @@
     "height": 896,
     "mime": "image/jpeg"
   },
+  "https://cdn.tw93.fun/notes/3_2117177658689961984.jpg": {
+    "width": 1536,
+    "height": 2048,
+    "mime": "image/jpeg"
+  },
+  "https://cdn.tw93.fun/notes/3_2117177658765377536.jpg": {
+    "width": 1536,
+    "height": 2048,
+    "mime": "image/jpeg"
+  },
+  "https://cdn.tw93.fun/notes/3_2117894145851441152.jpg": {
+    "width": 2048,
+    "height": 1280,
+    "mime": "image/jpeg"
+  },
+  "https://cdn.tw93.fun/notes/3_2118138915995766784.jpg": {
+    "width": 1536,
+    "height": 2048,
+    "mime": "image/jpeg"
+  },
+  "https://cdn.tw93.fun/notes/3_2118258589609672704.jpg": {
+    "width": 2048,
+    "height": 1361,
+    "mime": "image/jpeg"
+  },
+  "https://cdn.tw93.fun/notes/3_2118934108705542144.jpg": {
+    "width": 2048,
+    "height": 1536,
+    "mime": "image/jpeg"
+  },
+  "https://cdn.tw93.fun/notes/3_2118934108722315264.jpg": {
+    "width": 2048,
+    "height": 1536,
+    "mime": "image/jpeg"
+  },
+  "https://cdn.tw93.fun/notes/3_2118934108722372608.jpg": {
+    "width": 2048,
+    "height": 1536,
+    "mime": "image/jpeg"
+  },
+  "https://cdn.tw93.fun/notes/3_2118934108755910656.jpg": {
+    "width": 2048,
+    "height": 1536,
+    "mime": "image/jpeg"
+  },
+  "https://cdn.tw93.fun/notes/3_2119262831090839552.jpg": {
+    "width": 1080,
+    "height": 1614,
+    "mime": "image/jpeg"
+  },
   "https://cdn.tw93.fun/uPic/1gevLE01.png": {
     "width": 3972,
     "height": 2296,
@@ -3977,6 +4042,11 @@
   "https://cdn.tw93.fun/uPic/28049.jpg": {
     "width": 5358,
     "height": 4019,
+    "mime": "image/jpeg"
+  },
+  "https://cdn.tw93.fun/uPic/28943.JPG": {
+    "width": 5712,
+    "height": 4284,
     "mime": "image/jpeg"
   },
   "https://cdn.tw93.fun/uPic/43QkZu07.png": {
