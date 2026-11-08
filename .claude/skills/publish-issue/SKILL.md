@@ -16,11 +16,11 @@ Done means the issue is live on `main` in both languages, its Discussion carries
 
 ## 1. Content
 
-- Draft: `~/Library/Mobile Documents/iCloud~com~tw93~miaoyan/Documents/潮流/潮流周刊（第{n}期） - {标题}.md`. Copy it to `src/pages/posts/{n}-{标题}.md` unchanged except the date.
+- Draft: `~/Library/Mobile Documents/iCloud~com~tw93~miaoyan/Documents/潮流/潮流周刊（第{n}期） - {标题}.md`. Copy it to `src/pages/posts/{n}-{标题}.md`. Proofread while copying: fix typos, wrong links, stray characters and dates, not phrasing or the maintainer's spoken style, in the draft and the repo copy together so `cmp` stays clean, and list every change in the report (maintainer 2026-11-08: fix the MiaoYan original whenever a problem turns up, including in an issue already published).
 - Date: the draft template carries a stale `date: 2026/11/12`. Use the Monday after publishing, one week after the previous issue's date (285 was 2026/10/12, 286 2026/10/19), and say so in the report.
 - English twin: `src/pages/en/posts/{n:03}-{English-Slug}.md`, translated by hand in the voice of the previous English issue (section names: Trending Tools, Just Looking Around, Random Thoughts). Keep every media tag and width; switch `/zh/` product links to their English pages after checking they return 200.
 - Cover: the newest image in `~/Downloads`, converted with `sips -s format jpeg -s formatOptions 85 <src> --out public/assets/{n}.jpg`. A phone photo carries GPS, which sips keeps and `tests/image-privacy.test.js` rejects; when `mdls -name kMDItemLatitude` shows a value, re-encode with Pillow instead, dropping EXIF tag `0x8825` and keeping orientation and the ICC profile (288).
-- Check each entry's link against its own screenshot and the previous issue before copying: 289's Runlayer entry carried last week's OpenUsage link while its screenshot's address bar read `mcp-explained.com`. Fix a link the evidence settles in both the draft and the repo, and report it.
+- Check each entry's link against its own screenshot and the previous issue before copying: 289's Runlayer entry carried last week's OpenUsage link while its screenshot's address bar read `mcp-explained.com`. 
 - Missing media the text refers to: search earlier issues first (`rg` over `src/pages/posts`), reuse the exact tag, and add it to both twins.
 - Run `pnpm sync:content` and `pnpm test`, check `dist/posts/{n}/` and `dist/en/posts/{n}/` exist, then commit and push per the global Git rules. `git fetch` first: the bot commits `Updated content` to `main` often.
 
