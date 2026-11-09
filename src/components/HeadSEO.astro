@@ -24,6 +24,12 @@ const description = contentDescription || t('site.description');
 const canonicalURL = new URL(pageURL, homePage).href;
 const inLanguage = lang === 'en' ? 'en' : 'zh-Hans';
 
+// Home, about and every issue exist in both languages at the same path.
+const zhPath = new URL(canonicalURL).pathname.replace(/^\/en(?=\/|$)/, '') || '/';
+const hasTwin = /^\/(?:about\/?|posts\/\d+\/?)?$/.test(zhPath);
+const zhURL = new URL(zhPath, homePage).href;
+const enURL = new URL(zhPath === '/' ? '/en' : `/en${zhPath}`, homePage).href;
+
 // Stable @id anchors so every page links back to the same entities
 const websiteId = `${homePage}/#website`;
 const blogId = `${homePage}/#blog`;
@@ -194,6 +200,9 @@ const structuredData = {
 
 <!-- Canonical URL -->
 <link rel='canonical' href={canonicalURL} />
+{hasTwin && <link rel='alternate' hreflang='zh-Hans' href={zhURL} />}
+{hasTwin && <link rel='alternate' hreflang='en' href={enURL} />}
+{hasTwin && <link rel='alternate' hreflang='x-default' href={zhURL} />}
 
 <meta name='twitter:card' content='summary_large_image' />
 <meta name='twitter:image' content={imageSrc} />
