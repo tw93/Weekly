@@ -293,6 +293,28 @@ const giscusAttrs = {
       border-block-end: none;
     }
 
+    .post-apps {
+      margin: 24px 0 32px;
+      text-align: center;
+      font-size: var(--font-size-small);
+      line-height: 1.5;
+      letter-spacing: 0;
+    }
+
+    .post-apps > span {
+      white-space: nowrap;
+    }
+
+    .post-apps > span:not(:last-child)::after {
+      content: '\00b7' / '';
+      margin: 0 0.3em;
+    }
+
+    .post-apps a {
+      color: inherit;
+      border-block-end: none;
+    }
+
     .heti .pay-button {
       border: 0;
       cursor: pointer;
@@ -456,6 +478,13 @@ const giscusAttrs = {
           </>
         )
       }
+      <p class='post-apps text-gray-600 dark:text-gray-300'>
+        <span><a href='https://mole.fit' target='_blank' rel='noopener'>Mole <span lang='zh-Hans'>鼹</span></a></span>
+        <span><a href='https://yado.house' target='_blank' rel='noopener'>Yado <span lang='zh-Hant'>宿</span></a></span>
+        <span><a href='https://pake.run' target='_blank' rel='noopener'>Pake <span lang='zh-Hant'>殼</span></a></span>
+        <span><a href='https://miaoyan.app' target='_blank' rel='noopener'>MiaoYan <span lang='zh-Hant'>語</span></a></span>
+        <span><a href='https://kaku.fun' target='_blank' rel='noopener'>Kaku <span lang='zh-Hant'>書</span></a></span>
+      </p>
     </div>
   </main>
   <ParagraphShare />
