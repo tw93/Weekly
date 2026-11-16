@@ -29,27 +29,27 @@ Returns every issue, newest first. This sample is generated from the current arc
 
 ```json
 {
-  "count": 289,
-  "englishCount": 289,
-  "latestIssue": 289,
+  "count": 290,
+  "englishCount": 290,
+  "latestIssue": 290,
   "issues": [
     {
-      "issue": 289,
-      "title": "第 289 期 - 南京李志",
-      "name": "南京李志",
+      "issue": 290,
+      "title": "第 290 期 - 见到李志",
+      "name": "见到李志",
       "language": "zh-Hans",
-      "date": "2026/11/09",
-      "description": "封面图拍摄于周末新拆的李志 CD 2004 年到 2018 年的精选集，非常不错，很喜欢，用我的磁带 CD 机播放出来非常有感觉。",
-      "coverImage": "https://cdn.tw93.fun/uPic/28943.JPG",
-      "url": "https://weekly.tw93.fun/posts/289",
-      "markdownUrl": "https://weekly.tw93.fun/posts/289.md",
-      "jsonUrl": "https://weekly.tw93.fun/api/posts/289.json",
+      "date": "2026/11/16",
+      "description": "封面图拍摄于周六在吉隆坡叁缺壹，终于终于见到李志了，此生无憾，瘦了不少，但是依然非常牛逼，这场演唱的质量是我看过质量最高的演唱会！",
+      "coverImage": "https://cdn.tw93.fun/uPic/29002.jpg",
+      "url": "https://weekly.tw93.fun/posts/290",
+      "markdownUrl": "https://weekly.tw93.fun/posts/290.md",
+      "jsonUrl": "https://weekly.tw93.fun/api/posts/290.json",
       "translation": {
         "language": "en",
-        "title": "289. Nanjing Li Zhi",
-        "url": "https://weekly.tw93.fun/en/posts/289",
-        "markdownUrl": "https://weekly.tw93.fun/en/posts/289.md",
-        "jsonUrl": "https://weekly.tw93.fun/api/en/posts/289.json"
+        "title": "290. Meeting Li Zhi",
+        "url": "https://weekly.tw93.fun/en/posts/290",
+        "markdownUrl": "https://weekly.tw93.fun/en/posts/290.md",
+        "jsonUrl": "https://weekly.tw93.fun/api/en/posts/290.json"
       }
     }
   ]
@@ -63,15 +63,15 @@ For a compact human-readable index of the whole archive, fetch `https://weekly.t
 Append `.md` to any issue URL to get the Markdown source:
 
 ```
-GET https://weekly.tw93.fun/posts/289.md      # Chinese
-GET https://weekly.tw93.fun/en/posts/289.md   # English
+GET https://weekly.tw93.fun/posts/290.md      # Chinese
+GET https://weekly.tw93.fun/en/posts/290.md   # English
 ```
 
 Or take metadata and body together as JSON:
 
 ```
-GET https://weekly.tw93.fun/api/posts/289.json
-GET https://weekly.tw93.fun/api/en/posts/289.json
+GET https://weekly.tw93.fun/api/posts/290.json
+GET https://weekly.tw93.fun/api/en/posts/290.json
 ```
 
 The JSON response carries `contentMarkdown` (the full Markdown body), `translation`, `newerIssue` and `olderIssue`.
