@@ -17,6 +17,21 @@ module.exports = {
       wide: "1300px",
       xl: "1412px",
     },
+    extend: {
+      // Tailwind's grey is a blue slate; on the warm paper and the warm black
+      // it read as a second, colder ink. Same steps, warm hue.
+      colors: {
+        gray: {
+          100: "#f1efe8",
+          200: "#e7e5dd",
+          300: "#d6d3ca",
+          400: "#a6a299",
+          600: "#5f5b53",
+          800: "#2d2b28",
+          900: "#1f1e1c",
+        },
+      },
+    },
   },
   plugins: [require("@tailwindcss/typography")],
 };

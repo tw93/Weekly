@@ -70,11 +70,11 @@ body {
   margin-block-start: 2em;
 }
 
-/* The address under an entry's title is meta: small and in the cup's brown,
-   so the title and the text carry the entry. Long ones fill the line rather
-   than breaking early at a hyphen. */
+/* The address under an entry's title keeps the body size (maintainer
+   2026-11-17, 14px turned down) in the cup's brown, so the title and the text
+   carry the entry. Long ones fill the line rather than breaking early at a
+   hyphen. */
 .heti p > strong:first-child + br + a {
-  font-size: var(--font-size-small);
   color: var(--theme-link-quiet);
   word-break: break-all;
 }
@@ -643,6 +643,29 @@ blockquote blockquote {
 
 .heti {
   font-family: var(--font-fallback);
+}
+
+/* English reads in Charter, the Latin face of the product sites (Georgia on
+   Windows, Noto Serif on Android), with no CJK tracking; JinKai's own Latin
+   letters read as handwriting over a long paragraph. Han inside an English
+   issue still falls to JinKai. The page title, buttons and footer are chrome
+   and keep the face of the logo and the sidebar. */
+html[lang="en"] .heti {
+  font-family: Charter, "Bitstream Charter", Georgia, "Noto Serif", var(--font-fallback);
+  letter-spacing: 0;
+}
+
+html[lang="en"] .heti :is(h2, h3, h4, h5, h6) {
+  letter-spacing: 0;
+}
+
+html[lang="en"] .heti :not(pre) > code {
+  font-family: inherit;
+}
+
+html[lang="en"] .heti :is(h1, .pay-button-wrapper, .newsletter, .post-footer) {
+  font-family: var(--font-fallback);
+  letter-spacing: 0.02em;
 }
 
 ::marker {
