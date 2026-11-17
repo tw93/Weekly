@@ -118,7 +118,6 @@ const giscusAttrs = {
       /* Track plus padding equals the feed's --frame-pad, so on narrow
          screens the text starts where the home cards do. */
       --gutter: calc(var(--frame-pad) / 2);
-      --doc-padding: 32px;
     }
 
     /* The homepage's frame (--frame-width in index.css), so the page keeps
@@ -225,7 +224,7 @@ const giscusAttrs = {
 
       /* Puts the issue title and its buttons on the sidebar title's line. */
       #grid-main {
-        padding: 14px 32px 40px 32px;
+        padding: 14px 32px var(--space-8) 32px;
       }
 
       #grid-left {
@@ -264,7 +263,7 @@ const giscusAttrs = {
 
       #grid-main {
         margin-top: 0;
-        padding: 12px var(--gutter) var(--doc-padding) var(--gutter);
+        padding: 12px var(--gutter) var(--space-5) var(--gutter);
       }
 
       /* md:max-w-2xl would centre the text in the 768-799 band, the only
@@ -294,7 +293,7 @@ const giscusAttrs = {
     }
 
     /* The app line closes the page: well clear of the comments and close to
-       the page end, 40px on desktop and 32px on phones. */
+       the page end, on the spacing scale: 32px on desktop, 20px on phones. */
     .post-apps {
       margin: 56px 0 0;
       text-align: center;
