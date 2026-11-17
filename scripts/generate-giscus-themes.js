@@ -30,7 +30,7 @@ const darkStatus = {
 const themes = {
   "giscus-light.css": {
     scheme: "light", status: lightStatus,
-    bg: "#fff", text: "#262626", muted: "#666", subtle: "#767676", line: "#ebebeb",
+    bg: "#fff", text: "#262626", muted: "#666", subtle: "#767676", line: "#eeeeee",
     fill: "#f5f5f5", fill_hover: "#ededed", accent: "#a67c52",
     reacted: "rgb(166 124 82 / 10%)", reacted_hover: "rgb(166 124 82 / 16%)",
     btn: "#a67c52", btn_text: "#fff", btn_disabled: "#d3bea9", btn_disabled_text: "#fffc",
@@ -44,7 +44,7 @@ const themes = {
   },
   "giscus-blog.css": {
     scheme: "light", status: lightStatus,
-    bg: "#fff", text: "#24292f", muted: "#666", subtle: "#767676", line: "#ebebeb",
+    bg: "#fff", text: "#24292f", muted: "#666", subtle: "#767676", line: "#eeeeee",
     fill: "#f5f5f5", fill_hover: "#ededed", accent: "#222",
     reacted: "rgb(34 34 34 / 7%)", reacted_hover: "rgb(34 34 34 / 12%)",
     btn: "#222", btn_text: "#fff", btn_disabled: "#9a9a9a", btn_disabled_text: "#fffc",

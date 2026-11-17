@@ -39,7 +39,9 @@
   --theme-link: #34558a;
   /* The cup's brown darkened to 5.4:1 for small link text. */
   --theme-link-quiet: #8c6239;
-  --theme-divider: #e6e6e6;
+  /* One hairline for the page, the comments and tables: #eee, lighter than
+     the #e6e6e6 rule and #ebebeb comment lines it replaces. */
+  --theme-divider: #eeeeee;
   --pagefind-ui-text: #393939;
   --pagefind-ui-background: #ffffff;
   --pagefind-ui-border: #eeeeee;
@@ -53,7 +55,7 @@
   --theme-text-muted: #aaa;
   --theme-link: #8fb1de;
   --theme-link-quiet: #d3a473;
-  --theme-divider: #555;
+  --theme-divider: #343a40;
   --theme-bg: #21262b;
   --pagefind-ui-text: #e7e9ea;
   --pagefind-ui-background: #21262b;
@@ -64,7 +66,9 @@
 body {
   background: var(--theme-bg);
   color: var(--theme-text);
-  letter-spacing: 0.5px;
+  /* The reading column's 0.02em everywhere; a fixed 0.5px was 0.036em on the
+     14px summaries and dates and 0.019em on the 26px logo. */
+  letter-spacing: 0.02em;
 }
 
 site-search dialog {
@@ -82,4 +86,9 @@ html {
     color var(--transition-base),
     background-color var(--transition-base);
   scroll-behavior: smooth;
+}
+
+/* Latin sets without CJK tracking on the English pages, chrome included. */
+html[lang="en"] body {
+  letter-spacing: 0;
 }

@@ -35,7 +35,8 @@ body {
   background-color: transparent !important;
 }
 
-.heti p > img {
+.heti p > img,
+.heti p > video {
   margin-top: 8px;
 }
 
@@ -391,7 +392,7 @@ blockquote blockquote {
   border-collapse: collapse;
   border-width: 1px;
   border-style: solid;
-  border-color: #ccc;
+  border-color: var(--theme-divider);
   word-break: break-word;
 }
 
@@ -400,10 +401,6 @@ blockquote blockquote {
   background-color: rgba(39, 35, 29, 0.055);
   padding: 0.12em 0.38em;
   border-radius: 4px;
-}
-
-[data-theme="dark"] .heti table {
-  border-color: #404040 !important;
 }
 
 [data-theme="dark"] .heti p > code,
@@ -425,12 +422,7 @@ blockquote blockquote {
   padding-inline-end: 12px;
   border-width: 1px;
   border-style: solid;
-  border-color: #e5e7eb;
-}
-
-[data-theme="dark"] .heti th,
-[data-theme="dark"] .heti td {
-  border-color: #404040 !important;
+  border-color: var(--theme-divider);
 }
 
 .heti caption {
@@ -666,7 +658,6 @@ html[lang="en"] .heti :not(pre) > code {
 
 html[lang="en"] .heti :is(h1, .pay-button-wrapper, .newsletter, .post-footer) {
   font-family: var(--font-fallback);
-  letter-spacing: 0.02em;
 }
 
 ::marker {
