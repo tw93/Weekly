@@ -319,6 +319,16 @@ button:active {
   transform: scale(0.98);
 }
 
+/* The language button names the language it switches to, EN on a Chinese
+   page and 中 on an English one, in the same round button; a globe did not
+   read as a language switch (maintainer 2026-11-17). */
+.lang-label {
+  font-size: var(--font-size-small);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
 h2.heading {
   font-size: var(--font-size-base);
   font-weight: 700;

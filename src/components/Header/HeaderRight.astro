@@ -2,7 +2,6 @@
 import { SITE } from '@/config';
 import HeaderLink from './HeaderLink.astro';
 import Search from './Search.astro';
-import GlobeIcon from './GlobeIcon.astro';
 import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 
 const { blogPage, twitterId, githubId } = SITE;
@@ -24,6 +23,6 @@ const t = useTranslations(lang);
     title={lang === 'en' ? '中文' : 'English'}
     style='text-decoration: none;'
   >
-    <GlobeIcon />
+    <span class='lang-label' aria-hidden='true'>{lang === 'en' ? '中' : 'EN'}</span>
   </a>
 </div>

@@ -5,7 +5,6 @@ import AstroLogo from '../components/Header/AstroLogo.astro';
 import LeftSidebar from '../components/LeftSidebar.astro';
 import Search from '../components/Header/Search.astro';
 import ReaderModeToggle from '../components/ReaderModeToggle.astro';
-import GlobeIcon from '../components/Header/GlobeIcon.astro';
 import ParagraphShare from '../components/ParagraphShare.astro';
 import CodeCopy from '../components/CodeCopy.astro';
 import { SITE, GISCUS_CONFIG } from '@/config';
@@ -381,7 +380,7 @@ const giscusAttrs = {
             aria-label={translationLabel}
             title={translationLabel}
           >
-            <GlobeIcon />
+            <span class='lang-label' aria-hidden='true'>{lang === 'en' ? '中' : 'EN'}</span>
           </a>
         </h1>
         <slot />

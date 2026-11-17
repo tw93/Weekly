@@ -106,7 +106,7 @@ iframe {
 }
 
 a {
-  color: #1d9bf0;
+  color: var(--theme-link);
   cursor: pointer;
   transition: color 120ms ease-out, background-color 120ms ease-out, opacity 120ms ease-out;
 }
@@ -443,7 +443,7 @@ blockquote blockquote {
 
 .heti a {
   text-decoration: none;
-  color: #1d9bf0;
+  color: var(--theme-link);
 }
 
 .heti a:not(.pay-button):hover {
