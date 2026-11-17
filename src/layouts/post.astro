@@ -225,7 +225,7 @@ const giscusAttrs = {
 
       /* Puts the issue title and its buttons on the sidebar title's line. */
       #grid-main {
-        padding: 14px 32px 64px 32px;
+        padding: 14px 32px 40px 32px;
       }
 
       #grid-left {
@@ -293,8 +293,10 @@ const giscusAttrs = {
       border-block-end: none;
     }
 
+    /* The app line closes the page: well clear of the comments and close to
+       the page end, 40px on desktop and 32px on phones. */
     .post-apps {
-      margin: 40px 0 8px;
+      margin: 56px 0 0;
       text-align: center;
       font-size: var(--font-size-small);
       line-height: 1.5;
