@@ -1,7 +1,8 @@
 const CACHE_NAME = "weekly-cache-v1";
-// Issue pages rarely change after publishing, so repeat visits are served
-// from cache at once and refreshed in the background. Home pages stay
-// network-first so a newly published issue shows up immediately.
+// Issue pages go to the network first and fall back to the cache only when
+// it fails. Each issue page carries the whole issue list in its sidebar, so a
+// cached copy served first hid every issue published since (290 missing from
+// 289's sidebar, 2026-11-17); clicks stay fast through hover prerendering.
 const PAGE_CACHE = "weekly-pages-v1";
 const PAGE_CACHE_LIMIT = 40;
 const ISSUE_PAGE = /^\/(?:en\/)?posts\/\d+$/;
@@ -33,21 +34,24 @@ const trimPageCache = async (cache) => {
 
 const servePage = async (event) => {
   const cache = await caches.open(PAGE_CACHE);
-  const cached = await cache.match(event.request, { ignoreSearch: true });
-  const network = fetch(event.request).then(async (response) => {
+  try {
+    const response = await fetch(event.request);
     // Redirected responses cannot answer a navigation, so never store them.
     if (response.ok && !response.redirected) {
-      await cache.delete(event.request, { ignoreSearch: true });
-      await cache.put(event.request, response.clone());
-      await trimPageCache(cache);
+      const copy = response.clone();
+      event.waitUntil(
+        cache
+          .delete(event.request, { ignoreSearch: true })
+          .then(() => cache.put(event.request, copy))
+          .then(() => trimPageCache(cache)),
+      );
     }
     return response;
-  });
-  if (cached) {
-    event.waitUntil(network.catch(() => {}));
-    return cached;
+  } catch (error) {
+    const cached = await cache.match(event.request, { ignoreSearch: true });
+    if (cached) return cached;
+    throw error;
   }
-  return network;
 };
 
 self.addEventListener("fetch", (event) => {

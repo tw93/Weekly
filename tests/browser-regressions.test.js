@@ -65,3 +65,37 @@ test('the copy label sits on the first code line', () => {
   assert.ok(Math.abs(Number(fine[1]) + 2 + 10 - lineCentre) <= 1, 'fine pointer label is off the line');
   assert.ok(Math.abs(Number(coarse[1]) + Number(coarse[2]) + 10 - lineCentre) <= 1, 'touch label is off the line');
 });
+
+// Every issue page lists all issues in its sidebar, so serving a cached copy
+// first hid each new issue from the pages read before it (289 lost 290).
+test('issue pages come from the network and use the cache only offline', async () => {
+  const source = fs.readFileSync(path.join(root, 'public/sw.js'), 'utf8');
+  const run = async (fetchImpl) => {
+    const listeners = {}, stored = new Map([['/posts/289', 'cached']]);
+    const cache = {
+      match: async (req) => stored.get(new URL(req.url).pathname),
+      put: async (req, res) => stored.set(new URL(req.url).pathname, res),
+      delete: async () => true,
+      keys: async () => [...stored.keys()],
+    };
+    const context = {
+      self: { addEventListener: (name, fn) => (listeners[name] = fn), location: { origin: 'https://weekly.tw93.fun' } },
+      caches: { open: async () => cache, keys: async () => [], match: async () => undefined },
+      fetch: fetchImpl, URL, Promise,
+    };
+    vm.runInNewContext(source, context);
+    let answer;
+    const waits = [];
+    listeners.fetch({
+      request: { url: 'https://weekly.tw93.fun/posts/289', mode: 'navigate' },
+      respondWith: (p) => (answer = p),
+      waitUntil: (p) => waits.push(p),
+    });
+    const result = await answer;
+    await Promise.all(waits);
+    return result;
+  };
+  const fresh = { ok: true, redirected: false, clone() { return this; } };
+  assert.equal(await run(async () => fresh), fresh);
+  assert.equal(await run(async () => { throw new TypeError('offline'); }), 'cached');
+});
