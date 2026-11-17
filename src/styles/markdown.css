@@ -116,10 +116,11 @@ a:hover {
 }
 
 /* The reading rhythm MiaoYan's preview, its iPhone reader and tw93.fun share
-   (maintainer 2026-11-04): 17px body, 1.64 line height, 0.02em tracking. The
-   chrome around it keeps --font-size-base, which Tailwind's rem sizes follow. */
+   (maintainer 2026-11-04): 1.64 line height, 0.02em tracking. The body is
+   16px since 2026-11-17 (maintainer: 17 read big here), the size of the
+   chrome around it. */
 .heti {
-  font-size: 17px;
+  font-size: var(--font-size-base);
   font-weight: 400;
   -webkit-font-smoothing: subpixel-antialiased;
   line-height: 1.64;

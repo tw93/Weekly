@@ -7,7 +7,7 @@ import '../styles/index.css';
 <meta charset='utf-8' />
 <meta name='viewport' content='width=device-width, initial-scale=1' />
 <!-- Status bar colour on iPhone and Android, kept in step with the light/dark switch below. -->
-<meta name='theme-color' content='#fbfaf6' />
+<meta name='theme-color' content='#ffffff' />
 
 <!-- Resolve theme and reader mode before first paint so neither flashes. Re-run
 when a prerendered page is shown or a page returns from bfcache, since the
@@ -25,7 +25,7 @@ reader may have changed either setting on another page in the meantime. -->
     // --theme-bg in theme.css: the body colour, so the status bar runs into the page.
     const syncThemeColor = () => {
       const meta = document.querySelector('meta[name="theme-color"]');
-      if (meta) meta.content = root.dataset.theme === 'dark' ? '#1e1d1b' : '#fbfaf6';
+      if (meta) meta.content = root.dataset.theme === 'dark' ? '#21262b' : '#ffffff';
     };
     new MutationObserver(syncThemeColor).observe(root, { attributes: true, attributeFilter: ['data-theme'] });
     const apply = () => {

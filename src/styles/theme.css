@@ -29,19 +29,18 @@
 
   /* Light Theme Colors */
   color-scheme: light;
-  /* The warm paper of the product sites; pure white read cold beside the cup. */
-  --theme-bg: #fbfaf6;
+  --theme-bg: #fff;
   --theme-accent: #a67c52;
   --theme-text: #262626;
   /* Captions and quotes; 5.6:1 on the page. */
   --theme-text-muted: #6e6658;
   /* The cup's brown darkened to 5.4:1 for small link text. */
   --theme-link-quiet: #8c6239;
-  --theme-divider: #e5e2d8;
+  --theme-divider: #e6e6e6;
   --pagefind-ui-text: #393939;
-  --pagefind-ui-background: #fbfaf6;
-  --pagefind-ui-border: #ebe9df;
-  --pagefind-ui-tag: #ebe9df;
+  --pagefind-ui-background: #ffffff;
+  --pagefind-ui-border: #eeeeee;
+  --pagefind-ui-tag: #eeeeee;
 }
 
 [data-theme="dark"] {
@@ -50,13 +49,12 @@
   --theme-text: #e7e9ea;
   --theme-text-muted: #aaa;
   --theme-link-quiet: #d3a473;
-  --theme-divider: #4a4843;
-  /* MiaoYan's warm black; #21262b was a blue-grey. */
-  --theme-bg: #1e1d1b;
+  --theme-divider: #555;
+  --theme-bg: #21262b;
   --pagefind-ui-text: #e7e9ea;
-  --pagefind-ui-background: #1e1d1b;
-  --pagefind-ui-border: #34322e;
-  --pagefind-ui-tag: #34322e;
+  --pagefind-ui-background: #21262b;
+  --pagefind-ui-border: #333;
+  --pagefind-ui-tag: #333;
 }
 
 body {

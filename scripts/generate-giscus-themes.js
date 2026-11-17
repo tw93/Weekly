@@ -30,17 +30,17 @@ const darkStatus = {
 const themes = {
   "giscus-light.css": {
     scheme: "light", status: lightStatus,
-    bg: "#fbfaf6", text: "#262626", muted: "#666", subtle: "#6f6f6f", line: "#ebe9df",
-    fill: "#f2f0e9", fill_hover: "#ebe9e1", accent: "#a67c52",
+    bg: "#fff", text: "#262626", muted: "#666", subtle: "#767676", line: "#ebebeb",
+    fill: "#f5f5f5", fill_hover: "#ededed", accent: "#a67c52",
     reacted: "rgb(166 124 82 / 10%)", reacted_hover: "rgb(166 124 82 / 16%)",
     btn: "#a67c52", btn_text: "#fff", btn_disabled: "#d3bea9", btn_disabled_text: "#fffc",
   },
   "giscus-dark.css": {
     scheme: "dark", status: darkStatus,
-    bg: "#1e1d1b", text: "#e7e9ea", muted: "#aeaaa2", subtle: "#938e84", line: "#34322e",
-    fill: "#2a2927", fill_hover: "#33312e", accent: "#e8a15a",
+    bg: "#21262b", text: "#e7e9ea", muted: "#a9aeb3", subtle: "#8b949e", line: "#343a40",
+    fill: "#2a3035", fill_hover: "#323940", accent: "#e8a15a",
     reacted: "rgb(232 161 90 / 14%)", reacted_hover: "rgb(232 161 90 / 20%)",
-    btn: "#e7e9ea", btn_text: "#1e1d1b", btn_disabled: "#4d4a45", btn_disabled_text: "#aeaaa2",
+    btn: "#e7e9ea", btn_text: "#21262b", btn_disabled: "#4a5157", btn_disabled_text: "#a9aeb3",
   },
   "giscus-blog.css": {
     scheme: "light", status: lightStatus,
