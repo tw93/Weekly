@@ -35,7 +35,7 @@ TIME selected the top 100 people in AI. You can read their profiles and follow t
 **Can we animate app icons on iPhone?**  
 <https://bryce.co/animated-app-icons/>  
 Many iOS developers have wondered if it's possible to animate home screen icons. This article "Tricking iOS Into Animating App Icons" is a fascinating read on how to actually achieve it.  
-<video width="500px" preload loop autoplay muted><source src="https://gw.alipayobjects.com/os/k/a1/GitHubIcon.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/8b9016418c4c.webp" width="500px" preload loop autoplay muted><source src="https://gw.alipayobjects.com/os/k/a1/GitHubIcon.mp4" type="video/mp4"></video>
 
 ## Random Notes
 
@@ -54,7 +54,7 @@ While re-reading "Being Systemic," I found a quote that perfectly matches a vide
           <img src="https://cdn.tw93.fun/blog/upic/1719151062.JPG" width="300px" />
         </td>
         <td width="70%">
-            <video width="600px" preload controls><source src="https://cdn.tw93.fun/blog/upic/1719151127.mp4" type="video/mp4"></video>
+            <video poster="https://weekly.tw93.fun/assets/posters/3a645b585760.webp" width="600px" preload controls><source src="https://cdn.tw93.fun/blog/upic/1719151127.mp4" type="video/mp4"></video>
         </td>
     </tr>
 </table>

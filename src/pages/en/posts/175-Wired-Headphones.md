@@ -106,4 +106,4 @@ The internet has a memory.
 
 **US Parents vs. Indian Parents vs. Chinese Parents**  
 This video hilariously captures the different educational styles across cultures.  
-<video width="400px" preload loop controls><source src="https://gw.alipayobjects.com/os/k/eh/fumu.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/3235cea1767f.webp" width="400px" preload loop controls><source src="https://gw.alipayobjects.com/os/k/eh/fumu.mp4" type="video/mp4"></video>

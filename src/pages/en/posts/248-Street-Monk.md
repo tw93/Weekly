@@ -53,7 +53,7 @@ Today I needed to transfer a playlist from NetEase Cloud Music to Apple Music. I
 <img src="https://cdn.tw93.fun/blog/upic/GYKNyg.png" width="800" />
 
 **Li Zhi's CD brought back, feels great listening to it**
-<video width="800px" preload controls><source src="https://cdn.tw93.fun/blog/upic/bb6nqz.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/19bdab088a7a.webp" width="800px" preload controls><source src="https://cdn.tw93.fun/blog/upic/bb6nqz.mp4" type="video/mp4"></video>
 
 **Notes for this week**
 Investment strategy still suitable for current AI-related US stocks:

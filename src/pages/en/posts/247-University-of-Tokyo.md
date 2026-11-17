@@ -3,7 +3,7 @@ date: 2025/12/01
 image: https://cdn.tw93.fun/blog/upic/XSTTmB.jpg
 ---
 
-<video width="800px" preload loop autoplay muted><source src="https://cdn.tw93.fun/blog/upic/N0V3nI.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/14428cc8d292.webp" width="800px" preload loop autoplay muted><source src="https://cdn.tw93.fun/blog/upic/N0V3nI.mp4" type="video/mp4"></video>
 
 <small>The cover image was taken at the huge ginkgo tree inside the University of Tokyo. It feels very special. Last week, I made a trip to Tokyo specifically to take a cover photo for the weekly and to share some experiences from the journey with everyone.</small>
 

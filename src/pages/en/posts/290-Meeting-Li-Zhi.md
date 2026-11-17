@@ -113,4 +113,4 @@ Help me slim down the context this project gives the Agent and the Skills I've i
 ---
 
 **Ending with a Li Zhi video, I hope you're happy!**
-<video width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/notes/13_2121632076097277952.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/aa21e742dead.webp" width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/notes/13_2121632076097277952.mp4" type="video/mp4"></video>

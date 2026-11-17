@@ -23,7 +23,7 @@ This release updates a ton of things, including support for users with accessibi
 
 It's been exactly one month since Mole's Mac version launched, written in my spare time, and the numbers are kind of fun. In total I wrote 110,000 lines of Swift, including 36,000 lines of test code and 1,983 unit tests, shipped 8 releases, added 145 new features, and supported 9 languages. Anyone interested is welcome to give it a try. More surprises to come.
 
-<video width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/blog/pic/mole318.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/5e3a37617b18.webp" width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/blog/pic/mole318.mp4" type="video/mp4"></video>
 
 **Kaku has finally updated to version 0.12 as well**
 Kaku even has its own little official site now <https://kaku.fun/>, go take a look. This update brings quite a few things: it now restores session history after you reopen a window, supports AI features you can use directly once logged in with the Codex backend, opens PDFs, images, audio and video, archives, and Office documents with the system default app, and when all panels are sitting at the shell prompt, Cmd+Q quits directly, plus other fun features. Go check out the Release.

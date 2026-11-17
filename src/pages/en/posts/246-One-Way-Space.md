@@ -29,7 +29,7 @@ If you have a speaker next to your Mac, be sure to try opening "Audio MIDI Setup
 **You can now use VSCode to develop and debug Mac apps**
 It's been a long time since I used Xcode to develop Mac software because I found that VSCode can develop and debug Swift apps. You need to install the "LLDB DAP" and "Swift" extensions, then configure debugging in `vscode/launch.json` and automatic build in `.vscode/tasks.json`. Finally, you can happily develop, preview, and debug with `fn+F5`.
 A lazy way is to let AICoding help you write these two configurations after you install the plugin. Of course, you can also ask ChatGPT if you don't understand.
-<video width="800px" preload loop autoplay controls muted><source src="https://gw.alipayobjects.com/os/k/p0/miaoyanvscode.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/79eb1a17125c.webp" width="800px" preload loop autoplay controls muted><source src="https://gw.alipayobjects.com/os/k/p0/miaoyanvscode.mp4" type="video/mp4"></video>
 
 **Quiver Quantitative: Track investment transactions of US Congress members**
 <https://www.quiverquant.com/>

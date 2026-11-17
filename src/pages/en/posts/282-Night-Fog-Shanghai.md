@@ -13,7 +13,7 @@ date: 2026/09/14
 **Mac Duo: bring the iPhone Duo closing animation to the MacBook**
 <https://github.com/sumimakito/Mac-Duo>
 Haha, not really useful, but kind of fun. When you close the lid the screen tilts, blurs, and fades out. You can adjust the viewing angle from the menu bar. Needs a model with a lid-angle sensor.
-<video width="800px" preload="metadata" loop autoplay controls muted><source src="https://cdn.fliggy.com/pic/649752999-3ea3b098-c6d2-4398-8f3a-e9087bbb33f229.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/06919e54664f.webp" width="800px" preload="metadata" loop autoplay controls muted><source src="https://cdn.fliggy.com/pic/649752999-3ea3b098-c6d2-4398-8f3a-e9087bbb33f229.mp4" type="video/mp4"></video>
 
 **MacTap: tap the chassis or the desk to trigger shortcuts**
 <https://github.com/jaskirat1616/mactap-app>
@@ -27,7 +27,7 @@ A table comparing iPhone SIM, Apple Intelligence, and warranty differences acros
 
 **Saw this Xiaohongshu video by Mac Zhang introducing Mole**
 Saw this Xiaohongshu video by Mac Zhang introducing Mole. He put a lot of care into it. Showing a product in video is way clearer than the text version, and product people could learn a lot from it. Thanks for the intro. If you have not used Mole yet, I really recommend watching this. He covers almost every feature clearly, better than the official site. When I have time I should learn to make videos too.
-<video width="800px" preload="metadata" controls preload><source src="https://cdn.fliggy.com/pic/mole-xhs43.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/4113917ada97.webp" width="800px" preload="metadata" controls preload><source src="https://cdn.fliggy.com/pic/mole-xhs43.mp4" type="video/mp4"></video>
 
 ## Just Looking Around
 
@@ -37,7 +37,7 @@ A big piece of weekend news in the AI circle. Dario publicly called for slowing 
 
 **Come listen to Dou Wei's Higher Animals~**
 Dug up an old CD of the 1994 Chinese Rock Power concert. Come listen to Dou Wei's Higher Animals~
-<video width="400px" preload="metadata" preload controls><source src="https://cdn.fliggy.com/pic/IMG_3359-hq05.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/e7cf6126f92f.webp" width="400px" preload="metadata" preload controls><source src="https://cdn.fliggy.com/pic/IMG_3359-hq05.mp4" type="video/mp4"></video>
 
 **iOS third-party keyboards got a new feature, no more jumping out for voice**
 iOS third-party keyboards got a new feature. Finally, finally, using voice no longer jumps you over to the app for a flash. Usually you just turn on floating window mode in the keyboard settings. This is the WeChat Keyboard setting. If you use it, give it a try, so much more convenient.

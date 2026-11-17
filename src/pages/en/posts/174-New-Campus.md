@@ -3,7 +3,7 @@ date: 2024/04/29
 image: https://gw.alipayobjects.com/zos/k/curces/174.png
 ---
 
-<video width="800px" preload playsinline autoplay loop><source src="https://gw.alipayobjects.com/os/k/tt/ScreenFlow.mp4" type="video/mp4" poster="https://gw.alipayobjects.com/zos/k/curces/174.png?x-oss-process=image/resize,w_1640/format,webp"></video>
+<video poster="https://gw.alipayobjects.com/zos/k/curces/174.png?x-oss-process=image/resize,w_1640/format,webp" width="800px" preload playsinline autoplay loop><source src="https://gw.alipayobjects.com/os/k/tt/ScreenFlow.mp4" type="video/mp4"></video>
 
 <small>The cover photo was taken last week when I visited the new office park we're moving to next month. The environment is great, and there's even a football field. It feels very much like a university campus. I'm looking forward to working there.</small>
 

@@ -13,7 +13,7 @@ date: 2024/08/05
 **Trending Weekly now supports Dark Mode! 🤣**  
 <https://weekly.tw93.fun/>  
 Go try the toggle button in the bottom right corner. It's perfect for night reading or for users who stay in a system dark theme but want a bright reading experience. Switch as you like!  
-<video width="800px" preload loop autoplay muted><source src="https://gw.alipayobjects.com/os/k/9h/weekly.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/c491d5f3414c.webp" width="800px" preload loop autoplay muted><source src="https://gw.alipayobjects.com/os/k/9h/weekly.mp4" type="video/mp4"></video>
 
 **Sink: A solid open-source short link tool**  
 <https://sink.cool/>  

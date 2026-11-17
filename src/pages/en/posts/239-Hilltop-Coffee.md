@@ -29,7 +29,7 @@ This open-source product has been maintained for about 5 years, incorporating ma
 Recently, I've been trying Tencent's EdgeOne, which offers an excellent free public service for developers, somewhat similar to Cloudflare but easier to get started with. For small teams polishing an MVP, it's a great way to quickly launch and validate ideas.
 What I like most is its "Pages" one-click deployment, which feels very similar to Vercel but with a larger quota. Linking the repository, compiling, deploying, and binding the domain takes basically 1 minute, and it comes with automatic HTTPS certificates. I deployed this Weekly on it, and the process was smooth with fast page loading.
 EdgeOne Pages recently upgraded its full-stack capabilities, supporting Node.js, Next.js (SSR, ISR), and Node Functions, and even has a CLI for local debugging, making it feel more like a complete edge full-stack development platform. It's quite fun to play with.
-<video width="800px" preload loop autoplay controls muted><source src="https://gw.alipayobjects.com/os/k/98cqck/edgeone.mp4" type="video/msg4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/ca713268ce9e.webp" width="800px" preload loop autoplay controls muted><source src="https://gw.alipayobjects.com/os/k/98cqck/edgeone.mp4" type="video/msg4"></video>
 
 **Mactracker: Find all sorts of information on Apple hardware**
 <https://mactracker.ca/>

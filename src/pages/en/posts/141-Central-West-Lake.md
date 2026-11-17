@@ -23,7 +23,7 @@ HTMX paired with AI-assisted coding feels like a powerhouse combination. Check o
 **Sweep: Your AI Junior Developer**  
 <https://github.com/sweepai/sweep>  
 Unlike Copilot, which suggests code line-by-line, Sweep reads your GitHub issues, scans your codebase, and submits full pull requests for features or bug fixes. It’s like having a digital intern for your project.  
-<video width="800px" muted preload autoplay loop><source src="https://cdn.tw93.fun/blog/upic/CCPMgc.mp4" type="video/mp4" poster="https://cdn.tw93.fun/blog/upic/VtPBqw.png"></video>
+<video poster="https://cdn.tw93.fun/blog/upic/VtPBqw.png" width="800px" muted preload autoplay loop><source src="https://cdn.tw93.fun/blog/upic/CCPMgc.mp4" type="video/mp4"></video>
 
 **MicroSculpture: Examining Insects in HD**  
 <http://microsculpture.net/>  

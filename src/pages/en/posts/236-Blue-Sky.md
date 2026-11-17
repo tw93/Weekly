@@ -39,7 +39,7 @@ This ranking of Chinese GitHub users is quite interesting; it even includes a ca
 **Xcode 26 Beta 7 supports native Claude Code**  
 <https://developer.apple.com/news/releases/?id=08282025a>  
 Give it a try; it's decent. But Apple, you still need to hurry up and work harder on AI. Supporting Claude Code to this extent is already pretty good.  
-<video width="800px" preload loop autoplay controls muted><source src="https://gw.alipayobjects.com/os/k/17/hkEvqjf8Mp00RmwQ.mp4" type="video/mg4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/2e41099b7239.webp" width="800px" preload loop autoplay controls muted><source src="https://gw.alipayobjects.com/os/k/17/hkEvqjf8Mp00RmwQ.mp4" type="video/mg4"></video>
 
 **Really like this style of online photo display**  
 <https://photos.sambecker.com>  

@@ -3,7 +3,7 @@ date: 2023/12/11
 image: https://gw.alipayobjects.com/zos/k/wa/156.jpg
 ---
 
-<video width="800px" muted preload autoplay loop><source src="https://cdn.tw93.fun/blog/upic/IKAUAs.mp4" type="video/mp4" poster="https://gw.alipayobjects.com/zos/k/wa/156.jpg"></video>
+<video poster="https://gw.alipayobjects.com/zos/k/wa/156.jpg" width="800px" muted preload autoplay loop><source src="https://cdn.tw93.fun/blog/upic/IKAUAs.mp4" type="video/mp4"></video>
 
 <small>The cover photo was taken from the Shinkansen between Osaka and Tokyo. The weather was perfect, and I managed to capture Mount Fuji 🗻 in the distance. A beautiful 5-minute view.</small>
 

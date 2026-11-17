@@ -40,9 +40,9 @@ This post interprets 4 papers from Meituan's tech team that were accepted by ACL
 
 **Haha! This made me laugh until I cried**  
 Just some humor—many comedy clips can be traced back to a core of tragedy, but let's just enjoy the laugh.  
-<video width="400px" preload controls><source src="https://gw.alipayobjects.com/os/k/xfefa1/1040g00g3168bai8tha005o42o5pg8oh9au63ur8.MP4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/c856150d0a3f.webp" width="400px" preload controls><source src="https://gw.alipayobjects.com/os/k/xfefa1/1040g00g3168bai8tha005o42o5pg8oh9au63ur8.MP4" type="video/mp4"></video>
 
 **Yamaki's hilarious video**  
 <https://www.bilibili.com/video/BV1jT421r7XE/>  
 This video is too funny. Created by "Shi Yamaki Ya," a designer with great style.  
-<video width="800px" preload controls><source src="https://gw.alipayobjects.com/os/k/8ufr4n/LGgOLTDzySC8pcX5.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/ec10fc8a006c.webp" width="800px" preload controls><source src="https://gw.alipayobjects.com/os/k/8ufr4n/LGgOLTDzySC8pcX5.mp4" type="video/mp4"></video>

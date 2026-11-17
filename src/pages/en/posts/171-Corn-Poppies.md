@@ -3,7 +3,7 @@ date: 2024/04/08
 image: https://gw.alipayobjects.com/zos/k/cu/171.jpg
 ---
 
-<video width="800px" preload playsinline autoplay loop><source src="https://gw.alipayobjects.com/os/k/i6u67h/yumeiren.mp4" type="video/mp4" poster="https://gw.alipayobjects.com/zos/k/cu/171.jpg"></video>
+<video poster="https://gw.alipayobjects.com/zos/k/cu/171.jpg" width="800px" preload playsinline autoplay loop><source src="https://gw.alipayobjects.com/os/k/i6u67h/yumeiren.mp4" type="video/mp4"></video>
 
 <small>The cover photo shows "Yumeiren" (Corn Poppies) taken at Jingshan Flower Sea during the holiday. The sign calls them "Wild Poppies." It was my first time observing them closely—they are beautiful, especially when swaying in the wind.</small>
 

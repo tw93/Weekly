@@ -16,7 +16,7 @@ This time, I used Gource to make another video of the commit records, set to my 
 
 In the past, when watching such videos, I focused on the evolution of the code. This time, I saw more of life's trajectory: sometimes bustling with many people around, sometimes peaceful as I moved forward slowly alone, resting for a while before catching up, and then new friends joining. Overall, it's not rushed or impatient, valuing long-term accumulation and continuous investment. Just doing what I love—how is that not an interesting life?
 
-<video width="800px" preload controls><source src="https://cdn.tw93.fun/blog/upic/etrHP7.MP4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/85fb2b7411cd.webp" width="800px" preload controls><source src="https://cdn.tw93.fun/blog/upic/etrHP7.MP4" type="video/mp4"></video>
 
 ## Trending Tools
 
@@ -33,7 +33,7 @@ Supports multi-account and cross-region operations for iPhone and Mac, providing
 **You might find this feature of MiaoYan useful**
 <https://github.com/tw93/MiaoYan>
 MiaoYan has added a quick input feature: type a keyword + Tab to insert text instantly. It's quite suitable for lazy folks, supporting common commands like `table`, `markmap`, `mermaid`, `plantuml`, `video`, and `fold`. Most are common but tedious-to-type Markdown commands for engineers. You can find them in Menu Bar -> Format. Interested friends can give it a try, and there are other features to explore.
-<video width="800px" preload loop autoplay muted><source src="https://cdn.tw93.fun/blog/upic/VSVvOj.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/a65353f506e5.webp" width="800px" preload loop autoplay muted><source src="https://cdn.tw93.fun/blog/upic/VSVvOj.mp4" type="video/mp4"></video>
 
 ## Just Looking Around
 

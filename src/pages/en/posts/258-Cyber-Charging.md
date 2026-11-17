@@ -48,7 +48,7 @@ I've been using NetEase's LobsterAI recently. Looking at their changelog, they'v
 I tried an interesting combo this time. I've been curious about the TV series "Taiping Years" and wanted to brush up on the Five Dynasties and Ten Kingdoms period of history. So I just threw in a prompt: "Organize the timeline and key knowledge points of the Five Dynasties and Ten Kingdoms into a PDF with high information density, and also search for any cloud storage resources for Taiping Years." It called three Skills - web-search, pdf, and films-search. The PDF was generated directly with a clear timeline and decent formatting; the resource search actually found download links, saving me the time of digging through various sites.
 
 Skills save time on building tool chains, writing scripts, and cleaning data. For engineers, it turns what used to require setting up workflows into direct API calls, with deduplication, formatting, and summarization handled together. Combined, you can do more - like monitoring a competitor's weekly updates, using web-search to fetch them, extracting key changes with playwright, and generating a competitor report, all in one place. If you're interested, start with your most repetitive high-frequency scenarios. Give LobsterAI's latest Skills a try.
-<video width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/pic/wy17.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/32ac621f49ac.webp" width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/pic/wy17.mp4" type="video/mp4"></video>
 
 **SuperCmd: Open-source macOS launcher with more features than expected**
 <https://github.com/SuperCmdLabs/SuperCmd>
@@ -73,7 +73,7 @@ Guys, Taiping Years is sooooo good - go watch it. It's really great, the kind wh
 
 **Aerial view of Xixi Wetland**
 Welcome to listen to Li Zhi's "Castle in the Sky" while watching this aerial view of Xixi Wetland - it looks quite beautiful from above. Should be even more stunning by mid-March.
-<video width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/upic/pHKa5r.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/50665a2205e8.webp" width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/upic/pHKa5r.mp4" type="video/mp4"></video>
 
 **Rong Xiao Guan is quite fresh!**
 If you're shopping at Hangzhou Tower, try this place on the 8th floor of the new Building B. It's pretty good - light but delicious and fresh.

@@ -22,6 +22,7 @@ Done means the issue is live on `main` in both languages, its Discussion carries
 - Cover: the newest image in `~/Downloads`, converted with `sips -s format jpeg -s formatOptions 85 <src> --out public/assets/{n}.jpg`. A phone photo carries GPS, which sips keeps and `tests/image-privacy.test.js` rejects; when `mdls -name kMDItemLatitude` shows a value, re-encode with Pillow instead, dropping EXIF tag `0x8825` and keeping orientation and the ICC profile (288).
 - Check each entry's link against its own screenshot and the previous issue before copying: 289's Runlayer entry carried last week's OpenUsage link while its screenshot's address bar read `mcp-explained.com`. 
 - Missing media the text refers to: search earlier issues first (`rg` over `src/pages/posts`), reuse the exact tag, and add it to both twins.
+- Videos: run `pnpm video:posters` after both twins exist. It takes a frame from each new video into `public/assets/posters/` and writes the poster into both tags; look at the frame, since a fade-in or an empty window can pass its blank check, and replace it with a better moment when it says nothing. `tests/video-posters.test.js` fails on a video without one.
 - Run `pnpm sync:content` and `pnpm test`, check `dist/posts/{n}/` and `dist/en/posts/{n}/` exist, then commit and push per the global Git rules. `git fetch` first: the bot commits `Updated content` to `main` often.
 
 ## 2. Discussion reactions

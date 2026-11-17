@@ -33,7 +33,7 @@ A brilliant resource for anyone looking to work remotely. It ranks thousands of 
 **Stable Diffusion + Deforum: Fun with AIGC**  
 <https://www.youtube.com/watch?v=n4zj1lrbIEM>  
 Check out some of the hilarious animations being made by combining AI image generation with specific video frames. Truly the next frontier for internet comedy.  
-<video width="800px" muted preload autoplay loop><source src="https://cdn.tw93.fun/blog/upic/ZPFJvz.MP4" type="video/mp4" poster="https://gw.alipayobjects.com/zos/k/cp/e7PH4w.jpg"></video>
+<video poster="https://gw.alipayobjects.com/zos/k/cp/e7PH4w.jpg" width="800px" muted preload autoplay loop><source src="https://cdn.tw93.fun/blog/upic/ZPFJvz.MP4" type="video/mp4"></video>
 
 **Final2x: Upscale Your Images with AI**  
 <https://github.com/Tohrusky/Final2x>  
@@ -47,7 +47,7 @@ A cross-platform tool that uses multiple models (RealCUGAN, RealESRGAN, etc.) To
 2. support for native notifications and camera/mic permissions.
 3. Fixed ChatGPT input conflicts.
 4. optimized downloads and navigation.  
-<video width="800px" preload><source src="https://cdn.tw93.fun/blog/upic/oCEnvm.mp4" type="video/mp4" poster="https://cdn.tw93.fun/blog/upic/7I3Mtt.jpg"></video>
+<video poster="https://cdn.tw93.fun/blog/upic/7I3Mtt.jpg" width="800px" preload><source src="https://cdn.tw93.fun/blog/upic/oCEnvm.mp4" type="video/mp4"></video>
 
 ## Just Looking Around
 

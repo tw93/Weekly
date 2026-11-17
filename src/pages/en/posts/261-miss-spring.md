@@ -20,7 +20,7 @@ After writing "The Claude Code You Don't Know: Architecture, Governance, and Eng
 **Mole Released Version 1.31**
 <https://github.com/tw93/mole>
 Mole released version v1.31.0 over the weekend, codenamed Makima. It features faster performance and more accurate system status reporting. Huge thanks to all the contributors! I also made a video so everyone can feel the power of open source.
-<video width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/pic/mole04.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/ec2c3975c28b.webp" width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/pic/mole04.mp4" type="video/mp4"></video>
 
 ## Trending Tools
 

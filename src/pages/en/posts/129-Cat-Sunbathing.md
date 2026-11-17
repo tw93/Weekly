@@ -30,12 +30,12 @@ A transcript of one of Haozi Shu's last live streams, where he shared his dreams
 🔮 I tried it: asking for yesterday's top ten US stock gainers, yesterday's price of a specific stock, the latest news from Twitter, today's top ten GitHub projects and so on, and the data it gave back was basically all correct. Compared with the plugins from a few days ago, this feature gives ChatGPT wings. In the video I also clicked open its detailed steps so you can see the process.  
 🧐 Overall, though, many websites block crawling in their robots.txt, many Chinese sites for example. It tries a few times and, if that fails, apologizes and says it cannot find it. It is also fairly slow for now, since it has to find the link, open it and analyze the data, even slower than plugins, but it is fun to play with and dig into new features.  
 🤖 Thinking one step further, this is really a new way for AI to interact with today's web. Maybe when building pages we will need to consider the case where the User-Agent is ChatGPT-User, so AI can understand our pages better, which is quite novel.  
-<a href="https://gw.alipayobjects.com/os/k/u9aktk/webplugin.mp4" target="_blank"><video width="800px" autoplay preload loop muted><source src="https://gw.alipayobjects.com/os/k/u9aktk/webplugin.mp4" type="video/mp4"></video></a>
+<a href="https://gw.alipayobjects.com/os/k/u9aktk/webplugin.mp4" target="_blank"><video poster="https://weekly.tw93.fun/assets/posters/6b5d4f915ffc.webp" width="800px" autoplay preload loop muted><source src="https://gw.alipayobjects.com/os/k/u9aktk/webplugin.mp4" type="video/mp4"></video></a>
 
 **Zeabur: A Refined Deployment Platform**  
 <https://zeabur.com>  
 Zeabur is a beautiful deployment platform that automates the deployment strategy based on your code. Unlike Vercel, it’s just as good at handling backend services (Java, Python) and databases as it is with frontend projects.  
-<a href="https://gw.alipayobjects.com/os/k/03bxdn/1.mp4" target="_blank"><video width="800px" autoplay preload loop muted><source src="https://gw.alipayobjects.com/os/k/03bxdn/1.mp4" type="video/mp4"></video></a>
+<a href="https://gw.alipayobjects.com/os/k/03bxdn/1.mp4" target="_blank"><video poster="https://weekly.tw93.fun/assets/posters/3209df5c92c4.webp" width="800px" autoplay preload loop muted><source src="https://gw.alipayobjects.com/os/k/03bxdn/1.mp4" type="video/mp4"></video></a>
 
 **Veloren: A Multiplayer Voxel RPG Written in Rust**  
 <https://veloren.net/>  

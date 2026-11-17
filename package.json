@@ -22,6 +22,7 @@
     "astro": "astro",
     "postbuild": "pagefind --site dist --silent",
     "image:probe": "node scripts/probe-images.js",
+    "video:posters": "node scripts/add-video-posters.js",
     "brand:generate": "node scripts/generate-brand-assets.js",
     "sync:content": "node build.js && astro build && node scripts/generate-weekly-skill.js --write-from-api dist/api/posts.json",
     "check:content": "node scripts/check-content-parity.js --dist-api dist/api/posts.json",

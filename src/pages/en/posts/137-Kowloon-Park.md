@@ -51,7 +51,7 @@ A classic lesson from Li Yongle on the difference between the poor and the rich,
 **Deekay’s Character Animations**  
 <https://deekaykwon.com/>  
 If you love motion design, follow Deekay. His work is full of playful, incredibly polished character animations—perfect inspiration for game or web design.  
-<video width="800px" autoplay preload loop muted><source src="https://gw.alipayobjects.com/os/k/hw/ani.mp4" type="video/mp4" poster="https://gw.alipayobjects.com/zos/k/st/VPelcE.png"></video>
+<video poster="https://gw.alipayobjects.com/zos/k/st/VPelcE.png" width="800px" autoplay preload loop muted><source src="https://gw.alipayobjects.com/os/k/hw/ani.mp4" type="video/mp4"></video>
 
 **Apps I Regret Buying (V2EX)**  
 <https://v2ex.com/t/927250>  

@@ -54,7 +54,7 @@ A few fun features shipped in this version that should be genuinely helpful.
 2. **Option+Click to move the cursor**: Click anywhere on the current line to move the cursor there.
 3. **Window pinning**: Pin the window to the front via the Window menu, and toggle it on or off anytime.
 
-<video width="800px" preload loop autoplay controls muted><source src="https://gw.alipayobjects.com/os/k/ke/kaku.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/7fa9af0b0533.webp" width="800px" preload loop autoplay controls muted><source src="https://gw.alipayobjects.com/os/k/ke/kaku.mp4" type="video/mp4"></video>
 
 ## Trending Tools
 
@@ -113,4 +113,4 @@ Some folks worry that nobody will read what they write, so they hold back or jus
 
 That took 10 minutes to write. Done. Happy to hear how you learn new fields. The video below is a recording of the learning repo for the LLM training article I mentioned, the one coming out soon. It shows my "industrial-scale" way of learning. Kind of fun to look at.
 
-<video width="800px" preload controls muted><source src="https://cdn.tw93.fun/blog/pic/llm45.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/ed7e558e54ae.webp" width="800px" preload controls muted><source src="https://cdn.tw93.fun/blog/pic/llm45.mp4" type="video/mp4"></video>

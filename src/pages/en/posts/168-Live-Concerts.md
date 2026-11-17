@@ -43,4 +43,4 @@ An open-source, multi-platform downloader built with Go and Flutter. It's lightw
 <img src="https://gw.alipayobjects.com/zos/k/jx/gaoxiao1.png" width="360" />
 
 **The Best Cover of Jay Chou's "Maple" (枫)**  
-<video width="800px" preload playsinline controls><source src="https://gw.alipayobjects.com/os/k/we/videoplayback.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/4f4f739d0b59.webp" width="800px" preload playsinline controls><source src="https://gw.alipayobjects.com/os/k/we/videoplayback.mp4" type="video/mp4"></video>

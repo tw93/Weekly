@@ -27,7 +27,7 @@ A collection of English learning methods by Li Xiaolai—very practical and wort
 **screenshot-to-code: Convert Screenshots to Frontend Code**  
 <https://github.com/abi/screenshot-to-code>  
 An open-source tool that uses GPT-4 Vision to convert screenshots into real frontend code, and DALL-E 3 to generate similar-looking placeholder images. It even supports cloning a site from a URL. Once this matures, frontend devs can focus on even more meaningful problems.  
-<video width="800px" muted preload autoplay loop><source src="https://cdn.tw93.fun/blog/upic/AUGGp2.mp4" type="video/mp4" poster="https://cdn.tw93.fun/blog/upic/Gmfeg6.png"></video>
+<video poster="https://cdn.tw93.fun/blog/upic/Gmfeg6.png" width="800px" muted preload autoplay loop><source src="https://cdn.tw93.fun/blog/upic/AUGGp2.mp4" type="video/mp4"></video>
 
 **Chi's Inspiration Collection**  
 <https://uxchi.notion.site/881b4c0179a74935a3f607ad3521cdb5>  

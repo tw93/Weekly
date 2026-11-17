@@ -80,7 +80,7 @@ I really like Ji Yichao, such a grounded tech expert, completely different from 
 
 **Qwen's 2025 Adventure Video is Interesting**
 A year of constantly upgrading and fighting monsters in the coding world, the video is made quite interestingly.
-<video width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/upic/PwUHDf.MP4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/7c3a0acdca05.webp" width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/upic/PwUHDf.MP4" type="video/mp4"></video>
 
 **Cloudflare's 2025 Internet Year in Review**
 <https://radar.cloudflare.com/year-in-review/2025>

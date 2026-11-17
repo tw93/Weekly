@@ -13,7 +13,7 @@ date: 2025/10/20
 **🎉 MiaoYan: A Markdown note-taking app more suitable for engineers**
 <https://github.com/tw93/MiaoYan>
 MiaoYan, a simple and easy-to-use Markdown note app, recently updated to V2.1. It features enhanced PPT presentation mode, Tab quick input, automatic TOC generation, and optimized chart styles for Mermaid, Markmap, PlantUML, etc. This video introduces the way to write PPTs with Markdown—perfect for those who like to take shortcuts. Other features are welcome to be explored.
-<video width="800px" preload loop autoplay muted><source src="https://gw.alipayobjects.com/os/k/app/miaoppt.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/012bd165fded.webp" width="800px" preload loop autoplay muted><source src="https://gw.alipayobjects.com/os/k/app/miaoppt.mp4" type="video/mp4"></video>
 
 **🎉 Mole: Dig deep like a mole to clean your Mac**
 <https://github.com/tw93/Mole>

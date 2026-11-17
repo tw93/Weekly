@@ -30,7 +30,7 @@ Performance and reliability have been continuously enhanced. Note content uses l
 In terms of file and layout management, **the sidebar now supports subfolders and expanded state maintenance**, making folder nesting more natural. Sidebar width and split-column initialization logic have been fixed to avoid layout issues left over from old versions. Added content protection when quickly switching split screens to prevent old content rollback.
 
 In addition, the export experience has been fully upgraded, adding progress prompts and title injection. PDF / Image / PPT export quality and consistency are significantly improved, and export effects in dark mode are now consistent with the preview. Preview style details have been synchronized, including alignment rules, removal of image link underlines, and softer directory prompts. Installation documents and release processes have also been updated, adding build scripts and export configurations, making maintenance and release clearer.
-<video width="800px" preload loop autoplay muted><source src="https://cdn.tw93.fun/blog/upic/IB5tYM.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/dbd10c0695eb.webp" width="800px" preload loop autoplay muted><source src="https://cdn.tw93.fun/blog/upic/IB5tYM.mp4" type="video/mp4"></video>
 
 **If you also use the official ChatGPT client, try my configuration**
 I found a simple and useful trick. When you find your ChatGPT is too wordy and the output isn't crisp enough, I highly recommend going to Settings -> Personalization, setting the style to "Professional", and setting the traits like Emojis to "Less". This way, your ChatGPT's responses will be much more comfortable, very suitable for engineers. You can also add my custom instructions, which I find makes it much better.
@@ -72,7 +72,7 @@ brew install --cask --no-quarantine antigravity-tools
 
 **Show you my drone recording**
 A rookie's second drone video. The background music is "Swift" by Nanqing Band, which I've been listening to a lot recently. It was all pretty beautiful until the end—you must watch until the end, the crash came very suddenly.
-<video width="800px" preload controls><source src="https://cdn.tw93.fun/blog/upic/mgdMjR.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/fd03af609d5a.webp" width="800px" preload controls><source src="https://cdn.tw93.fun/blog/upic/mgdMjR.mp4" type="video/mp4"></video>
 
 **Zhang Gong Guan's salt and pepper duck head is the best I've ever had, highly recommended!**
 <img src="https://cdn.tw93.fun/blog/upic/4HzHk3.png" width="800" />

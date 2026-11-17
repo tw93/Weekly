@@ -3,7 +3,7 @@ date: 2025/06/30
 image: https://cdn.tw93.fun/blog/upic/22722.gif
 ---
 
-<video width="800px" preload muted autoplay loop ><source src="https://cdn.tw93.fun/blog/upic/22722.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/7e2633c5e4a7.webp" width="800px" preload muted autoplay loop ><source src="https://cdn.tw93.fun/blog/upic/22722.mp4" type="video/mp4"></video>
 
 <small>The cover video was taken while returning from Qiandao Lake to Hangzhou in early May. The weather after the rain was very cool. I really love the mountain mist and greenery—quite a contrast to the intense heat of this weekend.</small>
 
@@ -45,4 +45,4 @@ Claude also recently released an article on how they built their multi-agent res
 
 **Random Listening: Nicholas Tse's "Because of Love, so Love" on tape on a weekend night**  
 Headphones recommended if you're in an office to avoid disturbing colleagues.  
-<video width="800px" preload playsinline controls><source src="https://cdn.tw93.fun/blog/upic/VID2025062921332022.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/637466c7ccf8.webp" width="800px" preload playsinline controls><source src="https://cdn.tw93.fun/blog/upic/VID2025062921332022.mp4" type="video/mp4"></video>

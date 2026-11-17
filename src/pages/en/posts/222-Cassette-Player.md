@@ -3,7 +3,7 @@ date: 2025/05/19
 image: https://cdn.tw93.fun/blog/upic/22221.jpg
 ---
 
-<video width="800px" preload controls><source src="https://cdn.tw93.fun/blog/upic/cidai21.mp4" type="video/mp4" poster="https://cdn.tw93.fun/blog/upic/22221.jpg"></video>
+<video poster="https://cdn.tw93.fun/blog/upic/22221.jpg" width="800px" preload controls><source src="https://cdn.tw93.fun/blog/upic/cidai21.mp4" type="video/mp4"></video>
 
 <small>The cover photo shows a Sony integrated cassette/CD player I found last week. I bought 10 cassettes; I really love the texture and the retro feel of listening to music this way. I love it so much—one cassette every night feels great.</small>
 

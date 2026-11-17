@@ -44,7 +44,7 @@ Saw a post on V2EX—not that I'm interested in the Mini itself, but the reply "
 
 **The best recipe for "Sautéed Pork with Peppers"**  
 Found the best recipe for sautéed pork with peppers! Friends should try it. This Jiangxi Pingxiang style has that exquisite taste I remember from childhood—very different from Changsha style and perfect with rice.  
-<video width="500px" preload playsinline controls><source src="https://cdn.tw93.fun/blog/upic/xcr20.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/e70f30575590.webp" width="500px" preload playsinline controls><source src="https://cdn.tw93.fun/blog/upic/xcr20.mp4" type="video/mp4"></video>
 
 **You can never get rich by renting out your time**  
 Rereading "The Almanack of Naval Ravikant" lately. It's a book that feels new every time, perfect for when you're stuck on certain thoughts.  

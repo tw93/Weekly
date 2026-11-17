@@ -28,7 +28,7 @@ This PayQrcode solution is quite interesting. Currently, many offline stores hav
 **BAGEL: An open-source unified multimodal model**  
 <https://bagel-ai.org/>  
 An open-source unified multimodal model, BAGEL, features AI capabilities like image-based chat, editing, rewriting, text-to-image, style transfer, and image reorientation. It's said to have capabilities comparable to GPT-4o and Gemini 2.0.  
-<video width="800px" preload muted autoplay loop><source src="https://cdn.tw93.fun/blog/upic/bagel-hero-video20.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/7f935ef82ff3.webp" width="800px" preload muted autoplay loop><source src="https://cdn.tw93.fun/blog/upic/bagel-hero-video20.mp4" type="video/mp4"></video>
 
 **Quarkdown: A great typesetting solution**  
 <https://github.com/iamgio/quarkdown>  
@@ -57,10 +57,10 @@ The graduation works at CAA are excellent. Friends in Hangzhou can make an appoi
 <table style="margin-top:-20px">
     <tr>
         <td width="33%">
-          <video width="400px" preload muted autoplay loop><source src="https://cdn.tw93.fun/blog/upic/VID202506141502620.mp4" type="video/mp4"></video>
+          <video poster="https://weekly.tw93.fun/assets/posters/683e1f38b49f.webp" width="400px" preload muted autoplay loop><source src="https://cdn.tw93.fun/blog/upic/VID202506141502620.mp4" type="video/mp4"></video>
         </td>
         <td width="33%">
-            <video width="400px" preload muted autoplay loop><source src="https://cdn.tw93.fun/blog/upic/VID2025061415102420.mp4" type="video/mp4"></video>
+            <video poster="https://weekly.tw93.fun/assets/posters/a8316ee74f0d.webp" width="400px" preload muted autoplay loop><source src="https://cdn.tw93.fun/blog/upic/VID2025061415102420.mp4" type="video/mp4"></video>
         </td>
         <td width="33%">
             <img src="https://cdn.tw93.fun/blog/upic/IMG2025061415525620.jpg" width="400" />

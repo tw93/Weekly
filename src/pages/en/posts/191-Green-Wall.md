@@ -57,7 +57,7 @@ Beginner engineers often mix up the parameters of Cron jobs. This clear cheatshe
 **Workbench: A new way to debug, monitor, and grow your Stripe integration**  
 <https://stripe.com/blog/workbench-a-new-way-to-debug-monitor-and-grow-your-stripe-integration>  
 Stripe's approach to developer debugging is excellent—very worthy of study, and their productization is top-notch.  
-<video width="800px" preload mute autoplay loop><source src="https://cdn.tw93.fun/blog/upic/1724591259.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/525d2f022ef9.webp" width="800px" preload mute autoplay loop><source src="https://cdn.tw93.fun/blog/upic/1724591259.mp4" type="video/mp4"></video>
 
 ## Just Looking Around
 

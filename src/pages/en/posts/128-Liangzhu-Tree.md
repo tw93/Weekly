@@ -18,7 +18,7 @@ date: 2023/05/15
 🤖 I asked Expedia to plan a trip to Tokyo, and it automatically arranged flights, hotels, sightseeing and car rental, even showing product cards that carry the parameters to the official site for one-click booking. It also supports interaction and remembers context, much more convenient than searching yourself.  
 🔮 I also played a text game, a kind of life-sim where you choose what to do step by step and it calculates your growth stats, good for anyone who likes raising-type games. There is room for imagination here too, like the Telegram bot Samantha I recommended last time.  
 🧐 The engineer's role is slowly losing its fixed job boundaries and becoming about solving problems, and the ability to build a product independently matters more. This wave of AI will gradually flatten what makes each role special, as if one person plus an AI co-pilot becomes a whole team.  
-<a href="https://gw.alipayobjects.com/os/k/m2qgis/plugin.mp4" target="_blank"><video width="800px" autoplay preload loop muted><source src="https://gw.alipayobjects.com/os/k/m2qgis/plugin.mp4" type="video/mp4"></video></a>
+<a href="https://gw.alipayobjects.com/os/k/m2qgis/plugin.mp4" target="_blank"><video poster="https://weekly.tw93.fun/assets/posters/95fdbdb0c452.webp" width="800px" autoplay preload loop muted><source src="https://gw.alipayobjects.com/os/k/m2qgis/plugin.mp4" type="video/mp4"></video></a>
 
 **Programming Idioms: Code Snippets in Every Language**  
 <https://programming-idioms.org/all-idioms>  
@@ -49,7 +49,7 @@ An excellent introduction to the power and potential of WebGPU. A must-read for 
 **Quai Network: Stunning Web Effects**  
 <https://qu.ai/>  
 The Quai Network site features some truly impressive visual effects. If you love frontend engineering, check out the source to see how they pulled it off.  
-<a href="https://gw.alipayobjects.com/os/k/xm969l/quai.mp4" target="_blank"><video width="800px" autoplay preload loop muted><source src="https://gw.alipayobjects.com/os/k/xm969l/quai.mp4" type="video/mp4"></video></a>
+<a href="https://gw.alipayobjects.com/os/k/xm969l/quai.mp4" target="_blank"><video poster="https://weekly.tw93.fun/assets/posters/7894ca15d908.webp" width="800px" autoplay preload loop muted><source src="https://gw.alipayobjects.com/os/k/xm969l/quai.mp4" type="video/mp4"></video></a>
 
 **Rachel's English: Master American Pronunciation**  
 <https://www.youtube.com/@rachelsenglish>  
