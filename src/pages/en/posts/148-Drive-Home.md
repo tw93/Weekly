@@ -34,7 +34,7 @@ I've switched entirely to the native Mac Mail app recently. One great tip: you c
 **SmartKnob: A Haptic Input Dial**  
 <https://github.com/scottbez1/smartknob>  
 An incredible open-source project featuring a smart dial with configurable endstops and virtual detents. It even has an integrated display.  
-<video poster="https://weekly.tw93.fun/assets/posters/045dd7991704.webp" width="800px" muted preload autoplay loop><source src="https://cdn.tw93.fun/blog/upic/nDMiON.mp4" type="video/mp4" postor="https://cdn.tw93.fun/blog/upic/UlpZ6K.png"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/045dd7991704.v2.webp" width="800px" muted preload autoplay loop><source src="https://cdn.tw93.fun/blog/upic/nDMiON.mp4" type="video/mp4" postor="https://cdn.tw93.fun/blog/upic/UlpZ6K.png"></video>
 
 **CasaOS: Simple Open-Source Personal Cloud**  
 <https://github.com/IceWhaleTech/CasaOS>  

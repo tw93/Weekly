@@ -15,7 +15,7 @@ date: 2025/07/28
 **monotype: a minimalist typewriter writing app**  
 <https://monotype.app/>  
 Haha, this minimalist typewriter writing app monotype is quite interesting! Unfortunately, it doesn't support Chinese—it's pure English typing. The interaction is truly well-done, with sound effects that give a real sense of typing pleasure.  
-<video poster="https://weekly.tw93.fun/assets/posters/3f10f0b45f54.webp" width="800px" preload muted autoplay loop><source src="https://cdn.tw93.fun/blog/upic/monotype-demo21.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/3f10f0b45f54.v2.webp" width="800px" preload muted autoplay loop><source src="https://cdn.tw93.fun/blog/upic/monotype-demo21.mp4" type="video/mp4"></video>
 
 **Money Manager: Choosing Qianji in the end**  
 <https://qianjiapp.com/>  
@@ -51,7 +51,7 @@ They are so beautiful! The first is the XE5, which can be thought of as a X100VI
            <img src="https://cdn.tw93.fun/blog/upic/IMG2025072013085621.jpg" width="420" />
         </td>
         <td width="28%">
-           <video poster="https://weekly.tw93.fun/assets/posters/b018452ac5d9.webp" width="340px" preload muted autoplay loop><source src="https://cdn.tw93.fun/blog/upic/VID2025072013162821.mp4" type="video/mp4"></video>
+           <video poster="https://weekly.tw93.fun/assets/posters/b018452ac5d9.v2.webp" width="340px" preload muted autoplay loop><source src="https://cdn.tw93.fun/blog/upic/VID2025072013162821.mp4" type="video/mp4"></video>
         </td>
     </tr>
 </table>

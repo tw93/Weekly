@@ -37,7 +37,7 @@ It supports connecting files and URLs directly into a knowledge base. During con
 **Toad: A Unified AI Interface in the Terminal**
 <https://github.com/batrachianai/toad>
 This unified AI interface in the terminal, Toad, is pretty good. With the ACP protocol, it is worth checking out and giving it a try.
-<video poster="https://weekly.tw93.fun/assets/posters/5c017db4b16f.webp" width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/upic/7mHwX1.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/5c017db4b16f.v2.webp" width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/upic/7mHwX1.mp4" type="video/mp4"></video>
 
 **An Immersive 3D/2D Web Visualization Project**
 <https://seanwong17.github.io/Mammalia-tree/>
@@ -54,7 +54,7 @@ Built with Bubble Tea, and it looks great.
 **Watching Alex Honnold Climb Taipei 101 on Netflix Live**
 <https://www.bilibili.com/video/BV1nYzDB3EKx>
 On Sunday morning, I watched Alex Honnold climb Taipei 101, a landmark in Taiwan, on a Netflix live stream. He free-soloed the whole way without ropes or safety gear; one mistake would have been fatal. He finished in about an hour and a half. I am really impressed, and he stayed remarkably calm throughout. It is worth watching. If you do not have Netflix, you can probably find it on Bilibili too. It has been a long time since I have seen something like this.
-<video poster="https://weekly.tw93.fun/assets/posters/cdf5123ea264.webp" width="800px" preload controls><source src="https://cdn.tw93.fun/blog/upic/oa63eq.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/cdf5123ea264.v2.webp" width="800px" preload controls><source src="https://cdn.tw93.fun/blog/upic/oa63eq.mp4" type="video/mp4"></video>
 
 **Investment Directions I Will Watch in 2026, Not Advice, Just for Reference**
 <img src="https://cdn.tw93.fun/blog/upic/wYrANO.png" width="800" />

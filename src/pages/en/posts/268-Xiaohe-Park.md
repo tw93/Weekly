@@ -17,7 +17,7 @@ Finally, finally, Mole's Mac desktop version is out. The CLI will keep being fre
 
 If you've contributed code to Mole or sponsored me on GitHub, DM me and I'll send a 100% discount code.
 
-<video poster="https://weekly.tw93.fun/assets/posters/f791c03db2da.webp" width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/blog/pic/mole206.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/f791c03db2da.v2.webp" width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/blog/pic/mole206.mp4" type="video/mp4"></video>
 
 **Mole CLI updated to 1.39**
 <https://github.com/tw93/Mole>

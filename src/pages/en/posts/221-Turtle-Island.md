@@ -28,7 +28,7 @@ LiveBench is a solid LLM benchmark tool. It limits potential test set contaminat
 **Menu Bar Spacing: Adjust the gap between your menu bar icons**  
 <https://sindresorhus.com/menu-bar-spacing>  
 This Mac tool is perfect for those with OCD—it adjusts the spacing between your menu bar icons to make them tighter. I also recommend using "Ice" to hide unused icons for a cleaner look.  
-<video poster="https://weekly.tw93.fun/assets/posters/454ed37c7aa2.webp" width="800px" preload playsinline autoplay><source src="https://cdn.tw93.fun/blog/upic/video1.2j3VjcTk22.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/454ed37c7aa2.v2.webp" width="800px" preload playsinline autoplay><source src="https://cdn.tw93.fun/blog/upic/video1.2j3VjcTk22.mp4" type="video/mp4"></video>
 
 ## Just Looking Around
 

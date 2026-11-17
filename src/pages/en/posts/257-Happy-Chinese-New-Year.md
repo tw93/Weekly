@@ -46,7 +46,7 @@ After using it, I roughly understand why it can achieve this level: it has a cro
 Its capabilities aren't just reading and writing - making PPTs, scheduled tasks, searching, calling local tools... all built in. In settings, you can also connect Feishu, DingTalk, Telegram, Discord, or use email - all out of the box.
 
 The video records the entire process from configuration to generating the Top 20. Check it out if you're interested. It's already open source, so everyone can definitely play with it and hand over all those repetitive, boring tasks to it. I'm really looking forward to this little lobster getting better and better.
-<video poster="https://weekly.tw93.fun/assets/posters/9d333c9e099b.webp" width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/uPic/LobsterAI.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/9d333c9e099b.v2.webp" width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/uPic/LobsterAI.mp4" type="video/mp4"></video>
 
 **OpenTrace: Visual route tracing tool, cross-platform native GUI**
 <https://opentrace.app>
@@ -75,11 +75,11 @@ Recently saw a very beautiful Mermaid renderer - clean and comfortable, designed
 ## Just for Fun
 
 **Showing off my cooking skills for the New Year's Eve dinner, wishing everyone a Happy New Year!**
-<video poster="https://weekly.tw93.fun/assets/posters/4d401213cf78.webp" width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/upic/4t4MCK.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/4d401213cf78.v2.webp" width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/upic/4t4MCK.mp4" type="video/mp4"></video>
 
 **Aerial footage of Anchang Ancient Town**
 Hahaha, no crash, no crash, no crash! Filmed a water town, exactly how I imagined a Jiangnan water town ancient town should look. Paired with Zhi Li's "The End" - a perfect match.
-<video poster="https://weekly.tw93.fun/assets/posters/d53c9fcd020d.webp" width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/upic/Hyo4OC.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/d53c9fcd020d.v2.webp" width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/upic/Hyo4OC.mp4" type="video/mp4"></video>
 
 **Apple Developer account finally approved**
 Great news!!! My Apple Developer account is finally approved - can't wait to make something new in 2026! I've been applying for 3 years, and for some reason kept getting "Contact us to continue the process, there may be an issue with your account." Even the support specialist couldn't solve it. Finally, I learned a trick from Xiaohongshu - just write to Tim Cook. It really works, super fast! Someone contacted me the next day to submit materials, and today it got approved!

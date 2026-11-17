@@ -48,7 +48,7 @@ I've been following this Xcode-like lightweight native editor since last year. R
 ## Just Looking Around
 
 **Starship IFT-4 Slow-Motion Liftoff—absolutely stunning!**  
-<video poster="https://weekly.tw93.fun/assets/posters/35f04777ed54.webp" width="800px" preload loop controls mute><source src="https://gw.alipayobjects.com/os/k/bljb0d/msk.MP4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/35f04777ed54.v2.webp" width="800px" preload loop controls mute><source src="https://gw.alipayobjects.com/os/k/bljb0d/msk.MP4" type="video/mp4"></video>
 
 **Life Tip: Summer’s most refreshing low-sugar DIY drink**  
 This is my favorite summer drink: 3 ice cubes, half a cup of soda water, half a cup of coconut water, and a few mint leaves on top. It's incredibly refreshing. Highly recommended!

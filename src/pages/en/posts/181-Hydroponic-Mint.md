@@ -45,7 +45,7 @@ Meituan's search and machine learning teams implemented a GPU-based general retr
 **How to build a CPU from a stone**  
 <https://www.youtube.com/watch?v=vuvckBQ1bME>  
 This video is so interesting—it shows how to literally build a CPU starting from a stone. The 19-step process is fascinating to watch.  
-<video poster="https://weekly.tw93.fun/assets/posters/0c7203253834.webp" width="800px" preload loop controls><source src="https://gw.alipayobjects.com/os/k/ivld7b/gpu.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/0c7203253834.v2.webp" width="800px" preload loop controls><source src="https://gw.alipayobjects.com/os/k/ivld7b/gpu.mp4" type="video/mp4"></video>
 
 **Random Talk: How I comfortably lost 8 lbs in half a month**
 

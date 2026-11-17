@@ -13,7 +13,7 @@ date: 2025/02/24
 **Grok is exceptionally good; give it a try**  
 <https://grok.com/>  
 Grok is amazing—DeepSearch is comfortable, fast, and smart. As a Tesla shareholder, I'm very pleased. Highly recommended for analyzing investment logic. If you need a desktop client, try the [Pake-packaged version](https://github.com/tw93/Pake).  
-<video poster="https://weekly.tw93.fun/assets/posters/e9109187d4eb.webp" width="800px" preload mute playsinline autoplay loop><source src="https://cdn.tw93.fun/blog/upic/grok21.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/e9109187d4eb.v2.webp" width="800px" preload mute playsinline autoplay loop><source src="https://cdn.tw93.fun/blog/upic/grok21.mp4" type="video/mp4"></video>
 
 **VisActor: Beautiful open-source visualization components**  
 <https://visactor.io/>  
@@ -45,6 +45,6 @@ An open-source visualization tool perfect for financial data. Based on HTML5 Can
 **Checked out popular Fujifilm cameras in a store**  
 Looked at the X100VI—so beautiful and perfect for street photography, but out of stock everywhere and impossible to buy even with a markup. It’s practically digital gold; buy it now and you could make a profit in 3 years. The XT5 is also beautiful but heavy; the XT50 is a good middle ground despite being less attractive.
 
-<video poster="https://weekly.tw93.fun/assets/posters/181e8551e450.webp"  preload mute playsinline autoplay loop width="800px" style="margin-top:-16px"><source src="https://cdn.tw93.fun/blog/upic/IMG_269122.mp4" type="video/mp4" ></video>
+<video poster="https://weekly.tw93.fun/assets/posters/181e8551e450.v2.webp"  preload mute playsinline autoplay loop width="800px" style="margin-top:-16px"><source src="https://cdn.tw93.fun/blog/upic/IMG_269122.mp4" type="video/mp4" ></video>
 <img src="https://cdn.tw93.fun/blog/upic/IMG_269222.JPG" width="800px" />
 <img src="https://cdn.tw93.fun/blog/upic/IMG_269422.JPG" width="800px" />

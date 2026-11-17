@@ -13,7 +13,7 @@ image: https://cdn.tw93.fun/uPic/27209.png
 
 **Bought a Brother T735DW printer just for this**
 To test Kami's print layout, I specially bought a Brother T735DW printer. The build quality is really nice and I quite like it, so if you need to buy a printer you might want to look at this brand. The Kami-formatted output prints beautifully too. Of course, I pushed out an update to make Kami support printers better, so you're all welcome to try it. PS: this was actually the first time I'd ever heard of Brother, but a lot of the old-timers tell me it's a well-known name.
-<video poster="https://weekly.tw93.fun/assets/posters/af83fad09cc4.webp" width="800px" preload="metadata" loop autoplay muted><source src="https://cdn.tw93.fun/uPic/kami07.MP4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/af83fad09cc4.v2.webp" width="800px" preload="metadata" loop autoplay muted><source src="https://cdn.tw93.fun/uPic/kami07.MP4" type="video/mp4"></video>
 
 **This wood-chopping simulator site is kind of fun**
 <https://screen.toys/firewood/>

@@ -37,7 +37,7 @@ Worth a look if you're in biology or medicine, or just into biology. Feels profe
 **UU Remote: this remote tool is seriously good**
 <https://uuyc.163.com/>
 UU Remote. I'd call it the best free iPhone app for side support in the AICoding era. Remote speed, clarity, and latency are all handled really well. Paired with Claude / Codex on mobile, it's genuinely useful.
-<video poster="https://weekly.tw93.fun/assets/posters/da11a7ef57ad.webp" width="800px" preload="metadata" loop autoplay controls muted><source src="https://cdn.tw93.fun/uPic/uuremote48.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/da11a7ef57ad.v2.webp" width="800px" preload="metadata" loop autoplay controls muted><source src="https://cdn.tw93.fun/uPic/uuremote48.mp4" type="video/mp4"></video>
 
 ## Just Looking Around
 

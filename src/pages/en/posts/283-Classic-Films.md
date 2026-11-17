@@ -76,7 +76,7 @@ It changed some assumptions I had, too. I used to think software engineering sho
 
 I'll probably keep going to 400, 500, 600, maybe even test every commonly used app with Mole and add rules for the details these unconventional apps leave behind. Perhaps doing these "dumb things" is what can make Mole the best Mac cleanup and optimization tool in the world.
 
-<video poster="https://weekly.tw93.fun/assets/posters/ad69c5112295.webp" width="800px" preload="metadata" preload muted loop><source src="https://cdn.fliggy.com/pic/moleshougong17.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/ad69c5112295.v2.webp" width="800px" preload="metadata" preload muted loop><source src="https://cdn.fliggy.com/pic/moleshougong17.mp4" type="video/mp4"></video>
 
 **I've decided: whenever a good old film comes back to the cinema, I'm going**
 

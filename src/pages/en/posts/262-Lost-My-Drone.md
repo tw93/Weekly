@@ -38,7 +38,7 @@ The second is GitHub MCP. It makes everyday things like reading commits, tracing
 The third is Figma MCP. You can inspect design files, check layout and spacing, and pull UI details directly into the conversation, which is very handy when you are aligning implementation with design.
 The fourth is Excalidraw MCP. This one is better for thinking through things, especially flows and system structure. When words are not enough, drawing it out is much faster.
 The last three are probably already familiar to many people. I also recorded a short video showing how TinyFish works in a real workflow.
-<video poster="https://weekly.tw93.fun/assets/posters/a7b4430c8d45.webp" width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/pic/TinyFish28.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/a7b4430c8d45.v2.webp" width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/pic/TinyFish28.mp4" type="video/mp4"></video>
 
 **I have really been enjoying the gstack skill lately**
 <https://github.com/garrytan/gstack>
@@ -54,7 +54,7 @@ This book is really good. It is dense in the best way, and Wu Hung's scholarship
 
 **A drone clip from the Yangjiapai hike**
 This is exactly where I lost my drone, for your amusement. "Dear DJI customer, we are very sorry to hear that your aircraft has gone missing. Please rest assured that DJI will do its best to assist you. Your flyaway report has been successfully accepted. You may first refer to the Find My Drone guide and try to locate the aircraft."
-<video poster="https://weekly.tw93.fun/assets/posters/fe5d497eafb2.webp" width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/pic/177467994477812.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/fe5d497eafb2.v2.webp" width="800px" preload loop autoplay controls muted><source src="https://cdn.tw93.fun/blog/pic/177467994477812.mp4" type="video/mp4"></video>
 
 ## Random Thoughts
 

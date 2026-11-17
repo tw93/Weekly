@@ -3,7 +3,7 @@ date: 2025/10/13
 image: https://gw.alipayobjects.com/zos/k/bp/240.png
 ---
 
-<video poster="https://weekly.tw93.fun/assets/posters/ff97363d7985.webp" width="800px" preload loop autoplay muted>
+<video poster="https://weekly.tw93.fun/assets/posters/ff97363d7985.v2.webp" width="800px" preload loop autoplay muted>
   <source src="https://gw.alipayobjects.com/os/k/pp/240.mp4" type="video/mp4">
 </video>
 
@@ -27,7 +27,7 @@ defaults write com.apple.dock autohide-delay -float 0
 killall Dock
 ```
 
-<video poster="https://weekly.tw93.fun/assets/posters/d5fdfbf9ad32.webp" width="800px" preload loop autoplay muted>
+<video poster="https://weekly.tw93.fun/assets/posters/d5fdfbf9ad32.v2.webp" width="800px" preload loop autoplay muted>
   <source src="https://gw.alipayobjects.com/os/k/jw/dock.mp4" type="video/mp4">
 </video>
 

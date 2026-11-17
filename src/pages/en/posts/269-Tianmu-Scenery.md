@@ -39,7 +39,7 @@ I'm working to round out Mole desktop's nice features as fast as I can. Just shi
 5. Since we're engineers, Kami also does automatic syntax highlighting for code, coloring it for you at build time with no external CSS needed.
 6. One more fun thing: although Kami is also a Skill, it's actually 70% code rather than Markdown. If you want to learn how to write a Skill that's obedient and useful by default, you're welcome to read the code, it might help <https://github.com/tw93/Kami>
 
-<video poster="https://weekly.tw93.fun/assets/posters/c2acd1eec552.webp" width="800px" preload="metadata" loop autoplay muted><source src="https://cdn.tw93.fun/blog/pic/kami04.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/c2acd1eec552.v2.webp" width="800px" preload="metadata" loop autoplay muted><source src="https://cdn.tw93.fun/blog/pic/kami04.mp4" type="video/mp4"></video>
 
 **Made a nice website for Kaku**
 <http://kaku.fun>

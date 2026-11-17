@@ -50,13 +50,13 @@ I'm also obsessive about startup speed, especially cold start. I want to build t
 Lastly, fixed full-screen crashes and freezes, multi-monitor race conditions, resize gaps, cursor reflow, links, selection, light theme readability, TUI copy, and many other detail issues.
 
 If this is your first time hearing about Kaku, welcome to give it a try. Still not mature, actively being polished. Any suggestions or bugs, please file an issue and I'll handle them.
-<video poster="https://weekly.tw93.fun/assets/posters/c43b3eea0ef0.webp" width="800px" preload="metadata" loop autoplay muted><source src="https://cdn.tw93.fun/blog/pic/kaku14.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/c43b3eea0ef0.v2.webp" width="800px" preload="metadata" loop autoplay muted><source src="https://cdn.tw93.fun/blog/pic/kaku14.mp4" type="video/mp4"></video>
 
 ## Just Looking Around
 
 **M5 Pro in black finally arrived. Stunning. Very excited**
 16-inch M5 Pro / 48GB / 1TB black with standard glass. I think this config is a great fit for anyone considering a new machine.
-<video poster="https://weekly.tw93.fun/assets/posters/a8f81dbb6bd8.webp" width="800px" preload="metadata" controls><source src="https://cdn.fliggy.com/pic/OmwIwvcUMu7rfc8359.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/a8f81dbb6bd8.v2.webp" width="800px" preload="metadata" controls><source src="https://cdn.fliggy.com/pic/OmwIwvcUMu7rfc8359.mp4" type="video/mp4"></video>
 
 **Picked up an iPhone SE3 to play with**
 How can such a small phone feel this refined? Just lovely to hold.

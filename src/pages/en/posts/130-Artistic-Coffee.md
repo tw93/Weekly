@@ -27,12 +27,12 @@ An open-source book on "Modern C++" featuring 10 themes across 83 chapters. It�
 **"Hacking" the Official ChatGPT for API Use**  
 <https://github.com/transitive-bullshit/chatgpt-api>  
 I was wondering if there was a way to use the official GPT-4, Plugins, and Web Browsing capabilities via an API. I found a project that uses Puppeteer (headless browser) to handle authentication and message passing. It’s a fascinating way to bypass API limitations for personal projects.  
-<a href="https://cdn.tw93.fun/blog/upic/AVY7AT.mp4" target="_blank"><video poster="https://weekly.tw93.fun/assets/posters/076ce74a633c.webp" width="800px" autoplay preload loop muted><source src="https://cdn.tw93.fun/blog/upic/AVY7AT.mp4" type="video/mp4"></video></a>
+<a href="https://cdn.tw93.fun/blog/upic/AVY7AT.mp4" target="_blank"><video poster="https://weekly.tw93.fun/assets/posters/076ce74a633c.v2.webp" width="800px" autoplay preload loop muted><source src="https://cdn.tw93.fun/blog/upic/AVY7AT.mp4" type="video/mp4"></video></a>
 
 **Godly: High-End Web Design Inspiration**  
 <https://godly.website/>  
 If you're stuck on a design, head over to Godly. It curates modern, highly interactive web designs with detailed breakdowns of the effects used. It’s an absolute goldmine for designers and frontend developers.  
-<a href="https://cdn.tw93.fun/blog/upic/ChBhhI.mp4" target="_blank"><video poster="https://weekly.tw93.fun/assets/posters/38bbacbcf182.webp" width="800px" autoplay preload loop muted><source src="https://cdn.tw93.fun/blog/upic/ChBhhI.mp4" type="video/mp4"></video></a>
+<a href="https://cdn.tw93.fun/blog/upic/ChBhhI.mp4" target="_blank"><video poster="https://weekly.tw93.fun/assets/posters/38bbacbcf182.v2.webp" width="800px" autoplay preload loop muted><source src="https://cdn.tw93.fun/blog/upic/ChBhhI.mp4" type="video/mp4"></video></a>
 
 **LeiaPix: Transform Photos into 3D Animations**  
 <https://convert.leiapix.com/>  

@@ -27,7 +27,7 @@ A GitHub blog post analyzing the trends of 2023 and the explosive growth of AI i
 **Talbica: Periodic Table Visualization**  
 <https://talbica.com/>  
 A visual periodic table that includes photographs of the actual elements. Seeing what rare elements look like is a treat for chemistry lovers.  
-<video poster="https://weekly.tw93.fun/assets/posters/9befd169a3c0.webp" width="800px" muted preload autoplay loop><source src="https://gw.alipayobjects.com/os/k/f7/yuansu.mp4" type="video/mp4" postor="https://cdn.tw93.fun/blog/upic/TSgODn.png"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/9befd169a3c0.v2.webp" width="800px" muted preload autoplay loop><source src="https://gw.alipayobjects.com/os/k/f7/yuansu.mp4" type="video/mp4" postor="https://cdn.tw93.fun/blog/upic/TSgODn.png"></video>
 
 **TIME's Best Inventions of 2023**  
 <https://time.com/collection/best-inventions-2023/>  

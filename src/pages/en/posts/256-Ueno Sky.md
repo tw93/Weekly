@@ -40,7 +40,7 @@ This version is named Razor 🪒, an interesting name. Updates include the follo
 **Codia AI NoteSlide Converts NotebookLM-Exported PDFs Directly to PPT**
 <http://codia.ai/noteslide?r=tw>
 I've really enjoyed using NotebookLM recently to help learn and understand new things, but it can only export PDFs, and sometimes the Chinese rendering isn't great. I've been looking for a good tool that can convert PDFs to editable PPTs, and after searching around, I found Codia AI NoteSlide works best. Compared to traditional pdf2ppt tools, it's much simpler and easier to use, quickly converts to editable content, and the results are beautiful, refined, and error-free. Very useful—if you have the same pain point, give it a try.
-<video poster="https://weekly.tw93.fun/assets/posters/ab2ad6b085da.webp" width="800px" preload autoplay muted><source src="https://cdn.tw93.fun/blog/upic/MJtWvf.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/ab2ad6b085da.v2.webp" width="800px" preload autoplay muted><source src="https://cdn.tw93.fun/blog/upic/MJtWvf.mp4" type="video/mp4"></video>
 
 **Apple Battery Protection Tool - Battery**
 <https://github.com/actuallymentor/battery>
@@ -60,7 +60,7 @@ Similarweb recently released the Global AI Industry Traffic Tracking Report, "AI
 <img src="https://cdn.tw93.fun/blog/upic/TWjiB9.png" width="800" />
 
 **Saw this on Xiaohongshu—this stir-fried pork with chili peppers is delicious. I had something similar when I was young, give it a try**
-<video poster="https://weekly.tw93.fun/assets/posters/760f9726bde6.webp" width="800px" preload controls><source src="https://cdn.tw93.fun/blog/upic/jhP14S.MP4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/760f9726bde6.v2.webp" width="800px" preload controls><source src="https://cdn.tw93.fun/blog/upic/jhP14S.MP4" type="video/mp4"></video>
 
 **My 2026 Reading List**
 I recently started selecting books for 2026 and picked these 5. Do you have any recommendations for the best books you've read this year? Feel free to recommend them with a brief explanation:

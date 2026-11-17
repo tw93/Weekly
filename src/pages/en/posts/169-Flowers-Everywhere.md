@@ -29,7 +29,7 @@ A very polished Chrome extension that gives Bilibili a clean, modern interface w
 **Sampler: A Cool Command-Line Tool**  
 <https://sampler.dev/>  
 A CLI tool that lets you sample any dynamic process directly from your terminal—like watching DB changes, monitoring MQ messages, or getting notifications when deploy scripts finish. Beautifully designed.  
-<video poster="https://weekly.tw93.fun/assets/posters/c5273275507b.webp" width="800px" preload muted autoplay loop><source src="https://gw.alipayobjects.com/os/k/2j/demo.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/c5273275507b.v2.webp" width="800px" preload muted autoplay loop><source src="https://gw.alipayobjects.com/os/k/2j/demo.mp4" type="video/mp4"></video>
 
 **Awesome macOS Command Line**  
 <https://git.herrbischoff.com/awesome-macos-command-line/about/>  

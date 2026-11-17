@@ -44,7 +44,7 @@ Freed AirPods from the shackles of the Apple ecosystem, allowing you to use almo
 <https://github.com/TEN-framework/ten-framework>
 Lately playing with an open-source Voice Agent framework, TEN Framework. It's like an "Operating System for Real-time Voice / Multimodal Agents": within a unified real-time stream framework, it turns modules like STT, LLM, TTS, VAD, and Avatar into pluggable "building blocks" that can be combined and replaced as needed. The focus is on solving engineering problems related to low-latency, multimodal, and cross-terminal deployment for real-time AI conversations.
 Spent 10 minutes deploying and running it locally. Even without replacing anything, the actual experience of its real-time voice FAQ is very smooth: interruptible, fast enough response, with a latency of about 1s. Common capabilities like Memory and RAG are already connected for you. Based on these, you can extend to scenarios like AI emotional companionship, AI oral practice, phone AI customer service, and smart voice hardware. I tested it with official examples, and the effect is quite good. Students interested in "true real-time" voice Agents can check out this open-source framework.
-<video poster="https://weekly.tw93.fun/assets/posters/74679d6da23f.webp" width="100%" preload controls playsinline webkit-playsinline><source src="https://cdn.tw93.fun/blog/upic/69w6S3.mp4" type="video/mp4">
+<video poster="https://weekly.tw93.fun/assets/posters/74679d6da23f.v2.webp" width="100%" preload controls playsinline webkit-playsinline><source src="https://cdn.tw93.fun/blog/upic/69w6S3.mp4" type="video/mp4">
 </video>
 
 ## Just Looking Around

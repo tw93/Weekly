@@ -35,7 +35,7 @@ A curated collection of over 1000 highly inspiring websites. Great for curing cr
 
 **Insanely Cool Zelda Foley Video**  
 This is incredibly impressive! (Note: use headphones if you're in an office.)  
-<video poster="https://weekly.tw93.fun/assets/posters/3798d52e80d9.webp" width="400px" preload loop controls><source src="https://gw.alipayobjects.com/os/k/3n/2435974253055288732.MP4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/3798d52e80d9.v2.webp" width="400px" preload loop controls><source src="https://gw.alipayobjects.com/os/k/3n/2435974253055288732.MP4" type="video/mp4"></video>
 
 **Shanghai Peace Hotel Drone Footage**  
 Spectacular drone footage of the area around the Peace Hotel. The moment the lights come on is stunning. As capturing by Jin10Apr noted, it’s not just about the show "Blossoms," but about that era of opportunity.  

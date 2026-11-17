@@ -40,7 +40,7 @@ Although in the AI era this sort of thing has an old-school feel to it, it's sti
 **Spent a day rebuilding Mole's website**
 <https://mole.fit/>
 I'm not pitching the product, I'd rather talk with you all about how I think about this site's style: quiet, undisturbing, safe, something that feels trustworthy. I then spent a day rebuilding it, and I have to say I prefer Fable 5's kind of clever, resourceful AI. Feel free to take a look at this video. Haha, the background music is my favorite Ryuichi Sakamoto piano piece, "Merry Christmas, Mr. Lawrence".
-<video poster="https://weekly.tw93.fun/assets/posters/2c5c3a148a03.webp" width="800px" preload="metadata" loop controls><source src="https://cdn.tw93.fun/uPic/new-mole12.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/2c5c3a148a03.v2.webp" width="800px" preload="metadata" loop controls><source src="https://cdn.tw93.fun/uPic/new-mole12.mp4" type="video/mp4"></video>
 
 **Git commands you can have your AI run before reading a repo**
 <https://piechowski.io/post/git-commands-before-reading-code/>

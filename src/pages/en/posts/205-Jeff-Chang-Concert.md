@@ -13,7 +13,7 @@ date: 2024/12/23
 **Pake recently updated to version 3.0 🎉**  
 <https://github.com/tw93/Pake>  
 Sorry for the wait! I've updated Pake to version 3.0. It's a tool that lets you easily build lightweight cross-platform desktop apps with a single command. I've updated the dependency to Tauri 2, and the CLI and Actions are also upgraded to pave the way for mobile support. It now supports Proxy mode, single-instance mode, and is compatible with ChatGPT, Xiaohongshu, YouTube Music, and more. Give it a try!  
-<video poster="https://weekly.tw93.fun/assets/posters/e86a0876c42d.webp" width="800px" preload mute playsinline autoplay loop><source src="https://gw.alipayobjects.com/os/k/2x/Pake%252520show.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/e86a0876c42d.v2.webp" width="800px" preload mute playsinline autoplay loop><source src="https://gw.alipayobjects.com/os/k/2x/Pake%252520show.mp4" type="video/mp4"></video>
 
 **Awesome Cloudflare: Open-source tools collection**  
 <https://github.com/zhuima/awesome-cloudflare>  

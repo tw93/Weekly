@@ -35,13 +35,13 @@ This free online edition of "Exploring JavaScript" is perfect for front-end begi
 **Interview with Luma AI Chief Scientist: Believing in Multimodal Scaling Law**  
 <https://mp.weixin.qq.com/s/waH6Vudo2uybXQZ8S4dwsQ>  
 Luma AI is impressive—starting from NeRF and recently releasing the Dream Machine video model. This interview is a good read.  
-<video poster="https://weekly.tw93.fun/assets/posters/6f92002eb8e3.webp" width="800px" preload loop autoplay controls><source src="https://gw.alipayobjects.com/os/k/9t/1.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/6f92002eb8e3.v2.webp" width="800px" preload loop autoplay controls><source src="https://gw.alipayobjects.com/os/k/9t/1.mp4" type="video/mp4"></video>
 
 ## Random Notes
 
 **Barcelona 1992 Opening Ceremony**  
 The opening ceremony of the Barcelona 1992 Paralympics was so cool—archer Antonio Rebollo lit the torch with a flaming arrow.  
-<video poster="https://weekly.tw93.fun/assets/posters/49fe86093e1e.webp" width="800px" preload controls><source src="https://gw.alipayobjects.com/os/k/oznrx4/aoyun.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/49fe86093e1e.v2.webp" width="800px" preload controls><source src="https://gw.alipayobjects.com/os/k/oznrx4/aoyun.mp4" type="video/mp4"></video>
 
 **Random Talk: Using gaps to work efficiently and prioritizing important tasks**
 

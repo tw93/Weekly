@@ -13,7 +13,7 @@ date: 2026/08/10
 **Tinycast: a well-made open-source Raycast alternative**
 <https://abue-ammar.github.io/tinycast/>
 Tried it and it's solid. Lighter than Raycast, but still covers a lot of the extras I use often, like clipboard management, window management, shortcuts, and more. The key thing is it's a lot more polished than other open-source alternatives I've seen. I even sent the author a few suggestions.
-<video poster="https://weekly.tw93.fun/assets/posters/b16c2a351107.webp" width="800px" preload="metadata" loop autoplay muted><source src="https://cdn.tw93.fun/uPic/zXITSrc_HJpKjSyU24.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/b16c2a351107.v2.webp" width="800px" preload="metadata" loop autoplay muted><source src="https://cdn.tw93.fun/uPic/zXITSrc_HJpKjSyU24.mp4" type="video/mp4"></video>
 
 **Maya turns your screen recording into a shareable video**
 <https://ronaldo-avalos.github.io/Maya/>
@@ -23,7 +23,7 @@ Impressive, and it's free and open source. This tool wraps your iPhone screen re
 **Saw a really good AI outfit-swap plugin on Twitter, impressive stuff**
 <https://anywear.decart.ai/>
 Found via a case Paidax shared on Twitter. "Try clothes on, anywhere online" is such a great idea. I think it could spark a ton of ideas for e-commerce, way better than the tech that came before it.
-<video poster="https://weekly.tw93.fun/assets/posters/18a40031d4aa.webp" width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/uPic/VPEz98liVxKD7unj32.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/18a40031d4aa.v2.webp" width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/uPic/VPEz98liVxKD7unj32.mp4" type="video/mp4"></video>
 
 **An Online Chronicle of the US Stock Market**
 <https://historyofmarket.com/>

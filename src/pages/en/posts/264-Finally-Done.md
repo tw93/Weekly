@@ -23,15 +23,15 @@ All the parts and tools had finally arrived, a whole table full of them. Saving 
 
 **April 4, 9:45 PM: v0.1.0-beta**
 The first sign of life. I was so happy I couldn't describe it.
-<video poster="https://weekly.tw93.fun/assets/posters/fa98704a7c43.webp" width="800px" preload="metadata" controls><source src="https://gw.alipayobjects.com/os/k/4s/IMG_0321.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/fa98704a7c43.v2.webp" width="800px" preload="metadata" controls><source src="https://gw.alipayobjects.com/os/k/4s/IMG_0321.mp4" type="video/mp4"></video>
 
 **April 5, 12:07 AM: v0.1.0-beta1**
 Got the WiFi module, AI module, microcontroller module, and quad-leg module all running together. Tomorrow I'll attach the legs and tune the screen. Going to sleep right now!
-<video poster="https://weekly.tw93.fun/assets/posters/3fd13e4a62d4.webp" width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/blog/pic/IMG_032613.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/3fd13e4a62d4.v2.webp" width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/blog/pic/IMG_032613.mp4" type="video/mp4"></video>
 
 **April 5, 1:45 PM: v0.1.0-beta2**
 Mechanical leg control is working. It can crouch, sleep, and walk. Still rough around the edges, but one of the leg motors from the order looks like it has a problem. Waiting on a replacement part.
-<video poster="https://weekly.tw93.fun/assets/posters/aa3212c70e07.webp" width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/blog/pic/new01.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/aa3212c70e07.v2.webp" width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/blog/pic/new01.mp4" type="video/mp4"></video>
 
 **April 6, 10:33 AM: v0.1.0-beta3**
 All four legs are fully under control now. But I burned the screen during debugging. Waiting on shipping. Can't wait to release.
@@ -39,11 +39,11 @@ All four legs are fully under control now. But I burned the screen during debugg
 
 **April 8, 11:37 PM: v0.1.0-beta4**
 The replacement screen arrived after work. Got it running, then tuned the temperature, CO2, infrared, and lighting sensors all in one go. Still working on WiFi provisioning. It's basically taking shape now, just need to seal and secure everything.
-<video poster="https://weekly.tw93.fun/assets/posters/f8f616031870.webp" width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/blog/pic/IMG_043028.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/f8f616031870.v2.webp" width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/blog/pic/IMG_043028.mp4" type="video/mp4"></video>
 
 **April 11, 11:30 AM: v0.1.0 finally ships 🎉**
 Sealed up the battery pack and tied a few straps around it to keep things from falling apart. Got the WiFi and AI conversation module working too. Using DeepSeek makes it noticeably faster, response speed is decent. Next up: something with more advanced hardware.
-<video poster="https://weekly.tw93.fun/assets/posters/f65bfd61c3ed.webp" width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/blog/pic/26F9D347-A9C8-4DCC-811A-033887BD049515.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/f65bfd61c3ed.v2.webp" width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/blog/pic/26F9D347-A9C8-4DCC-811A-033887BD049515.mp4" type="video/mp4"></video>
 
 **A few photos from different angles to mark the moment**
 

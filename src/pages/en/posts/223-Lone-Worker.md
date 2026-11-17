@@ -23,7 +23,7 @@ Domestic tools seem to be good at monetization. This one-stop video translation 
 **ProNotes: Plugin for Apple Notes**  
 <https://www.pronotes.app/>  
 This product idea is solid: it brings Markdown support and various convenient operations to your Mac's native Notes.  
-<video poster="https://weekly.tw93.fun/assets/posters/20e0817ae254.webp" width="800px" preload loop autoplay muted><source src="https://gw.alipayobjects.com/os/k/if/slash.mp4" type="video/mp4"></video>
+<video poster="https://weekly.tw93.fun/assets/posters/20e0817ae254.v2.webp" width="800px" preload loop autoplay muted><source src="https://gw.alipayobjects.com/os/k/if/slash.mp4" type="video/mp4"></video>
 
 **Reading list by a UIUC CS PhD student**  
 <https://github.com/Yangyi-Chen/Multimodal-AND-Large-Language-Models>  
