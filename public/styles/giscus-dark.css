@@ -1076,9 +1076,10 @@ main .gsc-left-header .color-text-secondary,
   display: none;
 }
 
-/* Threads part by a hairline and a thread's replies sit on a fill (see the
-   end of this file); reactions, badges and the comment field use fill. Space
-   alone read as one flat column (maintainer 2026-11-17). */
+/* Threads part by a hairline and replies by indent (see the end of this
+   file); reactions, badges and the comment field use fill. Space alone read
+   as one flat column, and a fill under the replies was turned down for the
+   line alone (maintainer 2026-11-17). */
 .gsc-social-reaction-summary-item,
 .color-box-border-info {
   border-color: transparent;
@@ -1200,24 +1201,14 @@ main .gsc-comment-reactions {
   margin-left: 0;
 }
 
-/* A thread's replies share one block in the reactions' fill, so they read as
-   answers to the comment above rather than as the next thread; inside it a
-   reply's text and reactions sit on its avatar's edge, and its reactions take
-   the page ground to stay visible on the fill. */
+/* A reply hangs under its comment, its avatar centred on the commenter's name
+   and its text and reactions on the avatar's edge; a thread sits closer
+   together than the gap to the next one, which a hairline marks. The box
+   drops its frame and takes the fill the reactions use. */
 main .gsc-replies {
-  margin-top: 12px;
-  padding: 4px 16px 12px;
-  border-radius: 10px;
-  background-color: var(--color-neutral-muted);
-}
-
-main .gsc-replies .gsc-social-reaction-summary-item,
-main .gsc-replies .color-box-border-info {
-  background-color: var(--color-canvas-default);
-}
-
-main .gsc-replies .gsc-social-reaction-summary-item.has-reacted {
-  background-color: var(--color-accent-subtle);
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 24px;
 }
 
 main .gsc-comment-footer {
