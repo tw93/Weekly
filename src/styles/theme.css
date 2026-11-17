@@ -32,6 +32,10 @@
   --theme-bg: #fff;
   --theme-accent: #a67c52;
   --theme-text: #262626;
+  /* Captions and quotes; 5.6:1 on the page. */
+  --theme-text-muted: #6e6658;
+  /* The cup's brown darkened to 5.4:1 for small link text. */
+  --theme-link-quiet: #8c6239;
   --theme-divider: #e6e6e6;
   --pagefind-ui-text: #393939;
   --pagefind-ui-background: #ffffff;
@@ -43,6 +47,8 @@
   color-scheme: dark;
   --theme-accent: #e8a15a;
   --theme-text: #e7e9ea;
+  --theme-text-muted: #aaa;
+  --theme-link-quiet: #d3a473;
   --theme-divider: #555;
   --theme-bg: #21262b;
   --pagefind-ui-text: #e7e9ea;

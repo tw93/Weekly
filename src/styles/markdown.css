@@ -15,7 +15,7 @@ body {
   max-width: 100%;
   height: auto;
   object-fit: cover;
-  background-color: #f3f4f6;
+  background-color: #f2f0eb;
   border-radius: var(--radius);
 }
 
@@ -54,6 +54,50 @@ body {
 
 .heti p + p:not(:has(> strong:first-child)) > br + img {
   margin-top: 20px;
+}
+
+/* An entry (bold title, link, text, picture) stands 32px clear of the one
+   before it, so its picture reads as its own and not the next title's; the
+   20px between plain paragraphs left nine entries running together. The
+   first entry under a section title stays tight to it. */
+.heti > :not(h1, h2, h3, h4, h5, h6) + p:is(:has(> strong:first-child + br), .entry-lead) {
+  margin-block-start: var(--space-8);
+}
+
+/* A section starts further off than an entry does. */
+.heti > p:has(> strong:first-child + br) + h2,
+.heti > table + h2 {
+  margin-block-start: 2em;
+}
+
+/* The address under an entry's title is meta: small and in the cup's brown,
+   so the title and the text carry the entry. Long ones fill the line rather
+   than breaking early at a hyphen. */
+.heti p > strong:first-child + br + a {
+  font-size: var(--font-size-small);
+  color: var(--theme-link-quiet);
+  word-break: break-all;
+}
+
+/* A row of photos is not a data table: no grid lines, 8px between pictures,
+   outer edges on the column. */
+.heti table:has(td img) {
+  width: calc(100% + 16px);
+  max-width: none;
+  margin-inline: -8px;
+  padding: 0;
+  border: 0;
+  border-collapse: separate;
+  border-spacing: 8px 0;
+}
+
+.heti table:has(td img) td {
+  padding: 0;
+  border: 0;
+}
+
+.heti table:has(td img) img {
+  display: block;
 }
 
 pre,
@@ -508,6 +552,7 @@ blockquote blockquote {
 .heti > p > small {
   display: inherit;
   margin-top: -10px;
+  color: var(--theme-text-muted);
 }
 
 .heti strong {
@@ -605,8 +650,8 @@ blockquote blockquote {
 }
 
 img[loading="lazy"] {
-  background-color: #eef1f2;
-  outline-color: #eef1f2;
+  background-color: #f2f0eb;
+  outline-color: #f2f0eb;
 }
 
 .video-container {

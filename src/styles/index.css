@@ -243,7 +243,7 @@ blockquote,
   background-color: transparent;
   font-size: var(--font-size-base);
   line-height: var(--line-height-normal);
-  color: #6e6658;
+  color: var(--theme-text-muted);
   overflow: visible;
   box-sizing: border-box;
   max-width: 100%;
@@ -266,11 +266,6 @@ blockquote::before {
 
 .heti blockquote p {
   margin-block: 0.34em;
-}
-
-[data-theme="dark"] blockquote,
-[data-theme="dark"] .heti blockquote {
-  color: #aaa;
 }
 
 blockquote p:first-child,
