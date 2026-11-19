@@ -25,6 +25,13 @@ body {
   border-radius: 0 !important;
 }
 
+/* The cup's pale lower half hangs 5px under the title's ink and reads low;
+   lift its ink 1px without moving the row's boxes. */
+.logo svg,
+.content-logo svg {
+  transform: translateY(-1px);
+}
+
 [data-theme="dark"] .heti img,
 [data-theme="dark"] .heti video {
   background-color: #262626;

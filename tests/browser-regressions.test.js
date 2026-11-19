@@ -53,6 +53,8 @@ test('header rows share one centre line with no compensating margins', () => {
   }
   assert.doesNotMatch(read('src/components/Header/HeaderRight.astro'), /\.header-right \{/);
   assert.doesNotMatch(rule(read('src/layouts/post.astro'), '.content-title .content-logo'), /margin-top/);
+  // The cup's one optical lift is a transform shared by the header, sidebar and phone issue cup.
+  assert.match(read('src/styles/markdown.css'), /\.logo svg,\n\.content-logo svg \{\n  transform: translateY\(-1px\);/);
 });
 
 test('the copy label sits on the first code line', () => {
