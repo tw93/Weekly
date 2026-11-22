@@ -8,7 +8,7 @@ const root = process.env.BROWSER_SOURCE_ROOT || '.';
 test('analytics initialises once after both the idle fallback and interaction', () => {
   const source = fs.readFileSync(path.join(root, 'src/components/ClientScripts.astro'), 'utf8').match(/<script is:inline>([\s\S]*?)<\/script>/)[1];
   const events = {}, timers = [], scripts = [];
-  const context = {screen:{width:1440,height:900},window:{addEventListener(name, fn){events[name]=fn},removeEventListener(name){delete events[name]}},document:{head:{appendChild(el){scripts.push(el)}},createElement(){return {}},addEventListener(){}},setTimeout(fn){timers.push(fn)}};
+  const context = {location:{hostname:'weekly.tw93.fun'},screen:{width:1440,height:900},window:{addEventListener(name, fn){events[name]=fn},removeEventListener(name){delete events[name]}},document:{head:{appendChild(el){scripts.push(el)}},createElement(){return {}},addEventListener(){}},setTimeout(fn){timers.push(fn)}};
   context.window=context;context.addEventListener=(name,fn)=>events[name]=fn;context.removeEventListener=name=>delete events[name];
   vm.runInNewContext(source, context);
   timers[0]();events.scroll();
@@ -20,11 +20,23 @@ test('analytics never loads on the fake screens', () => {
   const source = fs.readFileSync(path.join(root, 'src/components/ClientScripts.astro'), 'utf8').match(/<script is:inline>([\s\S]*?)<\/script>/)[1];
   for (const [width, height] of [[1280, 1200], [1366, 1366]]) {
     const events = {}, timers = [], scripts = [];
-    const context = {screen:{width,height},document:{head:{appendChild(el){scripts.push(el)}},createElement:()=>({})},setTimeout(fn){timers.push(fn)}};
+    const context = {location:{hostname:'weekly.tw93.fun'},screen:{width,height},document:{head:{appendChild(el){scripts.push(el)}},createElement:()=>({})},setTimeout(fn){timers.push(fn)}};
     context.window=context;context.addEventListener=(name,fn)=>events[name]=fn;context.removeEventListener=name=>delete events[name];
     vm.runInNewContext(source, context);
     timers[0]();events.scroll();
     assert.equal(scripts.length,0);
+  }
+});
+
+test('analytics never loads on a fork deployed under another host', () => {
+  const source = fs.readFileSync(path.join(root, 'src/components/ClientScripts.astro'), 'utf8').match(/<script is:inline>([\s\S]*?)<\/script>/)[1];
+  for (const hostname of ['product-daily.haha.ai', 'localhost', 'weekly-git-main-tw93.vercel.app']) {
+    const events = {}, timers = [], scripts = [];
+    const context = {location:{hostname},screen:{width:1440,height:900},document:{head:{appendChild(el){scripts.push(el)}},createElement:()=>({})},setTimeout(fn){timers.push(fn)}};
+    context.window=context;context.addEventListener=(name,fn)=>events[name]=fn;context.removeEventListener=name=>delete events[name];
+    vm.runInNewContext(source, context);
+    timers[0]();events.scroll();
+    assert.equal(scripts.length,0,hostname);
   }
 });
 
