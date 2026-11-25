@@ -22,7 +22,7 @@ Deploy surface: pushing `main` is production. Vercel builds and publishes `weekl
   - `src/pages/api/` - read-only JSON API; `src/pages/openapi.json.ts` describes it; `src/pages/feeds/posts.jsonl.ts` and `src/pages/schemamap.xml.ts` are the structured-data feeds.
   - `src/aboutMarkdown.ts` plus `src/data/about.*.md` and `src/data/faq.ts` - single source for `/about`, `/en/about` and their `.md` twins.
   - `public/.well-known/` - RFC 9727 API catalog and the Agent Skills index; `public/skills/` - published SKILL.md.
-  - `vercel.json` - content types for `.md`/`.jsonl`/`api-catalog`, RFC 8288 `Link` headers, `/api` rewrite, `?mode=agent` redirect.
+  - `vercel.json` - content types for `.md`/`.jsonl`/`api-catalog`, RFC 8288 `Link` headers, `/api` rewrite, `?mode=agent` redirect. Every `.md` mirror also sends `X-Robots-Tag: noindex`: Google crawled them as pages competing with the issues they copy (`posts/290.md` sat in Search Console's crawled-not-indexed list, 2026-11-25), and agents still read them.
 - `.github/workflows/verify.yml` - read-only `pnpm test` on pull requests and manual dispatch; it never commits.
 - `.github/workflows/build.yml` - the main-only, daily and on-push content writer: translate missing posts, regenerate indexes and the public Skill from the built API, verify them, make one scoped commit, and ping IndexNow. It does not deploy the site; Vercel does.
 - `api/` - the only server code: Vercel Functions for the email newsletter (`api/subscribe.js`, `api/confirm.js`, shared `api/_newsletter.js`; an underscore file is not deployed as a function). `scripts/newsletter.js` turns a published issue or blog post into an email, and `.github/workflows/newsletter.yml` sends it, manual dispatch only. See «Newsletter».
