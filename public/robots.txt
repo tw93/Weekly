@@ -4,9 +4,8 @@ Allow: /
 Disallow: /pagefind/
 Disallow: /_astro/
 
-# Sitemap and structured data feeds
+# Sitemap
 Sitemap: https://weekly.tw93.fun/sitemap-index.xml
-Schemamap: https://weekly.tw93.fun/schemamap.xml
 
 # Machine-readable entry points for agents
 # Navigation index:  https://weekly.tw93.fun/llms.txt
